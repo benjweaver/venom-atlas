@@ -1,0 +1,14 @@
+name: Samar cobra
+scientificName: Naja samarensis
+group: snake
+danger: 5
+summary: >-
+  A cobra of the southern Philippines with a highly neurotoxic venom.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Forest, farmland and villages.
+size: 1–1.4 m
+regions:
+  - PH

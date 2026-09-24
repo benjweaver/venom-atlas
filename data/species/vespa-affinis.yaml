@@ -1,0 +1,43 @@
+name: Lesser banded hornet
+scientificName: Vespa affinis
+group: insect
+danger: 3
+summary: >-
+  A common hornet of tropical Asia and a frequent cause of serious stings.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Forest, farmland and towns.
+size: 20–25 mm
+regions:
+  - BD
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - CN-JX
+  - CN-YN
+  - CN-ZJ
+  - HK
+  - ID
+  - IN-AP
+  - IN-AS
+  - IN-JH
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-TN
+  - IN-WB
+  - JP-47
+  - KH
+  - LA
+  - LK
+  - MO
+  - MY
+  - PG
+  - PH
+  - SG
+  - TH
+  - TW
+  - VN

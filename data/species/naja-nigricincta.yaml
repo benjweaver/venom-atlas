@@ -1,0 +1,16 @@
+name: Zebra spitting cobra
+scientificName: Naja nigricincta
+group: snake
+danger: 4
+summary: >-
+  A black-and-white banded spitting cobra of Namibia, active at night and often near houses.
+venom: >-
+  Cytotoxic: severe local tissue damage; spat venom injures the eyes.
+habitat: >-
+  Arid savanna, rocky country and farms.
+size: 1–1.5 m
+regions:
+  - AO
+  - NA
+  - ZA-NC
+  - ZA-WC

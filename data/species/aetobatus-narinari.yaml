@@ -1,0 +1,143 @@
+name: Spotted eagle ray
+scientificName: Aetobatus narinari
+group: fish
+danger: 2
+summary: >-
+  A spotted ray that "flies" through tropical waters and sometimes leaps from the sea.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Coastal waters, bays and reefs.
+size: Disc up to 3 m
+aquatic: marine
+regions:
+  - AE
+  - AG
+  - AI
+  - AO
+  - AU-NSW
+  - AU-QLD
+  - AU-WA
+  - AW
+  - BB
+  - BJ
+  - BL
+  - BM
+  - BR-BA
+  - BR-ES
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-SC
+  - BR-SP
+  - BS
+  - BZ
+  - CG
+  - CI
+  - CK
+  - CM
+  - CO
+  - CR
+  - CU
+  - CW
+  - DM
+  - DO
+  - EC
+  - EG
+  - EH
+  - FJ
+  - FM
+  - GA
+  - GD
+  - GF
+  - GH
+  - GN
+  - GP
+  - GQ
+  - GW
+  - GY
+  - HN
+  - ID
+  - IN-LD
+  - JM
+  - JP-46
+  - KE
+  - KN
+  - KY
+  - LC
+  - LK
+  - LR
+  - MH
+  - MQ
+  - MV
+  - MX-BCS
+  - MX-CAM
+  - MX-CHP
+  - MX-GRO
+  - MX-JAL
+  - MX-NAY
+  - MX-OAX
+  - MX-ROO
+  - MX-SIN
+  - MX-SON
+  - MX-TAB
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - MY
+  - MZ
+  - NC
+  - NG
+  - NI
+  - PA
+  - PF
+  - PG
+  - PH
+  - PK
+  - PR
+  - PW
+  - QA
+  - RE
+  - SA
+  - SC
+  - SL
+  - TC
+  - TG
+  - TH
+  - TT
+  - TV
+  - TW
+  - TZ
+  - US-AL
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-HI
+  - US-LA
+  - US-MD
+  - US-MS
+  - US-NC
+  - US-NJ
+  - US-SC
+  - US-TX
+  - US-VA
+  - VC
+  - VE
+  - VG
+  - VI
+  - VU
+  - WF
+  - WS
+  - YE
+  - YT
+  - ZA-EC
+  - ZA-NL
+gbif:
+  exclude:
+    - ES # Indo-Pacific eagle rays are a separate species
+    - IL # Indo-Pacific eagle rays are a separate species

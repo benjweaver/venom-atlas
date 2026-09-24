@@ -1,0 +1,44 @@
+name: Green racer
+scientificName: Philodryas olfersii
+group: snake
+danger: 2
+summary: >-
+  A rear-fanged green snake of South America whose bites cause painful swelling.
+venom: >-
+  Painful swelling and bruising; serious effects are rare.
+habitat: >-
+  Forest edges, gardens and farmland.
+size: 80–120 cm
+regions:
+  - AR-E
+  - AR-N
+  - AR-S
+  - AR-W
+  - BO
+  - BR-AL
+  - BR-AM
+  - BR-BA
+  - BR-CE
+  - BR-DF
+  - BR-ES
+  - BR-GO
+  - BR-MA
+  - BR-MG
+  - BR-MS
+  - BR-MT
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-RO
+  - BR-RS
+  - BR-SC
+  - BR-SE
+  - BR-SP
+  - GF
+  - PE
+  - PY
+  - UY

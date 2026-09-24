@@ -1,0 +1,32 @@
+name: Diamond lancehead
+scientificName: Bothrops diporus
+group: snake
+danger: 4
+summary: >-
+  A lancehead of northern Argentina and Paraguay, a common cause of bites there.
+venom: >-
+  Haemotoxic and cytotoxic: swelling, bleeding, blistering and tissue damage; potentially fatal
+  without antivenom.
+habitat: >-
+  Grassland, scrub and farmland.
+size: 70–100 cm
+regions:
+  - AR-A
+  - AR-D
+  - AR-E
+  - AR-G
+  - AR-H
+  - AR-K
+  - AR-L
+  - AR-M
+  - AR-N
+  - AR-P
+  - AR-S
+  - AR-W
+  - AR-X
+  - AR-Y
+  - BO
+  - BR-PR
+  - BR-RS
+  - BR-SC
+  - PY

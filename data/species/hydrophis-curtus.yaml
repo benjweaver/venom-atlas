@@ -1,0 +1,35 @@
+name: Spine-bellied sea snake
+scientificName: Hydrophis curtus
+group: snake
+danger: 4
+summary: >-
+  A stout sea snake common in shallow Indo-Pacific waters and often caught in fishing nets.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Shallow coastal waters, estuaries and seabed.
+size: About 1 m
+aquatic: marine
+regions:
+  - AE
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - CN-GD
+  - ID
+  - IN-AP
+  - IN-GA
+  - IN-GJ
+  - IN-KA
+  - IN-MH
+  - IN-TN
+  - IR
+  - LK
+  - MM
+  - OM
+  - PH
+  - PK
+  - SG
+  - TH
+  - TW

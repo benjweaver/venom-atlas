@@ -1,0 +1,20 @@
+name: Yellow-faced whip snake
+scientificName: Demansia psammophis
+group: snake
+danger: 2
+summary: >-
+  A slender, fast day-active snake common across much of Australia.
+venom: >-
+  Local pain and swelling; rarely serious.
+habitat: >-
+  Woodland, grassland and suburbs.
+size: 70–100 cm
+regions:
+  - AU-ACT
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-VIC
+  - AU-WA
+  - PG

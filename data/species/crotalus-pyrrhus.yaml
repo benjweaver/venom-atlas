@@ -1,0 +1,18 @@
+name: Southwestern speckled rattlesnake
+scientificName: Crotalus pyrrhus
+group: snake
+danger: 3
+summary: >-
+  A rattlesnake of desert mountains that matches the colour of local rock.
+venom: >-
+  Haemotoxic and cytotoxic: pain and swelling.
+habitat: >-
+  Rocky desert slopes and canyons.
+size: 60–100 cm
+regions:
+  - US-CA
+  - US-NV
+  - US-AZ
+  - US-UT
+  - MX-BCN
+  - MX-SON

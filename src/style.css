@@ -16,6 +16,8 @@
   --map-land: #e4e2de;
   --map-border: #b9ae9c;
   --map-range: #1f7a8c;
+  --map-water: #c9d8de;
+  --map-records: #0b6fb8;
   --map-selected: #1f1a14;
   --heat-1: #f5d08a;
   --heat-2: #f0b878;
@@ -46,6 +48,8 @@
     --map-land: #25272a;
     --map-border: #43454a;
     --map-range: #4fc1d6;
+    --map-water: #1a2429;
+    --map-records: #5cc8ff;
     --map-selected: #fff4e0;
     --heat-1: #5a3d17;
     --heat-2: #8c4d17;

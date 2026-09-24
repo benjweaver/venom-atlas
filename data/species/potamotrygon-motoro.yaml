@@ -9,20 +9,26 @@ venom: >-
 habitat: >-
   Sandy river beds and flooded forest.
 size: Disc up to 50 cm
+aquatic: freshwater
 regions:
   - AR-B
   - AR-E
+  - AR-H
+  - AR-L
   - AR-N
   - AR-S
+  - AR-W
   - BO
   - BR-AC
   - BR-AM
+  - BR-AP
   - BR-GO
   - BR-MA
   - BR-MS
   - BR-MT
   - BR-PA
   - BR-PR
+  - BR-RO
   - BR-RR
   - BR-SP
   - BR-TO
@@ -31,4 +37,6 @@ regions:
   - PE
   - PY
   - SG
+  - TW
+  - UY
   - VE

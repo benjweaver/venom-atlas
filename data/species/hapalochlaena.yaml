@@ -12,6 +12,7 @@ habitat: >-
   Rock pools, coral reefs and shallow seagrass beds.
 size: 12–20 cm
 wikipedia: Blue-ringed octopus
+aquatic: marine
 regions:
   - AU-NSW
   - AU-NT
@@ -20,10 +21,22 @@ regions:
   - AU-TAS
   - AU-VIC
   - AU-WA
+  - BD
   - ID
-  - JP
+  - IN-AN
+  - JP-27
+  - JP-47
+  - KR
   - MV
   - MY
+  - NC
   - PG
   - PH
+  - SB
+  - TH
   - TW
+  - VU
+gbif:
+  exclude:
+    - US # aquarium animals
+    - EG # mislocated record

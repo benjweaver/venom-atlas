@@ -1,0 +1,13 @@
+name: Mandalay spitting cobra
+scientificName: Naja mandalayensis
+group: snake
+danger: 4
+summary: >-
+  A spitting cobra found only in the dry zone of central Myanmar.
+venom: >-
+  Cytotoxic and neurotoxic; spat venom injures the eyes.
+habitat: >-
+  Dry scrub and farmland.
+size: About 1 m
+regions:
+  - MM

@@ -1,0 +1,17 @@
+name: Colombian scorpion
+scientificName: Tityus pachyurus
+group: scorpion
+danger: 4
+summary: >-
+  A dark scorpion of Colombia and southern Central America, responsible for serious stings in
+  children.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Forest, farmland and houses.
+size: 5–7 cm
+regions:
+  - CO
+  - CR
+  - PA

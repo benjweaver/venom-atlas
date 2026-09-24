@@ -1,0 +1,16 @@
+name: "Godman's pit viper"
+scientificName: Cerrophidion godmani
+group: snake
+danger: 3
+summary: >-
+  A stout pit viper of Central American highlands.
+venom: >-
+  Haemotoxic: pain and swelling.
+habitat: >-
+  Montane forest and pasture.
+size: 50–70 cm
+regions:
+  - GT
+  - HN
+  - MX-CHP
+  - SV

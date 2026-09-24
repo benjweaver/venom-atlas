@@ -32,6 +32,11 @@ and say how to undo it.
 - `regions` is normally written by `npm run ranges --write`. To correct it,
   use `gbif.exclude` / `gbif.include` in the species file rather than editing
   `regions` directly, or the next `--write` undoes the fix.
+- Aquatic species (`aquatic: marine | freshwater`) take their places from
+  their GBIF record dots, each tagged with the territory GBIF attributes it to:
+  a territory is listed exactly when it has a dot, and the site only draws
+  dots for listed territories. No `gbif.include` on them; errors go in
+  `gbif.exclude`, which removes the territory and its dots.
 - Scope is medically significant venomous animals: things whose bite or
   sting can seriously harm a person. Not poisonous animals.
 - Region codes are ISO 3166 as they appear in `public/geo/`. A species lists a

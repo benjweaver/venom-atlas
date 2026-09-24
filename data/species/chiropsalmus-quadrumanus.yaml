@@ -1,0 +1,35 @@
+name: Four-handed box jellyfish
+scientificName: Chiropsalmus quadrumanus
+group: jellyfish
+danger: 4
+summary: >-
+  A box jellyfish of the western Atlantic and Gulf of Mexico, linked to a child's death in
+  Texas.
+venom: >-
+  Severe pain and welts; large stings can affect breathing and the heart.
+habitat: >-
+  Warm, shallow coastal waters.
+size: Bell up to 14 cm
+aquatic: marine
+regions:
+  - BR-AL
+  - BR-CE
+  - BR-PE
+  - BR-PR
+  - BR-RN
+  - BR-SC
+  - BR-SE
+  - BR-SP
+  - CO
+  - MX-JAL
+  - MX-VER
+  - MX-YUC
+  - PA
+  - PR
+  - US-FL
+  - US-GA
+  - US-LA
+  - US-NC
+  - US-SC
+  - US-TX
+  - VE

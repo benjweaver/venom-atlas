@@ -1,0 +1,63 @@
+name: Fire coral
+scientificName: Millepora alcicornis
+group: other
+danger: 1
+summary: >-
+  A hydrozoan that looks like coral and stings divers who brush against it.
+venom: >-
+  Burning pain, welts and itching.
+habitat: >-
+  Caribbean and western Atlantic reefs.
+aquatic: marine
+regions:
+  - AG
+  - AI
+  - AW
+  - BB
+  - BL
+  - BM
+  - BR-AL
+  - BR-BA
+  - BR-ES
+  - BR-PE
+  - BR-RJ
+  - BR-RN
+  - BS
+  - BZ
+  - CO
+  - CU
+  - CV
+  - CW
+  - DM
+  - DO
+  - EG
+  - ES
+  - GD
+  - GP
+  - HN
+  - HT
+  - JM
+  - KN
+  - KY
+  - LC
+  - MQ
+  - MS
+  - MX-CAM
+  - MX-ROO
+  - MX-VER
+  - MX-YUC
+  - NI
+  - PA
+  - PR
+  - TC
+  - TT
+  - US-FL
+  - US-LA
+  - US-TX
+  - VC
+  - VE
+  - VG
+  - VI
+gbif:
+  exclude:
+    - IN # Atlantic species; misidentified

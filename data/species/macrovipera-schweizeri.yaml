@@ -1,0 +1,17 @@
+name: Milos viper
+scientificName: Macrovipera schweizeri
+group: snake
+danger: 3
+summary: >-
+  A viper found only on a few Greek islands in the Cyclades.
+venom: >-
+  Haemotoxic and cytotoxic: pain, swelling and bleeding.
+habitat: >-
+  Dry, rocky island scrub.
+size: 60–100 cm
+regions:
+  - GR
+gbif:
+  # GBIF treats the Milos viper as a form of the Levantine viper and has no
+  # records under this name. Range kept by hand: a few Cyclades islands.
+  manual: true

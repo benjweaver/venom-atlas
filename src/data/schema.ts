@@ -30,6 +30,9 @@ export const speciesSchema = z
     // or "none" when no freely licensed photo exists.
     photo: z.string().optional(),
     regions: z.array(regionCode).min(1),
+    // Lives in the water. Its places are then exactly the territories whose
+    // waters it has been recorded in (see scripts/gbif-range.ts).
+    aquatic: z.enum(['marine', 'freshwater']).optional(),
     // How `npm run ranges` treats this species. See scripts/gbif-range.ts.
     gbif: z
       .object({
@@ -69,4 +72,6 @@ export interface Species extends SpeciesFile {
   image?: SpeciesImage
   /** GBIF taxon the range came from, for the "range data" link. */
   gbifKey?: number
+  /** Has a record grid (dots on the map) at public/occurrence/<slug>.json. */
+  records?: boolean
 }

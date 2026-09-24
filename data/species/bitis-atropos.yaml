@@ -1,0 +1,22 @@
+name: Berg adder
+scientificName: Bitis atropos
+group: snake
+danger: 3
+summary: >-
+  A small mountain adder of southern Africa with an unusual, partly neurotoxic venom that can
+  affect vision and smell.
+venom: >-
+  Neurotoxic effects on the eyes and nerves (drooping eyelids, loss of taste and smell) plus
+  local swelling; no antivenom.
+habitat: >-
+  Mountain grassland and fynbos.
+size: 30–50 cm
+regions:
+  - MZ
+  - ZA-EC
+  - ZA-FS
+  - ZA-LP
+  - ZA-MP
+  - ZA-NL
+  - ZA-WC
+  - ZW

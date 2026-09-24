@@ -10,10 +10,13 @@ venom: >-
 habitat: >-
   Coral reefs.
 size: 1.2–2 m
+aquatic: marine
 regions:
   - AU-NSW
   - AU-NT
   - AU-QLD
   - AU-WA
+  - ID
+  - MQ
   - NC
   - PG

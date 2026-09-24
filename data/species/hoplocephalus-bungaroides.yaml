@@ -1,0 +1,13 @@
+name: Broad-headed snake
+scientificName: Hoplocephalus bungaroides
+group: snake
+danger: 3
+summary: >-
+  A rare, threatened snake of the sandstone ridges around Sydney.
+venom: >-
+  Causes pain and clotting problems; serious bites are rare.
+habitat: >-
+  Sandstone outcrops and crevices.
+size: About 60 cm
+regions:
+  - AU-NSW

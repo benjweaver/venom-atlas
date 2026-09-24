@@ -1,4 +1,10 @@
-import { diffRegions, minRecords, proposeRegions, type GbifCounts } from './gbif-range.ts'
+import {
+  diffRegions,
+  minRecords,
+  proposeRegions,
+  regionsFromCells,
+  type GbifCounts,
+} from './gbif-range.ts'
 
 // Shaped like the real western diamondback data: thousands of records in the
 // US and Mexico, two stray ones in Canada.
@@ -42,6 +48,17 @@ describe('proposeRegions', () => {
     expect(proposeRegions(counts)).toEqual(['US'])
   })
 
+  it("doesn't list a big country whole on a few scattered records", () => {
+    // The yellow-bellied sea snake: 8 US records, 2 in California, none in a
+    // state with enough to count. Listing "US" would put it in South Carolina.
+    const counts: GbifCounts = {
+      total: 2178,
+      countries: { US: 8, MX: 443 },
+      subdivisions: { 'US-CA': 2, 'MX-SIN': 120 },
+    }
+    expect(proposeRegions(counts)).toEqual(['MX-SIN'])
+  })
+
   it('applies manual excludes, including a whole country', () => {
     expect(proposeRegions(rattler, { exclude: ['US-AR', 'MX'] })).toEqual(['US-AZ', 'US-TX'])
   })
@@ -59,5 +76,19 @@ describe('diffRegions', () => {
       removed: ['IE'],
       kept: ['GB'],
     })
+  })
+})
+
+describe('regionsFromCells', () => {
+  const cell = (code: string | null, n: number) => ({ code, n })
+
+  it('lists every territory with a dot, once, however few records', () => {
+    const cells = [cell('AU-QLD', 60), cell('AU-QLD', 30), cell('ID', 1), cell(null, 9)]
+    expect(regionsFromCells(cells)).toEqual(['AU-QLD', 'ID'])
+  })
+
+  it('drops excluded territories, and a country exclude covers its states', () => {
+    const cells = [cell('AU-QLD', 50), cell('PH', 50), cell('US-CA', 50)]
+    expect(regionsFromCells(cells, { exclude: ['US', 'PH'] })).toEqual(['AU-QLD'])
   })
 })

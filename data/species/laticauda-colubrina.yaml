@@ -11,14 +11,17 @@ venom: >-
 habitat: >-
   Coral reefs and rocky shores; hunts eels at sea.
 size: 0.8–1.4 m
+aquatic: marine
 regions:
-  - AU
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
   - FJ
   - ID
   - IN-AN
   - JP-47
-  - LK
   - MM
+  - MV
   - MY
   - NC
   - NZ
@@ -33,6 +36,3 @@ regions:
   - TW
   - VU
   - WF
-gbif:
-  include:
-    - LK

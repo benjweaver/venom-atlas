@@ -1,0 +1,17 @@
+name: Northern death adder
+scientificName: Acanthophis praelongus
+group: snake
+danger: 5
+summary: >-
+  The death adder of Australia's tropical north and New Guinea.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Woodland, grassland and rocky country.
+size: 40–70 cm
+regions:
+  - AU-QLD
+  - AU-NT
+  - AU-WA
+  - PG

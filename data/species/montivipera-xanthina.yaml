@@ -1,0 +1,14 @@
+name: Ottoman viper
+scientificName: Montivipera xanthina
+group: snake
+danger: 3
+summary: >-
+  A large, boldly patterned viper of western Turkey and nearby Greek islands.
+venom: >-
+  Haemotoxic and cytotoxic: pain, swelling and bleeding.
+habitat: >-
+  Rocky slopes, scrub and ruins.
+size: 70–100 cm
+regions:
+  - TR
+  - GR

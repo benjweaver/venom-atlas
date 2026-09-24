@@ -1,0 +1,28 @@
+name: Lesser brown scorpion
+scientificName: Isometrus maculatus
+group: scorpion
+danger: 2
+summary: >-
+  A small scorpion spread around the tropics by shipping, often found in houses.
+venom: >-
+  Painful sting; serious effects are rare.
+habitat: >-
+  Under bark, in houses and around ports.
+size: 4–6 cm
+regions:
+  - AU-QLD
+  - CD
+  - IN-AS
+  - IN-TN
+  - JP-47
+  - KE
+  - LK
+  - MG
+  - MU
+  - PF
+  - RE
+  - SC
+  - SH
+  - TW
+  - TZ
+  - US-HI

@@ -1,0 +1,126 @@
+name: Tropical fire ant
+scientificName: Solenopsis geminata
+group: insect
+danger: 2
+summary: >-
+  A fire ant native to the Americas and now spread across the tropics.
+venom: >-
+  Burning stings forming blisters; allergic reactions possible.
+habitat: >-
+  Open sunny ground, lawns and fields.
+size: 3–8 mm
+regions:
+  - AG
+  - AU-NSW
+  - AU-NT
+  - AW
+  - BB
+  - BR-AM
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-MA
+  - BR-PA
+  - BR-RO
+  - BZ
+  - CK
+  - CN-HI
+  - CO
+  - CR
+  - CU
+  - CW
+  - DM
+  - DO
+  - EC
+  - FJ
+  - GD
+  - GP
+  - GT
+  - GU
+  - HN
+  - HT
+  - ID
+  - IN-AP
+  - IN-CT
+  - IN-GA
+  - IN-GJ
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-WB
+  - IO
+  - JM
+  - KH
+  - KN
+  - KY
+  - LA
+  - LC
+  - LK
+  - MF
+  - MG
+  - MM
+  - MQ
+  - MS
+  - MU
+  - MX-CAM
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-DIF
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MOR
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-ROO
+  - MX-SIN
+  - MX-SLP
+  - MX-TAB
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - MX-ZAC
+  - MY
+  - NC
+  - NI
+  - PA
+  - PE
+  - PF
+  - PG
+  - PH
+  - PR
+  - PW
+  - RE
+  - SG
+  - SV
+  - SX
+  - TH
+  - TL
+  - TT
+  - TW
+  - US-CA
+  - US-FL
+  - US-HI
+  - US-NM
+  - US-TX
+  - VC
+  - VE
+  - VG
+  - VI
+  - VN
+  - VU
+  - YT
+  - ZA-NL
+gbif:
+  exclude:
+    - JP # port interceptions, not established

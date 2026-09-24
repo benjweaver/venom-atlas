@@ -1,0 +1,20 @@
+name: Red-tailed pit viper
+scientificName: Trimeresurus erythrurus
+group: snake
+danger: 3
+summary: >-
+  A green pit viper of the Bay of Bengal region, common in mangroves.
+venom: >-
+  Haemotoxic: swelling and bleeding problems.
+habitat: >-
+  Mangroves, bamboo and coastal forest.
+size: 60–100 cm
+regions:
+  - BD
+  - IN-AS
+  - IN-MN
+  - IN-MZ
+  - IN-OR
+  - IN-TR
+  - IN-WB
+  - MM

@@ -1,0 +1,36 @@
+name: "Magician's cone"
+scientificName: Conus magus
+group: mollusc
+danger: 4
+summary: >-
+  A fish-hunting cone snail whose venom gave rise to the painkiller ziconotide.
+venom: >-
+  Conotoxins cause numbness and paralysis. There is no antivenom; treatment is breathing
+  support.
+habitat: >-
+  Reefs and sand in the Indo-Pacific.
+size: Shell up to 10 cm
+aquatic: marine
+regions:
+  - AU-QLD
+  - CN-HI
+  - FJ
+  - FM
+  - GU
+  - ID
+  - IL
+  - IN-AN
+  - JP-47
+  - MG
+  - MH
+  - MY
+  - NC
+  - PF
+  - PG
+  - PH
+  - PW
+  - SB
+  - SG
+  - TH
+  - TZ
+  - VU

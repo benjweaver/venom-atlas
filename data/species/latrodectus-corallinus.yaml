@@ -1,0 +1,27 @@
+name: Argentine black widow
+scientificName: Latrodectus corallinus
+group: spider
+danger: 3
+summary: >-
+  A widow spider of Argentina and Uruguay, common in wheat fields at harvest.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Grassland and crop fields.
+size: Female body about 1.3 cm
+regions:
+  - AR-A
+  - AR-G
+  - AR-H
+  - AR-J
+  - AR-K
+  - AR-M
+  - AR-X
+  - AR-Y
+  - BO
+  - BR-MS
+  - PY
+gbif:
+  exclude:
+    - CO # misidentified widows

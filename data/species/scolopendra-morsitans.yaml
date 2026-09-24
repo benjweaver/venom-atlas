@@ -1,0 +1,62 @@
+name: Bengal tiger centipede
+scientificName: Scolopendra morsitans
+group: centipede
+danger: 2
+summary: >-
+  A widespread tropical centipede found on every warm continent.
+venom: >-
+  Very painful bite with swelling; rarely serious.
+habitat: >-
+  Dry scrub and savanna, under stones.
+size: 10–13 cm
+regions:
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-VIC
+  - AU-WA
+  - BW
+  - CD
+  - CV
+  - GM
+  - GP
+  - HK
+  - ID
+  - IN-AP
+  - IN-CT
+  - IN-GJ
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-OR
+  - IN-TG
+  - IN-TN
+  - JP-47
+  - KE
+  - KH
+  - KY
+  - LK
+  - MG
+  - MX-JAL
+  - MZ
+  - NA
+  - PH
+  - RE
+  - SH
+  - SN
+  - TH
+  - TW
+  - TZ
+  - US-HI
+  - VN
+  - ZA-EC
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-WC
+  - ZM
+  - ZW

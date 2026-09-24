@@ -1,0 +1,34 @@
+name: Noble false widow
+scientificName: Steatoda nobilis
+group: spider
+danger: 1
+summary: >-
+  A widow relative from the Canary Islands that has spread across Europe and beyond, now common
+  in British homes.
+venom: >-
+  Painful bite with local swelling; occasionally fever. Rarely serious.
+habitat: >-
+  Buildings, fences and garden walls.
+size: Body 1–1.4 cm
+regions:
+  - BE
+  - CL
+  - CO
+  - DE
+  - DK
+  - DZ
+  - EC
+  - ES
+  - FR
+  - GB
+  - GG
+  - IE
+  - IM
+  - IT
+  - JE
+  - MA
+  - MX-BCN
+  - NL
+  - NZ
+  - PT
+  - US-CA

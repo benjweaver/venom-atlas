@@ -1,0 +1,71 @@
+name: Red scorpionfish
+scientificName: Scorpaena scrofa
+group: fish
+danger: 2
+summary: >-
+  A large scorpionfish of the eastern Atlantic and Mediterranean, prized in bouillabaisse.
+venom: >-
+  Painful spine wounds with swelling.
+habitat: >-
+  Rocky seabed.
+size: Up to 50 cm
+aquatic: marine
+regions:
+  - AL
+  - AO
+  - BA
+  - BJ
+  - CG
+  - CI
+  - CM
+  - CV
+  - CY
+  - DZ
+  - EG
+  - ES
+  - FR
+  - GA
+  - GB
+  - GH
+  - GN
+  - GQ
+  - GR
+  - GW
+  - HR
+  - IE
+  - IL
+  - IT
+  - JO
+  - LB
+  - LR
+  - MC
+  - ME
+  - MG
+  - MR
+  - MT
+  - MZ
+  - NG
+  - NL
+  - PH
+  - PT
+  - SH
+  - SL
+  - SN
+  - TG
+  - TN
+  - TR
+  - ZA-EC
+  - ZA-NL
+  - ZA-WC
+gbif:
+  exclude:
+    - ID # misidentified local scorpionfish
+    - MY # misidentified local scorpionfish
+    - TH # misidentified local scorpionfish
+    - MV # misidentified local scorpionfish
+    - JM # misidentified local scorpionfish
+    - MX # misidentified local scorpionfish
+    - US # misidentified local scorpionfish
+    - KE # misidentified local scorpionfish
+    - SO # misidentified local scorpionfish
+    - AE # misidentified local scorpionfish

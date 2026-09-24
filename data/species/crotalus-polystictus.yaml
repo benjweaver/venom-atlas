@@ -1,0 +1,20 @@
+name: Mexican lance-headed rattlesnake
+scientificName: Crotalus polystictus
+group: snake
+danger: 3
+summary: >-
+  A boldly spotted rattlesnake of the central Mexican highlands, common in farmland.
+venom: >-
+  Haemotoxic and cytotoxic: pain, swelling and bleeding.
+habitat: >-
+  Highland grassland and farmland.
+size: 60–100 cm
+regions:
+  - MX-AGU
+  - MX-DIF
+  - MX-GUA
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-QUE
+  - MX-ZAC

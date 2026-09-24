@@ -1,0 +1,24 @@
+name: Brown forest cobra
+scientificName: Naja subfulva
+group: snake
+danger: 5
+summary: >-
+  A large cobra of central and eastern African forests, split from the forest cobra in 2018.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Forest, woodland and riverine thicket.
+size: 1.5–2.5 m
+regions:
+  - AO
+  - CD
+  - CG
+  - KE
+  - MW
+  - MZ
+  - TZ
+  - UG
+  - ZA-LP
+  - ZA-NL
+  - ZM

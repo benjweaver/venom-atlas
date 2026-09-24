@@ -1,0 +1,26 @@
+name: Rock rattlesnake
+scientificName: Crotalus lepidus
+group: snake
+danger: 2
+summary: >-
+  A small rattlesnake of rocky mountains in Texas, New Mexico and northern Mexico.
+venom: >-
+  Haemotoxic, sometimes with neurotoxic effects; small yields.
+habitat: >-
+  Rocky slopes and talus.
+size: 40–70 cm
+regions:
+  - MX-AGU
+  - MX-CHH
+  - MX-COA
+  - MX-DUR
+  - MX-JAL
+  - MX-NLE
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-ZAC
+  - US-AZ
+  - US-NM
+  - US-TX

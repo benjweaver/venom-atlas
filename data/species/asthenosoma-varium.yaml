@@ -1,0 +1,30 @@
+name: Fire urchin
+scientificName: Asthenosoma varium
+group: other
+danger: 2
+summary: >-
+  A soft, brightly coloured sea urchin with venom-tipped spines.
+venom: >-
+  Very painful stings; rarely serious.
+habitat: >-
+  Sand and rubble near reefs.
+size: Up to 20 cm across
+aquatic: marine
+regions:
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - EG
+  - ID
+  - IL
+  - JP-47
+  - MY
+  - NC
+  - NF
+  - PG
+  - PH
+  - PW
+  - SB
+  - TW
+  - VN
+  - VU

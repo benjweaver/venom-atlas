@@ -60,6 +60,7 @@ habitat: >-
 size: Typically 1–1.5 m # optional
 wikipedia: Article title # optional; defaults to scientificName
 photo: Some file.jpg # optional: a specific Commons file, or "none"
+aquatic: marine # optional: marine | freshwater (see "Water species" below)
 regions: # ISO 3166 codes, normally written by `npm run ranges`
   - US-AZ #   a state/province...
   - MX #   ...or a whole country
@@ -127,6 +128,29 @@ npm run ranges                  # species not yet checked
 npm run ranges -- --all         # re-derive every proposal from the cached counts
 npm run ranges -- --all --refresh --write   # re-fetch everything from GBIF and accept
 ```
+
+### Water species
+
+Shading a whole state for a box jellyfish says nothing about which beaches are
+the problem. So species marked `aquatic: marine` or `aquatic: freshwater` work
+differently:
+
+- `npm run ranges` also saves GBIF's record density as roughly 40 km grid
+  cells (`public/occurrence/<slug>.json`), and the map draws them as dots on
+  the sea, rivers and lakes. Rivers and lakes are drawn on the base map for
+  context.
+- Each dot carries GBIF's own answer to "whose territory is this in?": the
+  script fetches each country's records separately, and for marine records
+  GBIF counts a country's offshore waters (its 200-nautical-mile EEZ) as that
+  country. Big countries resolve to the nearest state. Dots no country claims
+  are on the high seas.
+- **A species' places are exactly the territories with dots**, however few
+  records: at sea, zoo animals and pets aren't the risk they are on land. The
+  site draws a dot only when its territory is listed (or it's on the high
+  seas), so the map and the list can't disagree.
+- `gbif.exclude` removes a territory _and_ its dots. `gbif.include` isn't
+  allowed on water species, because it would list a place with no dot, and the
+  validator rejects it.
 
 Counts are cached in `data/gbif.json` (committed), so proposals can be
 reviewed and re-derived without the network. The site links each species to

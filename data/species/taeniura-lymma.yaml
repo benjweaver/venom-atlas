@@ -1,0 +1,61 @@
+name: Bluespotted ribbontail ray
+scientificName: Taeniura lymma
+group: fish
+danger: 2
+summary: >-
+  A small, bright ray of Indo-Pacific reefs, often seen by snorkellers.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Coral reefs and sand patches.
+size: Disc up to 35 cm
+aquatic: marine
+regions:
+  - AE
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - DJ
+  - EG
+  - ER
+  - FJ
+  - ID
+  - IN-AN
+  - IR
+  - JO
+  - KE
+  - KH
+  - LB
+  - LK
+  - MG
+  - MV
+  - MY
+  - MZ
+  - NC
+  - OM
+  - PF
+  - PG
+  - PH
+  - PW
+  - RE
+  - SA
+  - SB
+  - SC
+  - SD
+  - SG
+  - TH
+  - TL
+  - TW
+  - TZ
+  - VN
+  - VU
+  - WF
+  - YE
+  - YT
+  - ZA-NL
+gbif:
+  exclude:
+    - US # aquarium animals
+    - EC # misidentified

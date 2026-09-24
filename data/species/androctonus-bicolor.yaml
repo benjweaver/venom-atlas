@@ -1,0 +1,20 @@
+name: Black fat-tailed scorpion
+scientificName: Androctonus bicolor
+group: scorpion
+danger: 4
+summary: >-
+  A black fat-tailed scorpion of North Africa and the Levant.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Desert and semi-desert.
+size: 6–9 cm
+regions:
+  - DZ
+  - EG
+  - IL
+  - TN
+gbif:
+  include:
+    - EG

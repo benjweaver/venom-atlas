@@ -1,0 +1,21 @@
+name: Greater black krait
+scientificName: Bungarus niger
+group: snake
+danger: 5
+summary: >-
+  A glossy black krait of north-eastern India, Nepal and Bangladesh, recognised as a major
+  killer only recently.
+venom: >-
+  Neurotoxic and myotoxic: paralysis and muscle breakdown; potentially fatal.
+habitat: >-
+  Forest, farmland and villages.
+size: 1–1.5 m
+regions:
+  - BD
+  - BT
+  - IN-AR
+  - IN-AS
+  - IN-MZ
+  - IN-SK
+  - MM
+  - NP

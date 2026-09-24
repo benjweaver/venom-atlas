@@ -9,26 +9,43 @@ venom: >-
 habitat: >-
   Sandy and muddy seabed.
 size: Up to 45 cm
+aquatic: marine
 regions:
+  - AL
+  - AO
   - BE
+  - CV
+  - CY
   - DE
   - DK
   - DZ
   - EH
   - ES
   - FR
+  - GA
   - GB
+  - GE
   - GR
+  - GW
   - HR
   - IE
   - IL
+  - IS
   - IT
+  - LB
+  - LY
+  - MA
+  - ME
+  - MR
   - MT
   - NL
   - NO
+  - PL
   - PT
+  - RO
   - RU
   - SE
+  - SI
   - TN
   - TR
   - UA

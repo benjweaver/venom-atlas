@@ -1,0 +1,23 @@
+name: Short-tailed mamushi
+scientificName: Gloydius brevicauda
+group: snake
+danger: 3
+summary: >-
+  A common pit viper of Korea and eastern China and a leading cause of snakebite in Korea.
+venom: >-
+  Haemotoxic and myotoxic: swelling, bleeding and kidney injury.
+habitat: >-
+  Farmland, hills and forest edges.
+size: 50–70 cm
+regions:
+  - CN-AH
+  - CN-BJ
+  - CN-HA
+  - CN-HB
+  - CN-HN
+  - CN-JS
+  - CN-JX
+  - CN-LN
+  - CN-SH
+  - CN-ZJ
+  - KR

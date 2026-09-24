@@ -1,0 +1,22 @@
+name: Turkish yellow scorpion
+scientificName: Leiurus abdullahbayrami
+group: scorpion
+danger: 4
+summary: >-
+  A deathstalker of south-eastern Turkey and northern Syria described in 2009.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Dry, rocky hills.
+size: 8–11 cm
+regions:
+  - TR
+  - SY
+gbif:
+  exclude:
+    - JO # misidentified Leiurus
+    - LB # misidentified Leiurus
+  include:
+    - TR
+    - SY

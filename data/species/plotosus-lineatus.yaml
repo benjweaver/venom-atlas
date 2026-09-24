@@ -9,33 +9,56 @@ venom: >-
 habitat: >-
   Reefs, estuaries and seagrass.
 size: Up to 30 cm
+aquatic: marine
 regions:
   - AE
+  - AS
   - AU-NSW
+  - AU-NT
   - AU-QLD
+  - AU-SA
   - AU-WA
+  - BD
+  - BH
   - CN-FJ
   - CN-GD
+  - CN-GX
+  - CN-HI
+  - CN-ZJ
   - CY
   - EG
+  - ER
   - FJ
   - GR
-  - HK
   - ID
   - IL
   - IN-AN
+  - IN-AP
+  - IN-GA
+  - IN-GJ
+  - IN-KA
+  - IN-MH
+  - IN-OR
   - IN-TN
   - IT
+  - JO
   - JP-12
-  - JP-14
-  - JP-46
+  - JP-22
+  - JP-28
   - JP-47
   - KE
+  - KH
   - KM
   - KR
+  - KW
   - LB
   - LK
+  - LY
   - MG
+  - MH
+  - MO
+  - MP
+  - MT
   - MU
   - MY
   - MZ
@@ -44,6 +67,8 @@ regions:
   - OM
   - PG
   - PH
+  - PS
+  - PW
   - RE
   - SA
   - SB
@@ -60,4 +85,7 @@ regions:
   - TZ
   - VN
   - VU
+  - YE
+  - YT
+  - ZA-EC
   - ZA-NL

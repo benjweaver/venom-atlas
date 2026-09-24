@@ -11,5 +11,6 @@ venom: >-
 habitat: >-
   Tropical coastal waters and open water around reefs.
 size: Bell about 2 cm
+aquatic: marine
 regions:
   - AU-QLD

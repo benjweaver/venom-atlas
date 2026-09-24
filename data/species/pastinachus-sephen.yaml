@@ -1,0 +1,43 @@
+name: Cowtail stingray
+scientificName: Pastinachus sephen
+group: fish
+danger: 2
+summary: >-
+  A large Indo-Pacific stingray that also enters estuaries and rivers.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Shallow coastal waters, estuaries and rivers.
+size: Disc up to 1.8 m
+aquatic: marine
+regions:
+  - AE
+  - AS
+  - AU-QLD
+  - AU-WA
+  - BD
+  - BH
+  - EG
+  - IN-GJ
+  - IN-LD
+  - IN-TN
+  - IR
+  - JM
+  - JO
+  - JP-47
+  - KW
+  - LK
+  - MV
+  - MY
+  - MZ
+  - NC
+  - OM
+  - PH
+  - PK
+  - PW
+  - SA
+  - SD
+  - TH
+  - TW
+  - ZA-NL

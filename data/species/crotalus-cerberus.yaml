@@ -1,0 +1,14 @@
+name: Arizona black rattlesnake
+scientificName: Crotalus cerberus
+group: snake
+danger: 3
+summary: >-
+  A dark rattlesnake of Arizona's mountains that can change shade from light to nearly black.
+venom: >-
+  Haemotoxic, with some neurotoxic effects: pain, swelling and bleeding.
+habitat: >-
+  Mountain woodland and rocky canyons.
+size: 70–100 cm
+regions:
+  - US-AZ
+  - US-NM

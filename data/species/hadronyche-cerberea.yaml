@@ -1,0 +1,13 @@
+name: Southern tree funnel-web spider
+scientificName: Hadronyche cerberea
+group: spider
+danger: 4
+summary: >-
+  A tree-dwelling funnel-web of south-eastern New South Wales.
+venom: >-
+  Neurotoxic (atracotoxin); potentially dangerous, treated with funnel-web antivenom.
+habitat: >-
+  Forest, in tree hollows and logs.
+size: Body 2–4 cm
+regions:
+  - AU-NSW

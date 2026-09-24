@@ -1,0 +1,16 @@
+name: Yucatán cantil
+scientificName: Agkistrodon russeolus
+group: snake
+danger: 4
+summary: >-
+  The cantil of the Yucatán Peninsula and Belize, split from the common cantil in 2008.
+venom: >-
+  Haemotoxic and cytotoxic: swelling, bleeding, blistering and tissue damage; potentially fatal
+  without antivenom.
+habitat: >-
+  Dry forest and scrub, often near water.
+size: 60–90 cm
+regions:
+  - MX-CAM
+  - MX-ROO
+  - MX-YUC

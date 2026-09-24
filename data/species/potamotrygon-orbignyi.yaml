@@ -1,0 +1,32 @@
+name: Smooth back river stingray
+scientificName: Potamotrygon orbignyi
+group: fish
+danger: 3
+summary: >-
+  A common freshwater stingray of the Amazon and Orinoco basins.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Sandy river beds.
+size: Disc up to 35 cm
+aquatic: freshwater
+regions:
+  - BO
+  - BR-AM
+  - BR-AP
+  - BR-GO
+  - BR-MA
+  - BR-MT
+  - BR-PA
+  - BR-PI
+  - BR-RO
+  - BR-RR
+  - BR-TO
+  - CO
+  - EC
+  - GF
+  - GY
+  - PE
+  - SR
+  - VE

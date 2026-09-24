@@ -1,0 +1,21 @@
+name: Banded water cobra
+scientificName: Naja annulata
+group: snake
+danger: 4
+summary: >-
+  A fish-eating cobra of Central African rivers and lakes, including Lake Tanganyika.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Rivers, lakes and shorelines with rocks and vegetation.
+size: 1.5–2.7 m
+aquatic: freshwater
+regions:
+  - AO
+  - CD
+  - CF
+  - CG
+  - GA
+  - TZ
+  - ZM

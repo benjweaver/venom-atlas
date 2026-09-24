@@ -1,0 +1,30 @@
+name: Striped bark scorpion
+scientificName: Centruroides vittatus
+group: scorpion
+danger: 2
+summary: >-
+  The most common scorpion in the US, from Texas to the Great Plains. Stings hurt but are rarely
+  dangerous.
+venom: >-
+  Painful sting with local swelling; serious reactions are rare.
+habitat: >-
+  Rocky and grassy country, under stones and in houses.
+size: 5–7 cm
+regions:
+  - MX-CHH
+  - MX-COA
+  - MX-DUR
+  - MX-NLE
+  - MX-TAM
+  - MX-ZAC
+  - US-AR
+  - US-CO
+  - US-IL
+  - US-KS
+  - US-LA
+  - US-MO
+  - US-NE
+  - US-NM
+  - US-OK
+  - US-TN
+  - US-TX

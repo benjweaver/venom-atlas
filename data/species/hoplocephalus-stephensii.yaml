@@ -1,0 +1,14 @@
+name: "Stephens' banded snake"
+scientificName: Hoplocephalus stephensii
+group: snake
+danger: 4
+summary: >-
+  A nocturnal, tree-climbing banded snake of eastern Australian forests.
+venom: >-
+  Causes clotting failure; potentially fatal.
+habitat: >-
+  Rainforest and wet eucalypt forest, in tree hollows.
+size: 60–100 cm
+regions:
+  - AU-QLD
+  - AU-NSW

@@ -1,0 +1,19 @@
+name: Black scorpion
+scientificName: Hottentotta saulcyi
+group: scorpion
+danger: 3
+summary: >-
+  A dark scorpion of Turkey, Iraq and Iran.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Rocky slopes and houses.
+size: 6–9 cm
+regions:
+  - IQ
+  - IR
+  - TR
+gbif:
+  include:
+    - TR

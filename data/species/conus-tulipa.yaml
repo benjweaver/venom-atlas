@@ -1,0 +1,52 @@
+name: Tulip cone
+scientificName: Conus tulipa
+group: mollusc
+danger: 4
+summary: >-
+  A fish-hunting cone snail with potent venom that has caused human deaths.
+venom: >-
+  Conotoxins cause numbness and paralysis. There is no antivenom; treatment is breathing
+  support.
+habitat: >-
+  Reefs in the Indo-Pacific.
+size: Shell up to 10 cm
+aquatic: marine
+regions:
+  - AS
+  - AU-QLD
+  - AU-WA
+  - CK
+  - FJ
+  - FM
+  - GU
+  - ID
+  - IN-LD
+  - IO
+  - JP-47
+  - KE
+  - KI
+  - KM
+  - LK
+  - MG
+  - MH
+  - MP
+  - MU
+  - MV
+  - MZ
+  - NC
+  - NU
+  - PF
+  - PG
+  - PH
+  - PN
+  - PW
+  - RE
+  - SB
+  - SC
+  - TL
+  - TO
+  - TW
+  - TZ
+  - VU
+  - WS
+  - YE

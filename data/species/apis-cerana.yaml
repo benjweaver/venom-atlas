@@ -1,0 +1,110 @@
+name: Asian honey bee
+scientificName: Apis cerana
+group: insect
+danger: 3
+summary: >-
+  The honey bee of southern and eastern Asia, smaller and calmer than the western honey bee.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Forest, farmland and towns.
+size: 10–12 mm
+regions:
+  - AU-QLD
+  - BD
+  - BT
+  - CN-AH
+  - CN-BJ
+  - CN-CQ
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HA
+  - CN-HB
+  - CN-HE
+  - CN-HI
+  - CN-HN
+  - CN-JS
+  - CN-JX
+  - CN-NM
+  - CN-SC
+  - CN-SD
+  - CN-SH
+  - CN-SN
+  - CN-SX
+  - CN-YN
+  - CN-ZJ
+  - HK
+  - ID
+  - IN-AP
+  - IN-AR
+  - IN-AS
+  - IN-BR
+  - IN-CH
+  - IN-CT
+  - IN-DL
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-ML
+  - IN-MP
+  - IN-MZ
+  - IN-NL
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-SK
+  - IN-TG
+  - IN-TN
+  - IN-TR
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - JP-04
+  - JP-08
+  - JP-11
+  - JP-12
+  - JP-13
+  - JP-14
+  - JP-16
+  - JP-17
+  - JP-18
+  - JP-20
+  - JP-21
+  - JP-22
+  - JP-23
+  - JP-25
+  - JP-26
+  - JP-27
+  - JP-28
+  - JP-29
+  - JP-30
+  - JP-31
+  - JP-35
+  - JP-40
+  - JP-46
+  - KH
+  - KR
+  - LA
+  - LK
+  - MM
+  - MO
+  - MY
+  - NP
+  - PG
+  - PH
+  - PK
+  - RU
+  - SB
+  - SG
+  - TH
+  - TL
+  - TW
+  - VN
+  - VU

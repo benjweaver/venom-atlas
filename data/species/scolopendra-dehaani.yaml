@@ -1,0 +1,24 @@
+name: Vietnamese giant centipede
+scientificName: Scolopendra dehaani
+group: centipede
+danger: 2
+summary: >-
+  A large centipede of South East Asia, the usual culprit behind centipede bites in the region.
+venom: >-
+  Extremely painful bite with swelling; rare heart and kidney complications.
+habitat: >-
+  Forest floor, gardens and houses.
+size: Up to 20 cm
+regions:
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - CN-YN
+  - HK
+  - ID
+  - KH
+  - LA
+  - MM
+  - MY
+  - TH
+  - VN

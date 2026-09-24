@@ -1,0 +1,26 @@
+name: Sahara fat-tailed scorpion
+scientificName: Androctonus amoreuxi
+group: scorpion
+danger: 4
+summary: >-
+  A pale, fat-tailed scorpion of the Sahara and the Middle East.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Sandy desert.
+size: 8–12 cm
+regions:
+  - DZ
+  - EG
+  - EH
+  - IL
+  - MA
+  - MR
+  - SD
+  - TN
+gbif:
+  include:
+    - TN
+    - MR
+    - SD

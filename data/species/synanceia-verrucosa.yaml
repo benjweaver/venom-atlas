@@ -10,22 +10,40 @@ venom: >-
 habitat: >-
   Shallow reefs, rubble and tidal flats of the Indian and Pacific Oceans.
 size: Up to 40 cm
+aquatic: marine
 regions:
+  - AE
+  - AS
   - AU-NSW
+  - AU-NT
   - AU-QLD
+  - AU-WA
   - CK
-  - CN
+  - CN-GX
+  - CN-HI
+  - CY
+  - DJ
   - EG
   - FJ
   - FM
+  - FR
+  - GR
   - GU
   - ID
   - IL
-  - IN
+  - IN-AN
+  - IO
+  - JO
+  - JP-45
+  - JP-46
   - JP-47
   - KE
+  - LB
+  - LK
   - MG
   - MH
+  - MP
+  - MQ
   - MU
   - MV
   - MY
@@ -38,12 +56,29 @@ regions:
   - PW
   - RE
   - SA
+  - SB
   - SC
+  - SY
+  - TF
   - TH
+  - TL
+  - TO
+  - TR
   - TW
   - TZ
+  - VN
   - VU
-  - ZA
+  - WF
+  - WS
+  - YT
+  - ZA-EC
+  - ZA-NL
 gbif:
-  include:
-    - SA
+  exclude:
+    - BR # Atlantic records are misidentified
+    - DO # Atlantic records are misidentified
+    - DM # Atlantic records are misidentified
+    - GP # Atlantic records are misidentified
+    - KY # Atlantic records are misidentified
+    - EC # Atlantic records are misidentified
+    - ES # Atlantic records are misidentified

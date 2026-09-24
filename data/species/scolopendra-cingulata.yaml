@@ -1,0 +1,37 @@
+name: Megarian banded centipede
+scientificName: Scolopendra cingulata
+group: centipede
+danger: 2
+summary: >-
+  The largest centipede in Europe, common around the Mediterranean.
+venom: >-
+  Very painful bite with swelling; rarely dangerous.
+habitat: >-
+  Under stones and logs in dry, warm country.
+size: 10–15 cm
+regions:
+  - AL
+  - AT
+  - BG
+  - CY
+  - DZ
+  - ES
+  - FR
+  - GR
+  - HR
+  - HU
+  - IL
+  - IT
+  - LB
+  - MA
+  - ME
+  - MK
+  - MT
+  - PS
+  - PT
+  - RO
+  - RS
+  - RU
+  - SY
+  - TR
+  - UA

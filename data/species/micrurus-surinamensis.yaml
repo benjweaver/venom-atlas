@@ -10,22 +10,20 @@ venom: >-
 habitat: >-
   Slow rivers, swamps and flooded forest.
 size: 0.8–1.2 m
+aquatic: freshwater
 regions:
   - BO
   - BR-AC
   - BR-AM
   - BR-AP
+  - BR-GO
   - BR-MT
   - BR-PA
   - BR-RO
+  - BR-RR
   - CO
   - EC
   - GF
   - GY
   - PE
   - SR
-  - VE
-gbif:
-  include:
-    - VE
-    - GY

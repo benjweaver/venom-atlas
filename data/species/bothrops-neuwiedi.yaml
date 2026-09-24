@@ -1,0 +1,26 @@
+name: "Neuwied's lancehead"
+scientificName: Bothrops neuwiedi
+group: snake
+danger: 4
+summary: >-
+  A lancehead of Brazilian savanna and grassland.
+venom: >-
+  Haemotoxic and cytotoxic: swelling, bleeding, blistering and tissue damage; potentially fatal
+  without antivenom.
+habitat: >-
+  Cerrado and open grassland.
+size: 70–90 cm
+regions:
+  - AR-F
+  - AR-K
+  - AR-N
+  - AR-W
+  - BR-GO
+  - BR-MG
+  - BR-MT
+  - BR-PR
+  - BR-RJ
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - PY

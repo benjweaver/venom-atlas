@@ -13,6 +13,8 @@ export const ROOT = join(import.meta.dirname, '..')
 export const SPECIES_DIR = join(ROOT, 'data', 'species')
 export const IMAGES_FILE = join(ROOT, 'data', 'images.json')
 export const GBIF_FILE = join(ROOT, 'data', 'gbif.json')
+/** Record grids (dots on the map) for each species, served to the browser. */
+export const GRID_DIR = join(ROOT, 'public', 'occurrence')
 const GEO_DIR = join(ROOT, 'public', 'geo')
 
 export class DataError extends Error {
@@ -97,6 +99,11 @@ export function loadSpecies(regions = knownRegions()): Species[] {
       seen.add(code)
       if (!regions.has(code)) problems.push(`${where}: unknown region code ${code}`)
     }
+    if (data.aquatic && data.gbif?.include?.length) {
+      problems.push(
+        `${where}: aquatic species list exactly the places with record dots — use gbif.exclude, not gbif.include`,
+      )
+    }
     for (const code of [...(data.gbif?.exclude ?? []), ...(data.gbif?.include ?? [])]) {
       if (!regions.has(code)) problems.push(`${where}: unknown region code ${code} in gbif`)
     }
@@ -110,7 +117,8 @@ export function loadSpecies(regions = knownRegions()): Species[] {
       }
     }
 
-    species.push({ ...data, slug, image: images[slug], gbifKey: gbifKeys[slug] })
+    const records = existsSync(join(GRID_DIR, `${slug}.json`))
+    species.push({ ...data, slug, image: images[slug], gbifKey: gbifKeys[slug], records })
   }
 
   if (problems.length) throw new DataError(problems)

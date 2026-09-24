@@ -9,11 +9,16 @@ venom: >-
 habitat: >-
   Coral reefs of the Indo-Pacific.
 size: Up to 35 cm across
+aquatic: marine
 regions:
   - AE
   - AS
+  - AU-NSW
+  - AU-NT
   - AU-QLD
+  - AU-WA
   - CK
+  - CN-HI
   - CR
   - DJ
   - EC
@@ -23,21 +28,31 @@ regions:
   - GS
   - GU
   - ID
-  - IN
+  - IN-AN
+  - IN-LD
   - IO
+  - JP-39
   - JP-47
   - KE
+  - KH
   - KM
   - LK
   - MG
   - MH
+  - MM
   - MP
+  - MU
   - MV
+  - MX-BCN
   - MX-BCS
-  - MX-COL
+  - MX-JAL
+  - MX-NAY
+  - MX-SON
   - MY
   - MZ
   - NC
+  - NR
+  - NU
   - NZ
   - OM
   - PA
@@ -49,14 +64,24 @@ regions:
   - SA
   - SB
   - SC
+  - SD
+  - SO
   - TF
   - TH
+  - TL
   - TO
   - TW
+  - TZ
   - US-HI
   - VN
   - VU
   - WF
   - WS
-  - YT
   - ZA-NL
+gbif:
+  exclude:
+    - DK # museum or mislocated record
+    - FR # museum or mislocated record
+    - GB # museum or mislocated record
+    - IT # museum or mislocated record
+    - US-CT # museum or mislocated record

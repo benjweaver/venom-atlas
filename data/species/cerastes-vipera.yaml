@@ -1,0 +1,21 @@
+name: Sahara sand viper
+scientificName: Cerastes vipera
+group: snake
+danger: 2
+summary: >-
+  A small viper of Saharan sand dunes that buries itself with just its eyes showing.
+venom: >-
+  Haemotoxic: pain and swelling; rarely serious.
+habitat: >-
+  Sand dunes.
+size: 20–35 cm
+regions:
+  - DZ
+  - EG
+  - EH
+  - IL
+  - LY
+  - MA
+  - MR
+  - NE
+  - TN

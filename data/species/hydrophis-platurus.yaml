@@ -11,22 +11,37 @@ venom: >-
 habitat: >-
   Open ocean surface; sometimes washed onto beaches.
 size: 60–90 cm
+aquatic: marine
 regions:
   - AE
   - AU-NSW
+  - AU-NT
   - AU-QLD
   - AU-TAS
   - AU-VIC
   - AU-WA
+  - BD
   - CO
   - CR
   - EC
+  - FJ
+  - FM
   - GT
+  - HN
   - ID
-  - IN
+  - IN-AP
+  - IN-GA
+  - IN-GJ
+  - IN-KL
+  - IN-MH
+  - IN-WB
   - IR
-  - KE
+  - JP-06
+  - JP-47
+  - KR
   - LK
+  - MH
+  - MM
   - MX-BCN
   - MX-BCS
   - MX-CHP
@@ -38,18 +53,25 @@ regions:
   - MX-OAX
   - MX-SIN
   - MX-SON
+  - MY
+  - MZ
   - NC
   - NI
   - NZ
+  - OM
   - PA
-  - PH
+  - PW
+  - RE
+  - SA
   - SV
   - TH
-  - US
+  - TL
+  - TO
+  - TW
+  - TZ
+  - US-CA
+  - VN
+  - YE
   - ZA-EC
+  - ZA-NL
   - ZA-WC
-gbif:
-  include:
-    - PH
-    - LK
-    - KE

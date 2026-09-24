@@ -1,0 +1,14 @@
+name: White-lipped island pit viper
+scientificName: Trimeresurus insularis
+group: snake
+danger: 3
+summary: >-
+  A green or blue pit viper of the Lesser Sunda Islands, including Komodo.
+venom: >-
+  Haemotoxic: swelling and bleeding.
+habitat: >-
+  Forest, scrub and farmland.
+size: 60–80 cm
+regions:
+  - ID
+  - TL

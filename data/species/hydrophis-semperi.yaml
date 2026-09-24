@@ -1,0 +1,17 @@
+name: Lake Taal sea snake
+scientificName: Hydrophis semperi
+group: snake
+danger: 3
+summary: >-
+  One of the only sea snakes to live entirely in fresh water, found in a single volcanic lake in
+  the Philippines.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Lake Taal, a freshwater crater lake.
+size: 50–70 cm
+aquatic: freshwater
+regions:
+  - PH
+photo: none

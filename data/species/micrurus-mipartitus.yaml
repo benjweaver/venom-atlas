@@ -1,0 +1,18 @@
+name: Red-tailed coral snake
+scientificName: Micrurus mipartitus
+group: snake
+danger: 4
+summary: >-
+  A black-and-white banded coral snake with a red tail, found from Nicaragua to Venezuela.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure.
+habitat: >-
+  Humid forest and farmland.
+size: 60–100 cm
+regions:
+  - CO
+  - CR
+  - EC
+  - PA
+  - VE

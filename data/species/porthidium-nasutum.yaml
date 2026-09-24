@@ -1,0 +1,20 @@
+name: Rainforest hognosed pit viper
+scientificName: Porthidium nasutum
+group: snake
+danger: 3
+summary: >-
+  A small pit viper with an upturned snout, common on the forest floor from Mexico to Ecuador.
+venom: >-
+  Haemotoxic: pain and swelling.
+habitat: >-
+  Rainforest floor.
+size: 40–60 cm
+regions:
+  - CO
+  - CR
+  - EC
+  - GT
+  - HN
+  - MX-CHP
+  - NI
+  - PA

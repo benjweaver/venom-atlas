@@ -89,6 +89,15 @@ const wikipedia = computed(
       </div>
       <div>
         <dt class="font-semibold">Where it's found</dt>
+        <dd v-if="species.records" class="mt-1 text-(--muted)">
+          {{
+            species.aquatic === 'marine'
+              ? 'Lives in the sea. The dots on the map show where it has been recorded; the places below are the coasts it is found off.'
+              : species.aquatic === 'freshwater'
+                ? 'Lives in fresh water. The dots on the map show the rivers and lakes where it has been recorded.'
+                : 'The dots on the map show where it has been recorded within these places.'
+          }}
+        </dd>
         <dd class="mt-1 space-y-1">
           <div v-for="{ country, subs } in where" :key="country">
             <button

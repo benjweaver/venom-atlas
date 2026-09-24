@@ -9,26 +9,26 @@ venom: >-
 habitat: >-
   Shallow coastal waters, estuaries and river mouths.
 size: 1–1.2 m
+aquatic: marine
 regions:
-  - AU
+  - AU-NT
+  - AU-QLD
+  - AU-WA
   - BD
   - ID
+  - IN-AP
   - IN-GA
+  - IN-GJ
+  - IN-KA
   - IN-KL
   - IN-MH
+  - IN-OR
   - IN-TN
+  - IN-WB
   - IR
   - LK
   - MM
   - MY
-  - OM
+  - PG
   - PK
   - TH
-  - VN
-gbif:
-  include:
-    - BD
-    - MM
-    - VN
-    - OM
-    - IR

@@ -113,6 +113,164 @@
       "AUS.4_1": 11
     }
   },
+  "acanthophis-praelongus": {
+    "key": 2449629,
+    "name": "Acanthophis praelongus",
+    "fetched": "2026-09-24",
+    "total": 230,
+    "countries": {
+      "AU": 227,
+      "PG": 3
+    },
+    "subdivisions": {
+      "AU-QLD": 189,
+      "AU-NT": 14,
+      "AU-WA": 3
+    },
+    "unmapped": {}
+  },
+  "acanthophis-pyrrhus": {
+    "key": 2449630,
+    "name": "Acanthophis pyrrhus",
+    "fetched": "2026-09-24",
+    "total": 254,
+    "countries": {
+      "AU": 254
+    },
+    "subdivisions": {
+      "AU-NT": 189,
+      "AU-WA": 54,
+      "AU-QLD": 1
+    },
+    "unmapped": {}
+  },
+  "aetobatus-narinari": {
+    "key": 2419231,
+    "name": "Aetobatus narinari",
+    "fetched": "2026-09-24",
+    "total": 3711,
+    "countries": {
+      "US": 683,
+      "MX": 393,
+      "BZ": 285,
+      "NC": 156,
+      "HN": 126,
+      "NG": 118,
+      "KY": 115,
+      "BR": 113,
+      "CO": 102,
+      "VI": 86,
+      "GA": 78,
+      "GH": 75,
+      "BS": 72,
+      "AU": 71,
+      "CI": 71,
+      "PR": 67,
+      "LR": 63,
+      "MZ": 60,
+      "GP": 50,
+      "CM": 43,
+      "SL": 41,
+      "SC": 40,
+      "ZA": 38,
+      "SX": 37,
+      "GN": 34,
+      "PA": 32,
+      "JM": 30,
+      "MV": 28,
+      "EC": 26,
+      "TC": 26,
+      "BM": 23,
+      "CU": 23,
+      "WF": 23,
+      "GW": 22,
+      "TT": 21,
+      "GQ": 19,
+      "MH": 19,
+      "MF": 18,
+      "PF": 17,
+      "CW": 16,
+      "DO": 16,
+      "EG": 16,
+      "MQ": 16,
+      "BJ": 15,
+      "CG": 12,
+      "TG": 12,
+      "CD": 11,
+      "AW": 10,
+      "PH": 9,
+      "VC": 9,
+      "AG": 7,
+      "DM": 7,
+      "RE": 6,
+      "VG": 6,
+      "AI": 5,
+      "BB": 5,
+      "GD": 5,
+      "JP": 5,
+      "BL": 4,
+      "IL": 4,
+      "AO": 3,
+      "IN": 3,
+      "TW": 3,
+      "YT": 3,
+      "AE": 2,
+      "CK": 2,
+      "CR": 2,
+      "GF": 2,
+      "MY": 2,
+      "NI": 2,
+      "PG": 2,
+      "PK": 2,
+      "TH": 2,
+      "TV": 2,
+      "EH": 1,
+      "ES": 1,
+      "FJ": 1,
+      "FM": 1,
+      "GY": 1,
+      "ID": 1,
+      "KE": 1,
+      "KN": 1,
+      "LC": 1,
+      "LK": 1,
+      "PW": 1,
+      "QA": 1,
+      "SA": 1,
+      "TZ": 1,
+      "VE": 1,
+      "VU": 1,
+      "WS": 1,
+      "YE": 1
+    },
+    "subdivisions": {
+      "US-FL": 70,
+      "MX-ROO": 67,
+      "BR-SP": 20,
+      "ZA-NL": 16,
+      "AU-WA": 12,
+      "MX-CHP": 9,
+      "BR-PE": 8,
+      "MX-YUC": 8,
+      "US-HI": 6,
+      "BR-RN": 4,
+      "MX-JAL": 4,
+      "BR-PR": 3,
+      "BR-SC": 3,
+      "JP-46": 2,
+      "MX-BCS": 2,
+      "MX-VER": 2,
+      "BR-PI": 1,
+      "BR-RJ": 1,
+      "BR-ES": 1,
+      "MX-NAY": 1,
+      "MX-CAM": 1,
+      "ZA-EC": 1
+    },
+    "unmapped": {
+      "BQ": 121
+    }
+  },
   "agkistrodon-bilineatus": {
     "key": 2444632,
     "name": "Agkistrodon bilineatus",
@@ -220,6 +378,22 @@
     },
     "unmapped": {}
   },
+  "agkistrodon-russeolus": {
+    "key": 9328058,
+    "name": "Agkistrodon russeolus",
+    "fetched": "2026-09-24",
+    "total": 139,
+    "countries": {
+      "MX": 139
+    },
+    "subdivisions": {
+      "MX-YUC": 74,
+      "MX-CAM": 25,
+      "MX-ROO": 17,
+      "MX-TAB": 1
+    },
+    "unmapped": {}
+  },
   "aipysurus-laevis": {
     "key": 2450131,
     "name": "Aipysurus laevis",
@@ -242,6 +416,65 @@
       "AUS.1_1": 5
     }
   },
+  "alatina-alata": {
+    "key": 2264702,
+    "name": "Alatina alata",
+    "fetched": "2026-09-24",
+    "total": 154,
+    "countries": {
+      "US": 47,
+      "MP": 26,
+      "MX": 11,
+      "CU": 9,
+      "PF": 8,
+      "BM": 7,
+      "GP": 7,
+      "AU": 6,
+      "BZ": 4,
+      "BS": 3,
+      "PR": 3,
+      "CO": 2,
+      "DM": 2,
+      "IN": 2,
+      "PG": 2,
+      "VI": 2,
+      "KI": 1,
+      "LK": 1,
+      "MF": 1,
+      "MG": 1,
+      "MH": 1,
+      "PH": 1,
+      "SO": 1,
+      "SX": 1,
+      "TC": 1,
+      "VE": 1,
+      "VG": 1,
+      "VN": 1,
+      "ZA": 1
+    },
+    "subdivisions": {
+      "US-HI": 5
+    },
+    "unmapped": {}
+  },
+  "androctonus-amoreuxi": {
+    "key": 6894174,
+    "name": "Androctonus amoreuxi",
+    "fetched": "2026-09-24",
+    "total": 447,
+    "countries": {
+      "IL": 232,
+      "MA": 163,
+      "EH": 27,
+      "DZ": 10,
+      "EG": 6,
+      "TN": 4,
+      "MR": 3,
+      "SD": 2
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "androctonus-australis": {
     "key": 6894141,
     "name": "Androctonus australis",
@@ -257,6 +490,20 @@
     "subdivisions": {
       "US-NY": 2
     },
+    "unmapped": {}
+  },
+  "androctonus-bicolor": {
+    "key": 6894162,
+    "name": "Androctonus bicolor",
+    "fetched": "2026-09-24",
+    "total": 148,
+    "countries": {
+      "IL": 140,
+      "TN": 4,
+      "DZ": 3,
+      "PS": 1
+    },
+    "subdivisions": {},
     "unmapped": {}
   },
   "androctonus-crassicauda": {
@@ -286,6 +533,221 @@
     },
     "subdivisions": {},
     "unmapped": {}
+  },
+  "apis-cerana": {
+    "key": 1341979,
+    "name": "Apis cerana",
+    "fetched": "2026-09-24",
+    "total": 20416,
+    "countries": {
+      "CN": 3152,
+      "IN": 3012,
+      "TW": 2554,
+      "HK": 2428,
+      "SG": 1969,
+      "TH": 1541,
+      "JP": 1075,
+      "ID": 912,
+      "MY": 890,
+      "LK": 731,
+      "KR": 653,
+      "MO": 523,
+      "VN": 296,
+      "AU": 144,
+      "NP": 137,
+      "PK": 57,
+      "TL": 56,
+      "PH": 45,
+      "BD": 44,
+      "KH": 40,
+      "BT": 37,
+      "PG": 33,
+      "MM": 29,
+      "LA": 26,
+      "RU": 11,
+      "VU": 7,
+      "SB": 6,
+      "DE": 2,
+      "IO": 2,
+      "US": 2,
+      "BN": 1,
+      "ZA": 1
+    },
+    "subdivisions": {
+      "CN-GD": 1047,
+      "IN-KA": 516,
+      "IN-MH": 482,
+      "IN-TN": 418,
+      "IN-KL": 408,
+      "CN-ZJ": 296,
+      "CN-YN": 273,
+      "CN-SH": 248,
+      "CN-BJ": 218,
+      "CN-JS": 213,
+      "JP-13": 194,
+      "CN-HB": 166,
+      "IN-UT": 166,
+      "CN-HN": 148,
+      "AU-QLD": 136,
+      "CN-FJ": 136,
+      "IN-WB": 136,
+      "JP-08": 134,
+      "IN-DL": 129,
+      "CN-SD": 125,
+      "CN-JX": 108,
+      "JP-16": 101,
+      "CN-SC": 95,
+      "JP-28": 93,
+      "IN-UP": 90,
+      "IN-TG": 88,
+      "CN-HI": 86,
+      "IN-HP": 76,
+      "CN-NM": 67,
+      "CN-GX": 67,
+      "JP-14": 67,
+      "IN-AS": 66,
+      "CN-AH": 63,
+      "CN-HA": 54,
+      "IN-AP": 54,
+      "JP-27": 44,
+      "JP-12": 43,
+      "CN-GZ": 39,
+      "IN-GA": 35,
+      "IN-SK": 29,
+      "CN-SN": 28,
+      "IN-BR": 25,
+      "JP-26": 25,
+      "IN-MP": 24,
+      "IN-ML": 24,
+      "JP-11": 24,
+      "IN-HR": 23,
+      "IN-PB": 21,
+      "CN-SX": 19,
+      "CN-CQ": 17,
+      "JP-46": 16,
+      "IN-OR": 14,
+      "IN-MZ": 13,
+      "JP-40": 13,
+      "JP-31": 12,
+      "JP-30": 12,
+      "IN-CT": 10,
+      "JP-22": 10,
+      "JP-35": 10,
+      "IN-GJ": 9,
+      "IN-AR": 9,
+      "JP-17": 9,
+      "JP-04": 9,
+      "JP-29": 9,
+      "CN-HE": 8,
+      "JP-20": 8,
+      "IN-NL": 7,
+      "IN-RJ": 7,
+      "IN-TR": 7,
+      "JP-23": 7,
+      "JP-18": 7,
+      "JP-25": 6,
+      "JP-21": 6,
+      "IN-CH": 5,
+      "CN-QH": 4,
+      "CN-GS": 4,
+      "IN-JH": 4,
+      "JP-03": 4,
+      "JP-39": 4,
+      "JP-24": 4,
+      "JP-32": 4,
+      "CN-XZ": 3,
+      "IN-AN": 3,
+      "IN-MN": 3,
+      "JP-42": 3,
+      "JP-38": 3,
+      "JP-34": 2,
+      "JP-43": 2,
+      "JP-33": 2,
+      "JP-41": 2,
+      "JP-19": 2,
+      "US-PA": 2,
+      "CN-JL": 1,
+      "CN-LN": 1,
+      "JP-37": 1,
+      "JP-44": 1,
+      "JP-47": 1,
+      "JP-09": 1,
+      "JP-36": 1,
+      "JP-07": 1,
+      "ZA-WC": 1
+    },
+    "unmapped": {
+      "CHN.HKG": 2282,
+      "IND.27_1": 21
+    }
+  },
+  "apis-dorsata": {
+    "key": 1341978,
+    "name": "Apis dorsata",
+    "fetched": "2026-09-24",
+    "total": 9231,
+    "countries": {
+      "IN": 4461,
+      "TH": 1519,
+      "MY": 745,
+      "ID": 656,
+      "LK": 356,
+      "SG": 310,
+      "CN": 294,
+      "VN": 180,
+      "BD": 170,
+      "KH": 109,
+      "PK": 83,
+      "PH": 76,
+      "LA": 67,
+      "NP": 62,
+      "TL": 50,
+      "MM": 39,
+      "BN": 33,
+      "BT": 15,
+      "HK": 6
+    },
+    "subdivisions": {
+      "IN-KA": 715,
+      "IN-MH": 606,
+      "IN-TN": 519,
+      "IN-UP": 382,
+      "IN-KL": 330,
+      "IN-RJ": 269,
+      "CN-YN": 236,
+      "IN-AP": 191,
+      "IN-TG": 191,
+      "IN-GJ": 162,
+      "IN-DL": 157,
+      "IN-MP": 149,
+      "IN-WB": 138,
+      "IN-AS": 108,
+      "IN-UT": 78,
+      "IN-CT": 66,
+      "IN-GA": 56,
+      "IN-OR": 56,
+      "IN-BR": 40,
+      "CN-HI": 36,
+      "IN-PB": 35,
+      "IN-HR": 27,
+      "IN-AN": 21,
+      "CN-GX": 13,
+      "IN-JH": 11,
+      "IN-HP": 10,
+      "IN-MZ": 10,
+      "IN-AR": 5,
+      "IN-CH": 5,
+      "IN-MN": 4,
+      "IN-ML": 3,
+      "IN-TR": 3,
+      "CN-GZ": 2,
+      "CN-NM": 1,
+      "IN-NL": 1
+    },
+    "unmapped": {
+      "IND.27_1": 22,
+      "CHN.HKG": 5
+    }
   },
   "apis-mellifera": {
     "key": 1341976,
@@ -710,6 +1172,71 @@
       "CHN.HKG": 30
     }
   },
+  "aspidelaps-lubricus": {
+    "key": 2469995,
+    "name": "Aspidelaps lubricus",
+    "fetched": "2026-09-24",
+    "total": 275,
+    "countries": {
+      "ZA": 214,
+      "NA": 57,
+      "AO": 4
+    },
+    "subdivisions": {
+      "ZA-WC": 109,
+      "ZA-NC": 87,
+      "ZA-EC": 12,
+      "ZA-FS": 5
+    },
+    "unmapped": {}
+  },
+  "asthenosoma-varium": {
+    "key": 4341377,
+    "name": "Asthenosoma varium",
+    "fetched": "2026-09-24",
+    "total": 257,
+    "countries": {
+      "PH": 126,
+      "ID": 68,
+      "AU": 18,
+      "JP": 13,
+      "MY": 13,
+      "NC": 8,
+      "PW": 2,
+      "VN": 2,
+      "EG": 1,
+      "IL": 1,
+      "NF": 1,
+      "PG": 1,
+      "SB": 1,
+      "TW": 1,
+      "VU": 1
+    },
+    "subdivisions": {
+      "JP-47": 13
+    },
+    "unmapped": {}
+  },
+  "atheris-squamigera": {
+    "key": 2443752,
+    "name": "Atheris squamigera",
+    "fetched": "2026-09-24",
+    "total": 200,
+    "countries": {
+      "UG": 51,
+      "GA": 43,
+      "CD": 29,
+      "KE": 24,
+      "CM": 20,
+      "CG": 18,
+      "GQ": 7,
+      "NG": 4,
+      "AO": 3,
+      "CF": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "atractaspis-bibronii": {
     "key": 2472573,
     "name": "Atractaspis bibronii",
@@ -774,6 +1301,105 @@
     },
     "unmapped": {}
   },
+  "automeris-io": {
+    "key": 1866085,
+    "name": "Automeris io",
+    "fetched": "2026-09-24",
+    "total": 25025,
+    "countries": {
+      "US": 20337,
+      "CA": 3645,
+      "MX": 810,
+      "CR": 172,
+      "GT": 14,
+      "HN": 14,
+      "NI": 10,
+      "CO": 8,
+      "BS": 5,
+      "BZ": 5,
+      "SV": 3,
+      "PA": 2
+    },
+    "subdivisions": {
+      "US-FL": 3583,
+      "CA-ON": 3397,
+      "US-TX": 2950,
+      "US-OH": 1197,
+      "US-LA": 1193,
+      "US-PA": 1101,
+      "US-NY": 808,
+      "US-VA": 806,
+      "US-MA": 784,
+      "US-MD": 689,
+      "US-TN": 683,
+      "US-AL": 657,
+      "US-NC": 639,
+      "US-GA": 419,
+      "US-WV": 382,
+      "US-NJ": 374,
+      "US-MI": 370,
+      "US-OK": 369,
+      "US-KY": 356,
+      "US-SC": 309,
+      "US-AR": 299,
+      "US-IN": 250,
+      "US-MS": 197,
+      "US-CO": 193,
+      "US-MO": 169,
+      "US-ME": 164,
+      "US-NM": 148,
+      "US-VT": 128,
+      "MX-NLE": 124,
+      "US-CT": 123,
+      "US-RI": 118,
+      "US-MN": 117,
+      "US-IL": 104,
+      "CA-QC": 98,
+      "MX-SLP": 78,
+      "MX-JAL": 71,
+      "MX-GUA": 69,
+      "US-DE": 65,
+      "MX-SIN": 54,
+      "MX-QUE": 51,
+      "US-MT": 44,
+      "MX-OAX": 42,
+      "US-NH": 42,
+      "MX-TAM": 39,
+      "US-WI": 39,
+      "CA-MB": 36,
+      "MX-VER": 35,
+      "MX-MEX": 32,
+      "US-KS": 31,
+      "MX-HID": 25,
+      "MX-NAY": 24,
+      "MX-MIC": 18,
+      "MX-PUE": 17,
+      "MX-COL": 17,
+      "MX-DIF": 17,
+      "MX-GRO": 15,
+      "US-NE": 15,
+      "US-SD": 15,
+      "MX-DUR": 12,
+      "MX-ROO": 9,
+      "US-UT": 9,
+      "MX-MOR": 8,
+      "MX-COA": 8,
+      "MX-CHP": 7,
+      "MX-ZAC": 6,
+      "MX-CHH": 6,
+      "MX-TAB": 4,
+      "US-WY": 4,
+      "MX-TLA": 3,
+      "MX-YUC": 3,
+      "US-IA": 3,
+      "MX-AGU": 2,
+      "US-ND": 2,
+      "MX-SON": 1,
+      "US-CA": 1,
+      "US-DC": 1
+    },
+    "unmapped": {}
+  },
   "bitis-arietans": {
     "key": 8901465,
     "name": "Bitis arietans",
@@ -831,6 +1457,52 @@
       "ZA-NW": 173,
       "ZA-GT": 153,
       "ZA-FS": 73
+    },
+    "unmapped": {}
+  },
+  "bitis-atropos": {
+    "key": 2444884,
+    "name": "Bitis atropos",
+    "fetched": "2026-09-24",
+    "total": 591,
+    "countries": {
+      "ZA": 564,
+      "MZ": 11,
+      "ZW": 11,
+      "SZ": 3,
+      "LS": 2
+    },
+    "subdivisions": {
+      "ZA-WC": 305,
+      "ZA-MP": 104,
+      "ZA-LP": 45,
+      "ZA-NL": 32,
+      "ZA-EC": 30,
+      "ZA-FS": 25
+    },
+    "unmapped": {}
+  },
+  "bitis-caudalis": {
+    "key": 2444829,
+    "name": "Bitis caudalis",
+    "fetched": "2026-09-24",
+    "total": 849,
+    "countries": {
+      "ZA": 403,
+      "NA": 401,
+      "BW": 21,
+      "AO": 20,
+      "ZW": 3,
+      "ZM": 1
+    },
+    "subdivisions": {
+      "ZA-LP": 148,
+      "ZA-NC": 142,
+      "ZA-WC": 57,
+      "ZA-GT": 27,
+      "ZA-NW": 16,
+      "ZA-EC": 6,
+      "ZA-MP": 1
     },
     "unmapped": {}
   },
@@ -978,6 +1650,18 @@
     },
     "unmapped": {}
   },
+  "bothriechis-lateralis": {
+    "key": 2444663,
+    "name": "Bothriechis lateralis",
+    "fetched": "2026-09-24",
+    "total": 1299,
+    "countries": {
+      "CR": 1266,
+      "PA": 33
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "bothriechis-schlegelii": {
     "key": 2444681,
     "name": "Bothriechis schlegelii",
@@ -996,6 +1680,25 @@
     },
     "subdivisions": {
       "US-OH": 1
+    },
+    "unmapped": {}
+  },
+  "bothrocophias-hyoprora": {
+    "key": 2444964,
+    "name": "Bothrocophias hyoprora",
+    "fetched": "2026-09-24",
+    "total": 160,
+    "countries": {
+      "CO": 71,
+      "EC": 71,
+      "BR": 9,
+      "PE": 9
+    },
+    "subdivisions": {
+      "BR-AM": 4,
+      "BR-PA": 3,
+      "BR-MT": 1,
+      "BR-AC": 1
     },
     "unmapped": {}
   },
@@ -1111,6 +1814,37 @@
     },
     "unmapped": {}
   },
+  "bothrops-bilineatus": {
+    "key": 7350051,
+    "name": "Bothrops bilineatus",
+    "fetched": "2026-09-24",
+    "total": 504,
+    "countries": {
+      "PE": 113,
+      "EC": 107,
+      "BR": 105,
+      "GF": 74,
+      "SR": 64,
+      "BO": 17,
+      "CO": 14,
+      "VE": 6,
+      "GY": 4
+    },
+    "subdivisions": {
+      "BR-AC": 29,
+      "BR-AL": 23,
+      "BR-PA": 17,
+      "BR-BA": 11,
+      "BR-AM": 7,
+      "BR-RO": 4,
+      "BR-RR": 4,
+      "BR-MT": 3,
+      "BR-AP": 3,
+      "BR-MG": 2,
+      "BR-ES": 2
+    },
+    "unmapped": {}
+  },
   "bothrops-caribbaeus": {
     "key": 5220812,
     "name": "Bothrops caribbaeus",
@@ -1120,6 +1854,44 @@
       "LC": 52
     },
     "subdivisions": {},
+    "unmapped": {}
+  },
+  "bothrops-diporus": {
+    "key": 5220847,
+    "name": "Bothrops diporus",
+    "fetched": "2026-09-24",
+    "total": 526,
+    "countries": {
+      "AR": 373,
+      "BR": 95,
+      "PY": 35,
+      "BO": 23
+    },
+    "subdivisions": {
+      "AR-X": 102,
+      "BR-PR": 56,
+      "AR-H": 43,
+      "AR-D": 38,
+      "AR-M": 36,
+      "BR-RS": 27,
+      "AR-N": 25,
+      "AR-P": 23,
+      "AR-S": 22,
+      "AR-A": 18,
+      "AR-G": 12,
+      "AR-Y": 10,
+      "AR-L": 9,
+      "AR-K": 7,
+      "AR-W": 7,
+      "BR-SC": 7,
+      "AR-E": 6,
+      "AR-F": 4,
+      "AR-J": 4,
+      "AR-R": 3,
+      "AR-Q": 2,
+      "AR-T": 1,
+      "BR-MS": 1
+    },
     "unmapped": {}
   },
   "bothrops-insularis": {
@@ -1200,6 +1972,29 @@
     "subdivisions": {},
     "unmapped": {}
   },
+  "bothrops-leucurus": {
+    "key": 5220818,
+    "name": "Bothrops leucurus",
+    "fetched": "2026-09-24",
+    "total": 343,
+    "countries": {
+      "BR": 343
+    },
+    "subdivisions": {
+      "BR-BA": 164,
+      "BR-ES": 92,
+      "BR-AL": 24,
+      "BR-SE": 22,
+      "BR-PB": 12,
+      "BR-CE": 11,
+      "BR-MG": 7,
+      "BR-PE": 4,
+      "BR-RJ": 1,
+      "BR-SP": 1,
+      "BR-GO": 1
+    },
+    "unmapped": {}
+  },
   "bothrops-moojeni": {
     "key": 5220820,
     "name": "Bothrops moojeni",
@@ -1225,6 +2020,66 @@
       "BR-PA": 2,
       "BR-RJ": 2
     },
+    "unmapped": {}
+  },
+  "bothrops-neuwiedi": {
+    "key": 5220834,
+    "name": "Bothrops neuwiedi",
+    "fetched": "2026-09-24",
+    "total": 395,
+    "countries": {
+      "BR": 289,
+      "AR": 68,
+      "PY": 35,
+      "BO": 2,
+      "UY": 1
+    },
+    "subdivisions": {
+      "BR-MG": 188,
+      "BR-PR": 32,
+      "AR-K": 29,
+      "BR-SP": 19,
+      "AR-N": 16,
+      "BR-RJ": 14,
+      "AR-F": 11,
+      "BR-MT": 10,
+      "BR-GO": 9,
+      "AR-W": 5,
+      "BR-RS": 5,
+      "BR-SC": 4,
+      "AR-P": 3,
+      "AR-A": 2,
+      "AR-T": 1,
+      "AR-H": 1,
+      "AR-X": 1,
+      "BR-PB": 1,
+      "BR-AM": 1,
+      "BR-BA": 1,
+      "BR-DF": 1
+    },
+    "unmapped": {}
+  },
+  "bothrops-pictus": {
+    "key": 5220759,
+    "name": "Bothrops pictus",
+    "fetched": "2026-09-24",
+    "total": 16,
+    "countries": {
+      "PE": 16
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "bothrops-punctatus": {
+    "key": 5220871,
+    "name": "Bothrops punctatus",
+    "fetched": "2026-09-24",
+    "total": 119,
+    "countries": {
+      "CO": 96,
+      "EC": 23
+    },
+    "subdivisions": {},
     "unmapped": {}
   },
   "bungarus-caeruleus": {
@@ -1368,6 +2223,44 @@
       "CHN.HKG": 268
     }
   },
+  "bungarus-niger": {
+    "key": 5226819,
+    "name": "Bungarus niger",
+    "fetched": "2026-09-24",
+    "total": 41,
+    "countries": {
+      "IN": 24,
+      "BD": 9,
+      "BT": 3,
+      "MM": 3,
+      "NP": 2
+    },
+    "subdivisions": {
+      "IN-AS": 7,
+      "IN-MZ": 6,
+      "IN-SK": 3,
+      "IN-AR": 2,
+      "IN-ML": 1
+    },
+    "unmapped": {}
+  },
+  "bungarus-sindanus": {
+    "key": 5226822,
+    "name": "Bungarus sindanus",
+    "fetched": "2026-09-24",
+    "total": 19,
+    "countries": {
+      "IN": 17,
+      "PK": 2
+    },
+    "subdivisions": {
+      "IN-MH": 9,
+      "IN-KA": 5,
+      "IN-GJ": 2,
+      "IN-RJ": 1
+    },
+    "unmapped": {}
+  },
   "buthus-occitanus": {
     "key": 4553865,
     "name": "Buthus occitanus",
@@ -1454,6 +2347,76 @@
       "ZA-LP": 38,
       "ZA-NW": 33,
       "ZA-FS": 2
+    },
+    "unmapped": {}
+  },
+  "centruroides-elegans": {
+    "key": 6894218,
+    "name": "Centruroides elegans",
+    "fetched": "2026-09-24",
+    "total": 520,
+    "countries": {
+      "MX": 520
+    },
+    "subdivisions": {
+      "MX-JAL": 294,
+      "MX-NAY": 149,
+      "MX-GRO": 45,
+      "MX-COL": 9,
+      "MX-OAX": 4,
+      "MX-SIN": 3,
+      "MX-GUA": 2,
+      "MX-MIC": 2,
+      "MX-PUE": 1,
+      "MX-SON": 1,
+      "MX-ZAC": 1
+    },
+    "unmapped": {}
+  },
+  "centruroides-exilicauda": {
+    "key": 6894242,
+    "name": "Centruroides exilicauda",
+    "fetched": "2026-09-24",
+    "total": 557,
+    "countries": {
+      "MX": 513,
+      "US": 44
+    },
+    "subdivisions": {
+      "MX-BCS": 262,
+      "MX-BCN": 209,
+      "US-AZ": 30,
+      "MX-SON": 13,
+      "US-NM": 13,
+      "MX-DUR": 1,
+      "US-TX": 1
+    },
+    "unmapped": {}
+  },
+  "centruroides-infamatus": {
+    "key": 6894249,
+    "name": "Centruroides infamatus",
+    "fetched": "2026-09-24",
+    "total": 7844,
+    "countries": {
+      "MX": 7844
+    },
+    "subdivisions": {
+      "MX-GUA": 6415,
+      "MX-JAL": 635,
+      "MX-AGU": 316,
+      "MX-SIN": 151,
+      "MX-NAY": 119,
+      "MX-MIC": 104,
+      "MX-OAX": 74,
+      "MX-ZAC": 10,
+      "MX-PUE": 5,
+      "MX-COL": 5,
+      "MX-GRO": 3,
+      "MX-VER": 3,
+      "MX-DIF": 2,
+      "MX-MOR": 1,
+      "MX-TAB": 1
     },
     "unmapped": {}
   },
@@ -1544,6 +2507,47 @@
     },
     "unmapped": {}
   },
+  "centruroides-vittatus": {
+    "key": 7455866,
+    "name": "Centruroides vittatus",
+    "fetched": "2026-09-24",
+    "total": 11798,
+    "countries": {
+      "US": 11331,
+      "MX": 464,
+      "CN": 2,
+      "CA": 1
+    },
+    "subdivisions": {
+      "US-TX": 9148,
+      "US-OK": 795,
+      "US-MO": 308,
+      "US-CO": 254,
+      "MX-NLE": 220,
+      "US-AR": 195,
+      "US-KS": 194,
+      "US-NM": 189,
+      "US-LA": 115,
+      "MX-COA": 83,
+      "MX-TAM": 76,
+      "MX-CHH": 49,
+      "US-IL": 38,
+      "US-NE": 18,
+      "MX-DUR": 17,
+      "MX-ZAC": 15,
+      "US-TN": 5,
+      "US-MS": 3,
+      "CN-QH": 2,
+      "MX-SLP": 2,
+      "CA-BC": 1,
+      "MX-JAL": 1,
+      "MX-MIC": 1,
+      "MX-SON": 1,
+      "US-KY": 1,
+      "US-AZ": 1
+    },
+    "unmapped": {}
+  },
   "cerastes-cerastes": {
     "key": 8909697,
     "name": "Cerastes cerastes",
@@ -1569,6 +2573,43 @@
       "ML": 1
     },
     "subdivisions": {},
+    "unmapped": {}
+  },
+  "cerastes-vipera": {
+    "key": 5221013,
+    "name": "Cerastes vipera",
+    "fetched": "2026-09-24",
+    "total": 618,
+    "countries": {
+      "IL": 423,
+      "MA": 53,
+      "EG": 43,
+      "EH": 35,
+      "MR": 31,
+      "TN": 13,
+      "LY": 9,
+      "DZ": 6,
+      "NE": 5
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "cerrophidion-godmani": {
+    "key": 2444905,
+    "name": "Cerrophidion godmani",
+    "fetched": "2026-09-24",
+    "total": 469,
+    "countries": {
+      "GT": 302,
+      "MX": 109,
+      "HN": 35,
+      "SV": 20,
+      "CR": 3
+    },
+    "subdivisions": {
+      "MX-CHP": 108,
+      "MX-OAX": 1
+    },
     "unmapped": {}
   },
   "cheiracanthium-punctorium": {
@@ -1647,6 +2688,67 @@
     },
     "unmapped": {}
   },
+  "chiropsalmus-quadrumanus": {
+    "key": 2264675,
+    "name": "Chiropsalmus quadrumanus",
+    "fetched": "2026-09-24",
+    "total": 453,
+    "countries": {
+      "US": 333,
+      "BR": 92,
+      "CO": 21,
+      "MX": 4,
+      "PA": 1,
+      "PR": 1,
+      "VE": 1
+    },
+    "subdivisions": {
+      "US-SC": 121,
+      "US-FL": 31,
+      "US-NC": 10,
+      "US-GA": 4,
+      "BR-SP": 3,
+      "MX-YUC": 2,
+      "BR-PR": 1,
+      "BR-PE": 1,
+      "BR-RN": 1,
+      "BR-SC": 1
+    },
+    "unmapped": {}
+  },
+  "chrysaora-quinquecirrha": {
+    "key": 5185413,
+    "name": "Chrysaora quinquecirrha",
+    "fetched": "2026-09-24",
+    "total": 321,
+    "countries": {
+      "US": 295,
+      "CA": 16,
+      "PR": 3,
+      "KR": 2,
+      "CO": 1,
+      "JM": 1,
+      "MX": 1,
+      "MY": 1,
+      "PA": 1
+    },
+    "subdivisions": {
+      "US-NC": 40,
+      "US-LA": 32,
+      "US-TX": 25,
+      "US-FL": 11,
+      "US-MA": 10,
+      "US-NJ": 6,
+      "US-VA": 3,
+      "US-AL": 2,
+      "US-MS": 2,
+      "US-SC": 2,
+      "MX-VER": 1,
+      "US-MD": 1,
+      "US-DE": 1
+    },
+    "unmapped": {}
+  },
   "conus-geographus": {
     "key": 5728277,
     "name": "Conus geographus",
@@ -1709,6 +2811,96 @@
     },
     "unmapped": {
       "AUS.3_1": 1
+    }
+  },
+  "conus-magus": {
+    "key": 5728208,
+    "name": "Conus magus",
+    "fetched": "2026-09-24",
+    "total": 484,
+    "countries": {
+      "PH": 155,
+      "AU": 94,
+      "ID": 71,
+      "PG": 34,
+      "FJ": 26,
+      "PW": 20,
+      "JP": 14,
+      "SB": 14,
+      "MY": 12,
+      "FM": 10,
+      "NC": 8,
+      "MH": 7,
+      "CN": 4,
+      "VU": 4,
+      "MG": 3,
+      "TZ": 2,
+      "GU": 1,
+      "IL": 1,
+      "IN": 1,
+      "PF": 1,
+      "SG": 1,
+      "TH": 1
+    },
+    "subdivisions": {
+      "AU-QLD": 19,
+      "JP-47": 9,
+      "JP-46": 2,
+      "CN-HI": 1
+    },
+    "unmapped": {}
+  },
+  "conus-marmoreus": {
+    "key": 5728181,
+    "name": "Conus marmoreus",
+    "fetched": "2026-09-24",
+    "total": 984,
+    "countries": {
+      "NC": 186,
+      "AU": 182,
+      "FJ": 86,
+      "ID": 81,
+      "PG": 80,
+      "PH": 72,
+      "SB": 61,
+      "MH": 43,
+      "PW": 33,
+      "VU": 31,
+      "WF": 23,
+      "FM": 22,
+      "MY": 19,
+      "WS": 17,
+      "JP": 13,
+      "TO": 7,
+      "GU": 4,
+      "PF": 3,
+      "TL": 3,
+      "MP": 2,
+      "TH": 2,
+      "AS": 1,
+      "CN": 1,
+      "IN": 1,
+      "KE": 1,
+      "RE": 1,
+      "SC": 1,
+      "SD": 1,
+      "SG": 1,
+      "TZ": 1,
+      "US": 1,
+      "VN": 1,
+      "ZA": 1
+    },
+    "subdivisions": {
+      "AU-QLD": 24,
+      "JP-47": 11,
+      "AU-WA": 2,
+      "AU-NSW": 1,
+      "AU-NT": 1,
+      "IN-MP": 1,
+      "ZA-NL": 1
+    },
+    "unmapped": {
+      "CC": 2
     }
   },
   "conus-striatus": {
@@ -1867,6 +3059,61 @@
       "CHN.HKG": 2
     }
   },
+  "conus-tulipa": {
+    "key": 5728233,
+    "name": "Conus tulipa",
+    "fetched": "2026-09-24",
+    "total": 277,
+    "countries": {
+      "AU": 28,
+      "PF": 26,
+      "RE": 22,
+      "PH": 17,
+      "NC": 15,
+      "JP": 13,
+      "PG": 13,
+      "IO": 11,
+      "MG": 11,
+      "CK": 10,
+      "MH": 9,
+      "VU": 9,
+      "GU": 8,
+      "SB": 8,
+      "TW": 7,
+      "FM": 6,
+      "AS": 5,
+      "PW": 5,
+      "KI": 4,
+      "MU": 4,
+      "FJ": 3,
+      "KE": 3,
+      "MP": 3,
+      "SC": 3,
+      "WS": 3,
+      "ID": 2,
+      "NU": 2,
+      "IN": 1,
+      "KM": 1,
+      "LK": 1,
+      "MV": 1,
+      "MZ": 1,
+      "PN": 1,
+      "TL": 1,
+      "TO": 1,
+      "TZ": 1,
+      "YE": 1
+    },
+    "subdivisions": {
+      "JP-47": 5,
+      "AU-QLD": 3,
+      "JP-46": 1
+    },
+    "unmapped": {
+      "CC": 10,
+      "UM": 7,
+      "IND.18_1": 1
+    }
+  },
   "crotalus-adamanteus": {
     "key": 2444432,
     "name": "Crotalus adamanteus",
@@ -1978,6 +3225,20 @@
       "MX-BCN": 119,
       "US-UT": 56,
       "MX-SLP": 1
+    },
+    "unmapped": {}
+  },
+  "crotalus-cerberus": {
+    "key": 7569560,
+    "name": "Crotalus cerberus",
+    "fetched": "2026-09-24",
+    "total": 662,
+    "countries": {
+      "US": 662
+    },
+    "subdivisions": {
+      "US-AZ": 623,
+      "US-NM": 39
     },
     "unmapped": {}
   },
@@ -2118,6 +3379,36 @@
     },
     "unmapped": {}
   },
+  "crotalus-lepidus": {
+    "key": 9142689,
+    "name": "Crotalus lepidus",
+    "fetched": "2026-09-24",
+    "total": 2510,
+    "countries": {
+      "US": 1670,
+      "MX": 840
+    },
+    "subdivisions": {
+      "US-TX": 770,
+      "US-AZ": 553,
+      "US-NM": 278,
+      "MX-CHH": 257,
+      "MX-ZAC": 126,
+      "MX-COA": 89,
+      "MX-DUR": 82,
+      "MX-NLE": 71,
+      "MX-TAM": 57,
+      "MX-AGU": 47,
+      "MX-SON": 38,
+      "MX-JAL": 33,
+      "MX-SIN": 17,
+      "MX-SLP": 16,
+      "MX-NAY": 2,
+      "MX-OAX": 1,
+      "MX-PUE": 1
+    },
+    "unmapped": {}
+  },
   "crotalus-molossus": {
     "key": 2444473,
     "name": "Crotalus molossus",
@@ -2186,6 +3477,47 @@
       "US-MT": 1,
       "US-OH": 1,
       "US-TX": 1
+    },
+    "unmapped": {}
+  },
+  "crotalus-polystictus": {
+    "key": 2444429,
+    "name": "Crotalus polystictus",
+    "fetched": "2026-09-24",
+    "total": 202,
+    "countries": {
+      "MX": 202
+    },
+    "subdivisions": {
+      "MX-DIF": 48,
+      "MX-JAL": 38,
+      "MX-MIC": 36,
+      "MX-MEX": 22,
+      "MX-ZAC": 9,
+      "MX-AGU": 8,
+      "MX-QUE": 7,
+      "MX-GUA": 6,
+      "MX-OAX": 2,
+      "MX-MOR": 1
+    },
+    "unmapped": {}
+  },
+  "crotalus-pyrrhus": {
+    "key": 9290992,
+    "name": "Crotalus pyrrhus",
+    "fetched": "2026-09-24",
+    "total": 2975,
+    "countries": {
+      "US": 2843,
+      "MX": 132
+    },
+    "subdivisions": {
+      "US-CA": 2121,
+      "US-AZ": 494,
+      "US-NV": 184,
+      "MX-BCN": 115,
+      "US-UT": 21,
+      "MX-SON": 16
     },
     "unmapped": {}
   },
@@ -2566,6 +3898,28 @@
     },
     "unmapped": {}
   },
+  "demansia-psammophis": {
+    "key": 2449510,
+    "name": "Demansia psammophis",
+    "fetched": "2026-09-24",
+    "total": 5622,
+    "countries": {
+      "AU": 5581,
+      "PG": 40,
+      "JP": 1
+    },
+    "subdivisions": {
+      "AU-NSW": 2982,
+      "AU-QLD": 1587,
+      "AU-WA": 364,
+      "AU-SA": 289,
+      "AU-NT": 66,
+      "AU-VIC": 46,
+      "AU-ACT": 5,
+      "JP-19": 1
+    },
+    "unmapped": {}
+  },
   "dendroaspis-angusticeps": {
     "key": 2469870,
     "name": "Dendroaspis angusticeps",
@@ -2667,6 +4021,95 @@
     },
     "subdivisions": {},
     "unmapped": {}
+  },
+  "diadema-setosum": {
+    "key": 5721108,
+    "name": "Diadema setosum",
+    "fetched": "2026-09-24",
+    "total": 4082,
+    "countries": {
+      "ID": 988,
+      "GR": 479,
+      "TH": 282,
+      "PH": 232,
+      "IL": 224,
+      "NC": 207,
+      "HK": 168,
+      "MY": 160,
+      "EG": 153,
+      "AU": 142,
+      "TW": 128,
+      "SG": 106,
+      "JP": 87,
+      "TR": 84,
+      "CY": 70,
+      "KE": 65,
+      "TZ": 63,
+      "VN": 46,
+      "SA": 30,
+      "MG": 28,
+      "KH": 26,
+      "AE": 25,
+      "RE": 24,
+      "IN": 22,
+      "CN": 20,
+      "OM": 19,
+      "JO": 18,
+      "PG": 18,
+      "SB": 14,
+      "FJ": 13,
+      "SC": 13,
+      "ER": 11,
+      "TO": 11,
+      "ZA": 11,
+      "MH": 10,
+      "DJ": 8,
+      "YT": 8,
+      "PW": 7,
+      "GU": 6,
+      "KR": 6,
+      "MZ": 6,
+      "MM": 5,
+      "ES": 4,
+      "FR": 4,
+      "PF": 4,
+      "LB": 3,
+      "SD": 3,
+      "TL": 3,
+      "VU": 3,
+      "GS": 2,
+      "MV": 2,
+      "SY": 2,
+      "AQ": 1,
+      "DE": 1,
+      "HM": 1,
+      "IS": 1,
+      "IT": 1,
+      "KW": 1,
+      "LK": 1,
+      "YE": 1
+    },
+    "subdivisions": {
+      "AU-QLD": 14,
+      "IN-AN": 9,
+      "AU-WA": 5,
+      "CN-HI": 5,
+      "JP-47": 5,
+      "AU-NSW": 3,
+      "ZA-NL": 3,
+      "AU-NT": 2,
+      "JP-14": 2,
+      "JP-26": 2,
+      "JP-39": 1,
+      "JP-43": 1,
+      "JP-27": 1,
+      "JP-30": 1,
+      "ZA-EC": 1
+    },
+    "unmapped": {
+      "CX": 1,
+      "CHN.HKG": 48
+    }
   },
   "dispholidus-typus": {
     "key": 2452959,
@@ -2811,6 +4254,24 @@
     "subdivisions": {},
     "unmapped": {}
   },
+  "echis-leucogaster": {
+    "key": 2443885,
+    "name": "Echis leucogaster",
+    "fetched": "2026-09-24",
+    "total": 121,
+    "countries": {
+      "MA": 63,
+      "NE": 20,
+      "MR": 18,
+      "SN": 8,
+      "ML": 5,
+      "TN": 5,
+      "GM": 1,
+      "NG": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "echis-ocellatus": {
     "key": 2443880,
     "name": "Echis ocellatus",
@@ -2854,6 +4315,38 @@
       "DZ": 1,
       "IR": 1,
       "SN": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "echis-sochureki": {
+    "key": 6157586,
+    "name": "Echis carinatus sochureki",
+    "fetched": "2026-09-24",
+    "total": 281,
+    "countries": {
+      "AE": 201,
+      "IN": 34,
+      "IR": 19,
+      "OM": 12,
+      "PK": 9,
+      "UZ": 6
+    },
+    "subdivisions": {
+      "IN-GJ": 16,
+      "IN-RJ": 15,
+      "IN-HR": 3
+    },
+    "unmapped": {}
+  },
+  "eristicophis-macmahoni": {
+    "key": 2444894,
+    "name": "Eristicophis macmahoni",
+    "fetched": "2026-09-24",
+    "total": 4,
+    "countries": {
+      "PK": 3,
+      "AF": 1
     },
     "subdivisions": {},
     "unmapped": {}
@@ -2918,6 +4411,38 @@
     },
     "unmapped": {}
   },
+  "gloydius-brevicauda": {
+    "key": 2444545,
+    "name": "Gloydius brevicauda",
+    "fetched": "2026-09-24",
+    "total": 684,
+    "countries": {
+      "CN": 447,
+      "KR": 237
+    },
+    "subdivisions": {
+      "CN-ZJ": 89,
+      "CN-JS": 85,
+      "CN-BJ": 60,
+      "CN-AH": 50,
+      "CN-JX": 28,
+      "CN-HB": 20,
+      "CN-SH": 17,
+      "CN-HA": 15,
+      "CN-LN": 11,
+      "CN-HN": 9,
+      "CN-SN": 4,
+      "CN-SC": 4,
+      "CN-HE": 3,
+      "CN-CQ": 3,
+      "CN-NM": 2,
+      "CN-GZ": 2,
+      "CN-JL": 1,
+      "CN-SD": 1,
+      "CN-GD": 1
+    },
+    "unmapped": {}
+  },
   "gloydius-halys": {
     "key": 8544034,
     "name": "Gloydius halys",
@@ -2938,6 +4463,37 @@
       "CN-NM": 2,
       "CN-HL": 1,
       "JP-46": 1
+    },
+    "unmapped": {}
+  },
+  "gloydius-ussuriensis": {
+    "key": 2444547,
+    "name": "Gloydius ussuriensis",
+    "fetched": "2026-09-24",
+    "total": 3665,
+    "countries": {
+      "KR": 3368,
+      "RU": 236,
+      "CN": 61
+    },
+    "subdivisions": {
+      "CN-JL": 40,
+      "CN-HL": 13,
+      "CN-LN": 6
+    },
+    "unmapped": {}
+  },
+  "hadronyche-cerberea": {
+    "key": 2145027,
+    "name": "Hadronyche cerberea",
+    "fetched": "2026-09-24",
+    "total": 174,
+    "countries": {
+      "AU": 174
+    },
+    "subdivisions": {
+      "AU-NSW": 123,
+      "AU-VIC": 1
     },
     "unmapped": {}
   },
@@ -3112,6 +4668,87 @@
     "subdivisions": {},
     "unmapped": {}
   },
+  "heteropneustes-fossilis": {
+    "key": 5202532,
+    "name": "Heteropneustes fossilis",
+    "fetched": "2026-09-24",
+    "total": 240,
+    "countries": {
+      "IN": 122,
+      "BD": 30,
+      "MM": 27,
+      "LK": 21,
+      "NP": 10,
+      "PK": 8,
+      "IR": 7,
+      "IQ": 5,
+      "SY": 4,
+      "ZA": 4,
+      "AU": 1,
+      "TH": 1
+    },
+    "subdivisions": {
+      "IN-AS": 24,
+      "IN-MP": 14,
+      "IN-MH": 13,
+      "IN-KL": 11,
+      "IN-UP": 10,
+      "IN-WB": 10,
+      "IN-AP": 7,
+      "IN-ML": 5,
+      "IN-CT": 5,
+      "IN-DL": 4,
+      "IN-TG": 4,
+      "IN-JH": 3,
+      "IN-TN": 3,
+      "IN-OR": 2,
+      "IN-GJ": 1,
+      "IN-KA": 1,
+      "IN-BR": 1
+    },
+    "unmapped": {}
+  },
+  "hoplocephalus-bungaroides": {
+    "key": 9561258,
+    "name": "Hoplocephalus bungaroides",
+    "fetched": "2026-09-24",
+    "total": 619,
+    "countries": {
+      "AU": 619
+    },
+    "subdivisions": {
+      "AU-NSW": 570
+    },
+    "unmapped": {}
+  },
+  "hoplocephalus-stephensii": {
+    "key": 5960307,
+    "name": "Hoplocephalus stephensii",
+    "fetched": "2026-09-24",
+    "total": 759,
+    "countries": {
+      "AU": 759
+    },
+    "subdivisions": {
+      "AU-NSW": 594,
+      "AU-QLD": 105
+    },
+    "unmapped": {}
+  },
+  "hottentotta-saulcyi": {
+    "key": 6893431,
+    "name": "Hottentotta saulcyi",
+    "fetched": "2026-09-24",
+    "total": 27,
+    "countries": {
+      "IR": 13,
+      "IQ": 12,
+      "AF": 1,
+      "SY": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "hottentotta-tamulus": {
     "key": 7999797,
     "name": "Hottentotta tamulus",
@@ -3139,6 +4776,58 @@
       "IN-WB": 2,
       "IN-CT": 2,
       "IN-PB": 1
+    },
+    "unmapped": {}
+  },
+  "hydrophis-curtus": {
+    "key": 7606013,
+    "name": "Hydrophis curtus",
+    "fetched": "2026-09-24",
+    "total": 549,
+    "countries": {
+      "AU": 485,
+      "IN": 32,
+      "ID": 7,
+      "LK": 6,
+      "TH": 6,
+      "OM": 3,
+      "AE": 2,
+      "IR": 2,
+      "CN": 1,
+      "MM": 1,
+      "PH": 1,
+      "PK": 1,
+      "SG": 1,
+      "TW": 1
+    },
+    "subdivisions": {
+      "AU-QLD": 35,
+      "AU-NT": 8,
+      "IN-GA": 6,
+      "IN-MH": 6,
+      "IN-TN": 4,
+      "IN-GJ": 2,
+      "CN-HI": 1,
+      "IN-KA": 1
+    },
+    "unmapped": {}
+  },
+  "hydrophis-elegans": {
+    "key": 5960332,
+    "name": "Hydrophis elegans",
+    "fetched": "2026-09-24",
+    "total": 4613,
+    "countries": {
+      "AU": 4594,
+      "PG": 17,
+      "ID": 2
+    },
+    "subdivisions": {
+      "AU-NSW": 175,
+      "AU-QLD": 146,
+      "AU-NT": 37,
+      "AU-WA": 31,
+      "AU-SA": 2
     },
     "unmapped": {}
   },
@@ -3255,6 +4944,107 @@
     },
     "unmapped": {}
   },
+  "hydrophis-semperi": {
+    "key": 5960317,
+    "name": "Hydrophis semperi",
+    "fetched": "2026-09-24",
+    "total": 2,
+    "countries": {
+      "PH": 2
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "hypanus-americanus": {
+    "key": 9335213,
+    "name": "Hypanus americanus",
+    "fetched": "2026-09-24",
+    "total": 4757,
+    "countries": {
+      "US": 1670,
+      "MX": 634,
+      "KY": 349,
+      "BS": 323,
+      "BZ": 312,
+      "VI": 233,
+      "PR": 117,
+      "CO": 101,
+      "GP": 101,
+      "BR": 96,
+      "TC": 72,
+      "SX": 63,
+      "MF": 57,
+      "HN": 51,
+      "CU": 43,
+      "VG": 37,
+      "TT": 36,
+      "AG": 32,
+      "AI": 27,
+      "PA": 27,
+      "VC": 27,
+      "JM": 26,
+      "DO": 24,
+      "MQ": 19,
+      "BB": 18,
+      "BL": 18,
+      "CR": 16,
+      "AW": 14,
+      "KN": 14,
+      "CW": 10,
+      "NI": 9,
+      "DM": 8,
+      "GD": 8,
+      "GN": 5,
+      "VE": 5,
+      "ES": 4,
+      "LC": 4,
+      "TH": 4,
+      "ID": 3,
+      "EG": 2,
+      "GF": 2,
+      "GY": 2,
+      "MS": 2,
+      "PE": 2,
+      "SL": 2,
+      "CV": 1,
+      "GH": 1,
+      "GW": 1,
+      "IR": 1,
+      "KH": 1,
+      "NC": 1,
+      "SC": 1,
+      "SR": 1
+    },
+    "subdivisions": {
+      "US-FL": 333,
+      "MX-ROO": 59,
+      "MX-TAB": 15,
+      "US-NC": 14,
+      "US-TX": 14,
+      "BR-SP": 12,
+      "MX-DIF": 12,
+      "US-SC": 11,
+      "US-NM": 10,
+      "BR-BA": 9,
+      "MX-YUC": 9,
+      "MX-CAM": 6,
+      "MX-VER": 5,
+      "US-GA": 5,
+      "BR-PE": 4,
+      "BR-RN": 4,
+      "BR-PI": 3,
+      "US-AL": 3,
+      "US-MS": 3,
+      "US-LA": 2,
+      "US-MD": 2,
+      "BR-SC": 1,
+      "US-NJ": 1,
+      "US-VA": 1
+    },
+    "unmapped": {
+      "BQ": 120
+    }
+  },
   "hypnale-hypnale": {
     "key": 2443917,
     "name": "Hypnale hypnale",
@@ -3273,6 +5063,96 @@
     },
     "unmapped": {
       "IND.27_1": 1
+    }
+  },
+  "inimicus-didactylus": {
+    "key": 2333640,
+    "name": "Inimicus didactylus",
+    "fetched": "2026-09-24",
+    "total": 350,
+    "countries": {
+      "ID": 175,
+      "PH": 82,
+      "AU": 31,
+      "MY": 12,
+      "TW": 9,
+      "JP": 8,
+      "PG": 6,
+      "PW": 6,
+      "SG": 4,
+      "TH": 4,
+      "TZ": 3,
+      "VU": 3,
+      "VN": 2,
+      "CN": 1,
+      "KH": 1,
+      "NC": 1,
+      "SB": 1,
+      "TL": 1
+    },
+    "subdivisions": {
+      "JP-47": 2,
+      "AU-WA": 1,
+      "JP-46": 1
+    },
+    "unmapped": {}
+  },
+  "isometrus-maculatus": {
+    "key": 4553860,
+    "name": "Isometrus maculatus",
+    "fetched": "2026-09-24",
+    "total": 412,
+    "countries": {
+      "US": 134,
+      "RE": 47,
+      "TW": 33,
+      "IN": 30,
+      "JP": 22,
+      "AU": 16,
+      "LK": 16,
+      "MU": 13,
+      "TZ": 13,
+      "MG": 12,
+      "KE": 8,
+      "CD": 6,
+      "SC": 6,
+      "PF": 5,
+      "SH": 5,
+      "ID": 4,
+      "PH": 4,
+      "KM": 3,
+      "MV": 3,
+      "BD": 2,
+      "BL": 2,
+      "CL": 2,
+      "KH": 2,
+      "MZ": 2,
+      "BJ": 1,
+      "CG": 1,
+      "CK": 1,
+      "CU": 1,
+      "GN": 1,
+      "GU": 1,
+      "JM": 1,
+      "MH": 1,
+      "MX": 1,
+      "SX": 1,
+      "YT": 1
+    },
+    "subdivisions": {
+      "US-HI": 128,
+      "IN-TN": 12,
+      "AU-QLD": 11,
+      "JP-47": 11,
+      "IN-AS": 10,
+      "IN-KL": 4,
+      "AU-NT": 3,
+      "IN-TR": 2,
+      "MX-ROO": 1
+    },
+    "unmapped": {
+      "UM": 9,
+      "CC": 2
     }
   },
   "lachesis-muta": {
@@ -3357,6 +5237,133 @@
       "JP-47": 10,
       "AU-NSW": 3,
       "AU-NT": 2
+    },
+    "unmapped": {}
+  },
+  "laticauda-laticaudata": {
+    "key": 5222167,
+    "name": "Laticauda laticaudata",
+    "fetched": "2026-09-24",
+    "total": 766,
+    "countries": {
+      "NC": 301,
+      "TW": 134,
+      "PH": 107,
+      "JP": 105,
+      "ID": 41,
+      "NU": 20,
+      "PG": 13,
+      "TH": 11,
+      "VU": 9,
+      "FJ": 7,
+      "IN": 6,
+      "TL": 4,
+      "NZ": 3,
+      "KR": 2,
+      "MM": 1,
+      "MY": 1,
+      "TO": 1
+    },
+    "subdivisions": {
+      "JP-47": 65,
+      "IN-AN": 4,
+      "JP-46": 1
+    },
+    "unmapped": {}
+  },
+  "laticauda-semifasciata": {
+    "key": 5222129,
+    "name": "Laticauda semifasciata",
+    "fetched": "2026-09-24",
+    "total": 223,
+    "countries": {
+      "JP": 120,
+      "TW": 45,
+      "ID": 31,
+      "PH": 19,
+      "KR": 7,
+      "MY": 1
+    },
+    "subdivisions": {
+      "JP-47": 7,
+      "JP-46": 4
+    },
+    "unmapped": {}
+  },
+  "latrodectus-bishopi": {
+    "key": 2157939,
+    "name": "Latrodectus bishopi",
+    "fetched": "2026-09-24",
+    "total": 228,
+    "countries": {
+      "US": 228
+    },
+    "subdivisions": {
+      "US-FL": 213,
+      "US-MT": 1,
+      "US-WI": 1
+    },
+    "unmapped": {}
+  },
+  "latrodectus-corallinus": {
+    "key": 2157934,
+    "name": "Latrodectus corallinus",
+    "fetched": "2026-09-24",
+    "total": 78,
+    "countries": {
+      "AR": 36,
+      "PY": 26,
+      "CO": 7,
+      "BO": 6,
+      "BR": 3
+    },
+    "subdivisions": {
+      "AR-H": 6,
+      "AR-X": 6,
+      "AR-Y": 5,
+      "AR-K": 5,
+      "AR-M": 4,
+      "AR-G": 4,
+      "AR-A": 3,
+      "AR-J": 2,
+      "BR-MS": 2,
+      "AR-F": 1,
+      "BR-AM": 1
+    },
+    "unmapped": {}
+  },
+  "latrodectus-curacaviensis": {
+    "key": 2157948,
+    "name": "Latrodectus curacaviensis",
+    "fetched": "2026-09-24",
+    "total": 139,
+    "countries": {
+      "BR": 115,
+      "CO": 13,
+      "VE": 4,
+      "GY": 2,
+      "US": 2,
+      "CL": 1,
+      "GF": 1,
+      "PE": 1
+    },
+    "subdivisions": {
+      "BR-BA": 21,
+      "BR-ES": 16,
+      "BR-CE": 14,
+      "BR-MG": 13,
+      "BR-PE": 10,
+      "BR-RJ": 5,
+      "BR-AM": 5,
+      "BR-PB": 4,
+      "BR-RN": 3,
+      "BR-GO": 3,
+      "BR-PI": 2,
+      "BR-SE": 2,
+      "US-MI": 2,
+      "BR-MS": 1,
+      "BR-SP": 1,
+      "BR-AP": 1
     },
     "unmapped": {}
   },
@@ -3867,6 +5874,27 @@
       "BQ": 1
     }
   },
+  "latrodectus-pallidus": {
+    "key": 2157945,
+    "name": "Latrodectus pallidus",
+    "fetched": "2026-09-24",
+    "total": 78,
+    "countries": {
+      "IR": 29,
+      "IL": 21,
+      "MA": 17,
+      "EG": 2,
+      "PS": 2,
+      "TR": 2,
+      "AE": 1,
+      "KZ": 1,
+      "MG": 1,
+      "OM": 1,
+      "YE": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "latrodectus-tredecimguttatus": {
     "key": 2157921,
     "name": "Latrodectus tredecimguttatus",
@@ -3969,6 +5997,34 @@
     },
     "unmapped": {}
   },
+  "leiurus-abdullahbayrami": {
+    "key": 7953371,
+    "name": "Leiurus abdullahbayrami",
+    "fetched": "2026-09-24",
+    "total": 10,
+    "countries": {
+      "LB": 6,
+      "JO": 3,
+      "TR": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "leiurus-hebraeus": {
+    "key": 7758443,
+    "name": "Leiurus hebraeus",
+    "fetched": "2026-09-24",
+    "total": 1252,
+    "countries": {
+      "IL": 1048,
+      "PS": 173,
+      "JO": 24,
+      "EG": 5,
+      "LB": 2
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "leiurus-quinquestriatus": {
     "key": 6893601,
     "name": "Leiurus quinquestriatus",
@@ -3984,6 +6040,24 @@
       "TD": 2
     },
     "subdivisions": {},
+    "unmapped": {}
+  },
+  "lonomia-achelous": {
+    "key": 1867973,
+    "name": "Lonomia achelous",
+    "fetched": "2026-09-24",
+    "total": 45,
+    "countries": {
+      "BR": 19,
+      "GF": 16,
+      "CO": 9,
+      "TT": 1
+    },
+    "subdivisions": {
+      "BR-MA": 8,
+      "BR-SP": 7,
+      "BR-AM": 4
+    },
     "unmapped": {}
   },
   "lonomia-obliqua": {
@@ -4040,6 +6114,22 @@
       "US-NM": 9,
       "MX-COA": 1,
       "US-UT": 1
+    },
+    "unmapped": {}
+  },
+  "loxosceles-gaucho": {
+    "key": 5170622,
+    "name": "Loxosceles gaucho",
+    "fetched": "2026-09-24",
+    "total": 253,
+    "countries": {
+      "BR": 253
+    },
+    "subdivisions": {
+      "BR-SP": 228,
+      "BR-PR": 18,
+      "BR-ES": 4,
+      "BR-MG": 3
     },
     "unmapped": {}
   },
@@ -4254,6 +6344,28 @@
     "subdivisions": {},
     "unmapped": {}
   },
+  "macrovipera-schweizeri": {
+    "key": 2444698,
+    "name": "Macrovipera schweizeri",
+    "fetched": "2026-09-24",
+    "total": 0,
+    "countries": {},
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "malo-kingi": {
+    "key": 5842340,
+    "name": "Malo kingi",
+    "fetched": "2026-09-24",
+    "total": 5,
+    "countries": {
+      "AU": 5
+    },
+    "subdivisions": {
+      "AU-QLD": 4
+    },
+    "unmapped": {}
+  },
   "megalopyge-opercularis": {
     "key": 1751572,
     "name": "Megalopyge opercularis",
@@ -4421,6 +6533,55 @@
     },
     "unmapped": {}
   },
+  "micrurus-diastema": {
+    "key": 9073302,
+    "name": "Micrurus diastema",
+    "fetched": "2026-09-24",
+    "total": 942,
+    "countries": {
+      "MX": 804,
+      "BZ": 60,
+      "GT": 46,
+      "HN": 32
+    },
+    "subdivisions": {
+      "MX-YUC": 252,
+      "MX-ROO": 231,
+      "MX-VER": 130,
+      "MX-CAM": 60,
+      "MX-CHP": 55,
+      "MX-OAX": 37,
+      "MX-TAB": 11,
+      "MX-HID": 5,
+      "MX-PUE": 4,
+      "MX-SON": 2,
+      "MX-JAL": 1
+    },
+    "unmapped": {}
+  },
+  "micrurus-frontalis": {
+    "key": 5227028,
+    "name": "Micrurus frontalis",
+    "fetched": "2026-09-24",
+    "total": 125,
+    "countries": {
+      "BR": 116,
+      "PY": 7,
+      "AR": 1,
+      "BO": 1
+    },
+    "subdivisions": {
+      "BR-MG": 69,
+      "BR-SP": 21,
+      "BR-GO": 11,
+      "BR-MS": 10,
+      "BR-DF": 3,
+      "AR-K": 1,
+      "BR-MT": 1,
+      "BR-TO": 1
+    },
+    "unmapped": {}
+  },
   "micrurus-fulvius": {
     "key": 9173089,
     "name": "Micrurus fulvius",
@@ -4489,6 +6650,22 @@
       "BR-RS": 1,
       "BR-AP": 1
     },
+    "unmapped": {}
+  },
+  "micrurus-mipartitus": {
+    "key": 5226883,
+    "name": "Micrurus mipartitus",
+    "fetched": "2026-09-24",
+    "total": 772,
+    "countries": {
+      "CO": 633,
+      "EC": 58,
+      "VE": 38,
+      "PA": 23,
+      "CR": 19,
+      "PE": 1
+    },
+    "subdivisions": {},
     "unmapped": {}
   },
   "micrurus-nigrocinctus": {
@@ -4568,6 +6745,68 @@
     },
     "unmapped": {}
   },
+  "millepora-alcicornis": {
+    "key": 2265089,
+    "name": "Millepora alcicornis",
+    "fetched": "2026-09-24",
+    "total": 12338,
+    "countries": {
+      "CO": 3747,
+      "US": 2777,
+      "VI": 1885,
+      "BR": 1009,
+      "PR": 435,
+      "GP": 411,
+      "PA": 390,
+      "MX": 344,
+      "CU": 213,
+      "TT": 131,
+      "BZ": 126,
+      "MQ": 102,
+      "VE": 99,
+      "BS": 88,
+      "KY": 74,
+      "HN": 59,
+      "BM": 43,
+      "CV": 35,
+      "JM": 30,
+      "DM": 27,
+      "CW": 26,
+      "AG": 23,
+      "VG": 21,
+      "DO": 20,
+      "TC": 13,
+      "SX": 8,
+      "EG": 6,
+      "AW": 5,
+      "MF": 5,
+      "GD": 4,
+      "VC": 4,
+      "AI": 3,
+      "ES": 3,
+      "KN": 3,
+      "BB": 2,
+      "BL": 2,
+      "HT": 1,
+      "IN": 1,
+      "LC": 1,
+      "MS": 1,
+      "NI": 1
+    },
+    "subdivisions": {
+      "BR-BA": 26,
+      "US-FL": 23,
+      "BR-RJ": 10,
+      "BR-PE": 7,
+      "MX-ROO": 5,
+      "MX-VER": 5,
+      "BR-MG": 2,
+      "BR-RN": 1
+    },
+    "unmapped": {
+      "BQ": 160
+    }
+  },
   "missulena-bradleyi": {
     "key": 2179707,
     "name": "Missulena bradleyi",
@@ -4581,6 +6820,52 @@
       "AU-QLD": 285,
       "AU-VIC": 101,
       "AU-NT": 1
+    },
+    "unmapped": {}
+  },
+  "missulena-occatoria": {
+    "key": 2179702,
+    "name": "Missulena occatoria",
+    "fetched": "2026-09-24",
+    "total": 1689,
+    "countries": {
+      "AU": 1689
+    },
+    "subdivisions": {
+      "AU-NSW": 513,
+      "AU-SA": 339,
+      "AU-VIC": 238,
+      "AU-WA": 227,
+      "AU-QLD": 210,
+      "AU-ACT": 125,
+      "AU-NT": 10
+    },
+    "unmapped": {}
+  },
+  "montivipera-xanthina": {
+    "key": 4820419,
+    "name": "Montivipera xanthina",
+    "fetched": "2026-09-24",
+    "total": 257,
+    "countries": {
+      "GR": 207,
+      "TR": 50
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "morbakka-fenneri": {
+    "key": 4340375,
+    "name": "Morbakka fenneri",
+    "fetched": "2026-09-24",
+    "total": 23,
+    "countries": {
+      "AU": 22,
+      "IN": 1
+    },
+    "subdivisions": {
+      "AU-QLD": 10,
+      "AU-NSW": 2
     },
     "unmapped": {}
   },
@@ -4604,6 +6889,42 @@
     "unmapped": {
       "AUS.4_1": 1
     }
+  },
+  "myrmecia-pyriformis": {
+    "key": 1317766,
+    "name": "Myrmecia pyriformis",
+    "fetched": "2026-09-24",
+    "total": 2935,
+    "countries": {
+      "AU": 2935
+    },
+    "subdivisions": {
+      "AU-VIC": 1767,
+      "AU-SA": 634,
+      "AU-NSW": 205,
+      "AU-ACT": 83,
+      "AU-QLD": 1
+    },
+    "unmapped": {
+      "AUS.4_1": 2
+    }
+  },
+  "naja-annulata": {
+    "key": 2470378,
+    "name": "Naja annulata",
+    "fetched": "2026-09-24",
+    "total": 58,
+    "countries": {
+      "CG": 21,
+      "GA": 15,
+      "TZ": 8,
+      "CD": 7,
+      "CF": 3,
+      "ZM": 3,
+      "AO": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
   },
   "naja-annulifera": {
     "key": 2470407,
@@ -4737,6 +7058,17 @@
     },
     "unmapped": {}
   },
+  "naja-mandalayensis": {
+    "key": 2470350,
+    "name": "Naja mandalayensis",
+    "fetched": "2026-09-24",
+    "total": 38,
+    "countries": {
+      "MM": 38
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "naja-melanoleuca": {
     "key": 2470376,
     "name": "Naja melanoleuca",
@@ -4852,6 +7184,23 @@
       "IND.27_1": 3
     }
   },
+  "naja-nigricincta": {
+    "key": 7711915,
+    "name": "Naja nigricincta",
+    "fetched": "2026-09-24",
+    "total": 201,
+    "countries": {
+      "ZA": 108,
+      "NA": 88,
+      "AO": 4,
+      "MW": 1
+    },
+    "subdivisions": {
+      "ZA-WC": 56,
+      "ZA-NC": 51
+    },
+    "unmapped": {}
+  },
   "naja-nigricollis": {
     "key": 7580657,
     "name": "Naja nigricollis",
@@ -4922,6 +7271,19 @@
     },
     "unmapped": {}
   },
+  "naja-nubiae": {
+    "key": 2470329,
+    "name": "Naja nubiae",
+    "fetched": "2026-09-24",
+    "total": 15,
+    "countries": {
+      "EG": 6,
+      "SD": 5,
+      "DJ": 4
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "naja-oxiana": {
     "key": 2470322,
     "name": "Naja oxiana",
@@ -4968,6 +7330,29 @@
     "subdivisions": {},
     "unmapped": {}
   },
+  "naja-samarensis": {
+    "key": 2470388,
+    "name": "Naja samarensis",
+    "fetched": "2026-09-24",
+    "total": 63,
+    "countries": {
+      "PH": 63
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "naja-senegalensis": {
+    "key": 8304671,
+    "name": "Naja senegalensis",
+    "fetched": "2026-09-24",
+    "total": 3,
+    "countries": {
+      "MR": 2,
+      "BJ": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "naja-siamensis": {
     "key": 2470318,
     "name": "Naja siamensis",
@@ -4991,6 +7376,37 @@
       "ID": 175
     },
     "subdivisions": {},
+    "unmapped": {}
+  },
+  "naja-subfulva": {
+    "key": 9990542,
+    "name": "Naja subfulva",
+    "fetched": "2026-09-24",
+    "total": 533,
+    "countries": {
+      "ZM": 157,
+      "ZA": 149,
+      "KE": 76,
+      "UG": 38,
+      "TZ": 34,
+      "MZ": 28,
+      "MW": 16,
+      "CD": 7,
+      "CG": 6,
+      "AO": 5,
+      "BI": 3,
+      "CM": 3,
+      "ET": 3,
+      "CF": 2,
+      "RW": 2,
+      "ZW": 2,
+      "GH": 1,
+      "NG": 1
+    },
+    "subdivisions": {
+      "ZA-NL": 137,
+      "ZA-LP": 6
+    },
     "unmapped": {}
   },
   "naja-sumatrana": {
@@ -5054,6 +7470,26 @@
       "US-CA": 5,
       "CN-NM": 1,
       "US-MN": 1
+    },
+    "unmapped": {}
+  },
+  "olindias-sambaquiensis": {
+    "key": 2266803,
+    "name": "Olindias sambaquiensis",
+    "fetched": "2026-09-24",
+    "total": 127,
+    "countries": {
+      "BR": 110,
+      "AR": 10,
+      "UY": 7
+    },
+    "subdivisions": {
+      "AR-B": 6,
+      "BR-SC": 6,
+      "BR-RS": 5,
+      "BR-SP": 4,
+      "BR-PR": 2,
+      "BR-ES": 1
     },
     "unmapped": {}
   },
@@ -5214,6 +7650,27 @@
     },
     "unmapped": {}
   },
+  "parabuthus-mossambicensis": {
+    "key": 6894362,
+    "name": "Parabuthus mossambicensis",
+    "fetched": "2026-09-24",
+    "total": 214,
+    "countries": {
+      "ZA": 168,
+      "MZ": 28,
+      "ZW": 8,
+      "BW": 6,
+      "MW": 4
+    },
+    "subdivisions": {
+      "ZA-LP": 158,
+      "ZA-GT": 3,
+      "ZA-MP": 3,
+      "ZA-NC": 3,
+      "ZA-NL": 1
+    },
+    "unmapped": {}
+  },
   "parabuthus-transvaalicus": {
     "key": 6894340,
     "name": "Parabuthus transvaalicus",
@@ -5233,6 +7690,22 @@
       "ZA-NW": 29,
       "ZA-GT": 8,
       "ZA-NL": 1,
+      "ZA-WC": 1
+    },
+    "unmapped": {}
+  },
+  "parabuthus-villosus": {
+    "key": 6894351,
+    "name": "Parabuthus villosus",
+    "fetched": "2026-09-24",
+    "total": 631,
+    "countries": {
+      "NA": 566,
+      "ZA": 59,
+      "AO": 6
+    },
+    "subdivisions": {
+      "ZA-NC": 57,
       "ZA-WC": 1
     },
     "unmapped": {}
@@ -5273,6 +7746,73 @@
       "BR-MG": 1,
       "BR-AP": 1,
       "BR-ES": 1
+    },
+    "unmapped": {}
+  },
+  "paratrygon-aiereba": {
+    "key": 2419325,
+    "name": "Paratrygon aiereba",
+    "fetched": "2026-09-24",
+    "total": 430,
+    "countries": {
+      "BR": 333,
+      "CO": 56,
+      "PE": 18,
+      "BO": 7,
+      "GY": 7,
+      "VE": 7,
+      "EC": 2
+    },
+    "subdivisions": {
+      "BR-AM": 155,
+      "BR-PA": 60,
+      "BR-MT": 41,
+      "BR-RR": 29,
+      "BR-TO": 20,
+      "BR-AC": 17,
+      "BR-RO": 2,
+      "BR-GO": 2
+    },
+    "unmapped": {}
+  },
+  "pastinachus-sephen": {
+    "key": 2419714,
+    "name": "Pastinachus sephen",
+    "fetched": "2026-09-24",
+    "total": 210,
+    "countries": {
+      "EG": 66,
+      "AU": 52,
+      "AE": 16,
+      "SA": 16,
+      "KW": 9,
+      "MV": 8,
+      "PK": 7,
+      "OM": 4,
+      "BD": 3,
+      "IL": 3,
+      "IN": 3,
+      "NC": 3,
+      "TH": 3,
+      "ZA": 3,
+      "AS": 2,
+      "BH": 1,
+      "IR": 1,
+      "JM": 1,
+      "JO": 1,
+      "JP": 1,
+      "LK": 1,
+      "MY": 1,
+      "MZ": 1,
+      "PH": 1,
+      "PW": 1,
+      "SD": 1,
+      "TW": 1
+    },
+    "subdivisions": {
+      "AU-WA": 30,
+      "IN-TN": 1,
+      "JP-47": 1
     },
     "unmapped": {}
   },
@@ -5530,6 +8070,89 @@
     "unmapped": {
       "BQ": 18
     }
+  },
+  "philodryas-olfersii": {
+    "key": 9084216,
+    "name": "Philodryas olfersii",
+    "fetched": "2026-09-24",
+    "total": 1408,
+    "countries": {
+      "BR": 1256,
+      "AR": 70,
+      "PY": 20,
+      "BO": 15,
+      "UY": 14,
+      "PE": 11,
+      "GF": 9,
+      "CO": 4,
+      "GY": 4,
+      "EC": 2,
+      "VE": 2,
+      "SR": 1
+    },
+    "subdivisions": {
+      "BR-RS": 287,
+      "BR-MG": 120,
+      "BR-SP": 115,
+      "BR-ES": 89,
+      "BR-BA": 83,
+      "BR-CE": 66,
+      "BR-PR": 58,
+      "BR-PE": 52,
+      "BR-GO": 48,
+      "BR-MS": 40,
+      "BR-DF": 40,
+      "AR-N": 38,
+      "BR-RJ": 38,
+      "BR-SC": 28,
+      "BR-MT": 27,
+      "BR-RN": 27,
+      "BR-PB": 26,
+      "BR-PA": 22,
+      "BR-AL": 22,
+      "BR-PI": 17,
+      "AR-S": 11,
+      "AR-E": 11,
+      "BR-MA": 11,
+      "AR-W": 9,
+      "BR-RO": 8,
+      "BR-SE": 7,
+      "BR-AM": 7,
+      "BR-AP": 4,
+      "BR-RR": 2,
+      "AR-B": 1,
+      "AR-H": 1,
+      "BR-TO": 1
+    },
+    "unmapped": {}
+  },
+  "phoneutria-boliviensis": {
+    "key": 5170395,
+    "name": "Phoneutria boliviensis",
+    "fetched": "2026-09-24",
+    "total": 986,
+    "countries": {
+      "PE": 399,
+      "CO": 289,
+      "EC": 110,
+      "BO": 86,
+      "BR": 84,
+      "PA": 9,
+      "AR": 2,
+      "CR": 2,
+      "DE": 2,
+      "VE": 2,
+      "NI": 1
+    },
+    "subdivisions": {
+      "BR-AC": 58,
+      "BR-AM": 22,
+      "BR-RR": 3,
+      "AR-B": 1,
+      "AR-E": 1,
+      "BR-RO": 1
+    },
+    "unmapped": {}
   },
   "phoneutria-fera": {
     "key": 5170399,
@@ -6112,6 +8735,207 @@
     },
     "unmapped": {}
   },
+  "polistes-dominula": {
+    "key": 5871389,
+    "name": "Polistes dominula",
+    "fetched": "2026-09-24",
+    "total": 119145,
+    "countries": {
+      "US": 33030,
+      "DE": 20642,
+      "NL": 20518,
+      "CA": 9897,
+      "BE": 6230,
+      "ES": 4891,
+      "FR": 4358,
+      "CH": 4176,
+      "AT": 3873,
+      "PL": 1376,
+      "PT": 1163,
+      "IT": 1150,
+      "AU": 764,
+      "NZ": 679,
+      "RU": 676,
+      "ZA": 648,
+      "GR": 594,
+      "LU": 572,
+      "CZ": 500,
+      "UA": 494,
+      "CL": 371,
+      "HU": 245,
+      "TR": 222,
+      "BG": 211,
+      "RS": 198,
+      "HR": 167,
+      "MA": 132,
+      "AR": 127,
+      "IL": 101,
+      "DZ": 92,
+      "RO": 86,
+      "BY": 78,
+      "UZ": 72,
+      "GB": 71,
+      "SK": 62,
+      "TN": 59,
+      "LT": 56,
+      "GE": 52,
+      "MX": 47,
+      "SE": 46,
+      "DK": 42,
+      "ME": 41,
+      "KG": 29,
+      "SI": 27,
+      "LV": 26,
+      "IR": 25,
+      "KZ": 25,
+      "AL": 21,
+      "LI": 21,
+      "MT": 17,
+      "EG": 16,
+      "AZ": 15,
+      "MD": 15,
+      "SY": 14,
+      "CY": 11,
+      "AM": 10,
+      "JO": 9,
+      "CN": 6,
+      "MK": 6,
+      "PS": 6,
+      "FI": 5,
+      "XK": 5,
+      "BA": 4,
+      "CO": 4,
+      "TJ": 4,
+      "EE": 2,
+      "LB": 2,
+      "IE": 1,
+      "IQ": 1,
+      "MQ": 1,
+      "NO": 1,
+      "SM": 1
+    },
+    "subdivisions": {
+      "US-CA": 6184,
+      "CA-ON": 4055,
+      "CA-BC": 3561,
+      "US-NY": 2580,
+      "US-CO": 2368,
+      "US-WA": 2187,
+      "US-OR": 1764,
+      "US-UT": 1529,
+      "US-OH": 1462,
+      "US-IL": 1430,
+      "US-PA": 1385,
+      "US-MA": 1377,
+      "US-MN": 1130,
+      "US-ID": 1081,
+      "US-MI": 876,
+      "US-WI": 860,
+      "CA-QC": 850,
+      "ZA-WC": 643,
+      "US-IN": 565,
+      "US-MD": 538,
+      "US-VA": 538,
+      "US-NJ": 490,
+      "AU-WA": 455,
+      "US-VT": 418,
+      "US-MO": 310,
+      "CA-MB": 272,
+      "CA-NS": 246,
+      "US-ME": 222,
+      "US-IA": 214,
+      "AU-VIC": 212,
+      "US-NE": 210,
+      "US-AZ": 195,
+      "US-CT": 195,
+      "US-NV": 192,
+      "US-NH": 175,
+      "US-DC": 166,
+      "US-NC": 162,
+      "US-KY": 160,
+      "US-MT": 151,
+      "US-NM": 124,
+      "US-TN": 118,
+      "US-DE": 111,
+      "US-WY": 107,
+      "US-WV": 106,
+      "US-GA": 105,
+      "US-RI": 84,
+      "US-ND": 61,
+      "AR-R": 60,
+      "CA-PE": 52,
+      "US-SD": 49,
+      "CA-SK": 43,
+      "CA-NB": 43,
+      "MX-BCN": 42,
+      "US-AR": 41,
+      "AR-Q": 39,
+      "US-SC": 39,
+      "US-AL": 38,
+      "CA-AB": 35,
+      "AR-U": 25,
+      "US-KS": 22,
+      "US-MS": 13,
+      "US-TX": 7,
+      "CA-NL": 4,
+      "CN-XJ": 4,
+      "MX-SON": 3,
+      "AR-M": 2,
+      "CN-GS": 2,
+      "US-AK": 2,
+      "AU-NSW": 1,
+      "AU-QLD": 1,
+      "AU-SA": 1,
+      "AU-TAS": 1,
+      "MX-TAM": 1,
+      "US-FL": 1,
+      "US-LA": 1,
+      "US-OK": 1
+    },
+    "unmapped": {
+      "GI": 6
+    }
+  },
+  "porthidium-nasutum": {
+    "key": 2444260,
+    "name": "Porthidium nasutum",
+    "fetched": "2026-09-24",
+    "total": 976,
+    "countries": {
+      "CR": 600,
+      "EC": 114,
+      "CO": 94,
+      "HN": 54,
+      "PA": 46,
+      "MX": 29,
+      "NI": 21,
+      "GT": 15,
+      "BZ": 2,
+      "US": 1
+    },
+    "subdivisions": {
+      "MX-CHP": 26,
+      "MX-OAX": 2,
+      "US-TX": 1
+    },
+    "unmapped": {}
+  },
+  "potamotrygon-leopoldi": {
+    "key": 2419372,
+    "name": "Potamotrygon leopoldi",
+    "fetched": "2026-09-24",
+    "total": 205,
+    "countries": {
+      "BR": 202,
+      "DE": 2,
+      "AT": 1
+    },
+    "subdivisions": {
+      "BR-PA": 201,
+      "BR-MT": 1
+    },
+    "unmapped": {}
+  },
   "potamotrygon-motoro": {
     "key": 2419333,
     "name": "Potamotrygon motoro",
@@ -6152,6 +8976,37 @@
       "BR-AP": 3,
       "AR-L": 1,
       "AR-H": 1
+    },
+    "unmapped": {}
+  },
+  "potamotrygon-orbignyi": {
+    "key": 2419356,
+    "name": "Potamotrygon orbignyi",
+    "fetched": "2026-09-24",
+    "total": 826,
+    "countries": {
+      "CO": 375,
+      "BR": 308,
+      "VE": 78,
+      "GY": 24,
+      "PE": 19,
+      "SR": 16,
+      "BO": 2,
+      "EC": 2,
+      "GF": 2
+    },
+    "subdivisions": {
+      "BR-PA": 124,
+      "BR-AM": 88,
+      "BR-RR": 36,
+      "BR-TO": 30,
+      "BR-AP": 16,
+      "BR-RO": 6,
+      "BR-MA": 3,
+      "BR-AC": 3,
+      "BR-MT": 2,
+      "BR-PI": 2,
+      "BR-GO": 2
     },
     "unmapped": {}
   },
@@ -6225,6 +9080,33 @@
     },
     "unmapped": {}
   },
+  "pseudechis-colletti": {
+    "key": 2449548,
+    "name": "Pseudechis colletti",
+    "fetched": "2026-09-24",
+    "total": 74,
+    "countries": {
+      "AU": 74
+    },
+    "subdivisions": {
+      "AU-QLD": 74
+    },
+    "unmapped": {}
+  },
+  "pseudechis-guttatus": {
+    "key": 2449554,
+    "name": "Pseudechis guttatus",
+    "fetched": "2026-09-24",
+    "total": 847,
+    "countries": {
+      "AU": 847
+    },
+    "subdivisions": {
+      "AU-NSW": 588,
+      "AU-QLD": 255
+    },
+    "unmapped": {}
+  },
   "pseudechis-porphyriacus": {
     "key": 2449538,
     "name": "Pseudechis porphyriacus",
@@ -6261,6 +9143,26 @@
     "subdivisions": {},
     "unmapped": {}
   },
+  "pseudohaje-goldii": {
+    "key": 2469835,
+    "name": "Pseudohaje goldii",
+    "fetched": "2026-09-24",
+    "total": 24,
+    "countries": {
+      "GA": 7,
+      "CM": 5,
+      "GH": 3,
+      "UG": 3,
+      "AO": 1,
+      "CD": 1,
+      "CG": 1,
+      "CI": 1,
+      "KE": 1,
+      "NG": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "pseudonaja-affinis": {
     "key": 2450206,
     "name": "Pseudonaja affinis",
@@ -6272,6 +9174,23 @@
     "subdivisions": {
       "AU-WA": 933,
       "AU-SA": 202
+    },
+    "unmapped": {}
+  },
+  "pseudonaja-mengdeni": {
+    "key": 2450231,
+    "name": "Pseudonaja mengdeni",
+    "fetched": "2026-09-24",
+    "total": 1320,
+    "countries": {
+      "AU": 1320
+    },
+    "subdivisions": {
+      "AU-WA": 605,
+      "AU-NT": 347,
+      "AU-SA": 254,
+      "AU-QLD": 47,
+      "AU-NSW": 26
     },
     "unmapped": {}
   },
@@ -6314,6 +9233,90 @@
     },
     "unmapped": {
       "AUS.4_1": 12
+    }
+  },
+  "pterois-antennata": {
+    "key": 2334443,
+    "name": "Pterois antennata",
+    "fetched": "2026-09-24",
+    "total": 3201,
+    "countries": {
+      "ID": 662,
+      "PH": 604,
+      "AU": 175,
+      "PF": 175,
+      "MV": 160,
+      "RE": 140,
+      "FJ": 123,
+      "PG": 89,
+      "SB": 72,
+      "MY": 71,
+      "GU": 68,
+      "NC": 65,
+      "JP": 59,
+      "TH": 58,
+      "TW": 54,
+      "OM": 53,
+      "MU": 40,
+      "ZA": 39,
+      "VU": 38,
+      "MP": 37,
+      "PW": 37,
+      "KE": 33,
+      "TZ": 26,
+      "WF": 25,
+      "VN": 24,
+      "TL": 23,
+      "FM": 20,
+      "KM": 20,
+      "MG": 17,
+      "CK": 16,
+      "MH": 14,
+      "MZ": 14,
+      "HK": 12,
+      "TO": 10,
+      "AE": 9,
+      "IO": 8,
+      "SC": 8,
+      "EG": 7,
+      "IN": 7,
+      "NZ": 7,
+      "YT": 7,
+      "NU": 6,
+      "IL": 5,
+      "KI": 5,
+      "MM": 4,
+      "AS": 3,
+      "SO": 3,
+      "TF": 3,
+      "CN": 2,
+      "LK": 2,
+      "MX": 2,
+      "DE": 1,
+      "EC": 1,
+      "FR": 1,
+      "GR": 1,
+      "IR": 1,
+      "US": 1,
+      "YE": 1
+    },
+    "subdivisions": {
+      "JP-47": 10,
+      "AU-QLD": 5,
+      "JP-46": 5,
+      "ZA-NL": 3,
+      "JP-13": 2,
+      "AU-WA": 1,
+      "AU-NSW": 1,
+      "CN-HI": 1,
+      "IN-AN": 1,
+      "IN-AP": 1
+    },
+    "unmapped": {
+      "UM": 24,
+      "CX": 8,
+      "CC": 1,
+      "CHN.HKG": 5
     }
   },
   "pterois-miles": {
@@ -6644,6 +9647,118 @@
     },
     "unmapped": {}
   },
+  "rhopilema-nomadica": {
+    "key": 2264597,
+    "name": "Rhopilema nomadica",
+    "fetched": "2026-09-24",
+    "total": 8744,
+    "countries": {
+      "IL": 8620,
+      "FR": 35,
+      "TR": 29,
+      "GR": 12,
+      "EG": 10,
+      "TZ": 7,
+      "CY": 6,
+      "MZ": 4,
+      "ES": 3,
+      "IN": 3,
+      "LB": 3,
+      "SA": 2,
+      "TN": 2,
+      "ZA": 2,
+      "IT": 1,
+      "KE": 1,
+      "LK": 1,
+      "MC": 1,
+      "MT": 1,
+      "SY": 1
+    },
+    "subdivisions": {
+      "IN-WB": 1,
+      "ZA-NL": 1
+    },
+    "unmapped": {}
+  },
+  "scolopendra-cingulata": {
+    "key": 5742390,
+    "name": "Scolopendra cingulata",
+    "fetched": "2026-09-24",
+    "total": 9029,
+    "countries": {
+      "ES": 2583,
+      "FR": 2543,
+      "GR": 781,
+      "PT": 751,
+      "IL": 398,
+      "IT": 335,
+      "UA": 327,
+      "RU": 282,
+      "HR": 214,
+      "TR": 213,
+      "BG": 146,
+      "AL": 82,
+      "RO": 68,
+      "CY": 57,
+      "DZ": 44,
+      "HU": 34,
+      "AT": 33,
+      "SY": 27,
+      "ME": 25,
+      "MK": 14,
+      "PS": 14,
+      "LB": 11,
+      "MA": 9,
+      "RS": 8,
+      "MT": 5,
+      "BA": 3,
+      "JO": 3,
+      "SI": 3,
+      "TN": 3,
+      "XK": 3,
+      "IR": 2,
+      "MD": 2,
+      "DE": 1,
+      "GB": 1,
+      "GE": 1,
+      "NL": 1
+    },
+    "subdivisions": {},
+    "unmapped": {
+      "GI": 2
+    }
+  },
+  "scolopendra-dehaani": {
+    "key": 9358987,
+    "name": "Scolopendra dehaani",
+    "fetched": "2026-09-24",
+    "total": 645,
+    "countries": {
+      "TH": 211,
+      "MY": 129,
+      "HK": 110,
+      "CN": 107,
+      "VN": 30,
+      "KH": 23,
+      "ID": 13,
+      "LA": 9,
+      "MM": 6,
+      "IN": 4,
+      "BD": 2,
+      "SG": 1
+    },
+    "subdivisions": {
+      "CN-YN": 55,
+      "CN-GD": 23,
+      "CN-HI": 19,
+      "CN-GX": 6,
+      "IN-MZ": 4,
+      "CN-FJ": 3
+    },
+    "unmapped": {
+      "CHN.HKG": 89
+    }
+  },
   "scolopendra-gigantea": {
     "key": 5179388,
     "name": "Scolopendra gigantea",
@@ -6693,6 +9808,147 @@
       "US-MS": 1
     },
     "unmapped": {}
+  },
+  "scolopendra-morsitans": {
+    "key": 5179468,
+    "name": "Scolopendra morsitans",
+    "fetched": "2026-09-24",
+    "total": 2994,
+    "countries": {
+      "AU": 1926,
+      "ZA": 184,
+      "IN": 161,
+      "US": 132,
+      "NA": 100,
+      "ZW": 47,
+      "JP": 42,
+      "BW": 34,
+      "TH": 26,
+      "MX": 24,
+      "SN": 20,
+      "TW": 20,
+      "ID": 16,
+      "MZ": 16,
+      "PH": 16,
+      "RE": 15,
+      "LK": 13,
+      "MG": 13,
+      "GM": 12,
+      "KE": 12,
+      "KY": 9,
+      "CN": 8,
+      "SH": 8,
+      "VN": 8,
+      "TZ": 7,
+      "CD": 6,
+      "HK": 6,
+      "KH": 6,
+      "ZM": 6,
+      "CV": 5,
+      "GP": 5,
+      "CO": 4,
+      "MA": 4,
+      "MU": 4,
+      "MY": 4,
+      "CU": 3,
+      "JM": 3,
+      "NG": 3,
+      "PR": 3,
+      "SX": 3,
+      "VI": 3,
+      "AG": 2,
+      "AI": 2,
+      "BB": 2,
+      "BD": 2,
+      "CW": 2,
+      "ES": 2,
+      "GW": 2,
+      "OM": 2,
+      "SL": 2,
+      "SS": 2,
+      "ST": 2,
+      "TD": 2,
+      "TN": 2,
+      "AF": 1,
+      "BJ": 1,
+      "CI": 1,
+      "DO": 1,
+      "EH": 1,
+      "FJ": 1,
+      "GD": 1,
+      "HT": 1,
+      "KN": 1,
+      "MF": 1,
+      "ML": 1,
+      "MP": 1,
+      "MQ": 1,
+      "MV": 1,
+      "MW": 1,
+      "PE": 1,
+      "SZ": 1,
+      "TC": 1,
+      "VC": 1,
+      "VE": 1
+    },
+    "subdivisions": {
+      "AU-WA": 1174,
+      "AU-QLD": 248,
+      "AU-SA": 177,
+      "AU-NSW": 145,
+      "AU-NT": 126,
+      "US-HI": 125,
+      "ZA-LP": 62,
+      "ZA-NL": 39,
+      "JP-47": 31,
+      "IN-TN": 29,
+      "AU-VIC": 24,
+      "IN-AP": 24,
+      "ZA-MP": 24,
+      "IN-KA": 20,
+      "ZA-WC": 19,
+      "ZA-NC": 18,
+      "IN-TG": 16,
+      "IN-MH": 13,
+      "IN-KL": 11,
+      "IN-OR": 11,
+      "ZA-EC": 10,
+      "MX-JAL": 8,
+      "IN-HR": 7,
+      "IN-CT": 6,
+      "ZA-GT": 6,
+      "IN-GJ": 5,
+      "CN-YN": 4,
+      "IN-MP": 3,
+      "IN-DL": 3,
+      "IN-RJ": 3,
+      "IN-UP": 3,
+      "MX-OAX": 3,
+      "ZA-NW": 3,
+      "CN-FJ": 2,
+      "IN-WB": 2,
+      "MX-MEX": 2,
+      "MX-PUE": 2,
+      "MX-BCS": 2,
+      "MX-DIF": 2,
+      "ZA-FS": 2,
+      "AU-ACT": 1,
+      "CN-GD": 1,
+      "CN-HI": 1,
+      "IN-TR": 1,
+      "IN-UT": 1,
+      "MX-GRO": 1,
+      "MX-MOR": 1,
+      "MX-QUE": 1,
+      "MX-COA": 1,
+      "MX-COL": 1,
+      "US-CA": 1
+    },
+    "unmapped": {
+      "CX": 6,
+      "BQ": 3,
+      "UM": 2,
+      "CHN.HKG": 4
+    }
   },
   "scolopendra-subspinipes": {
     "key": 5179562,
@@ -6783,6 +10039,76 @@
       "CC": 2
     }
   },
+  "scorpaena-scrofa": {
+    "key": 2334574,
+    "name": "Scorpaena scrofa",
+    "fetched": "2026-09-24",
+    "total": 7821,
+    "countries": {
+      "FR": 3712,
+      "ES": 2574,
+      "HR": 268,
+      "IT": 151,
+      "PT": 119,
+      "NG": 118,
+      "GR": 107,
+      "GA": 77,
+      "GH": 75,
+      "ZA": 74,
+      "CI": 72,
+      "LR": 63,
+      "MT": 51,
+      "CM": 43,
+      "SL": 41,
+      "GN": 35,
+      "GB": 32,
+      "GW": 22,
+      "GQ": 19,
+      "DZ": 16,
+      "MZ": 15,
+      "IL": 13,
+      "TG": 12,
+      "CD": 11,
+      "CG": 11,
+      "MC": 11,
+      "BJ": 10,
+      "EG": 9,
+      "SN": 8,
+      "TR": 7,
+      "MG": 4,
+      "TN": 4,
+      "AO": 3,
+      "LB": 3,
+      "PH": 3,
+      "BA": 2,
+      "CV": 2,
+      "ID": 2,
+      "KE": 2,
+      "ME": 2,
+      "MY": 2,
+      "TH": 2,
+      "AE": 1,
+      "AL": 1,
+      "BE": 1,
+      "CY": 1,
+      "IE": 1,
+      "JM": 1,
+      "JO": 1,
+      "MR": 1,
+      "MV": 1,
+      "MX": 1,
+      "NL": 1,
+      "SH": 1,
+      "SO": 1,
+      "US": 1
+    },
+    "subdivisions": {
+      "ZA-EC": 8,
+      "ZA-NL": 5,
+      "US-FL": 1
+    },
+    "unmapped": {}
+  },
   "sistrurus-catenatus": {
     "key": 9223124,
     "name": "Sistrurus catenatus",
@@ -6840,6 +10166,224 @@
       "US-KS": 2
     },
     "unmapped": {}
+  },
+  "sistrurus-tergeminus": {
+    "key": 9454905,
+    "name": "Sistrurus tergeminus",
+    "fetched": "2026-09-24",
+    "total": 1835,
+    "countries": {
+      "US": 1826,
+      "MX": 9
+    },
+    "subdivisions": {
+      "US-KS": 914,
+      "US-TX": 359,
+      "US-NM": 201,
+      "US-OK": 167,
+      "US-CO": 64,
+      "US-NE": 52,
+      "US-MO": 28,
+      "US-AZ": 15,
+      "MX-COA": 7,
+      "US-OH": 3,
+      "MX-NLE": 2,
+      "US-MI": 1
+    },
+    "unmapped": {}
+  },
+  "solenopsis-geminata": {
+    "key": 5035187,
+    "name": "Solenopsis geminata",
+    "fetched": "2026-09-24",
+    "total": 15241,
+    "countries": {
+      "CO": 4503,
+      "MX": 1876,
+      "CR": 1477,
+      "US": 1055,
+      "IN": 902,
+      "EC": 821,
+      "GT": 373,
+      "TT": 333,
+      "MG": 178,
+      "DO": 176,
+      "GP": 172,
+      "TH": 172,
+      "HN": 163,
+      "VI": 160,
+      "PH": 150,
+      "TW": 147,
+      "PF": 144,
+      "CU": 142,
+      "PR": 141,
+      "GD": 137,
+      "MU": 136,
+      "MQ": 121,
+      "RE": 116,
+      "BR": 109,
+      "NI": 101,
+      "VN": 90,
+      "VC": 83,
+      "ID": 73,
+      "YT": 73,
+      "LC": 71,
+      "SV": 71,
+      "JM": 69,
+      "PW": 65,
+      "BB": 58,
+      "MS": 48,
+      "CW": 45,
+      "VE": 41,
+      "AG": 38,
+      "BZ": 37,
+      "MY": 37,
+      "GU": 33,
+      "VG": 33,
+      "PA": 31,
+      "FJ": 30,
+      "KH": 27,
+      "IO": 25,
+      "AU": 23,
+      "AW": 22,
+      "LK": 22,
+      "HT": 21,
+      "KN": 21,
+      "DM": 18,
+      "SG": 14,
+      "CK": 12,
+      "MM": 12,
+      "VU": 11,
+      "CN": 10,
+      "PE": 10,
+      "JP": 9,
+      "MF": 8,
+      "NC": 8,
+      "PG": 8,
+      "ZA": 8,
+      "KY": 6,
+      "SX": 6,
+      "LA": 5,
+      "TL": 5,
+      "AI": 4,
+      "GF": 4,
+      "MP": 4,
+      "BD": 3,
+      "BS": 3,
+      "CA": 2,
+      "FM": 2,
+      "GH": 2,
+      "KI": 2,
+      "MV": 2,
+      "AR": 1,
+      "BL": 1,
+      "GA": 1,
+      "HK": 1,
+      "LS": 1,
+      "MO": 1,
+      "PY": 1,
+      "SB": 1,
+      "SR": 1,
+      "TO": 1,
+      "TV": 1,
+      "TZ": 1
+    },
+    "subdivisions": {
+      "MX-ROO": 787,
+      "US-FL": 547,
+      "US-TX": 376,
+      "MX-VER": 289,
+      "IN-TG": 257,
+      "MX-CHP": 221,
+      "IN-TN": 141,
+      "IN-MH": 139,
+      "MX-CAM": 112,
+      "IN-KL": 102,
+      "IN-KA": 101,
+      "US-HI": 90,
+      "MX-CHH": 87,
+      "MX-OAX": 51,
+      "MX-HID": 46,
+      "IN-AP": 44,
+      "MX-NLE": 28,
+      "MX-SLP": 27,
+      "MX-YUC": 27,
+      "MX-JAL": 26,
+      "IN-UP": 25,
+      "MX-PUE": 25,
+      "MX-TAB": 25,
+      "BR-RO": 20,
+      "MX-SIN": 19,
+      "BR-BA": 17,
+      "IN-WB": 17,
+      "BR-MA": 16,
+      "IN-CT": 15,
+      "AU-NT": 13,
+      "BR-AM": 13,
+      "MX-GUA": 13,
+      "MX-GRO": 13,
+      "MX-TAM": 13,
+      "IN-OR": 12,
+      "BR-PA": 11,
+      "IN-GJ": 11,
+      "IN-MP": 9,
+      "MX-MOR": 9,
+      "MX-DIF": 9,
+      "JP-13": 8,
+      "MX-COA": 8,
+      "ZA-NL": 8,
+      "AU-NSW": 6,
+      "CN-HI": 6,
+      "MX-ZAC": 6,
+      "US-NM": 6,
+      "BR-CE": 5,
+      "BR-ES": 5,
+      "IN-GA": 5,
+      "MX-NAY": 5,
+      "MX-QUE": 5,
+      "US-CA": 5,
+      "AU-QLD": 4,
+      "IN-DL": 4,
+      "IN-BR": 4,
+      "MX-MIC": 4,
+      "BR-MG": 3,
+      "BR-PE": 3,
+      "BR-PI": 3,
+      "IN-JH": 3,
+      "MX-MEX": 3,
+      "MX-COL": 3,
+      "US-AZ": 3,
+      "BR-RJ": 2,
+      "BR-RR": 2,
+      "BR-SP": 2,
+      "CA-MB": 2,
+      "IN-RJ": 2,
+      "IN-AS": 2,
+      "AR-F": 1,
+      "BR-MS": 1,
+      "BR-PB": 1,
+      "BR-AC": 1,
+      "BR-RN": 1,
+      "BR-AL": 1,
+      "CN-GX": 1,
+      "CN-GD": 1,
+      "IN-HR": 1,
+      "JP-16": 1,
+      "MX-AGU": 1,
+      "MX-TLA": 1,
+      "MX-BCS": 1,
+      "US-IL": 1,
+      "US-AL": 1,
+      "US-PA": 1,
+      "US-SC": 1,
+      "US-CO": 1
+    },
+    "unmapped": {
+      "BQ": 57,
+      "UM": 2,
+      "CHN.HKG": 1,
+      "IND.27_1": 1
+    }
   },
   "solenopsis-invicta": {
     "key": 5035230,
@@ -6961,6 +10505,74 @@
       "CHN.HKG": 21
     }
   },
+  "steatoda-nobilis": {
+    "key": 2157203,
+    "name": "Steatoda nobilis",
+    "fetched": "2026-09-24",
+    "total": 30659,
+    "countries": {
+      "US": 13558,
+      "GB": 7651,
+      "FR": 2305,
+      "PT": 1826,
+      "ES": 1611,
+      "BE": 877,
+      "CL": 617,
+      "NL": 526,
+      "EC": 332,
+      "IE": 299,
+      "MX": 256,
+      "IT": 250,
+      "CO": 242,
+      "JE": 106,
+      "NZ": 77,
+      "DE": 40,
+      "MA": 17,
+      "GG": 14,
+      "DZ": 13,
+      "DK": 12,
+      "IM": 10,
+      "CA": 3,
+      "GR": 3,
+      "HR": 2,
+      "LU": 2,
+      "AR": 1,
+      "AT": 1,
+      "BO": 1,
+      "CH": 1,
+      "MT": 1,
+      "PE": 1,
+      "PL": 1
+    },
+    "subdivisions": {
+      "US-CA": 12866,
+      "MX-BCN": 240,
+      "US-OR": 5,
+      "US-AZ": 5,
+      "US-UT": 4,
+      "MX-DIF": 3,
+      "US-TX": 3,
+      "MX-HID": 2,
+      "MX-MEX": 2,
+      "US-NY": 2,
+      "AR-U": 1,
+      "CA-AB": 1,
+      "CA-MB": 1,
+      "MX-AGU": 1,
+      "US-ID": 1,
+      "US-IA": 1,
+      "US-MA": 1,
+      "US-MI": 1,
+      "US-NV": 1,
+      "US-NC": 1,
+      "US-OH": 1,
+      "US-PA": 1,
+      "US-WY": 1
+    },
+    "unmapped": {
+      "GI": 3
+    }
+  },
   "synanceia-horrida": {
     "key": 5201175,
     "name": "Synanceia horrida",
@@ -7070,6 +10682,65 @@
       "CX": 1
     }
   },
+  "taeniura-lymma": {
+    "key": 5215810,
+    "name": "Taeniura lymma",
+    "fetched": "2026-09-24",
+    "total": 5971,
+    "countries": {
+      "AU": 2595,
+      "EG": 1762,
+      "ID": 417,
+      "MY": 253,
+      "SA": 184,
+      "ZA": 136,
+      "TH": 110,
+      "SG": 90,
+      "PH": 81,
+      "IL": 55,
+      "KE": 54,
+      "MZ": 35,
+      "MG": 31,
+      "TZ": 26,
+      "PG": 20,
+      "TL": 14,
+      "DJ": 12,
+      "SD": 12,
+      "YE": 11,
+      "FJ": 9,
+      "OM": 8,
+      "YT": 7,
+      "MV": 6,
+      "WF": 6,
+      "KH": 5,
+      "NC": 4,
+      "RE": 4,
+      "SC": 3,
+      "AE": 2,
+      "EC": 2,
+      "SB": 2,
+      "US": 2,
+      "VN": 2,
+      "VU": 2,
+      "ER": 1,
+      "IN": 1,
+      "IR": 1,
+      "JO": 1,
+      "LB": 1,
+      "LK": 1,
+      "PF": 1,
+      "PW": 1,
+      "TW": 1
+    },
+    "subdivisions": {
+      "AU-QLD": 94,
+      "AU-WA": 93,
+      "AU-NT": 3,
+      "ZA-NL": 2,
+      "US-CA": 1
+    },
+    "unmapped": {}
+  },
   "thelotornis-capensis": {
     "key": 2456346,
     "name": "Thelotornis capensis",
@@ -7122,6 +10793,54 @@
       "BR-DF": 1,
       "BR-ES": 1
     },
+    "unmapped": {}
+  },
+  "tityus-discrepans": {
+    "key": 6893794,
+    "name": "Tityus discrepans",
+    "fetched": "2026-09-24",
+    "total": 23,
+    "countries": {
+      "VE": 18,
+      "TT": 5
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
+  "tityus-obscurus": {
+    "key": 8254070,
+    "name": "Tityus obscurus",
+    "fetched": "2026-09-24",
+    "total": 282,
+    "countries": {
+      "GF": 218,
+      "BR": 44,
+      "SR": 16,
+      "GY": 3,
+      "EC": 1
+    },
+    "subdivisions": {
+      "BR-PA": 17,
+      "BR-AM": 11,
+      "BR-AP": 9,
+      "BR-RR": 3,
+      "BR-MT": 2,
+      "BR-AC": 1
+    },
+    "unmapped": {}
+  },
+  "tityus-pachyurus": {
+    "key": 6893843,
+    "name": "Tityus pachyurus",
+    "fetched": "2026-09-24",
+    "total": 2951,
+    "countries": {
+      "CO": 2906,
+      "CR": 29,
+      "PA": 14,
+      "PE": 2
+    },
+    "subdivisions": {},
     "unmapped": {}
   },
   "tityus-serrulatus": {
@@ -7338,6 +11057,42 @@
       "CHN.HKG": 907
     }
   },
+  "trimeresurus-erythrurus": {
+    "key": 2444110,
+    "name": "Trimeresurus erythrurus",
+    "fetched": "2026-09-24",
+    "total": 164,
+    "countries": {
+      "IN": 73,
+      "BD": 52,
+      "MM": 39
+    },
+    "subdivisions": {
+      "IN-WB": 27,
+      "IN-AS": 17,
+      "IN-MZ": 13,
+      "IN-TR": 6,
+      "IN-OR": 4,
+      "IN-MN": 2,
+      "IN-ML": 1,
+      "IN-AP": 1
+    },
+    "unmapped": {}
+  },
+  "trimeresurus-insularis": {
+    "key": 7656866,
+    "name": "Trimeresurus insularis",
+    "fetched": "2026-09-24",
+    "total": 604,
+    "countries": {
+      "ID": 539,
+      "TL": 63,
+      "MY": 1,
+      "TH": 1
+    },
+    "subdivisions": {},
+    "unmapped": {}
+  },
   "trimeresurus-stejnegeri": {
     "key": 2444513,
     "name": "Trimeresurus stejnegeri",
@@ -7382,6 +11137,33 @@
     },
     "unmapped": {}
   },
+  "urobatis-halleri": {
+    "key": 2420478,
+    "name": "Urobatis halleri",
+    "fetched": "2026-09-24",
+    "total": 40368,
+    "countries": {
+      "US": 39617,
+      "MX": 720,
+      "EC": 12,
+      "PA": 10,
+      "CR": 4,
+      "SV": 3,
+      "CO": 2
+    },
+    "subdivisions": {
+      "US-CA": 4782,
+      "MX-BCS": 60,
+      "MX-BCN": 23,
+      "MX-SON": 18,
+      "MX-JAL": 8,
+      "MX-SIN": 6,
+      "MX-NAY": 3,
+      "MX-COL": 1,
+      "US-TX": 1
+    },
+    "unmapped": {}
+  },
   "varanus-komodoensis": {
     "key": 2470854,
     "name": "Varanus komodoensis",
@@ -7397,6 +11179,73 @@
       "US-NM": 1
     },
     "unmapped": {}
+  },
+  "vespa-affinis": {
+    "key": 1311357,
+    "name": "Vespa affinis",
+    "fetched": "2026-09-24",
+    "total": 2857,
+    "countries": {
+      "TW": 576,
+      "HK": 428,
+      "SG": 319,
+      "IN": 279,
+      "ID": 243,
+      "TH": 243,
+      "CN": 200,
+      "MY": 178,
+      "VN": 88,
+      "JP": 86,
+      "LK": 63,
+      "KH": 40,
+      "BD": 39,
+      "MO": 32,
+      "PH": 11,
+      "LA": 10,
+      "PG": 8,
+      "NP": 4,
+      "BN": 3,
+      "BT": 3,
+      "US": 2,
+      "MM": 1,
+      "NZ": 1
+    },
+    "subdivisions": {
+      "CN-GD": 136,
+      "IN-KA": 81,
+      "JP-47": 59,
+      "IN-WB": 53,
+      "IN-TN": 45,
+      "IN-AS": 25,
+      "CN-HI": 23,
+      "IN-MH": 19,
+      "CN-FJ": 18,
+      "IN-AP": 18,
+      "CN-GX": 14,
+      "CN-JX": 6,
+      "CN-YN": 6,
+      "CN-ZJ": 6,
+      "IN-JH": 6,
+      "IN-KL": 5,
+      "CN-SD": 3,
+      "IN-GA": 3,
+      "IN-ML": 3,
+      "IN-OR": 3,
+      "IN-TR": 3,
+      "IN-UP": 3,
+      "IN-BR": 2,
+      "CN-HN": 1,
+      "CN-GZ": 1,
+      "IN-NL": 1,
+      "IN-DL": 1,
+      "JP-01": 1,
+      "US-PA": 1,
+      "US-CA": 1
+    },
+    "unmapped": {
+      "CHN.HKG": 402,
+      "IND.27_1": 2
+    }
   },
   "vespa-crabro": {
     "key": 1311527,
@@ -7673,6 +11522,157 @@
     },
     "unmapped": {}
   },
+  "vespa-orientalis": {
+    "key": 1311433,
+    "name": "Vespa orientalis",
+    "fetched": "2026-09-24",
+    "total": 6604,
+    "countries": {
+      "GR": 2237,
+      "ES": 1147,
+      "IT": 795,
+      "TR": 612,
+      "IL": 234,
+      "CY": 196,
+      "UZ": 164,
+      "IR": 157,
+      "MT": 127,
+      "OM": 102,
+      "IN": 87,
+      "CL": 64,
+      "AE": 61,
+      "GE": 55,
+      "AL": 52,
+      "RU": 45,
+      "EG": 42,
+      "AM": 39,
+      "DZ": 38,
+      "KZ": 35,
+      "IQ": 31,
+      "PK": 24,
+      "JO": 23,
+      "FR": 21,
+      "TJ": 21,
+      "PS": 20,
+      "SY": 20,
+      "KG": 18,
+      "LB": 16,
+      "AZ": 13,
+      "RO": 12,
+      "AF": 11,
+      "SI": 9,
+      "SA": 8,
+      "FI": 7,
+      "HR": 5,
+      "MA": 5,
+      "BE": 3,
+      "CN": 3,
+      "NL": 3,
+      "SD": 3,
+      "TM": 3,
+      "BG": 2,
+      "DE": 2,
+      "GB": 2,
+      "ME": 2,
+      "TD": 2,
+      "VA": 2,
+      "YE": 2,
+      "MX": 1,
+      "NP": 1,
+      "UA": 1
+    },
+    "subdivisions": {
+      "IN-DL": 17,
+      "IN-RJ": 17,
+      "IN-UP": 17,
+      "IN-MH": 10,
+      "IN-WB": 10,
+      "IN-HR": 4,
+      "CN-XJ": 2,
+      "IN-JH": 2,
+      "IN-MP": 2,
+      "IN-PB": 2,
+      "IN-BR": 2,
+      "IN-CT": 2,
+      "CN-YN": 1,
+      "IN-GJ": 1,
+      "IN-AS": 1,
+      "MX-ROO": 1
+    },
+    "unmapped": {
+      "GI": 19
+    }
+  },
+  "vespa-tropica": {
+    "key": 1311336,
+    "name": "Vespa tropica",
+    "fetched": "2026-09-24",
+    "total": 1962,
+    "countries": {
+      "IN": 841,
+      "TH": 230,
+      "ID": 148,
+      "SG": 119,
+      "HK": 109,
+      "MY": 98,
+      "GU": 77,
+      "LK": 67,
+      "CN": 59,
+      "PH": 51,
+      "VN": 39,
+      "JP": 31,
+      "KH": 17,
+      "NP": 14,
+      "PK": 14,
+      "BD": 9,
+      "MO": 9,
+      "TL": 9,
+      "LA": 7,
+      "BT": 6,
+      "MM": 5,
+      "BN": 2,
+      "PG": 1
+    },
+    "subdivisions": {
+      "IN-KA": 269,
+      "IN-TN": 147,
+      "IN-MH": 129,
+      "IN-KL": 119,
+      "CN-YN": 27,
+      "IN-AP": 26,
+      "CN-GD": 33,
+      "IN-GA": 20,
+      "IN-GJ": 20,
+      "IN-UT": 14,
+      "IN-AS": 14,
+      "JP-28": 13,
+      "IN-OR": 11,
+      "IN-WB": 10,
+      "JP-11": 10,
+      "IN-TG": 9,
+      "IN-MP": 7,
+      "IN-JH": 5,
+      "IN-AN": 5,
+      "IN-UP": 4,
+      "CN-GX": 3,
+      "IN-TR": 3,
+      "IN-CT": 3,
+      "CN-JX": 2,
+      "CN-XZ": 2,
+      "IN-SK": 2,
+      "JP-27": 2,
+      "IN-ML": 1,
+      "IN-AR": 1,
+      "IN-BR": 1,
+      "JP-14": 1,
+      "JP-23": 1,
+      "JP-12": 1
+    },
+    "unmapped": {
+      "CHN.HKG": 96,
+      "IND.27_1": 6
+    }
+  },
   "vespa-velutina": {
     "key": 1311477,
     "name": "Vespa velutina",
@@ -7773,6 +11773,231 @@
     "unmapped": {
       "CHN.HKG": 661
     }
+  },
+  "vespula-germanica": {
+    "key": 1311649,
+    "name": "Vespula germanica",
+    "fetched": "2026-09-24",
+    "total": 61942,
+    "countries": {
+      "DE": 8889,
+      "US": 6963,
+      "GB": 6269,
+      "CA": 4660,
+      "AU": 4070,
+      "ES": 3603,
+      "NL": 3025,
+      "SE": 2981,
+      "FR": 2573,
+      "CH": 2104,
+      "AT": 2093,
+      "BE": 1777,
+      "NZ": 1680,
+      "IT": 1067,
+      "RU": 970,
+      "PT": 830,
+      "NO": 777,
+      "PL": 680,
+      "FI": 670,
+      "LU": 621,
+      "GR": 548,
+      "ZA": 534,
+      "CL": 447,
+      "UA": 436,
+      "RS": 412,
+      "TR": 309,
+      "HU": 306,
+      "DK": 287,
+      "EE": 267,
+      "IE": 262,
+      "CZ": 254,
+      "HR": 124,
+      "AR": 123,
+      "RO": 119,
+      "UZ": 105,
+      "IL": 99,
+      "BG": 97,
+      "IR": 87,
+      "DZ": 78,
+      "CN": 68,
+      "KZ": 62,
+      "BY": 61,
+      "SK": 50,
+      "MA": 43,
+      "LT": 39,
+      "GE": 30,
+      "SY": 30,
+      "LB": 26,
+      "ME": 26,
+      "AL": 23,
+      "KG": 23,
+      "AM": 21,
+      "AX": 20,
+      "CY": 19,
+      "LI": 19,
+      "PS": 19,
+      "SI": 18,
+      "LV": 17,
+      "JO": 15,
+      "AF": 12,
+      "JE": 11,
+      "PK": 11,
+      "MT": 10,
+      "BA": 9,
+      "TJ": 9,
+      "IN": 8,
+      "MD": 8,
+      "MK": 8,
+      "AZ": 5,
+      "TN": 5,
+      "TM": 4,
+      "MX": 3,
+      "IQ": 2,
+      "MN": 2,
+      "XK": 2,
+      "BR": 1,
+      "IS": 1,
+      "PM": 1
+    },
+    "subdivisions": {
+      "CA-ON": 3096,
+      "AU-VIC": 1647,
+      "US-NY": 1638,
+      "AU-NSW": 816,
+      "US-PA": 782,
+      "US-OH": 646,
+      "US-MA": 537,
+      "CA-QC": 533,
+      "ZA-WC": 529,
+      "AU-SA": 495,
+      "US-IL": 492,
+      "AU-ACT": 420,
+      "AU-TAS": 341,
+      "US-MI": 310,
+      "US-MN": 300,
+      "US-WI": 262,
+      "US-IN": 260,
+      "CA-BC": 249,
+      "US-NJ": 245,
+      "US-CT": 206,
+      "US-MD": 191,
+      "CA-NS": 152,
+      "US-VT": 147,
+      "CA-MB": 132,
+      "US-VA": 105,
+      "AU-WA": 103,
+      "CA-SK": 76,
+      "CA-AB": 69,
+      "US-RI": 69,
+      "US-ID": 68,
+      "US-UT": 64,
+      "AR-R": 52,
+      "US-WV": 52,
+      "US-DE": 49,
+      "US-DC": 45,
+      "US-CA": 41,
+      "US-MO": 36,
+      "US-WA": 34,
+      "US-ND": 32,
+      "AR-Q": 28,
+      "US-NH": 25,
+      "CA-NL": 22,
+      "CA-PE": 20,
+      "CN-BJ": 20,
+      "US-ME": 19,
+      "AR-Z": 16,
+      "AR-U": 16,
+      "US-IA": 16,
+      "US-OR": 14,
+      "US-SD": 11,
+      "US-CO": 10,
+      "AR-M": 9,
+      "CA-NB": 9,
+      "CN-NM": 9,
+      "CN-XJ": 8,
+      "US-KY": 8,
+      "CN-GS": 7,
+      "US-NC": 7,
+      "CN-SX": 6,
+      "CN-JL": 5,
+      "US-MT": 5,
+      "CN-HL": 4,
+      "US-NE": 3,
+      "US-TN": 3,
+      "CN-NX": 2,
+      "US-GA": 2,
+      "US-AR": 2,
+      "US-WY": 2,
+      "AR-V": 1,
+      "AU-NT": 1,
+      "BR-PR": 1,
+      "CN-HE": 1,
+      "CN-LN": 1,
+      "CN-QH": 1,
+      "CN-TJ": 1,
+      "MX-SON": 1,
+      "MX-TAM": 1,
+      "MX-BCN": 1,
+      "US-NV": 1,
+      "US-NM": 1,
+      "US-SC": 1
+    },
+    "unmapped": {
+      "GI": 5
+    }
+  },
+  "vespula-pensylvanica": {
+    "key": 1311698,
+    "name": "Vespula pensylvanica",
+    "fetched": "2026-09-24",
+    "total": 16396,
+    "countries": {
+      "US": 13688,
+      "CA": 2618,
+      "MX": 85,
+      "CR": 1,
+      "DE": 1,
+      "PA": 1,
+      "PE": 1,
+      "PK": 1
+    },
+    "subdivisions": {
+      "US-CA": 8444,
+      "CA-BC": 1647,
+      "US-WA": 948,
+      "US-OR": 865,
+      "US-CO": 863,
+      "US-UT": 562,
+      "CA-AB": 548,
+      "US-ID": 535,
+      "US-AZ": 369,
+      "US-NM": 278,
+      "CA-MB": 112,
+      "US-NV": 112,
+      "US-MT": 109,
+      "CA-SK": 108,
+      "US-HI": 84,
+      "US-WY": 62,
+      "MX-BCN": 52,
+      "US-NY": 44,
+      "US-ND": 31,
+      "US-NE": 16,
+      "US-SD": 15,
+      "MX-SON": 12,
+      "US-TX": 9,
+      "MX-CHH": 8,
+      "MX-DUR": 5,
+      "MX-JAL": 3,
+      "MX-TAM": 3,
+      "US-PA": 2,
+      "CA-ON": 1,
+      "MX-MIC": 1,
+      "MX-VER": 1,
+      "US-GA": 1,
+      "US-IL": 1,
+      "US-AK": 1
+    },
+    "unmapped": {}
   },
   "vespula-vulgaris": {
     "key": 1311671,

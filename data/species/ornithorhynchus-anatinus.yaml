@@ -10,10 +10,13 @@ venom: >-
 habitat: >-
   Freshwater rivers, streams and lakes of eastern Australia.
 size: 40–60 cm
+aquatic: freshwater
 regions:
   - AU-ACT
   - AU-NSW
+  - AU-NT
   - AU-QLD
   - AU-SA
   - AU-TAS
   - AU-VIC
+  - US-FL

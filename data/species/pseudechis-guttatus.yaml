@@ -1,0 +1,14 @@
+name: Blue-bellied black snake
+scientificName: Pseudechis guttatus
+group: snake
+danger: 3
+summary: >-
+  A black snake of inland eastern Australia, varying from black to spotted.
+venom: >-
+  Myotoxic and anticoagulant: pain, swelling and muscle damage.
+habitat: >-
+  Floodplains, grassland and woodland.
+size: 1.2–1.5 m
+regions:
+  - AU-QLD
+  - AU-NSW

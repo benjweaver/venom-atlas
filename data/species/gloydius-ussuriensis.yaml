@@ -1,0 +1,17 @@
+name: Ussuri mamushi
+scientificName: Gloydius ussuriensis
+group: snake
+danger: 3
+summary: >-
+  A small pit viper of the Russian Far East, north-east China and Korea.
+venom: >-
+  Haemotoxic: pain, swelling and bleeding problems.
+habitat: >-
+  Forest edges, meadows and river valleys.
+size: 50–65 cm
+regions:
+  - CN-HL
+  - CN-JL
+  - CN-LN
+  - KR
+  - RU

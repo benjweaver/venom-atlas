@@ -36,6 +36,8 @@ export interface RangeRules {
   minRecordsCeiling: number
   /** ...and at least this share of the species' records. */
   minShare: number
+  /** Records a subdivided country needs before it's listed whole, when no state qualifies. */
+  countryFallback: number
 }
 
 export const DEFAULT_RULES: RangeRules = {
@@ -43,6 +45,7 @@ export const DEFAULT_RULES: RangeRules = {
   minRecordsFloor: 2,
   minRecordsCeiling: 5,
   minShare: 0.0002,
+  countryFallback: 25,
 }
 
 export function minRecords(total: number, rules: RangeRules = DEFAULT_RULES): number {
@@ -75,10 +78,16 @@ export function proposeRegions(
     const states = Object.entries(counts.subdivisions).filter(
       ([code, m]) => code.startsWith(`${country}-`) && enough(m) && !isExcluded(code),
     )
-    // Records with no usable state (at sea, or GADM and our map disagree)
-    // still prove the country, so fall back to it rather than drop it.
-    if (states.length) for (const [code] of states) regions.add(code)
-    else regions.add(country)
+    if (states.length) {
+      for (const [code] of states) regions.add(code)
+    } else if (n >= rules.countryFallback) {
+      // Plenty of records but none tied to a state (usually at sea, off the
+      // coast): the country is proven, just not where in it.
+      regions.add(country)
+    }
+    // Otherwise a handful of scattered records, like 8 yellow-bellied sea
+    // snakes around the US, would list the species "country-wide" in every
+    // state from California to South Carolina. Leave it for review instead.
   }
 
   for (const code of overrides.include ?? []) regions.add(code)
@@ -104,4 +113,24 @@ export function diffRegions(current: string[], proposed: string[]): RangeDiff {
     removed: current.filter((c) => !next.has(c)),
     kept: proposed.filter((c) => now.has(c)),
   }
+}
+
+/**
+ * Places for an aquatic species: every territory with a record dot, minus
+ * exclusions. Each dot's territory is GBIF's own attribution (see
+ * scripts/ranges.ts), and any dot counts: a lone record at sea is far more
+ * likely to be real than one on land, where zoo animals and pets turn up.
+ * The site draws a dot only when its territory is listed (or it's in open
+ * ocean), so the dots and the list always agree.
+ */
+export function regionsFromCells(
+  cells: { code: string | null; n: number }[],
+  overrides: Overrides = {},
+): string[] {
+  const excluded = new Set(overrides.exclude ?? [])
+  const regions = new Set<string>()
+  for (const { code } of cells) {
+    if (code && !excluded.has(code) && !excluded.has(code.slice(0, 2))) regions.add(code)
+  }
+  return [...regions].sort()
 }

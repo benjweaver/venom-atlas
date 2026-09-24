@@ -1,0 +1,17 @@
+name: Amazonian toad-headed pit viper
+scientificName: Bothrocophias hyoprora
+group: snake
+danger: 3
+summary: >-
+  A small, short-headed pit viper of the western Amazon.
+venom: >-
+  Haemotoxic: pain, swelling and bleeding.
+habitat: >-
+  Rainforest floor.
+size: 50–80 cm
+regions:
+  - BR-AM
+  - BR-PA
+  - CO
+  - EC
+  - PE

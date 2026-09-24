@@ -11,7 +11,9 @@ venom: >-
 habitat: >-
   Sandy shallows of beaches, especially at low tide in summer.
 size: Up to 15 cm
+aquatic: marine
 regions:
+  - AL
   - BE
   - DE
   - DK
@@ -20,7 +22,15 @@ regions:
   - GB
   - GG
   - GR
+  - HR
   - IE
+  - IL
+  - IM
   - IT
+  - JE
   - NL
+  - NO
   - PT
+  - SE
+  - SI
+  - TN

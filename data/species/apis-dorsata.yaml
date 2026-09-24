@@ -1,0 +1,60 @@
+name: Giant honey bee
+scientificName: Apis dorsata
+group: insect
+danger: 3
+summary: >-
+  A large bee of South and South East Asia that builds huge open combs on cliffs and tall trees,
+  and defends them in swarms.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Forest, cliffs and tall buildings.
+size: 17–20 mm
+regions:
+  - BD
+  - BN
+  - BT
+  - CN-GX
+  - CN-HI
+  - CN-YN
+  - HK
+  - ID
+  - IN-AN
+  - IN-AP
+  - IN-AR
+  - IN-AS
+  - IN-BR
+  - IN-CH
+  - IN-CT
+  - IN-DL
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-HR
+  - IN-JH
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-MZ
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
+  - KH
+  - LA
+  - LK
+  - MM
+  - MY
+  - NP
+  - PH
+  - PK
+  - SG
+  - TH
+  - TL
+  - VN

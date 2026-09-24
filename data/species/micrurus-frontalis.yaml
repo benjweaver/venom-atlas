@@ -1,0 +1,19 @@
+name: Southern coral snake
+scientificName: Micrurus frontalis
+group: snake
+danger: 4
+summary: >-
+  A coral snake of the Brazilian cerrado and surrounding countries.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure.
+habitat: >-
+  Savanna and forest edges.
+size: 70–110 cm
+regions:
+  - BR-DF
+  - BR-GO
+  - BR-MG
+  - BR-MS
+  - BR-SP
+  - PY

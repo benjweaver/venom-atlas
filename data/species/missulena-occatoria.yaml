@@ -1,0 +1,19 @@
+name: Red-headed mouse spider
+scientificName: Missulena occatoria
+group: spider
+danger: 3
+summary: >-
+  A burrowing spider whose males have bright red jaws.
+venom: >-
+  Neurotoxic; most bites are mild, but severe ones resemble funnel-web bites.
+habitat: >-
+  Open woodland and scrub, in burrows.
+size: Body 1–2.5 cm
+regions:
+  - AU-ACT
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-VIC
+  - AU-WA

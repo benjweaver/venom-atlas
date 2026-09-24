@@ -13,6 +13,9 @@ try {
     ...species
       .filter((s) => !s.gbifKey && !s.gbif?.manual)
       .map((s) => `${s.slug}: range not checked — run: npm run ranges (or set gbif.manual)`),
+    ...species
+      .filter((s) => !s.records && !s.gbif?.manual)
+      .map((s) => `${s.slug}: no record grid — run: npm run ranges`),
   ]
   if (problems.length) throw new DataError(problems)
   console.log(`✓ ${species.length} species valid`)

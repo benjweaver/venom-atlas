@@ -1,8 +1,10 @@
-import type { Feature, FeatureCollection, Geometry, Position } from 'geojson'
+import type { Feature, FeatureCollection, Geometry, Point, Position } from 'geojson'
 
 export interface RegionProps {
   code: string
   name: string
+  /** Wikidata id, used to link to the region's Wikipedia article. */
+  wikidata?: string
   continent?: string
   count?: number
 }
@@ -11,14 +13,25 @@ export type Regions = FeatureCollection<Geometry, RegionProps>
 
 const cache = new Map<string, Promise<Regions | null>>()
 
+/**
+ * Fetches a JSON data file, or null if there isn't one. A missing file isn't
+ * always a 404: the dev server and hosts with a single-page-app fallback
+ * answer with index.html and a 200, so the content type is what's checked.
+ */
+function fetchJson<T>(url: string): Promise<T | null> {
+  return fetch(url)
+    .then((r) =>
+      r.ok && r.headers.get('content-type')?.includes('json') ? (r.json() as Promise<T>) : null,
+    )
+    .catch(() => null)
+}
+
 // Files live in public/geo; BASE_URL makes this work when the site is served
 // from a sub-path (GitHub Pages project sites).
 function load(path: string): Promise<Regions | null> {
   let pending = cache.get(path)
   if (!pending) {
-    pending = fetch(`${import.meta.env.BASE_URL}geo/${path}`).then((r) =>
-      r.ok ? (r.json() as Promise<Regions>) : null,
-    )
+    pending = fetchJson<Regions>(`${import.meta.env.BASE_URL}geo/${path}`)
     cache.set(path, pending)
   }
   return pending
@@ -33,6 +46,43 @@ export async function loadCountries(): Promise<Regions> {
 /** States/provinces for one country, or null for countries Natural Earth doesn't subdivide. */
 export function loadSubdivisions(country: string): Promise<Regions | null> {
   return load(`admin1/${country}.json`)
+}
+
+export type Water = FeatureCollection<Geometry, { kind: 'river' | 'lake'; rank: number }>
+
+/** Major rivers and lakes, drawn under everything for context. */
+export async function loadWater(): Promise<{ rivers: Water; lakes: Water } | null> {
+  const [rivers, lakes] = await Promise.all([load('rivers.json'), load('lakes.json')])
+  return rivers && lakes
+    ? { rivers: rivers as unknown as Water, lakes: lakes as unknown as Water }
+    : null
+}
+
+/** Grid cells where an aquatic species has been recorded: record count, and the territory the dot belongs to (null in open ocean). */
+export type RecordPoints = FeatureCollection<Point, { n: number; code: string | null }>
+
+const records = new Map<string, Promise<RecordPoints | null>>()
+
+export function loadRecords(slug: string): Promise<RecordPoints | null> {
+  let pending = records.get(slug)
+  if (!pending) {
+    pending = fetchJson<[number, number, number, (string | null)?][]>(
+      `${import.meta.env.BASE_URL}occurrence/${slug}.json`,
+    ).then((cells) =>
+      cells
+        ? {
+            type: 'FeatureCollection',
+            features: cells.map(([lon, lat, n, code]) => ({
+              type: 'Feature',
+              properties: { n, code: code ?? null },
+              geometry: { type: 'Point', coordinates: [lon, lat] },
+            })),
+          }
+        : null,
+    )
+    records.set(slug, pending)
+  }
+  return pending
 }
 
 export type BBox = [west: number, south: number, east: number, north: number]
@@ -127,4 +177,15 @@ export function frameBox(feature: Feature<Geometry>): BBox | null {
     return gap(main, bbox([polygonFeature(part)])!) <= 5
   })
   return bbox(keep.map(polygonFeature))
+}
+
+/**
+ * The English Wikipedia article for a region. Going through Wikidata finds the
+ * right article even when a name is ambiguous ("Santa Catarina" is a Brazilian
+ * state, several towns and a saint).
+ */
+export function wikipediaUrl(name: string, wikidata?: string): string {
+  return wikidata
+    ? `https://www.wikidata.org/wiki/Special:GoToLinkedPage/enwiki/${wikidata}`
+    : `https://en.wikipedia.org/wiki/Special:Search?search=${encodeURIComponent(name)}`
 }

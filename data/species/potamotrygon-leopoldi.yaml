@@ -1,0 +1,18 @@
+name: Leopoldi stingray
+scientificName: Potamotrygon leopoldi
+group: fish
+danger: 3
+summary: >-
+  A black river stingray with white spots, found only in Brazil's Xingu River.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Rocky stretches of the Xingu River.
+size: Disc up to 60 cm
+aquatic: freshwater
+regions:
+  - AT
+  - BR-MT
+  - BR-PA
+  - DE

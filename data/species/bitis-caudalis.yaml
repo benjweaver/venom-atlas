@@ -1,0 +1,21 @@
+name: Horned adder
+scientificName: Bitis caudalis
+group: snake
+danger: 2
+summary: >-
+  A small desert adder of south-western Africa with a horn above each eye.
+venom: >-
+  Cytotoxic: pain and swelling; rarely serious.
+habitat: >-
+  Sandy and gravel desert, dry scrub.
+size: 30–50 cm
+regions:
+  - AO
+  - BW
+  - NA
+  - ZA-EC
+  - ZA-GT
+  - ZA-LP
+  - ZA-NC
+  - ZA-NW
+  - ZA-WC

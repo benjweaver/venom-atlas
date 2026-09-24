@@ -9,9 +9,7 @@ venom: >-
 habitat: >-
   Shallow coastal waters and beaches.
 size: Bell up to 12 cm
+aquatic: marine
 regions:
   - JP-47
   - PH
-gbif:
-  include:
-    - PH

@@ -1,0 +1,28 @@
+name: Discus ray
+scientificName: Paratrygon aiereba
+group: fish
+danger: 3
+summary: >-
+  A large, flat, round freshwater stingray of the Amazon basin.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Sandy river beds.
+size: Disc up to 80 cm
+aquatic: freshwater
+regions:
+  - BO
+  - BR-AC
+  - BR-AM
+  - BR-AP
+  - BR-GO
+  - BR-PA
+  - BR-RO
+  - BR-RR
+  - BR-TO
+  - CO
+  - EC
+  - GY
+  - PE
+  - VE

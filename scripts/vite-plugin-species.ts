@@ -5,7 +5,17 @@
 // reloads the page.
 import type { Plugin } from 'vite'
 
-import { IMAGES_FILE, loadSpecies, SPECIES_DIR, speciesFiles } from './species-loader.ts'
+import {
+  GBIF_FILE,
+  GRID_DIR,
+  IMAGES_FILE,
+  loadSpecies,
+  SPECIES_DIR,
+  speciesFiles,
+} from './species-loader.ts'
+
+// Everything the species module is built from. A change to any of them rebuilds it.
+const INPUTS = [SPECIES_DIR, IMAGES_FILE, GBIF_FILE, GRID_DIR]
 
 const ID = 'virtual:species'
 const RESOLVED = '\0' + ID
@@ -22,12 +32,13 @@ export function speciesPlugin(): Plugin {
       // Added and deleted files are caught by the server watcher below.
       for (const file of speciesFiles()) this.addWatchFile(file)
       this.addWatchFile(IMAGES_FILE)
+      this.addWatchFile(GBIF_FILE)
       return `export default ${JSON.stringify(loadSpecies())}`
     },
     configureServer(server) {
-      server.watcher.add([SPECIES_DIR, IMAGES_FILE])
+      server.watcher.add(INPUTS)
       const reload = (file: string) => {
-        if (!file.startsWith(SPECIES_DIR) && file !== IMAGES_FILE) return
+        if (!INPUTS.some((input) => file.startsWith(input))) return
         const mod = server.moduleGraph.getModuleById(RESOLVED)
         if (mod) server.moduleGraph.invalidateModule(mod)
         server.ws.send({ type: 'full-reload' })

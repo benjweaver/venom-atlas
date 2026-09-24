@@ -9,31 +9,57 @@ venom: >-
 habitat: >-
   Coral reefs, rubble and seagrass in the Indo-Pacific.
 size: 10–15 cm across
+aquatic: marine
 regions:
   - AU-NSW
   - AU-QLD
+  - AU-WA
+  - CN-HI
+  - EC
   - FJ
   - GU
+  - HK
   - ID
+  - IN-KA
+  - IO
+  - JP-12
+  - JP-22
+  - JP-23
+  - JP-30
+  - JP-36
+  - JP-39
+  - JP-43
+  - JP-44
+  - JP-46
   - JP-47
   - KE
+  - KH
+  - KM
   - MG
   - MH
   - MP
   - MU
+  - MV
+  - MY
   - MZ
   - NC
   - NF
   - OM
+  - PF
+  - PG
   - PH
+  - PW
   - RE
+  - SB
   - SC
+  - TF
   - TH
   - TO
   - TW
   - TZ
   - VN
   - VU
-gbif:
-  include:
-    - AU-QLD
+  - WF
+  - WS
+  - YT
+  - ZA-NL

@@ -1,0 +1,23 @@
+name: Sinaloa bark scorpion
+scientificName: Centruroides infamatus
+group: scorpion
+danger: 4
+summary: >-
+  A dangerous bark scorpion of western Mexico.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Dry forest, houses and farmland.
+size: 6–9 cm
+regions:
+  - MX-AGU
+  - MX-COL
+  - MX-GUA
+  - MX-JAL
+  - MX-MIC
+  - MX-NAY
+  - MX-OAX
+  - MX-PUE
+  - MX-SIN
+  - MX-ZAC

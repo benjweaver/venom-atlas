@@ -1,0 +1,15 @@
+name: Chocoan lancehead
+scientificName: Bothrops punctatus
+group: snake
+danger: 4
+summary: >-
+  A partly arboreal lancehead of the Chocó rainforest.
+venom: >-
+  Haemotoxic and cytotoxic: swelling, bleeding, blistering and tissue damage; potentially fatal
+  without antivenom.
+habitat: >-
+  Wet forest.
+size: 1–1.5 m
+regions:
+  - CO
+  - EC

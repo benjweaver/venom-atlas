@@ -11,8 +11,11 @@ habitat: >-
   Shallow coastal waters, estuaries and beaches of tropical northern Australia, mostly
   October–May.
 size: Bell up to 30 cm across
+aquatic: marine
 regions:
+  - AU-NSW
   - AU-NT
   - AU-QLD
   - AU-WA
+  - ID
   - PH

@@ -8,7 +8,14 @@ import SpeciesCard from '@/components/SpeciesCard.vue'
 import SpeciesDetail from '@/components/SpeciesDetail.vue'
 import type { Species } from '@/data/schema'
 import { GROUPS } from '@/data/taxonomy'
-import { loadCountries, loadSubdivisions, type Regions } from '@/lib/geo'
+import {
+  loadCountries,
+  loadRecords,
+  loadSubdivisions,
+  wikipediaUrl,
+  type RecordPoints,
+  type Regions,
+} from '@/lib/geo'
 import {
   countryOf,
   countsByCountry,
@@ -25,12 +32,17 @@ const AtlasMap = defineAsyncComponent(() => import('@/components/AtlasMap.vue'))
 
 const view = useUrlState()
 
-// Region code → display name, filled in as boundary files load.
+// Region code → display name and Wikidata id, filled in as boundary files load.
 const names = reactive(new Map<string, string>())
+const wikidata = new Map<string, string>()
 function remember(regions: Regions | null) {
-  for (const f of regions?.features ?? []) names.set(f.properties.code, f.properties.name)
+  for (const f of regions?.features ?? []) {
+    names.set(f.properties.code, f.properties.name)
+    if (f.properties.wikidata) wikidata.set(f.properties.code, f.properties.wikidata)
+  }
 }
 const regionName = (code: string) => names.get(code) ?? code
+const regionLink = (code: string) => wikipediaUrl(regionName(code), wikidata.get(code))
 
 const countries = shallowRef<Regions | null>(null)
 const loadError = ref<string | null>(null)
@@ -115,10 +127,37 @@ watch(
   { immediate: true },
 )
 
+// The species' record grid: dots where it has actually been recorded.
+const records = shallowRef<RecordPoints | null>(null)
+watch(
+  selectedSpecies,
+  async (species) => {
+    records.value = null
+    if (!species?.records) return
+    const grid = await loadRecords(species.slug)
+    if (selectedSpecies.value !== species || !grid) return
+    // A dot is drawn only if its territory is in the species' list (or it's
+    // on the high seas), so the dots and the places listed always agree. A
+    // country listed whole covers dots tagged with any of its states.
+    const listed = new Set(species.regions)
+    const shown = (code: string | null) => !code || listed.has(code) || listed.has(code.slice(0, 2))
+    records.value = { ...grid, features: grid.features.filter((f) => shown(f.properties.code)) }
+  },
+  { immediate: true },
+)
+
 // ── Navigation ────────────────────────────────────────────────────────────
 function selectRegion(code: string | null) {
   view.region = code
   view.species = null
+}
+
+// A map click. Clicking a place opens it; clicking empty sea only lets go of
+// the place, so an open species stays open. That matters for sea species,
+// whose dots are exactly where people click.
+function onMapSelect(code: string | null) {
+  if (code) selectRegion(code)
+  else view.region = null
 }
 
 const breadcrumb = computed(() => {
@@ -166,12 +205,16 @@ addEventListener('keydown', (e) => {
         :subdivision-counts="subdivisionCounts"
         :selected="view.region"
         :range="range"
-        @select="selectRegion"
+        :records="records"
+        :aquatic="!!selectedSpecies?.aquatic"
+        @select="onMapSelect"
       />
       <p v-else-if="loadError" class="p-6 text-sm text-(--accent)">{{ loadError }}</p>
       <MapLegend
         v-if="countries"
         :range="!!range"
+        :records="!!records"
+        :aquatic="selectedSpecies?.aquatic"
         class="absolute top-3 left-3 md:top-auto md:bottom-8"
       />
     </main>
@@ -217,9 +260,20 @@ addEventListener('keydown', (e) => {
               </button>
             </template>
           </nav>
-          <h2 class="text-lg font-semibold">
-            {{ view.region ? regionName(view.region) : 'All species' }}
-          </h2>
+          <div class="flex items-baseline justify-between gap-3">
+            <h2 class="text-lg font-semibold">
+              {{ view.region ? regionName(view.region) : 'All species' }}
+            </h2>
+            <a
+              v-if="view.region"
+              :href="regionLink(view.region)"
+              target="_blank"
+              rel="noopener"
+              class="shrink-0 text-xs text-(--accent) hover:underline"
+            >
+              Wikipedia →
+            </a>
+          </div>
           <p class="mb-3 text-sm text-(--muted)">
             <template v-if="!view.region && !listed.length">No species match.</template>
             <template v-else-if="!view.region"

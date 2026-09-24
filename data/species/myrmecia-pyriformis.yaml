@@ -1,0 +1,18 @@
+name: Bull ant
+scientificName: Myrmecia pyriformis
+group: insect
+danger: 3
+summary: >-
+  A large, aggressive Australian ant with a painful sting that causes anaphylaxis in some
+  people.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Woodland and suburbs, in large ground nests.
+size: 15–25 mm
+regions:
+  - AU-ACT
+  - AU-NSW
+  - AU-SA
+  - AU-VIC

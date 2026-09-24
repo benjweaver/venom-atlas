@@ -9,10 +9,15 @@ venom: >-
 habitat: >-
   Sandy and muddy shallows.
 size: Disc up to 45 cm
+aquatic: marine
 regions:
+  - AL
+  - AR-B
   - BE
+  - BG
   - BJ
   - CY
+  - DE
   - DZ
   - EG
   - ES
@@ -30,15 +35,30 @@ regions:
   - MR
   - MT
   - NL
+  - NO
+  - OM
   - PT
+  - RU
+  - SL
+  - SN
   - TN
   - TR
   - UA
-  - ZA
 gbif:
   exclude:
+    - AO # misidentified tropical rays
+    - BZ # misidentified tropical rays
+    - DO # misidentified tropical rays
+    - GD # misidentified tropical rays
+    - GH # misidentified tropical rays
+    - GP # misidentified tropical rays
+    - ID # misidentified tropical rays
+    - IN # misidentified tropical rays
+    - MU # misidentified tropical rays
+    - MX # misidentified tropical rays
+    - PH # misidentified tropical rays
+    - SC # misidentified tropical rays
+    - SD # misidentified tropical rays
+    - ZA # a different ray species
     - AU # misidentified local rays
     - US # misidentified local rays
-  include:
-    - MA
-    - TN

@@ -1,0 +1,13 @@
+name: "Collett's snake"
+scientificName: Pseudechis colletti
+group: snake
+danger: 3
+summary: >-
+  A strikingly blotched black snake of the Queensland black-soil plains.
+venom: >-
+  Myotoxic and anticoagulant: muscle breakdown and bleeding.
+habitat: >-
+  Cracking clay plains and grassland.
+size: 1.5–2 m
+regions:
+  - AU-QLD

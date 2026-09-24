@@ -1,0 +1,21 @@
+name: White-tailed lancehead
+scientificName: Bothrops leucurus
+group: snake
+danger: 4
+summary: >-
+  A lancehead of north-eastern Brazil and a major cause of bites in Bahia.
+venom: >-
+  Haemotoxic and cytotoxic: swelling, bleeding, blistering and tissue damage; potentially fatal
+  without antivenom.
+habitat: >-
+  Atlantic Forest and cacao plantations.
+size: 1–1.8 m
+regions:
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-MG
+  - BR-PB
+  - BR-PE
+  - BR-SE

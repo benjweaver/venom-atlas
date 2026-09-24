@@ -1,0 +1,34 @@
+name: Devil stinger
+scientificName: Inimicus didactylus
+group: fish
+danger: 3
+summary: >-
+  A bizarre, camouflaged scorpionfish that walks on the seabed using its fins.
+venom: >-
+  Venomous spines cause severe pain and swelling.
+habitat: >-
+  Sand and mud near reefs.
+size: Up to 25 cm
+aquatic: marine
+regions:
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - CN-HI
+  - ID
+  - JP-12
+  - JP-47
+  - KH
+  - MY
+  - NC
+  - PG
+  - PH
+  - PW
+  - SB
+  - SG
+  - TH
+  - TL
+  - TW
+  - TZ
+  - VN
+  - VU

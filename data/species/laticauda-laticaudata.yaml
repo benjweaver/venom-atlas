@@ -1,0 +1,32 @@
+name: Blue-lipped sea krait
+scientificName: Laticauda laticaudata
+group: snake
+danger: 3
+summary: >-
+  A banded sea krait that comes ashore to rest, found from the Bay of Bengal to the Pacific.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Coral reefs and rocky shores.
+size: 80–100 cm
+aquatic: marine
+regions:
+  - FJ
+  - ID
+  - IN-AN
+  - JP-46
+  - JP-47
+  - KR
+  - MM
+  - MY
+  - NC
+  - NU
+  - NZ
+  - PG
+  - PH
+  - TH
+  - TL
+  - TO
+  - TW
+  - VU

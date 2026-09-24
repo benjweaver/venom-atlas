@@ -1,0 +1,21 @@
+name: Western massasauga
+scientificName: Sistrurus tergeminus
+group: snake
+danger: 3
+summary: >-
+  A small rattlesnake of the Great Plains and Texas grasslands.
+venom: >-
+  Haemotoxic and cytotoxic: pain and swelling; deaths are very rare.
+habitat: >-
+  Grassland and desert grassland.
+size: 50–75 cm
+regions:
+  - MX-COA
+  - US-AZ
+  - US-CO
+  - US-KS
+  - US-MO
+  - US-NE
+  - US-NM
+  - US-OK
+  - US-TX

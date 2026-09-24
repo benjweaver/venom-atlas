@@ -1,0 +1,22 @@
+name: Nubian spitting cobra
+scientificName: Naja nubiae
+group: snake
+danger: 4
+summary: >-
+  A spitting cobra of the Nile valley and eastern Sahara, only recognised as a separate species
+  in 2003.
+venom: >-
+  Cytotoxic and neurotoxic; spat venom causes painful eye injury.
+habitat: >-
+  Dry savanna, rocky desert edges and oases.
+size: 1–1.5 m
+regions:
+  - DJ
+  - EG
+  - ER
+  - SD
+  - TD
+gbif:
+  include:
+    - ER
+    - TD

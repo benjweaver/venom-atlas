@@ -1,0 +1,41 @@
+name: Asian stinging catfish
+scientificName: Heteropneustes fossilis
+group: fish
+danger: 2
+summary: >-
+  A freshwater catfish of South Asia with venomous pectoral spines, often stepped on in rice
+  paddies.
+venom: >-
+  Intensely painful stings with swelling; rarely serious.
+habitat: >-
+  Ponds, swamps, ditches and rice fields.
+size: Up to 30 cm
+aquatic: freshwater
+regions:
+  - AU-WA
+  - BD
+  - IN-AP
+  - IN-AS
+  - IN-BR
+  - IN-CT
+  - IN-DL
+  - IN-GJ
+  - IN-JH
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-WB
+  - IQ
+  - IR
+  - LK
+  - MM
+  - NP
+  - PK
+  - SY
+  - TH
+  - ZA-NL

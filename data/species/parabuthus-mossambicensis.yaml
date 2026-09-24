@@ -1,0 +1,21 @@
+name: Mozambique thick-tailed scorpion
+scientificName: Parabuthus mossambicensis
+group: scorpion
+danger: 3
+summary: >-
+  A thick-tailed scorpion of south-eastern Africa.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Savanna and sandy soils.
+size: 8–11 cm
+regions:
+  - BW
+  - MW
+  - MZ
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZW

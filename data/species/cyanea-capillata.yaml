@@ -9,25 +9,57 @@ venom: >-
 habitat: >-
   Cold northern waters of the Atlantic and Pacific.
 size: Bell up to 2 m
+aquatic: marine
 regions:
+  - BE
   - CA-BC
   - CA-MB
   - CA-NB
   - CA-NL
   - CA-NS
+  - CA-NT
   - CA-NU
+  - CA-PE
+  - CA-QC
+  - CA-YT
   - DE
   - DK
+  - EE
+  - ES
+  - FI
+  - FO
   - FR
   - GB
   - GL
   - IE
   - IM
   - IS
+  - JE
+  - LV
   - NL
   - NO
+  - PL
+  - PM
   - RU
   - SE
   - US-AK
+  - US-CA
+  - US-CT
+  - US-DE
+  - US-MA
   - US-MD
   - US-ME
+  - US-NC
+  - US-NJ
+  - US-NY
+  - US-RI
+  - US-SC
+  - US-VA
+  - US-WA
+gbif:
+  exclude:
+    - AU # other Cyanea species
+    - IN # other Cyanea species
+    - MX # other Cyanea species
+    - US-FL # other Cyanea species
+    - US-GA # other Cyanea species

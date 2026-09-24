@@ -1,0 +1,19 @@
+name: Baja California bark scorpion
+scientificName: Centruroides exilicauda
+group: scorpion
+danger: 3
+summary: >-
+  A bark scorpion of the Baja California peninsula, closely related to the Arizona bark
+  scorpion.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Desert scrub, under bark and rocks.
+size: 6–8 cm
+regions:
+  - MX-BCN
+  - MX-BCS
+  - MX-SON
+  - US-AZ
+  - US-NM

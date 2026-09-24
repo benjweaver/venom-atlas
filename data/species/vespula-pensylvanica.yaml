@@ -1,0 +1,38 @@
+name: Western yellowjacket
+scientificName: Vespula pensylvanica
+group: insect
+danger: 2
+summary: >-
+  The common aggressive yellowjacket of western North America, invasive in Hawaii.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Open woodland, parks and picnic areas.
+size: 12–15 mm
+regions:
+  - CA-AB
+  - CA-BC
+  - CA-MB
+  - CA-SK
+  - MX-BCN
+  - MX-CHH
+  - MX-DUR
+  - MX-SON
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-HI
+  - US-ID
+  - US-MT
+  - US-ND
+  - US-NE
+  - US-NM
+  - US-NV
+  - US-NY
+  - US-OR
+  - US-SD
+  - US-TX
+  - US-UT
+  - US-WA
+  - US-WY

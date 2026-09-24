@@ -1,14 +1,31 @@
 <script setup lang="ts">
 import { HEAT_STEPS, heatLabel } from '@/lib/heat'
 
-defineProps<{ range: boolean }>()
+defineProps<{ range: boolean; records: boolean; aquatic?: 'marine' | 'freshwater' }>()
 </script>
 
 <template>
   <div
     class="rounded-lg bg-(--surface)/90 px-3 py-2 text-[11px] text-(--muted) shadow-sm ring-1 ring-(--line) backdrop-blur"
   >
-    <template v-if="range">
+    <template v-if="records">
+      <div class="flex flex-col gap-1">
+        <span class="inline-flex items-center gap-1.5">
+          <span class="h-2.5 w-2.5 rounded-full bg-(--map-records)" />
+          {{
+            aquatic === 'marine'
+              ? 'Recorded at sea or on the shore'
+              : aquatic === 'freshwater'
+                ? 'Recorded in rivers and lakes'
+                : 'Where it has been recorded'
+          }}
+        </span>
+        <span class="inline-flex items-center gap-1.5">
+          <span class="h-3 w-3 rounded-sm bg-(--map-range) opacity-40" /> Places it's found in
+        </span>
+      </div>
+    </template>
+    <template v-else-if="range">
       <span class="inline-flex items-center gap-1.5">
         <span class="h-3 w-3 rounded-sm bg-(--map-range) opacity-70" /> Where this species lives
       </span>

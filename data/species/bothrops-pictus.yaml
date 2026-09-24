@@ -1,0 +1,13 @@
+name: Desert lancehead
+scientificName: Bothrops pictus
+group: snake
+danger: 3
+summary: >-
+  A lancehead of the dry Pacific coast and Andean foothills of Peru.
+venom: >-
+  Haemotoxic: pain, swelling and bleeding.
+habitat: >-
+  Dry scrub and rocky slopes.
+size: About 70 cm
+regions:
+  - PE

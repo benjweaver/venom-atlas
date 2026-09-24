@@ -1,0 +1,22 @@
+name: Variable bush viper
+scientificName: Atheris squamigera
+group: snake
+danger: 3
+summary: >-
+  A tree-dwelling viper of Central and West African rainforest, green to yellow with keeled
+  scales.
+venom: >-
+  Haemotoxic: swelling and bleeding; no specific antivenom.
+habitat: >-
+  Rainforest, in low vegetation.
+size: 45–75 cm
+regions:
+  - AO
+  - CD
+  - CG
+  - CM
+  - GA
+  - GQ
+  - KE
+  - NG
+  - UG

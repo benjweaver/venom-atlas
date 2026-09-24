@@ -1,0 +1,22 @@
+name: South American hydromedusa
+scientificName: Olindias sambaquiensis
+group: jellyfish
+danger: 2
+summary: >-
+  A small hydromedusa that causes thousands of stings on the beaches of southern Brazil, Uruguay
+  and Argentina.
+venom: >-
+  Painful welts and burning; rarely serious.
+habitat: >-
+  Shallow coastal waters.
+size: Bell up to 8 cm
+aquatic: marine
+regions:
+  - AR-B
+  - BR-ES
+  - BR-PR
+  - BR-RJ
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - UY

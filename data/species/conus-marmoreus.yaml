@@ -1,0 +1,49 @@
+name: Marbled cone
+scientificName: Conus marmoreus
+group: mollusc
+danger: 4
+summary: >-
+  A cone snail with a bold black-and-white shell. It hunts other snails but can still sting
+  people.
+venom: >-
+  Conotoxins cause numbness and paralysis. There is no antivenom; treatment is breathing
+  support.
+habitat: >-
+  Reefs and sand in the Indo-Pacific.
+size: Shell up to 15 cm
+aquatic: marine
+regions:
+  - AS
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - CN-HI
+  - FJ
+  - FM
+  - GU
+  - ID
+  - JP-47
+  - KE
+  - MH
+  - MP
+  - MY
+  - NC
+  - PF
+  - PG
+  - PH
+  - PW
+  - RE
+  - SB
+  - SC
+  - SD
+  - SG
+  - TH
+  - TL
+  - TO
+  - TZ
+  - VN
+  - VU
+  - WF
+  - WS
+  - ZA-NL

@@ -1,0 +1,96 @@
+name: Southern stingray
+scientificName: Hypanus americanus
+group: fish
+danger: 2
+summary: >-
+  A large stingray of the western Atlantic, famous at Stingray City in the Cayman Islands.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Sandy shallows and seagrass.
+size: Disc up to 1.5 m
+aquatic: marine
+regions:
+  - AG
+  - AI
+  - AW
+  - BB
+  - BL
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-MA
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-SC
+  - BR-SP
+  - BS
+  - BZ
+  - CO
+  - CR
+  - CU
+  - CV
+  - CW
+  - DM
+  - DO
+  - ES
+  - GD
+  - GF
+  - GH
+  - GP
+  - GW
+  - GY
+  - HN
+  - ID
+  - JM
+  - KN
+  - KY
+  - LC
+  - MQ
+  - MS
+  - MX-CAM
+  - MX-ROO
+  - MX-TAB
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - NI
+  - PA
+  - PE
+  - PR
+  - SL
+  - SR
+  - TC
+  - TH
+  - TT
+  - US-AL
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-LA
+  - US-MD
+  - US-MS
+  - US-NC
+  - US-NJ
+  - US-NY
+  - US-SC
+  - US-TX
+  - US-VA
+  - VC
+  - VE
+  - VG
+  - VI
+gbif:
+  exclude:
+    - EG # misidentified Indo-Pacific rays
+    - IR # misidentified Indo-Pacific rays
+    - NC # misidentified Indo-Pacific rays
+    - SC # misidentified Indo-Pacific rays
+    - US-NM # mislocated record, far inland

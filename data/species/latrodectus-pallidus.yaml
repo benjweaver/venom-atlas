@@ -1,0 +1,29 @@
+name: White widow
+scientificName: Latrodectus pallidus
+group: spider
+danger: 2
+summary: >-
+  A pale widow spider of the Middle East, North Africa and Central Asia.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Dry steppe and desert shrubs.
+size: Female body about 1 cm
+regions:
+  - EG
+  - IL
+  - IR
+  - JO
+  - KZ
+  - MA
+  - PS
+  - TM
+  - TR
+  - UZ
+gbif:
+  include:
+    - JO
+    - KZ
+    - UZ
+    - TM

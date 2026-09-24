@@ -1,0 +1,21 @@
+name: Elegant sea snake
+scientificName: Hydrophis elegans
+group: snake
+danger: 4
+summary: >-
+  A long, slender sea snake of northern Australian waters.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Shallow turbid coastal waters and seagrass beds.
+size: 1.5–2 m
+aquatic: marine
+regions:
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-WA
+  - ID
+  - PG

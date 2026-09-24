@@ -1,0 +1,92 @@
+name: Long-spined sea urchin
+scientificName: Diadema setosum
+group: other
+danger: 1
+summary: >-
+  A black urchin with long, brittle spines that break off in the skin.
+venom: >-
+  Painful puncture wounds; mildly venomous. Spine fragments can cause infections.
+habitat: >-
+  Reefs and rocky shores.
+size: Spines up to 30 cm
+aquatic: marine
+regions:
+  - AE
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - CN-GD
+  - CN-HI
+  - CY
+  - DE
+  - DJ
+  - EG
+  - ER
+  - ES
+  - FJ
+  - FR
+  - GR
+  - GU
+  - ID
+  - IL
+  - IN-AN
+  - IT
+  - JO
+  - JP-12
+  - JP-14
+  - JP-18
+  - JP-22
+  - JP-23
+  - JP-26
+  - JP-27
+  - JP-30
+  - JP-31
+  - JP-39
+  - JP-41
+  - JP-43
+  - JP-46
+  - JP-47
+  - KE
+  - KH
+  - KR
+  - KW
+  - LB
+  - LK
+  - MG
+  - MH
+  - MM
+  - MV
+  - MY
+  - MZ
+  - NC
+  - OM
+  - PF
+  - PG
+  - PH
+  - PW
+  - RE
+  - SA
+  - SB
+  - SC
+  - SD
+  - SG
+  - SY
+  - TH
+  - TL
+  - TO
+  - TR
+  - TW
+  - TZ
+  - VN
+  - VU
+  - YE
+  - YT
+  - ZA-EC
+  - ZA-NL
+gbif:
+  exclude:
+    - AQ # mislocated record
+    - GS # mislocated record
+    - HM # mislocated record
+    - IS # mislocated record

@@ -1,0 +1,20 @@
+name: Bolivian wandering spider
+scientificName: Phoneutria boliviensis
+group: spider
+danger: 3
+summary: >-
+  A wandering spider of the western Amazon and Central America, occasionally found in banana
+  shipments.
+venom: >-
+  Neurotoxic: severe pain and sweating; serious systemic effects are uncommon.
+habitat: >-
+  Rainforest and plantations.
+size: Leg span up to 13 cm
+regions:
+  - BO
+  - BR-AC
+  - BR-AM
+  - CO
+  - EC
+  - PA
+  - PE

@@ -1,0 +1,39 @@
+name: Atlantic sea nettle
+scientificName: Chrysaora quinquecirrha
+group: jellyfish
+danger: 1
+summary: >-
+  A common summer jellyfish of the US Atlantic coast, especially Chesapeake Bay.
+venom: >-
+  Painful, itchy welts; rarely serious.
+habitat: >-
+  Bays, estuaries and coastal waters.
+size: Bell up to 25 cm
+aquatic: marine
+regions:
+  - CA-BC
+  - CA-NB
+  - CO
+  - JM
+  - MX-TAM
+  - MX-VER
+  - PA
+  - PR
+  - US-AL
+  - US-CT
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-MS
+  - US-NC
+  - US-NJ
+  - US-SC
+  - US-TX
+  - US-VA
+gbif:
+  exclude:
+    - KR # other Chrysaora species
+    - MY # other Chrysaora species

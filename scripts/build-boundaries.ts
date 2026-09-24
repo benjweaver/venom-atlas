@@ -6,7 +6,8 @@
 // detail or pick up a new Natural Earth release — never as part of a build.
 // Deploys stay offline and deterministic.
 //
-//   public/geo/countries.json      every country, keyed by ISO 3166-1 alpha-2
+//   public/geo/countries.json      every country, keyed by ISO 3166-1 alpha-2,
+//                                  with its Wikidata id (for Wikipedia links)
 //   public/geo/admin1/<CC>.json    that country's states/provinces, keyed by
 //                                  ISO 3166-2 — fetched only when a country is
 //                                  opened, so the first load stays small.
@@ -24,6 +25,11 @@ const SOURCES = {
     'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_admin_0_countries.geojson',
   admin1:
     'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_admin_1_states_provinces.geojson',
+  rivers:
+    'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_rivers_lake_centerlines.geojson',
+  lakes:
+    'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_50m_lakes.geojson',
+  land: 'https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/ne_10m_land.geojson',
 }
 
 async function download(name: string, url: string): Promise<string> {
@@ -43,6 +49,9 @@ function run(...args: string[]) {
 mkdirSync(cache, { recursive: true })
 const countriesSrc = await download('countries', SOURCES.countries)
 const admin1Src = await download('admin1', SOURCES.admin1)
+const riversSrc = await download('rivers', SOURCES.rivers)
+const lakesSrc = await download('lakes', SOURCES.lakes)
+const landSrc = await download('land', SOURCES.land)
 
 // Countries. ISO_A2 is "-99" for France and Norway (a Natural Earth quirk);
 // ISO_A2_EH fills those in. Territories sharing a code (e.g. Australia's
@@ -54,9 +63,9 @@ run(
   'ISO_A2_EH !== "-99"',
   '-dissolve',
   'ISO_A2_EH',
-  'copy-fields=NAME,CONTINENT',
+  'copy-fields=NAME,CONTINENT,WIKIDATAID',
   '-rename-fields',
-  'code=ISO_A2_EH,name=NAME,continent=CONTINENT',
+  'code=ISO_A2_EH,name=NAME,continent=CONTINENT,wikidata=WIKIDATAID',
   '-simplify',
   '20%',
   'keep-shapes',
@@ -77,16 +86,16 @@ run(
   'iso_a2 && iso_a2 !== "-1" && iso_a2 !== "-99" && iso_3166_2 && iso_3166_2.indexOf("~") === -1',
   '-dissolve',
   'iso_3166_2',
-  'copy-fields=name,iso_a2',
+  'copy-fields=name,iso_a2,wikidataid',
   '-rename-fields',
-  'code=iso_3166_2',
+  'code=iso_3166_2,wikidata=wikidataid',
   '-simplify',
   '8%',
   'keep-shapes',
   '-split',
   'iso_a2',
   '-filter-fields',
-  'code,name',
+  'code,name,wikidata',
   '-o',
   admin1Out + '/',
   'format=geojson',
@@ -150,7 +159,7 @@ for (const region of frAdmin1.filter((f) => OVERSEAS[f.properties.code])) {
   const coordinates = moved.length ? moved : partsOf(region)
   countries.push({
     type: 'Feature',
-    properties: OVERSEAS[region.properties.code],
+    properties: { ...OVERSEAS[region.properties.code], wikidata: region.properties.wikidata },
     geometry: { type: 'MultiPolygon', coordinates },
   })
 }
@@ -159,6 +168,60 @@ writeLayer(countriesFile, countries)
 writeLayer(
   frFile,
   frAdmin1.filter((f) => !OVERSEAS[f.properties.code]),
+)
+
+// All land, for the coastline: sea animals recorded far from it are errors
+// (see scripts/assign-cells.ts). From the detailed 1:10m layer, because the
+// 1:50m outlines fill in fjords and inlets (Oslo harbour would count as 60 km
+// inland). Used by scripts only, never sent to the browser.
+run(
+  landSrc,
+  '-each',
+  'code="LAND"',
+  '-filter-fields',
+  'code',
+  '-simplify',
+  '15%',
+  'keep-shapes',
+  '-o',
+  join(root, 'data', 'land.json'),
+  'format=geojson',
+  'precision=0.001',
+)
+
+// Rivers and lakes, drawn under everything else so freshwater species' record
+// dots have the water they follow for context. `rank` is Natural Earth's
+// importance (lower = bigger), used to show only major rivers when zoomed out.
+run(
+  riversSrc,
+  '-filter-fields',
+  'scalerank',
+  '-rename-fields',
+  'rank=scalerank',
+  '-each',
+  'kind="river"',
+  '-simplify',
+  '30%',
+  '-o',
+  join(out, 'rivers.json'),
+  'format=geojson',
+  'precision=0.001',
+)
+run(
+  lakesSrc,
+  '-filter-fields',
+  'scalerank',
+  '-rename-fields',
+  'rank=scalerank',
+  '-each',
+  'kind="lake"',
+  '-simplify',
+  '30%',
+  'keep-shapes',
+  '-o',
+  join(out, 'lakes.json'),
+  'format=geojson',
+  'precision=0.001',
 )
 
 console.log(`wrote ${readdirSync(admin1Out).length} admin-1 files to ${admin1Out}`)

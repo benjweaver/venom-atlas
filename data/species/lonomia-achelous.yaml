@@ -1,0 +1,21 @@
+name: Venezuelan giant silkworm moth caterpillar
+scientificName: Lonomia achelous
+group: insect
+danger: 4
+summary: >-
+  A spiny caterpillar of northern South America whose touch can cause serious bleeding.
+venom: >-
+  Anticoagulant: bleeding and clotting problems; potentially fatal.
+habitat: >-
+  Forest and plantations, clustered on tree trunks.
+size: Caterpillar 5–7 cm
+regions:
+  - BR-AM
+  - BR-MA
+  - BR-SP
+  - CO
+  - GF
+  - VE
+gbif:
+  include:
+    - VE

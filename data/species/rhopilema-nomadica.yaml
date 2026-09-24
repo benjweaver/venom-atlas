@@ -1,0 +1,35 @@
+name: Nomad jellyfish
+scientificName: Rhopilema nomadica
+group: jellyfish
+danger: 2
+summary: >-
+  A large jellyfish that entered the Mediterranean from the Red Sea and now swarms off the
+  Levant each summer.
+venom: >-
+  Painful burning stings and rashes.
+habitat: >-
+  Coastal waters, in large summer swarms.
+size: Bell up to 90 cm
+aquatic: marine
+regions:
+  - CY
+  - EG
+  - ES
+  - FR
+  - GR
+  - IL
+  - IN-MH
+  - IN-OR
+  - IT
+  - KE
+  - LB
+  - LK
+  - MC
+  - MT
+  - MZ
+  - SA
+  - SY
+  - TN
+  - TR
+  - TZ
+  - ZA-NL

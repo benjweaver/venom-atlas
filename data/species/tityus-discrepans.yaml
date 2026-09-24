@@ -1,0 +1,15 @@
+name: Venezuelan scorpion
+scientificName: Tityus discrepans
+group: scorpion
+danger: 4
+summary: >-
+  The most medically important scorpion around Caracas, especially dangerous to children.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries. It can also cause acute pancreatitis.
+habitat: >-
+  Houses, gardens and cloud forest.
+size: 5–7 cm
+regions:
+  - TT
+  - VE

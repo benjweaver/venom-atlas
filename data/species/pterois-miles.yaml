@@ -10,18 +10,35 @@ venom: >-
 habitat: >-
   Reefs, rocky coasts and wrecks.
 size: Up to 35 cm
+aquatic: marine
 regions:
   - AE
   - AL
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - BH
+  - CW
   - CY
+  - DJ
   - EG
+  - ES
   - GR
   - HR
   - ID
   - IL
   - IN-AN
+  - IN-AP
   - IN-GA
+  - IN-GJ
+  - IN-KA
+  - IN-KL
+  - IN-LD
+  - IN-MH
+  - IN-OR
+  - IN-TN
   - IO
+  - IR
   - IT
   - JO
   - KE
@@ -31,22 +48,27 @@ regions:
   - LY
   - ME
   - MG
+  - MM
   - MT
   - MU
   - MV
   - MY
   - MZ
   - OM
+  - PK
   - RE
   - SA
   - SC
   - SD
   - SO
   - SY
+  - TF
   - TH
   - TN
   - TR
   - TZ
-  - YT
+  - US-FL
+  - US-NC
   - ZA-EC
   - ZA-NL
+  - ZA-WC

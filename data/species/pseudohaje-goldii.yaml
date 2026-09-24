@@ -1,0 +1,31 @@
+name: "Gold's tree cobra"
+scientificName: Pseudohaje goldii
+group: snake
+danger: 4
+summary: >-
+  A large-eyed, tree-living cobra of Central African rainforest.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Rainforest canopy near water.
+size: 1.5–2.7 m
+regions:
+  - AO
+  - CD
+  - CF
+  - CG
+  - CM
+  - GA
+  - GH
+  - KE
+  - NG
+  - UG
+gbif:
+  include:
+    - CD
+    - CG
+    - NG
+    - KE
+    - AO
+    - CF

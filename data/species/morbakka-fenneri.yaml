@@ -1,0 +1,16 @@
+name: Morbakka
+scientificName: Morbakka fenneri
+group: jellyfish
+danger: 3
+summary: >-
+  A large Irukandji-type box jellyfish of eastern Australia, also called the fire jelly.
+venom: >-
+  Painful sting that can lead to Irukandji syndrome.
+habitat: >-
+  Coastal waters and estuaries.
+size: Bell up to 15 cm
+aquatic: marine
+regions:
+  - AU-NSW
+  - AU-QLD
+  - IN-WB

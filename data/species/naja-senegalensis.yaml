@@ -1,0 +1,30 @@
+name: Senegalese cobra
+scientificName: Naja senegalensis
+group: snake
+danger: 5
+summary: >-
+  A West African cobra of the Sahel and savanna, recognised as a separate species in 2009.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Dry savanna and farmland.
+size: 1.5–2 m
+regions:
+  - BF
+  - GH
+  - GM
+  - GN
+  - ML
+  - MR
+  - NE
+  - SN
+gbif:
+  include:
+    - SN
+    - GM
+    - GN
+    - ML
+    - BF
+    - NE
+    - GH

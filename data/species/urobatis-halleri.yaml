@@ -1,0 +1,35 @@
+name: Round stingray
+scientificName: Urobatis halleri
+group: fish
+danger: 2
+summary: >-
+  A small ray behind thousands of stings a year on southern California beaches. The "stingray
+  shuffle" keeps them away.
+venom: >-
+  Deep, very painful wounds from the tail barb, with swelling and a high risk of infection; hot
+  water eases the pain.
+habitat: >-
+  Sandy surf zones and bays.
+size: Disc up to 30 cm
+aquatic: marine
+regions:
+  - CO
+  - CR
+  - EC
+  - MX-BCN
+  - MX-BCS
+  - MX-COL
+  - MX-GRO
+  - MX-JAL
+  - MX-MIC
+  - MX-NAY
+  - MX-OAX
+  - MX-SIN
+  - MX-SON
+  - PA
+  - SV
+  - US-CA
+gbif:
+  exclude:
+    - MX-ROO # Pacific species; Caribbean records misidentified
+    - US-TX # Pacific species; Gulf records misidentified

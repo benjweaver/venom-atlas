@@ -1,0 +1,17 @@
+name: Gwardar
+scientificName: Pseudonaja mengdeni
+group: snake
+danger: 5
+summary: >-
+  A western brown snake of arid Australia, fast and nervous.
+venom: >-
+  Causes clotting failure and collapse; potentially fatal.
+habitat: >-
+  Arid scrub, grassland and spinifex.
+size: 1–1.5 m
+regions:
+  - AU-WA
+  - AU-NT
+  - AU-SA
+  - AU-QLD
+  - AU-NSW

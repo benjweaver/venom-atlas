@@ -3,6 +3,7 @@
 // npm run ranges -- --all              — every species
 //   --refresh   re-fetch from GBIF instead of using data/gbif.json
 //   --write     write the proposed regions into the species files
+//   --regrid    re-fetch record grids (dots) without re-fetching counts
 //
 // Without --write nothing in data/species changes: you get a diff per species,
 // with record counts, to review first. Reject a place for good with
@@ -11,14 +12,22 @@
 // Raw counts are cached in data/gbif.json (committed), so a proposal can be
 // re-derived and reviewed without the network, and the site can link each
 // species to its GBIF page.
-import { readFileSync, writeFileSync } from 'node:fs'
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { basename, join } from 'node:path'
 
 import { parse } from 'yaml'
 
 import { speciesSchema, type SpeciesFile } from '../src/data/schema.ts'
-import { diffRegions, proposeRegions, SUBDIVIDED, type GbifCounts } from './gbif-range.ts'
-import { knownRegions, ROOT, speciesFiles } from './species-loader.ts'
+import { makeInlandTest, makeStateResolver, type Outline } from './assign-cells.ts'
+import {
+  diffRegions,
+  proposeRegions,
+  regionsFromCells,
+  SUBDIVIDED,
+  type GbifCounts,
+} from './gbif-range.ts'
+import { fetchGrid, tilesFor, type GridPoint } from './occurrence-grid.ts'
+import { GRID_DIR, knownRegions, ROOT, speciesFiles } from './species-loader.ts'
 
 const API = 'https://api.gbif.org/v1'
 const CACHE_FILE = join(ROOT, 'data', 'gbif.json')
@@ -54,6 +63,14 @@ const BASIS = [
 // rattlesnakes in Maine) don't count as current range.
 const SINCE = 1950
 
+// The density map API takes the same filters in a slightly different form: it
+// has no open-ended year range, and excludes records with location problems
+// by itself.
+const GRID_FILTERS: [string, string | number][] = [
+  ['year', `${SINCE},${new Date().getFullYear()}`],
+  ...BASIS.map((b): [string, string] => ['basisOfRecord', b]),
+]
+
 export interface CachedRange extends GbifCounts {
   key: number
   name: string
@@ -83,29 +100,33 @@ const writeSorted = (file: string, data: Record<string, unknown>) =>
 
 const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms))
 
-async function get<T>(path: string, params: [string, string | number][]): Promise<T> {
-  const url = new URL(API + path)
-  for (const [k, v] of params) url.searchParams.append(k, String(v))
+async function fetchRetry<T>(url: URL, read: (res: Response) => Promise<T>): Promise<T> {
   for (let attempt = 1; ; attempt++) {
     await sleep(150)
     let res: Response
-    let body: T
+    let body: T | undefined
     try {
       res = await fetch(url, { headers: { 'User-Agent': 'venom-atlas range sync' } })
       // Reading the body is inside the try too: a connection can drop mid-response.
-      body = res.ok ? ((await res.json()) as T) : (undefined as T)
+      if (res.ok) body = await read(res)
     } catch (e) {
       // Dropped connections happen on long runs; retry them like a 5xx.
       if (attempt === 5) throw e
       await sleep(2000 * attempt)
       continue
     }
-    if (res.ok) return body
+    if (res.ok) return body as T
     if (attempt === 5 || (res.status !== 429 && res.status < 500)) {
       throw new Error(`${url}: HTTP ${res.status}`)
     }
     await sleep(2000 * attempt)
   }
+}
+
+function get<T>(path: string, params: [string, string | number][]): Promise<T> {
+  const url = new URL(API + path)
+  for (const [k, v] of params) url.searchParams.append(k, String(v))
+  return fetchRetry(url, (res) => res.json() as Promise<T>)
 }
 
 interface Match {
@@ -198,6 +219,94 @@ function outlines(country: string): GeoFeature[] {
   return admin1.get(country)!
 }
 
+function sumByCode(cells: { code: string | null; n: number }[]): Record<string, number> {
+  const sums: Record<string, number> = {}
+  for (const { code, n } of cells) if (code) sums[code] = (sums[code] ?? 0) + n
+  return sums
+}
+
+/** A record dot as stored for the site: [lon, lat, records, territory or null]. */
+type GridCell = [...GridPoint, (string | null)?]
+
+const stateOf = makeStateResolver((country) => outlines(country) as Outline[])
+const inland = makeInlandTest(
+  readJson<{ features: Outline[] }>(join(ROOT, 'data', 'land.json'), { features: [] }).features,
+)
+
+// Country outlines' bounding boxes, for choosing which grid tiles to fetch.
+// A country's waters reach 200 nautical miles out, so the box is padded.
+const countryBoxes = new Map(
+  readJson<{ features: Outline[] }>(join(ROOT, 'public', 'geo', 'countries.json'), {
+    features: [],
+  }).features.map((f) => [f.properties.code, paddedBox(f, 4)]),
+)
+
+function paddedBox(f: Outline, pad: number): [number, number, number, number] {
+  const polygons = f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates
+  const pts = polygons.flat(2)
+  const lats = pts.map((p) => p[1])
+  const lons = pts.map((p) => p[0])
+  const lons360 = lons.map((x) => (x < 0 ? x + 360 : x))
+  // Measured both ways round, so Fiji or Russia doesn't span the whole globe.
+  const [w, e] =
+    Math.max(...lons360) - Math.min(...lons360) < Math.max(...lons) - Math.min(...lons)
+      ? [Math.min(...lons360), Math.max(...lons360)]
+      : [Math.min(...lons), Math.max(...lons)]
+  return [w - pad, Math.min(...lats) - pad, e + pad, Math.max(...lats) + pad]
+}
+
+/** Maps items through an async function, at most `limit` at a time, keeping order. */
+async function inParallel<T, R>(
+  items: T[],
+  limit: number,
+  fn: (item: T) => Promise<R>,
+): Promise<R[]> {
+  const results: R[] = new Array(items.length)
+  let next = 0
+  const worker = async () => {
+    while (next < items.length) {
+      const i = next++
+      results[i] = await fn(items[i])
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(limit, items.length) }, worker))
+  return results
+}
+
+/**
+ * The species' whole-world grid, with each cell tagged by the territory GBIF
+ * attributes its records to: one fetch per country GBIF credits (only the
+ * tiles near it), states resolved for the big countries. Cells no country
+ * claims, the high seas, stay untagged.
+ */
+async function fetchAttributedGrid(counts: CachedRange): Promise<GridCell[]> {
+  const get = (url: URL) => fetchRetry(url, (res) => res.arrayBuffer())
+  const cells = new Map<string, GridCell>()
+  for (const [lon, lat, n] of await fetchGrid(counts.key, GRID_FILTERS, get)) {
+    cells.set(`${lon},${lat}`, [lon, lat, n, null])
+  }
+  const countries = Object.keys(counts.countries).filter((c) => countryBoxes.has(c))
+  // Several countries at a time (GBIF serves these tiles from a cache), then
+  // merged in a fixed order so the output doesn't depend on which came back first.
+  const grids = await inParallel(countries, 6, (country) =>
+    fetchGrid(counts.key, GRID_FILTERS, get, {
+      country,
+      tiles: tilesFor(countryBoxes.get(country)!),
+    }),
+  )
+  for (const [i, country] of countries.entries()) {
+    for (const [lon, lat, n] of grids[i]) {
+      // A big country's record far from all its states (Wake Island is
+      // "US") is left as high seas rather than listing the whole country.
+      const state = SUBDIVIDED.has(country) ? stateOf([lon, lat], country) : country
+      const code = state === country && SUBDIVIDED.has(country) ? null : state
+      const cell = cells.get(`${lon},${lat}`)
+      cells.set(`${lon},${lat}`, [lon, lat, Math.max(n, cell?.[2] ?? 0), code])
+    }
+  }
+  return [...cells.values()].sort((a, b) => a[0] - b[0] || a[1] - b[1])
+}
+
 const gadmCache = readJson<Record<string, string | null>>(GADM_FILE, {})
 
 async function resolveGadm(gid: string): Promise<string | null> {
@@ -281,7 +390,10 @@ async function main() {
 
   for (const file of speciesFiles()) {
     const slug = basename(file, '.yaml')
-    const wanted = only.length ? only.includes(slug) : flags.has('--all') || !cache[slug]
+    const missingGrid = !existsSync(join(GRID_DIR, `${slug}.json`))
+    const wanted = only.length
+      ? only.includes(slug)
+      : flags.has('--all') || !cache[slug] || missingGrid
     if (!wanted) continue
 
     const raw = readFileSync(file, 'utf8')
@@ -294,19 +406,64 @@ async function main() {
     const species: SpeciesFile = parsed.data
     if (species.gbif?.manual) continue
 
-    if (!cache[slug] || flags.has('--refresh')) {
-      try {
+    const gridFile = join(GRID_DIR, `${slug}.json`)
+    const refetch = !cache[slug] || flags.has('--refresh')
+    try {
+      if (refetch) {
         cache[slug] = await fetchRange(species.gbif?.name ?? species.scientificName, regions)
         writeSorted(CACHE_FILE, cache)
-      } catch (e) {
-        console.warn(`✗ ${slug}: ${(e as Error).message}`)
-        failures++
-        continue
       }
+      // Every species gets its record grid, drawn as dots on the map, with each
+      // dot tagged with the territory GBIF attributes it to.
+      if (refetch || flags.has('--regrid') || !existsSync(gridFile)) {
+        const cells = await fetchAttributedGrid(cache[slug])
+        mkdirSync(GRID_DIR, { recursive: true })
+        writeFileSync(gridFile, JSON.stringify(cells) + '\n')
+        const placed = cells.filter((c) => c[3]).length
+        console.log(`  ${slug}: ${cells.length} record cells, ${placed} in a territory's waters`)
+      }
+      if (existsSync(gridFile)) {
+        const cells = JSON.parse(readFileSync(gridFile, 'utf8')) as GridCell[]
+        const kept = cells
+          // Sea animals recorded far inland are errors (museum locations).
+          .filter(([lon, lat]) => species.aquatic !== 'marine' || !inland([lon, lat]))
+          // Grids fetched before big countries always resolved to a state.
+          .map(([lon, lat, n, code]): GridCell => [
+            lon,
+            lat,
+            n,
+            code && SUBDIVIDED.has(code) ? null : (code ?? null),
+          ])
+        const json = JSON.stringify(kept) + '\n'
+        if (json !== readFileSync(gridFile, 'utf8')) {
+          writeFileSync(gridFile, json)
+          if (kept.length < cells.length) {
+            console.log(`  ${slug}: dropped ${cells.length - kept.length} inland record cells`)
+          }
+        }
+      }
+    } catch (e) {
+      console.warn(`✗ ${slug}: ${(e as Error).message}`)
+      failures++
+      continue
     }
 
     const counts = cache[slug]
-    const proposed = proposeRegions(counts, species.gbif)
+    // Aquatic species list exactly the territories their dots fall in or off.
+    const cells = species.aquatic
+      ? (JSON.parse(readFileSync(gridFile, 'utf8')) as GridCell[]).map(([, , n, code]) => ({
+          code: code ?? null,
+          n,
+        }))
+      : []
+    const proposed = species.aquatic
+      ? regionsFromCells(cells, species.gbif)
+      : proposeRegions(counts, species.gbif)
+    // Evidence shown in the diff: GBIF counts, or for aquatic species the
+    // records in each territory's dots.
+    const evidence: GbifCounts = species.aquatic
+      ? { total: counts.total, countries: {}, subdivisions: sumByCode(cells) }
+      : counts
     if (!proposed.length) {
       console.warn(`✗ ${slug}: too few GBIF records (${counts.total}) — set gbif.manual: true`)
       failures++
@@ -319,8 +476,8 @@ async function main() {
     }
     changed++
     console.log(`~ ${slug}: ${counts.total} records`)
-    if (diff.added.length) console.log(`    + ${fmt(diff.added, counts)}`)
-    if (diff.removed.length) console.log(`    - ${fmt(diff.removed, counts)}`)
+    if (diff.added.length) console.log(`    + ${fmt(diff.added, evidence)}`)
+    if (diff.removed.length) console.log(`    - ${fmt(diff.removed, evidence)}`)
     if (flags.has('--write')) writeFileSync(file, replaceRegions(raw, proposed))
   }
 

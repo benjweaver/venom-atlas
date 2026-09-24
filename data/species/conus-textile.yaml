@@ -10,31 +10,44 @@ venom: >-
 habitat: >-
   Coral reefs and sand in the Indo-Pacific.
 size: Shell 7–13 cm
+aquatic: marine
 regions:
   - AE
-  - AS
   - AU-NSW
   - AU-NT
   - AU-QLD
   - AU-WA
-  - CN
+  - CK
+  - CN-HI
   - EG
   - ER
   - FJ
+  - FM
   - GU
   - HK
   - ID
-  - IL
   - IN-TN
+  - IO
+  - JO
+  - JP-22
+  - JP-30
   - JP-39
+  - JP-46
   - JP-47
   - KE
+  - KH
+  - KI
+  - KM
+  - LK
   - MG
   - MH
+  - MP
   - MU
+  - MV
   - MY
   - MZ
   - NC
+  - NR
   - OM
   - PF
   - PG
@@ -44,12 +57,17 @@ regions:
   - SA
   - SB
   - SC
-  - SG
+  - SD
+  - SO
   - TH
   - TO
+  - TV
   - TW
   - TZ
   - US-HI
   - VN
   - VU
+  - WF
   - WS
+  - YE
+  - YT

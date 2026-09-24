@@ -10,11 +10,16 @@ venom: >-
 habitat: >-
   Estuaries, mudflats and shallow reefs.
 size: Up to 30 cm
+aquatic: marine
 regions:
+  - AU-NSW
   - AU-NT
   - AU-QLD
   - AU-WA
+  - FJ
+  - GU
   - ID
   - MY
+  - PG
   - PH
-  - SG
+  - TH

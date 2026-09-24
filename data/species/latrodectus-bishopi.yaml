@@ -1,0 +1,14 @@
+name: Red widow
+scientificName: Latrodectus bishopi
+group: spider
+danger: 2
+summary: >-
+  A red-legged widow spider found only in the scrub of central and southern Florida.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Sand pine scrub, in palmetto fronds.
+size: Female body about 1 cm
+regions:
+  - US-FL

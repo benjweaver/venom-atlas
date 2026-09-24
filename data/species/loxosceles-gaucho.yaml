@@ -1,0 +1,16 @@
+name: Gaucho recluse
+scientificName: Loxosceles gaucho
+group: spider
+danger: 3
+summary: >-
+  A recluse spider of São Paulo and southern Brazil.
+venom: >-
+  Cytotoxic: necrotic skin lesions; occasionally systemic illness.
+habitat: >-
+  Houses, caves and under stones.
+size: Body about 1 cm
+regions:
+  - BR-ES
+  - BR-MG
+  - BR-PR
+  - BR-SP

@@ -32,6 +32,9 @@ defineEmits<{ open: [] }>()
       <p class="truncate text-xs text-(--muted) italic">{{ species.scientificName }}</p>
       <DangerBadge :level="species.danger" class="mt-1" />
       <p class="mt-1 line-clamp-2 text-sm text-(--muted)">{{ species.summary }}</p>
+      <p v-if="species.aquatic" class="mt-1 text-[11px] font-medium text-(--map-records)">
+        {{ species.aquatic === 'marine' ? 'In the sea' : 'In rivers and lakes' }}
+      </p>
       <p v-if="countryWide" class="mt-1 text-[11px] text-(--muted)">
         Recorded country-wide — not broken down by state
       </p>

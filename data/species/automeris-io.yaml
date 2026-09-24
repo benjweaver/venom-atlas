@@ -1,0 +1,85 @@
+name: Io moth caterpillar
+scientificName: Automeris io
+group: insect
+danger: 1
+summary: >-
+  A bright green caterpillar of eastern North America with branching, stinging spines.
+venom: >-
+  Immediate burning pain and redness; rarely more serious.
+habitat: >-
+  Woodland, gardens and crops.
+size: Caterpillar 5–7 cm
+regions:
+  - CA-MB
+  - CA-ON
+  - CA-QC
+  - CR
+  - GT
+  - HN
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-COL
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-ROO
+  - MX-SIN
+  - MX-SLP
+  - MX-TAM
+  - MX-VER
+  - MX-ZAC
+  - NI
+  - US-AL
+  - US-AR
+  - US-CO
+  - US-CT
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-MT
+  - US-NC
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NM
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-SD
+  - US-TN
+  - US-TX
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WI
+  - US-WV
+gbif:
+  exclude:
+    - CO # other Automeris species

@@ -1,0 +1,49 @@
+name: Hawaiian box jellyfish
+scientificName: Alatina alata
+group: jellyfish
+danger: 3
+summary: >-
+  A box jellyfish that swarms to Hawaiian and Caribbean beaches 8–10 days after each full moon.
+venom: >-
+  Painful stings; occasionally Irukandji-like symptoms.
+habitat: >-
+  Tropical coastal waters.
+size: Bell up to 10 cm
+aquatic: marine
+regions:
+  - AU-NSW
+  - AU-QLD
+  - AU-WA
+  - BM
+  - BS
+  - BZ
+  - CO
+  - CU
+  - DM
+  - GP
+  - IN-AN
+  - KI
+  - LK
+  - MG
+  - MH
+  - MP
+  - MX-ROO
+  - PF
+  - PG
+  - PH
+  - PR
+  - SO
+  - SX
+  - TC
+  - US-FL
+  - US-HI
+  - US-LA
+  - US-NC
+  - VE
+  - VG
+  - VI
+  - VN
+  - ZA-WC
+gbif:
+  exclude:
+    - US-MA # misidentified

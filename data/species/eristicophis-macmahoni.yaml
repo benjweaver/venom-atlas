@@ -1,0 +1,19 @@
+name: "McMahon's viper"
+scientificName: Eristicophis macmahoni
+group: snake
+danger: 3
+summary: >-
+  A rare, sand-swimming viper of the deserts where Iran, Afghanistan and Pakistan meet.
+venom: >-
+  Haemotoxic and cytotoxic; bites are rare.
+habitat: >-
+  Sand dunes and sandy desert.
+size: 50–70 cm
+regions:
+  - PK
+  - AF
+  - IR
+gbif:
+  include:
+    - AF
+    - IR

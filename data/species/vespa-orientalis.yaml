@@ -1,0 +1,57 @@
+name: Oriental hornet
+scientificName: Vespa orientalis
+group: insect
+danger: 2
+summary: >-
+  A reddish-brown hornet of the Middle East and Mediterranean that can use sunlight to generate
+  electricity in its shell.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Dry, open country, towns and apiaries.
+size: 25–35 mm
+regions:
+  - AE
+  - AF
+  - AL
+  - AM
+  - AZ
+  - CL
+  - CY
+  - DZ
+  - EG
+  - ES
+  - FR
+  - GE
+  - GR
+  - HR
+  - IL
+  - IN-DL
+  - IN-MH
+  - IN-RJ
+  - IN-UP
+  - IN-WB
+  - IQ
+  - IR
+  - IT
+  - JO
+  - KG
+  - KZ
+  - LB
+  - MA
+  - MT
+  - OM
+  - PK
+  - PS
+  - RO
+  - RU
+  - SA
+  - SI
+  - SY
+  - TJ
+  - TR
+  - UZ
+gbif:
+  exclude:
+    - FI # imported

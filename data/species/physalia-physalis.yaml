@@ -11,18 +11,22 @@ venom: >-
 habitat: >-
   Warm ocean surface waters; frequently blown onto beaches.
 size: Float up to 30 cm; tentacles up to 10 m or more
+aquatic: marine
 regions:
   - AU-NSW
+  - AU-NT
   - AU-QLD
   - AU-SA
   - AU-TAS
   - AU-VIC
   - AU-WA
+  - AW
   - BB
   - BM
   - BR-AL
   - BR-BA
   - BR-CE
+  - BR-ES
   - BR-MA
   - BR-PA
   - BR-PB
@@ -37,43 +41,82 @@ regions:
   - BR-SP
   - BS
   - BZ
+  - CA-NL
   - CA-NS
+  - CI
+  - CK
   - CL
-  - CN
+  - CN-GD
+  - CN-HI
   - CO
   - CR
   - CU
   - CV
+  - CW
+  - DM
+  - DO
   - DZ
   - EC
+  - EH
   - ES
   - FJ
   - FR
   - GB
+  - GD
   - GF
-  - GM
+  - GP
+  - GT
   - GU
-  - HK
+  - GY
+  - HN
   - ID
   - IE
   - IM
+  - IN-AP
   - IN-GA
+  - IN-GJ
+  - IN-KA
+  - IN-KL
   - IN-MH
+  - IN-OR
+  - IN-TN
+  - IT
+  - JM
+  - JP-02
+  - JP-04
+  - JP-08
+  - JP-12
   - JP-14
+  - JP-22
+  - JP-24
+  - JP-46
   - JP-47
   - KE
+  - KM
+  - KR
+  - KY
+  - LC
   - LK
+  - LR
   - MA
+  - MF
+  - MG
+  - MH
   - MP
   - MQ
   - MU
+  - MV
   - MX-BCS
   - MX-COL
   - MX-GRO
   - MX-JAL
+  - MX-MIC
   - MX-NAY
+  - MX-OAX
+  - MX-ROO
   - MX-SIN
   - MX-SON
+  - MX-TAM
   - MX-VER
   - MX-YUC
   - MY
@@ -81,35 +124,58 @@ regions:
   - NA
   - NC
   - NF
+  - NU
   - NZ
+  - OM
   - PA
   - PE
+  - PF
+  - PG
   - PH
   - PT
+  - PW
+  - RE
+  - SB
   - SC
   - SH
   - SN
+  - SR
+  - SV
+  - TG
   - TH
+  - TO
   - TT
   - TW
   - TZ
   - US-AL
+  - US-CA
+  - US-CT
+  - US-DE
   - US-FL
   - US-GA
   - US-HI
   - US-LA
   - US-MA
+  - US-MD
+  - US-ME
   - US-MS
   - US-NC
+  - US-NJ
   - US-NY
   - US-RI
   - US-SC
   - US-TX
   - US-VA
   - UY
+  - VC
   - VE
   - VN
+  - VU
+  - WF
+  - YE
+  - YT
   - ZA-EC
+  - ZA-NC
   - ZA-NL
   - ZA-WC
 gbif:

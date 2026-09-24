@@ -1,0 +1,23 @@
+name: Chinese sea krait
+scientificName: Laticauda semifasciata
+group: snake
+danger: 3
+summary: >-
+  A large sea krait of the western Pacific, eaten in parts of Japan and the Philippines.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Coral reefs and rocky coasts.
+size: 1–1.7 m
+aquatic: marine
+regions:
+  - ID
+  - JP-30
+  - JP-39
+  - JP-46
+  - JP-47
+  - KR
+  - MY
+  - PH
+  - TW

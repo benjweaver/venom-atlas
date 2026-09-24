@@ -1,0 +1,15 @@
+name: Desert death adder
+scientificName: Acanthophis pyrrhus
+group: snake
+danger: 5
+summary: >-
+  A red, sand-coloured death adder of Australia's arid interior.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Spinifex desert and sandy country.
+size: 40–70 cm
+regions:
+  - AU-NT
+  - AU-WA

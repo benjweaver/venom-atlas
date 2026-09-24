@@ -1,0 +1,24 @@
+name: Variable coral snake
+scientificName: Micrurus diastema
+group: snake
+danger: 4
+summary: >-
+  A coral snake of south-eastern Mexico and northern Central America.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure.
+habitat: >-
+  Forest and farmland.
+size: 50–80 cm
+regions:
+  - BZ
+  - GT
+  - HN
+  - MX-CAM
+  - MX-CHP
+  - MX-HID
+  - MX-OAX
+  - MX-ROO
+  - MX-TAB
+  - MX-VER
+  - MX-YUC

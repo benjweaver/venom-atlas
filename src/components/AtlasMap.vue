@@ -1,10 +1,13 @@
 <script setup lang="ts">
-// The map. It draws three GeoJSON sources on a plain background — no tile
-// server, no API key, nothing to pay for or rotate:
+// The map. It draws GeoJSON sources on a plain background — no tile server,
+// no API key, nothing to pay for or rotate:
 //
 //   countries      every country, shaded by how many species live there
 //   subdivisions   the selected country's states/provinces, shaded the same way
+//   lakes, rivers  major fresh water, for context
 //   range          where the selected species lives, drawn over both
+//   records        for aquatic species, dots where it has actually been
+//                  recorded — the sea or river, not the whole country
 //
 // Everything it shows comes in through props, and clicks go out as a `select`
 // event. It holds no app state of its own, so App.vue stays the one place that
@@ -23,7 +26,7 @@ import {
 import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
 
-import { bbox, frameBox, type BBox, type Regions } from '@/lib/geo'
+import { bbox, frameBox, loadWater, type BBox, type RecordPoints, type Regions } from '@/lib/geo'
 import { HEAT_STEPS } from '@/lib/heat'
 import { isSubdivision } from '@/lib/regions'
 
@@ -34,13 +37,19 @@ const props = defineProps<{
   subdivisionCounts: Map<string, number>
   selected: string | null
   range: Regions | null
+  /** Record grid of the selected species. */
+  records: RecordPoints | null
+  aquatic: boolean
 }>()
 
 const emit = defineEmits<{ select: [code: string | null] }>()
 
 const container = ref<HTMLDivElement>()
-const tooltip = ref<{ x: number; y: number; name: string; count: number } | null>(null)
+const tooltip = ref<{ x: number; y: number; name: string; detail: string } | null>(null)
 let map: MapLibre | undefined
+// Set once the style has loaded. Until then MapLibre rejects changes, and the
+// 'load' handler applies the current props anyway, so updates just wait.
+let ready = false
 const WORLD: [number, number, number, number] = [-160, -50, 175, 72]
 const EMPTY: Regions = { type: 'FeatureCollection', features: [] }
 setWorkerUrl(workerUrl)
@@ -59,6 +68,8 @@ function palette() {
     heat: [1, 2, 3, 4, 5].map((i) => v(`--heat-${i}`)),
     range: v('--map-range'),
     selected: v('--map-selected'),
+    water: v('--map-water'),
+    records: v('--map-records'),
   }
 }
 
@@ -87,7 +98,7 @@ function source(id: string): GeoJSONSource | undefined {
 }
 
 function applyPalette() {
-  if (!map) return
+  if (!map || !ready) return
   const c = palette()
   const dimmed = !!props.range
   map.setPaintProperty('background', 'background-color', c.ocean)
@@ -96,12 +107,24 @@ function applyPalette() {
   map.setPaintProperty('countries-line', 'line-color', c.border)
   map.setPaintProperty('subdivisions-line', 'line-color', c.border)
   map.setPaintProperty('range-fill', 'fill-color', c.range)
+  // With dots, they carry the detail and the range fades back: faint for a
+  // water species (the land isn't where it lives), lighter for a land one.
+  map.setPaintProperty(
+    'range-fill',
+    'fill-opacity',
+    !props.records ? 0.55 : props.aquatic ? 0.12 : 0.28,
+  )
+  map.setPaintProperty('lakes-fill', 'fill-color', c.water)
+  map.setPaintProperty('rivers-line', 'line-color', c.water)
+  map.setPaintProperty('records-circle', 'circle-color', c.records)
+  map.setPaintProperty('records-circle', 'circle-stroke-color', c.ocean)
   map.setPaintProperty('range-line', 'line-color', c.range)
   map.setPaintProperty('selected-line', 'line-color', c.selected)
   map.setPaintProperty('selected-sub-line', 'line-color', c.selected)
 }
 
 function flyTo(box: BBox | null) {
+  if (!ready) return
   map?.fitBounds(box ?? WORLD, { padding: 32, maxZoom: 6, duration: 700 })
 }
 
@@ -115,6 +138,7 @@ function frameSelection() {
 }
 
 function updateSelectedOutline() {
+  if (!ready) return
   map?.setFilter('selected-line', ['==', ['get', 'code'], props.selected ?? ''])
 }
 
@@ -137,6 +161,9 @@ onMounted(() => {
         },
         subdivisions: { type: 'geojson', data: EMPTY, promoteId: 'code' },
         range: { type: 'geojson', data: EMPTY },
+        lakes: { type: 'geojson', data: EMPTY },
+        rivers: { type: 'geojson', data: EMPTY },
+        records: { type: 'geojson', data: EMPTY },
       },
       layers: [
         { id: 'background', type: 'background', paint: { 'background-color': c.ocean } },
@@ -156,6 +183,31 @@ onMounted(() => {
           paint: {
             'fill-color': heatPaint(c, false),
             'fill-opacity': ['case', ['boolean', ['feature-state', 'hover'], false], 0.75, 1],
+          },
+        },
+        {
+          id: 'lakes-fill',
+          type: 'fill',
+          source: 'lakes',
+          paint: { 'fill-color': c.water },
+        },
+        {
+          id: 'rivers-line',
+          type: 'line',
+          source: 'rivers',
+          // Only the biggest rivers when zoomed out (lower rank = bigger).
+          filter: [
+            'step',
+            ['zoom'],
+            ['<=', ['get', 'rank'], 3],
+            3,
+            ['<=', ['get', 'rank'], 6],
+            5,
+            true,
+          ],
+          paint: {
+            'line-color': c.water,
+            'line-width': ['interpolate', ['linear'], ['zoom'], 1, 0.6, 6, 1.6],
           },
         },
         {
@@ -183,6 +235,39 @@ onMounted(() => {
           paint: { 'line-color': c.range, 'line-width': 1.2 },
         },
         {
+          id: 'records-circle',
+          type: 'circle',
+          source: 'records',
+          paint: {
+            'circle-color': c.records,
+            // Faint for a single record, solid where records pile up, so a
+            // state full of dots still shows where the hotspots are.
+            'circle-opacity': [
+              'interpolate',
+              ['linear'],
+              ['ln', ['get', 'n']],
+              0,
+              0.3,
+              2.3,
+              0.65,
+              4.6,
+              0.95,
+            ],
+            'circle-stroke-color': c.ocean,
+            'circle-stroke-width': 0.5,
+            // Grows with zoom, and a little with how many records a cell has.
+            'circle-radius': [
+              'interpolate',
+              ['linear'],
+              ['zoom'],
+              1,
+              ['interpolate', ['linear'], ['ln', ['get', 'n']], 0, 1.8, 6, 3.5],
+              6,
+              ['interpolate', ['linear'], ['ln', ['get', 'n']], 0, 5, 6, 9],
+            ],
+          },
+        },
+        {
           id: 'selected-line',
           type: 'line',
           source: 'countries',
@@ -202,6 +287,12 @@ onMounted(() => {
   map.addControl(new NavigationControl({ showCompass: false }), 'top-right')
 
   map.on('load', () => {
+    ready = true
+    source('countries')?.setData(withCounts(props.countries, props.countryCounts))
+    loadWater().then((water) => {
+      source('lakes')?.setData(water?.lakes ?? EMPTY)
+      source('rivers')?.setData(water?.rivers ?? EMPTY)
+    })
     syncSubdivisions()
     syncRange()
     updateSelectedOutline()
@@ -218,6 +309,19 @@ onMounted(() => {
   }
 
   map.on('mousemove', (e: MapMouseEvent) => {
+    const [dot] = map!.queryRenderedFeatures(e.point, { layers: ['records-circle'] })
+    if (dot) {
+      setHover(null)
+      const n = dot.properties.n as number
+      tooltip.value = {
+        x: e.point.x,
+        y: e.point.y,
+        name: `${n} ${n === 1 ? 'record' : 'records'}`,
+        detail: 'within about 20 km',
+      }
+      map!.getCanvas().style.cursor = ''
+      return
+    }
     const [hit] = map!.queryRenderedFeatures(e.point, {
       layers: ['subdivisions-fill', 'countries-fill'],
     })
@@ -233,7 +337,7 @@ onMounted(() => {
       x: e.point.x,
       y: e.point.y,
       name: hit.properties.name as string,
-      count: (hit.properties.count as number) ?? 0,
+      detail: `${(hit.properties.count as number) ?? 0} species`,
     }
     map!.getCanvas().style.cursor = 'pointer'
   })
@@ -258,21 +362,25 @@ onBeforeUnmount(() => {
 })
 
 function syncSubdivisions() {
+  if (!ready) return
   const subs = props.subdivisions
   source('subdivisions')?.setData(subs ? withCounts(subs, props.subdivisionCounts) : EMPTY)
   map?.setFilter('selected-sub-line', ['==', ['get', 'code'], props.selected ?? ''])
 }
 
 function syncRange() {
+  if (!ready) return
   source('range')?.setData(props.range ?? EMPTY)
+  source('records')?.setData(props.records ?? EMPTY)
   applyPalette()
 }
 
 watch(
   () => props.countryCounts,
-  (counts) => source('countries')?.setData(withCounts(props.countries, counts)),
+  (counts) => ready && source('countries')?.setData(withCounts(props.countries, counts)),
 )
 watch(() => [props.subdivisions, props.subdivisionCounts], syncSubdivisions)
+watch(() => props.records, syncRange)
 watch(
   () => props.range,
   () => {
@@ -304,7 +412,7 @@ watch(
       :style="{ left: `${tooltip.x + 12}px`, top: `${tooltip.y + 12}px` }"
     >
       <span class="font-semibold">{{ tooltip.name }}</span>
-      <span class="text-(--muted)"> · {{ tooltip.count }} species </span>
+      <span class="text-(--muted)"> · {{ tooltip.detail }}</span>
     </div>
   </div>
 </template>

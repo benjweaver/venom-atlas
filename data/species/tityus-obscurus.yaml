@@ -1,0 +1,21 @@
+name: Amazonian black scorpion
+scientificName: Tityus obscurus
+group: scorpion
+danger: 4
+summary: >-
+  A large black scorpion of the eastern Amazon whose stings can cause shock-like numbness and
+  muscle jerks.
+venom: >-
+  Neurotoxic: intense pain, numbness and, in some areas, muscle twitching and difficulty
+  walking.
+habitat: >-
+  Rainforest and forest edges.
+size: 7–9 cm
+regions:
+  - BR-AM
+  - BR-AP
+  - BR-PA
+  - BR-RR
+  - GF
+  - GY
+  - SR

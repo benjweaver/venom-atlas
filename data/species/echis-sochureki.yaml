@@ -1,0 +1,23 @@
+name: "Sochurek's saw-scaled viper"
+scientificName: Echis sochureki
+group: snake
+danger: 5
+summary: >-
+  A saw-scaled viper ranging from Arabia to northern India and a common cause of bites in
+  Pakistan.
+venom: >-
+  Haemotoxic: bleeding and clotting failure.
+habitat: >-
+  Dry, sandy and rocky scrub.
+size: 40–80 cm
+regions:
+  - AE
+  - IN-GJ
+  - IN-HR
+  - IN-RJ
+  - IR
+  - OM
+  - PK
+  - UZ
+gbif:
+  name: Echis carinatus sochureki

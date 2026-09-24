@@ -1,0 +1,16 @@
+name: Hairy thick-tailed scorpion
+scientificName: Parabuthus villosus
+group: scorpion
+danger: 3
+summary: >-
+  A large, hairy scorpion of Namibian and South African deserts, active by day.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting and racing heart; severe in children.
+  Antivenom exists in affected countries.
+habitat: >-
+  Rocky and sandy desert.
+size: 12–17 cm
+regions:
+  - AO
+  - NA
+  - ZA-NC

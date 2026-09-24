@@ -1,0 +1,115 @@
+name: German wasp
+scientificName: Vespula germanica
+group: insect
+danger: 2
+summary: >-
+  A European wasp that has invaded North America, Australia, New Zealand and South America.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Towns, gardens and forest.
+size: 12–15 mm
+regions:
+  - AL
+  - AM
+  - AR-Q
+  - AR-R
+  - AR-U
+  - AR-Z
+  - AT
+  - AU-ACT
+  - AU-NSW
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - AX
+  - BE
+  - BG
+  - BY
+  - CA-AB
+  - CA-BC
+  - CA-MB
+  - CA-NL
+  - CA-NS
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CA-SK
+  - CH
+  - CL
+  - CN-BJ
+  - CY
+  - CZ
+  - DE
+  - DK
+  - DZ
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IE
+  - IL
+  - IR
+  - IT
+  - JO
+  - KG
+  - KZ
+  - LB
+  - LI
+  - LT
+  - LU
+  - LV
+  - MA
+  - ME
+  - NL
+  - NO
+  - NZ
+  - PL
+  - PS
+  - PT
+  - RO
+  - RS
+  - RU
+  - SE
+  - SI
+  - SK
+  - SY
+  - TR
+  - UA
+  - US-CA
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-IA
+  - US-ID
+  - US-IL
+  - US-IN
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-ND
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OR
+  - US-PA
+  - US-RI
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - UZ
+  - ZA-WC

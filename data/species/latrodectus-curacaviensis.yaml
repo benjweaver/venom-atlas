@@ -1,0 +1,31 @@
+name: Caribbean black widow
+scientificName: Latrodectus curacaviensis
+group: spider
+danger: 3
+summary: >-
+  A widow spider of the Caribbean and northern South America.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Dry scrub, fields and around buildings.
+size: Female body about 1 cm
+regions:
+  - BR-AM
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-GO
+  - BR-MG
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-RJ
+  - BR-RN
+  - BR-SE
+  - CO
+  - GY
+  - VE
+gbif:
+  exclude:
+    - US # imported specimens

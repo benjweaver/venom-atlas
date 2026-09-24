@@ -1,0 +1,50 @@
+name: Greater banded hornet
+scientificName: Vespa tropica
+group: insect
+danger: 3
+summary: >-
+  A large tropical Asian hornet that raids other wasps' nests.
+venom: >-
+  Painful sting; for the allergic, a single sting can cause anaphylaxis, and mass stings can be
+  fatal to anyone.
+habitat: >-
+  Forest and farmland.
+size: 25–30 mm
+regions:
+  - BD
+  - BT
+  - CN-GD
+  - CN-YN
+  - GU
+  - HK
+  - ID
+  - IN-AN
+  - IN-AP
+  - IN-AS
+  - IN-GA
+  - IN-GJ
+  - IN-JH
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-TG
+  - IN-TN
+  - IN-UT
+  - IN-WB
+  - JP-11
+  - JP-28
+  - KH
+  - LA
+  - LK
+  - MM
+  - MO
+  - MY
+  - NP
+  - PH
+  - PK
+  - SG
+  - TH
+  - TL
+  - VN

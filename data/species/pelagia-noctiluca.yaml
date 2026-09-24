@@ -9,34 +9,81 @@ venom: >-
 habitat: >-
   Open sea; swarms near coasts in summer.
 size: Bell 5–10 cm
+aquatic: marine
 regions:
+  - AI
   - AL
   - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
   - AU-WA
   - BM
+  - CA-NB
+  - CA-NL
   - CA-NS
   - CO
+  - CR
+  - CY
   - DZ
   - ES
+  - FO
   - FR
   - GB
   - GG
   - GR
   - HK
   - HR
+  - ID
   - IE
   - IL
+  - IN-MH
+  - IS
   - IT
   - JE
+  - KI
   - MA
   - MC
+  - ME
+  - MR
   - MT
-  - MX
+  - MX-BCS
+  - MX-COL
+  - MX-JAL
+  - MX-MIC
+  - MX-NAY
+  - MX-OAX
+  - MX-ROO
+  - NA
+  - NO
+  - NU
   - NZ
+  - OM
+  - PH
+  - PR
   - PT
+  - SE
+  - SI
+  - SV
+  - TH
   - TN
+  - TR
+  - US-AK
+  - US-CA
+  - US-DE
+  - US-FL
+  - US-LA
   - US-MA
+  - US-ME
   - US-NC
   - US-NJ
   - US-NY
-  - ZA
+  - US-RI
+  - US-SC
+  - US-VA
+  - ZA-EC
+  - ZA-NC
+  - ZA-NL
+  - ZA-WC

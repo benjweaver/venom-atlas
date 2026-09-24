@@ -10,6 +10,7 @@ venom: >-
 habitat: >-
   Warm ocean surface; blown onto beaches by onshore winds.
 size: Float up to 15 cm
+aquatic: marine
 regions:
   - AU-NSW
   - AU-QLD

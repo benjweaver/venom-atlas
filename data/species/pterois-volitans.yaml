@@ -10,20 +10,30 @@ venom: >-
 habitat: >-
   Coral reefs, rocky coasts and seagrass.
 size: Up to 38 cm
+aquatic: marine
 regions:
+  - AE
+  - AG
   - AI
+  - AS
   - AU-NSW
+  - AU-NT
   - AU-QLD
   - AU-WA
   - AW
   - BB
   - BL
   - BM
-  - BR
+  - BR-BA
+  - BR-PE
+  - BR-RJ
+  - BR-RN
   - BS
   - BZ
   - CK
-  - CN
+  - CN-FJ
+  - CN-GD
+  - CN-HI
   - CO
   - CR
   - CU
@@ -39,32 +49,50 @@ regions:
   - GP
   - GR
   - GU
-  - HK
   - HN
   - ID
-  - IN
+  - IN-AN
+  - IN-GA
+  - IN-KL
+  - IN-TN
   - JM
-  - JO
+  - JP-12
+  - JP-14
   - JP-22
+  - JP-24
+  - JP-30
+  - JP-38
+  - JP-39
+  - JP-43
+  - JP-45
   - JP-46
   - JP-47
   - KE
+  - KI
+  - KM
+  - KN
   - KR
   - KY
   - LC
   - LK
-  - MF
   - MG
   - MH
+  - MM
   - MP
   - MQ
+  - MS
   - MU
   - MV
   - MX-ROO
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
   - MY
   - MZ
   - NC
+  - NF
   - NI
+  - NU
   - NZ
   - PA
   - PF
@@ -75,7 +103,7 @@ regions:
   - RE
   - SB
   - SC
-  - SX
+  - SR
   - TC
   - TH
   - TL
@@ -83,9 +111,19 @@ regions:
   - TT
   - TW
   - TZ
+  - US-AL
+  - US-CT
   - US-FL
+  - US-GA
+  - US-LA
+  - US-MS
+  - US-NC
+  - US-NJ
+  - US-NY
+  - US-RI
   - US-SC
   - US-TX
+  - VC
   - VE
   - VG
   - VI
@@ -93,10 +131,17 @@ regions:
   - VU
   - WF
   - WS
-  - YT
+  - ZA-EC
   - ZA-NL
+  - ZA-WC
 gbif:
   exclude:
+    - TR # Mediterranean lionfish are Pterois miles
+    - HR # Mediterranean lionfish are Pterois miles
+    - KW # misidentified
+    - SD # Red Sea lionfish are Pterois miles
+    - SO # misidentified
+    - SA # Red Sea records are Pterois miles
     - FR # misidentified P. miles
     - CY # misidentified P. miles
     - IL # misidentified P. miles
