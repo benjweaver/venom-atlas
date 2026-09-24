@@ -1,0 +1,24 @@
+name: Brazilian lancehead
+scientificName: Bothrops moojeni
+group: snake
+danger: 4
+summary: >-
+  A large lancehead of the Brazilian cerrado, common along rivers.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding, blistering and tissue death; potentially
+  fatal or limb-threatening without antivenom.
+habitat: >-
+  Gallery forest and wetlands in savanna.
+size: 1–1.6 m
+regions:
+  - AR-N
+  - BR-BA
+  - BR-DF
+  - BR-GO
+  - BR-MG
+  - BR-MS
+  - BR-MT
+  - BR-PR
+  - BR-SP
+  - BR-TO
+  - PY

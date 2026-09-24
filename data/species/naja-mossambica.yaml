@@ -1,0 +1,27 @@
+name: Mozambique spitting cobra
+scientificName: Naja mossambica
+group: snake
+danger: 4
+summary: >-
+  One of southern Africa's most frequent causes of serious snakebite, often biting people asleep
+  at night.
+venom: >-
+  Cytotoxic: extensive swelling, blistering and necrosis. Spat venom causes severe eye injury.
+habitat: >-
+  Savanna and woodland, near water, often entering houses at night.
+size: 1–1.5 m
+regions:
+  - BW
+  - MW
+  - MZ
+  - NA
+  - SZ
+  - TZ
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZM
+  - ZW

@@ -1,0 +1,31 @@
+name: Desert horned viper
+scientificName: Cerastes cerastes
+group: snake
+danger: 3
+summary: >-
+  A sand-coloured viper of the Sahara and Arabia, often with a horn over each eye, that buries
+  itself in sand.
+venom: >-
+  Haemotoxic and cytotoxic: swelling, bleeding and tissue damage; deaths are uncommon.
+habitat: >-
+  Sandy desert with sparse rocky outcrops.
+size: 30–60 cm
+regions:
+  - DZ
+  - EG
+  - EH
+  - IL
+  - JO
+  - LY
+  - MA
+  - ML
+  - MR
+  - NE
+  - SA
+  - SD
+  - TD
+  - TN
+gbif:
+  include:
+    - ML
+    - JO

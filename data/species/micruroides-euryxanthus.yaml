@@ -1,0 +1,17 @@
+name: Arizona coral snake
+scientificName: Micruroides euryxanthus
+group: snake
+danger: 2
+summary: >-
+  A small, secretive coral snake of the Sonoran Desert. No serious bites have been recorded.
+venom: >-
+  Neurotoxic, but a small snake with a small yield; bites cause minor symptoms.
+habitat: >-
+  Rocky desert and thornscrub.
+size: 35–55 cm
+regions:
+  - US-AZ
+  - US-NM
+  - MX-SON
+  - MX-SIN
+  - MX-CHH

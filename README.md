@@ -17,15 +17,26 @@ npm run dev        # http://localhost:5173
 npm run check      # everything CI runs: validate, lint, typecheck, test, build
 ```
 
+## What's in scope
+
+**Medically significant venomous animals:** species whose bite or sting can
+seriously harm a person. That means the snakes, scorpions and spiders behind
+real envenomations, plus the insects, jellyfish, fish and molluscs that send
+people to hospital. It doesn't try to list every venomous species (almost
+all spiders are technically venomous), and it leaves out poisonous animals
+like poison dart frogs, which don't inject anything.
+
 ## Adding or editing a species
 
 All content lives in `data/species/`, one YAML file per species. That's the
 only place to edit.
 
 ```bash
-npm run new -- "Latrodectus geometricus"   # creates data/species/latrodectus-geometricus.yaml
-# ...fill in the file...
-npm run images -- latrodectus-geometricus  # finds a photo + credits on Wikimedia Commons
+npm run new -- "Latrodectus geometricus"    # 1. creates data/species/latrodectus-geometricus.yaml
+#                                              2. fill in the text fields and a rough list of regions
+npm run images -- latrodectus-geometricus   # 3. photo + credits from Wikimedia Commons
+npm run ranges -- latrodectus-geometricus   # 4. GBIF's view of the range, as a diff: review it
+npm run ranges -- latrodectus-geometricus --write   # 5. accept it
 npm run validate
 ```
 
@@ -48,14 +59,20 @@ habitat: >-
   Where it lives.
 size: Typically 1–1.5 m # optional
 wikipedia: Article title # optional; defaults to scientificName
-regions: # ISO 3166 codes
+photo: Some file.jpg # optional: a specific Commons file, or "none"
+regions: # ISO 3166 codes, normally written by `npm run ranges`
   - US-AZ #   a state/province...
   - MX #   ...or a whole country
+gbif: # optional: steer `npm run ranges`
+  exclude: [CA] #   GBIF records here aren't real range (captive, misidentified)
+  include: [US-NM] #   real range that GBIF under-records
+  name: Other name #   the name GBIF files it under, if different
+  manual: true #   GBIF is no use for this species; keep regions by hand
 ```
 
-**Regions.** Use a country code (`MX`) when the species is found across the
-country or you don't have state-level data. Use state/province codes (`US-AZ`,
-`AU-QLD`, `CA-BC`) when you do. Don't list a country and its states together,
+**Regions.** Countries are listed whole, except the big ones, which are listed
+by state/province: US, Canada, Mexico, Brazil, Argentina, Australia, India,
+China, South Africa and Japan. Don't list a country and its states together,
 because it's ambiguous and the validator rejects it. A country-level species still
 shows up when someone clicks a state, labelled "recorded country-wide".
 
@@ -63,9 +80,57 @@ To find a code, open `public/geo/admin1/<COUNTRY>.json`, or click the region
 in the running app and read it from the URL (`?r=US-AZ`).
 
 **What the validator catches**, in dev (as an error overlay), in the build, and
-in CI: unknown fields, typos in `group`, danger outside 1–5, unknown region codes,
-duplicate regions, a country listed alongside its own states, and (in CI) a
-species with no credited photo.
+in CI: unknown fields, typos in `group`, danger outside 1–5, unknown region codes
+(including in `gbif:`), duplicate regions, and a country listed alongside its
+own states. In CI it also catches a species with no credited photo, or one whose
+range was never checked against GBIF.
+
+## Ranges from GBIF
+
+[GBIF](https://www.gbif.org) collects billions of open records of "this
+animal was seen or collected here" from museums, surveys and apps like
+iNaturalist. `npm run ranges` asks it where each species has been recorded,
+turns the counts into a proposed list of regions, and shows how that differs
+from the file. Nothing changes until you add `--write`.
+
+```
+~ crotalus-atrox: 25537 records
+    + US-AR(36) US-KS(27)
+    - MX-SIN(12)
+```
+
+The numbers are record counts. That's the evidence you're reviewing.
+
+**The rules** (`scripts/gbif-range.ts`):
+
+- Only wild-type records count: no zoo animals or fossils, nothing flagged
+  with a location problem, and only records from 1950 on, so long-extinct
+  local populations don't show.
+- A place needs a minimum number of records. That minimum is 2 for species GBIF
+  has little data on, scaling up to 5 for well-recorded ones, and the place also
+  needs at least 0.02% of the species' records. That drops the stray zoo escapee
+  or mislabelled specimen without dropping thinly-recorded countries.
+- State-level data comes from GBIF's GADM tags, matched to this map's
+  outlines by where the records' coordinates fall. The matches are cached in
+  `data/gadm-iso.json`.
+
+**What it can't do.** Records follow people. Western Europe, the US and
+Australia are densely recorded, while much of Africa and South Asia is thin.
+So a proposal can _drop_ a place where the animal certainly lives because
+nobody has uploaded a record from there. That's what `gbif.include` is for.
+The opposite also happens (a pet-trade escape with enough records), and
+`gbif.exclude` handles it. Use them rather than editing `regions` by
+hand, or the next `--write` will undo your fix.
+
+```bash
+npm run ranges                  # species not yet checked
+npm run ranges -- --all         # re-derive every proposal from the cached counts
+npm run ranges -- --all --refresh --write   # re-fetch everything from GBIF and accept
+```
+
+Counts are cached in `data/gbif.json` (committed), so proposals can be
+reviewed and re-derived without the network. The site links each species to
+its GBIF page.
 
 ## Photos
 
@@ -133,9 +198,8 @@ so that "FR" means metropolitan France.
 
 ## Known limits
 
-- The dataset is curated and incomplete. It's a notable subset of the world's
-  venomous species, not all of them. Ranges are simplified to whole
-  countries or states.
+- Ranges are simplified to whole countries or states, and they're only as good
+  as GBIF's records plus human review (see above).
 - Marine species are assigned to the coastal countries/states where they're
   encountered.
 - Only venomous animals (ones that inject toxins) are included, not poisonous

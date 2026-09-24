@@ -1,0 +1,27 @@
+name: Eastern massasauga
+scientificName: Sistrurus catenatus
+group: snake
+danger: 3
+summary: >-
+  A small, threatened rattlesnake of Great Lakes wetlands, the only rattlesnake in much of its
+  range.
+venom: >-
+  Haemotoxic and cytotoxic: pain and swelling; deaths are very rare.
+habitat: >-
+  Wet prairie, fens and marshes.
+size: 50–75 cm
+regions:
+  - CA-ON
+  - US-AZ
+  - US-IA
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-MI
+  - US-NM
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-PA
+  - US-TX
+  - US-WI

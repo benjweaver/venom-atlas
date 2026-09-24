@@ -1,0 +1,18 @@
+name: Central American bushmaster
+scientificName: Lachesis stenophrys
+group: snake
+danger: 5
+summary: >-
+  A huge pit viper of Central American rainforest.
+venom: >-
+  Haemotoxic and cytotoxic; potentially fatal.
+habitat: >-
+  Wet lowland rainforest.
+size: 2–3 m
+regions:
+  - NI
+  - CR
+  - PA
+gbif:
+  include:
+    - NI

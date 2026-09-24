@@ -12,8 +12,28 @@ habitat: >-
   Fields, scrub, villages and houses; active at night.
 size: About 1 m
 regions:
-  - IN
-  - PK
-  - NP
   - BD
+  - IN-AP
+  - IN-CT
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
   - LK
+  - NP
+  - PK
+gbif:
+  include:
+    - NP
+    - BD

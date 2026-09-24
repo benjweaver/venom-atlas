@@ -1,0 +1,21 @@
+name: Palestine viper
+scientificName: Daboia palaestinae
+group: snake
+danger: 4
+summary: >-
+  The most common venomous snake of the Levant and the cause of most snakebites in Israel.
+venom: >-
+  Haemotoxic and cytotoxic: pain, swelling, bleeding and low blood pressure; potentially fatal.
+habitat: >-
+  Mediterranean scrub, farmland and around buildings.
+size: 0.9–1.3 m
+regions:
+  - IL
+  - PS
+  - JO
+  - LB
+  - SY
+gbif:
+  include:
+    - JO
+    - SY

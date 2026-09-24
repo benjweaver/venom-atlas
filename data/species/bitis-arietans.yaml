@@ -12,32 +12,56 @@ habitat: >-
   Almost every habitat except dense rainforest and true desert.
 size: About 1 m
 regions:
-  - ZA
-  - NA
+  - AO
+  - BF
+  - BJ
   - BW
-  - ZW
-  - ZM
-  - MZ
-  - MW
-  - TZ
-  - KE
-  - UG
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
   - ET
+  - GH
+  - GM
+  - GN
+  - KE
+  - MA
+  - ML
+  - MW
+  - MZ
+  - NA
+  - NE
+  - NG
+  - OM
+  - RW
+  - SA
+  - SD
+  - SN
   - SO
   - SS
-  - SD
-  - NG
-  - GH
-  - SN
-  - ML
-  - CM
-  - CD
-  - AO
-  - MA
-  - SA
-  - YE
-  - OM
+  - SZ
   - TD
-  - NE
-  - BF
-  - CI
+  - TZ
+  - UG
+  - YE
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZM
+  - ZW
+gbif:
+  include:
+    - SD
+    - ML
+    - CM
+    - TD
+    - NE
+    - BF
+    - YE

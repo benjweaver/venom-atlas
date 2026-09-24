@@ -1,14 +1,20 @@
 // npm run validate — checks every species file without building the site.
-// Stricter than the build: a species without a credited photo fails here, so
-// CI catches a forgotten `npm run images` while local dev keeps working.
+// Stricter than the build: a species without a credited photo, or whose range
+// was never checked against GBIF, fails here. So CI catches a forgotten
+// `npm run images` or `npm run ranges` while local dev keeps working.
 import { DataError, loadSpecies } from './species-loader.ts'
 
 try {
   const species = loadSpecies()
-  const missing = species.filter((s) => !s.image).map((s) => s.slug)
-  if (missing.length) {
-    throw new DataError(missing.map((slug) => `${slug}: no photo — run: npm run images`))
-  }
+  const problems = [
+    ...species
+      .filter((s) => !s.image && s.photo !== 'none')
+      .map((s) => `${s.slug}: no photo — run: npm run images (or set photo: none)`),
+    ...species
+      .filter((s) => !s.gbifKey && !s.gbif?.manual)
+      .map((s) => `${s.slug}: range not checked — run: npm run ranges (or set gbif.manual)`),
+  ]
+  if (problems.length) throw new DataError(problems)
   console.log(`✓ ${species.length} species valid`)
 } catch (e) {
   console.error(e instanceof DataError ? e.message : e)

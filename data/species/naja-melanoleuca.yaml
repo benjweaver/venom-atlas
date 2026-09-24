@@ -1,0 +1,27 @@
+name: Forest cobra
+scientificName: Naja melanoleuca
+group: snake
+danger: 5
+summary: >-
+  Africa's largest true cobra, glossy black above, living in forests and along rivers.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Rainforest, forest edges, swamps and riverbanks; swims and climbs well.
+size: 1.4–2.2 m; up to 3 m
+regions:
+  - BJ
+  - CD
+  - CG
+  - CI
+  - CM
+  - GA
+  - GH
+  - KE
+  - NG
+  - SS
+  - TZ
+  - UG
+  - ZA-NC
+  - ZA-NL

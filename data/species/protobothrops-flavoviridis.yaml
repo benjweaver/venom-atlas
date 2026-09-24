@@ -14,3 +14,6 @@ size: 1–2.2 m
 regions:
   - JP-46
   - JP-47
+gbif:
+  exclude:
+    - GU # not established

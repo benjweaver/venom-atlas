@@ -1,0 +1,20 @@
+name: Common death adder
+scientificName: Acanthophis antarcticus
+group: snake
+danger: 5
+summary: >-
+  An ambush predator that lures prey with a wriggling tail tip. One of the fastest-striking
+  snakes in the world.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Woodland, heath and grassland, buried in leaf litter.
+size: 40–70 cm
+regions:
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-WA
+  - PG

@@ -1,0 +1,37 @@
+name: West African carpet viper
+scientificName: Echis ocellatus
+group: snake
+danger: 5
+summary: >-
+  A small saw-scaled viper that causes more snakebite deaths in Africa than any other species,
+  especially among farmers in the savanna belt.
+venom: >-
+  Haemotoxic: destroys the blood's ability to clot, causing bleeding from gums, wounds and
+  internally.
+habitat: >-
+  Dry savanna and farmland.
+size: 30–60 cm
+regions:
+  - SN
+  - GM
+  - ML
+  - BF
+  - NE
+  - NG
+  - GH
+  - TG
+  - BJ
+  - CI
+  - GN
+  - CM
+  - TD
+  - CF
+gbif:
+  exclude:
+    - KE # misidentified Echis pyramidum
+  include:
+    - SN
+    - GM
+    - GN
+    - CM
+    - CF

@@ -1,0 +1,42 @@
+name: Mauve stinger
+scientificName: Pelagia noctiluca
+group: jellyfish
+danger: 2
+summary: >-
+  A glowing purple jellyfish that forms large swarms in the Mediterranean, closing beaches.
+venom: >-
+  Painful stings with welts that can last weeks.
+habitat: >-
+  Open sea; swarms near coasts in summer.
+size: Bell 5–10 cm
+regions:
+  - AL
+  - AU-NSW
+  - AU-WA
+  - BM
+  - CA-NS
+  - CO
+  - DZ
+  - ES
+  - FR
+  - GB
+  - GG
+  - GR
+  - HK
+  - HR
+  - IE
+  - IL
+  - IT
+  - JE
+  - MA
+  - MC
+  - MT
+  - MX
+  - NZ
+  - PT
+  - TN
+  - US-MA
+  - US-NC
+  - US-NJ
+  - US-NY
+  - ZA

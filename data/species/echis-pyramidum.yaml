@@ -1,0 +1,25 @@
+name: Egyptian saw-scaled viper
+scientificName: Echis pyramidum
+group: snake
+danger: 5
+summary: >-
+  A saw-scaled viper of north-east Africa and Arabia, warning with a rasping hiss made by
+  rubbing its scales.
+venom: >-
+  Haemotoxic: severe bleeding and clotting failure.
+habitat: >-
+  Dry, rocky and sandy country, scrub and farmland.
+size: 40–80 cm
+regions:
+  - DJ
+  - EG
+  - ER
+  - ET
+  - KE
+  - MR
+  - SD
+  - SO
+  - SS
+gbif:
+  include:
+    - SO

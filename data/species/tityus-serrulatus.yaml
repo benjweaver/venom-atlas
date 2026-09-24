@@ -1,0 +1,23 @@
+name: Brazilian yellow scorpion
+scientificName: Tityus serrulatus
+group: scorpion
+danger: 5
+summary: >-
+  The most dangerous scorpion in South America. It reproduces without males and thrives in
+  cities.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Urban areas: drains, rubble, walls and buildings.
+size: 5–7 cm
+regions:
+  - BR-BA
+  - BR-DF
+  - BR-ES
+  - BR-GO
+  - BR-MG
+  - BR-PR
+  - BR-RJ
+  - BR-SC
+  - BR-SP

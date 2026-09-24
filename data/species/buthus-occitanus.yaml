@@ -1,0 +1,17 @@
+name: Common yellow scorpion
+scientificName: Buthus occitanus
+group: scorpion
+danger: 3
+summary: >-
+  A pale scorpion of Spain, southern France and North Africa; stings are painful and
+  occasionally serious in children.
+venom: >-
+  Neurotoxic: pain and numbness; severe reactions are rare outside North Africa.
+habitat: >-
+  Dry, stony hillsides and scrub.
+size: 6–8 cm
+regions:
+  - ES
+  - FR
+  - MA
+  - PT

@@ -1,0 +1,55 @@
+name: Textile cone
+scientificName: Conus textile
+group: mollusc
+danger: 4
+summary: >-
+  A cone snail with a beautiful patterned shell and a venomous harpoon. Stings to people have
+  been fatal.
+venom: >-
+  Conotoxins cause numbness and paralysis. No antivenom exists.
+habitat: >-
+  Coral reefs and sand in the Indo-Pacific.
+size: Shell 7–13 cm
+regions:
+  - AE
+  - AS
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - CN
+  - EG
+  - ER
+  - FJ
+  - GU
+  - HK
+  - ID
+  - IL
+  - IN-TN
+  - JP-39
+  - JP-47
+  - KE
+  - MG
+  - MH
+  - MU
+  - MY
+  - MZ
+  - NC
+  - OM
+  - PF
+  - PG
+  - PH
+  - PW
+  - RE
+  - SA
+  - SB
+  - SC
+  - SG
+  - TH
+  - TO
+  - TW
+  - TZ
+  - US-HI
+  - VN
+  - VU
+  - WS

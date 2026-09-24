@@ -1,0 +1,24 @@
+name: Mexican striped scorpion
+scientificName: Centruroides limpidus
+group: scorpion
+danger: 4
+summary: >-
+  A common bark scorpion of central Mexico, responsible for many stings.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Houses, farmland and dry forest.
+size: 6–10 cm
+regions:
+  - MX-COL
+  - MX-GRO
+  - MX-GUA
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-TAM

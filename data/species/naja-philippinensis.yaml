@@ -1,0 +1,14 @@
+name: Philippine cobra
+scientificName: Naja philippinensis
+group: snake
+danger: 5
+summary: >-
+  A spitting cobra with one of the most potent neurotoxic venoms of any cobra.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Lowland forest, grassland and rice fields in the northern Philippines.
+size: 1–1.6 m
+regions:
+  - PH

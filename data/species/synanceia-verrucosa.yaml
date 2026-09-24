@@ -11,17 +11,39 @@ habitat: >-
   Shallow reefs, rubble and tidal flats of the Indian and Pacific Oceans.
 size: Up to 40 cm
 regions:
+  - AU-NSW
   - AU-QLD
-  - AU-NT
-  - AU-WA
+  - CK
+  - CN
   - EG
-  - SA
-  - ID
-  - PH
-  - JP
-  - TH
-  - MY
-  - IN
-  - MZ
   - FJ
+  - FM
+  - GU
+  - ID
+  - IL
+  - IN
+  - JP-47
+  - KE
+  - MG
+  - MH
+  - MU
+  - MV
+  - MY
+  - MZ
+  - NC
+  - PF
   - PG
+  - PH
+  - PS
+  - PW
+  - RE
+  - SA
+  - SC
+  - TH
+  - TW
+  - TZ
+  - VU
+  - ZA
+gbif:
+  include:
+    - SA

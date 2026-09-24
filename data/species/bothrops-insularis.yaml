@@ -1,0 +1,16 @@
+name: Golden lancehead
+scientificName: Bothrops insularis
+group: snake
+danger: 5
+summary: >-
+  Found only on Ilha da Queimada Grande, a small island off São Paulo that is closed to the
+  public because of it.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding, blistering and tissue death; potentially
+  fatal or limb-threatening without antivenom.
+habitat: >-
+  Forest and rocky ground of a single island.
+size: 70–90 cm
+regions:
+  - BR-RJ
+  - BR-SP

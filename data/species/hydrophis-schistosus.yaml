@@ -1,0 +1,34 @@
+name: Beaked sea snake
+scientificName: Hydrophis schistosus
+group: snake
+danger: 5
+summary: >-
+  Responsible for most sea-snake deaths, mostly among fishermen sorting catches from nets.
+venom: >-
+  Neurotoxic and myotoxic: paralysis and muscle breakdown; often fatal without treatment.
+habitat: >-
+  Shallow coastal waters, estuaries and river mouths.
+size: 1–1.2 m
+regions:
+  - AU
+  - BD
+  - ID
+  - IN-GA
+  - IN-KL
+  - IN-MH
+  - IN-TN
+  - IR
+  - LK
+  - MM
+  - MY
+  - OM
+  - PK
+  - TH
+  - VN
+gbif:
+  include:
+    - BD
+    - MM
+    - VN
+    - OM
+    - IR

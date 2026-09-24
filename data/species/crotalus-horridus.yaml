@@ -43,3 +43,6 @@ regions:
   - US-VA
   - US-WV
   - US-WI
+gbif:
+  include:
+    - US-NH

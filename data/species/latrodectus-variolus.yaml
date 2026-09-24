@@ -1,0 +1,55 @@
+name: Northern black widow
+scientificName: Latrodectus variolus
+group: spider
+danger: 3
+summary: >-
+  The black widow of the north-eastern US and south-eastern Canada, with a broken hourglass.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Woodland, stone walls and outbuildings.
+size: Female body about 1.3 cm
+regions:
+  - CA-ON
+  - CA-QC
+  - US-AL
+  - US-AR
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-IA
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-MS
+  - US-NC
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA
+  - US-VT
+  - US-WI
+  - US-WV
+gbif:
+  include:
+    - US-ME
+    - US-NH
+    - US-MN

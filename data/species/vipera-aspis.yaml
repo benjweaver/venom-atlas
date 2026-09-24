@@ -1,0 +1,18 @@
+name: Asp viper
+scientificName: Vipera aspis
+group: snake
+danger: 3
+summary: >-
+  A viper of south-western Europe, common in France, Italy and Switzerland.
+venom: >-
+  Haemotoxic and cytotoxic, with neurotoxic effects in some populations.
+habitat: >-
+  Dry, sunny hillsides, woodland edges and stone walls.
+size: 60–75 cm
+regions:
+  - AD
+  - CH
+  - DE
+  - ES
+  - FR
+  - IT

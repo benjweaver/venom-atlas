@@ -1,0 +1,14 @@
+name: Martinique lancehead
+scientificName: Bothrops lanceolatus
+group: snake
+danger: 4
+summary: >-
+  The fer-de-lance of Martinique, found nowhere else. Its bites can cause strokes from blood
+  clots.
+venom: >-
+  Causes blood clots (thrombosis) that can lead to stroke and heart attack, plus local swelling.
+habitat: >-
+  Forest, plantations and farmland.
+size: 1–2 m
+regions:
+  - MQ

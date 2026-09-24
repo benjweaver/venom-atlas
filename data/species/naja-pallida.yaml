@@ -1,0 +1,20 @@
+name: Red spitting cobra
+scientificName: Naja pallida
+group: snake
+danger: 3
+summary: >-
+  A salmon-red spitting cobra of the dry lowlands of East Africa.
+venom: >-
+  Cytotoxic, causing swelling and tissue damage; spat venom injures the eyes.
+habitat: >-
+  Dry savanna and semi-desert.
+size: 0.7–1.2 m
+regions:
+  - DJ
+  - ET
+  - KE
+  - SO
+  - TZ
+gbif:
+  include:
+    - DJ

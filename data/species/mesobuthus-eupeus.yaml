@@ -1,0 +1,16 @@
+name: Mottled scorpion
+scientificName: Mesobuthus eupeus
+group: scorpion
+danger: 3
+summary: >-
+  A widespread scorpion of the Middle East and Central Asia.
+venom: >-
+  Neurotoxic: pain and local numbness, with systemic effects in some cases.
+habitat: >-
+  Steppe, semi-desert and rocky slopes.
+size: 5–6 cm
+regions:
+  - AM
+  - AZ
+  - GE
+  - TR

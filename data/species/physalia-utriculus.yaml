@@ -1,0 +1,23 @@
+name: Bluebottle
+scientificName: Physalia utriculus
+group: jellyfish
+danger: 2
+summary: >-
+  The Indo-Pacific relative of the Portuguese man o' war, stinging tens of thousands of swimmers
+  a year in Australia.
+venom: >-
+  Sharp pain and a red welt; hot water relieves it. Serious effects are very rare.
+habitat: >-
+  Warm ocean surface; blown onto beaches by onshore winds.
+size: Float up to 15 cm
+regions:
+  - AU-NSW
+  - AU-QLD
+  - AU-WA
+  - AU-VIC
+  - NZ
+  - ZA
+gbif:
+  # GBIF treats the bluebottle as the same species as the Portuguese man o'
+  # war, so its records can't be told apart. Range kept by hand.
+  manual: true

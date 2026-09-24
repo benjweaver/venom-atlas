@@ -1,0 +1,14 @@
+name: Southern Pacific rattlesnake
+scientificName: Crotalus helleri
+group: snake
+danger: 4
+summary: >-
+  A rattlesnake of southern California and Baja California, responsible for many bites there.
+venom: >-
+  Haemotoxic and cytotoxic, with neurotoxic effects in some areas; potentially fatal.
+habitat: >-
+  Coastal scrub, chaparral, grassland and suburban edges.
+size: 0.6–1.4 m
+regions:
+  - US-CA
+  - MX-BCN

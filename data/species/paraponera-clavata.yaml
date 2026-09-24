@@ -12,15 +12,26 @@ habitat: >-
   Lowland rainforest, nesting at the base of trees.
 size: 18–30 mm
 regions:
-  - NI
-  - HN
-  - CR
-  - PA
-  - CO
-  - VE
-  - EC
-  - PE
   - BO
-  - BR
+  - BR-AC
+  - BR-AM
+  - BR-GO
+  - BR-MA
+  - BR-MS
+  - BR-MT
+  - BR-PA
+  - BR-RO
+  - BR-RR
+  - BR-RS
+  - BR-TO
+  - CO
+  - CR
+  - EC
+  - GF
   - GY
+  - HN
+  - NI
+  - PA
+  - PE
   - SR
+  - VE

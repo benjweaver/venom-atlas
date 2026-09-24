@@ -10,38 +10,46 @@ habitat: >-
   Forests, fields and marshes with deep leaf litter or snow cover.
 size: About 12 cm including tail
 regions:
-  - US-ME
-  - US-NH
-  - US-VT
-  - US-MA
-  - US-RI
-  - US-CT
-  - US-NY
-  - US-NJ
-  - US-PA
-  - US-DE
-  - US-MD
-  - US-WV
-  - US-VA
-  - US-NC
-  - US-TN
-  - US-KY
-  - US-OH
-  - US-IN
-  - US-IL
-  - US-MI
-  - US-WI
-  - US-MN
-  - US-IA
-  - US-MO
-  - US-ND
-  - US-SD
-  - US-NE
-  - US-KS
-  - CA-SK
   - CA-MB
-  - CA-ON
-  - CA-QC
   - CA-NB
   - CA-NS
+  - CA-ON
   - CA-PE
+  - CA-QC
+  - CA-SK
+  - US-AL
+  - US-AR
+  - US-CT
+  - US-DC
+  - US-DE
+  - US-FL
+  - US-GA
+  - US-IA
+  - US-IL
+  - US-IN
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MA
+  - US-MD
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MO
+  - US-NC
+  - US-ND
+  - US-NE
+  - US-NH
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-OK
+  - US-PA
+  - US-RI
+  - US-SC
+  - US-SD
+  - US-TN
+  - US-VA
+  - US-VT
+  - US-WI
+  - US-WV

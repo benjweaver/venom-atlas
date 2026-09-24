@@ -1,0 +1,36 @@
+name: Banded krait
+scientificName: Bungarus fasciatus
+group: snake
+danger: 4
+summary: >-
+  A bold yellow-and-black banded krait with a triangular body, placid by day.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Farmland, forest and near water; nocturnal.
+size: 1.5–2 m
+regions:
+  - BD
+  - BN
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - HK
+  - ID
+  - IN-AS
+  - IN-CT
+  - IN-OR
+  - IN-WB
+  - KH
+  - LA
+  - MM
+  - MY
+  - NP
+  - SG
+  - TH
+  - VN
+gbif:
+  include:
+    - KH
+    - BN

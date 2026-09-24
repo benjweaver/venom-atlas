@@ -1,0 +1,31 @@
+name: Chilean recluse
+scientificName: Loxosceles laeta
+group: spider
+danger: 4
+summary: >-
+  The largest and most dangerous recluse spider. Bites can cause severe ulcers and,
+  occasionally, fatal kidney failure.
+venom: >-
+  Cytotoxic: expanding necrotic ulcer; in some cases blood cell destruction and kidney failure.
+habitat: >-
+  Inside houses: behind furniture, in closets and clothing.
+size: Body 1–1.5 cm
+regions:
+  - AR-B
+  - AR-C
+  - AR-L
+  - AR-M
+  - AR-R
+  - AR-S
+  - BR-RJ
+  - BR-SC
+  - BR-SP
+  - CL
+  - FI
+  - PE
+  - US-CA
+  - UY
+gbif:
+  exclude:
+    - DE # captive/imported
+    - PT # imported

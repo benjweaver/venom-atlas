@@ -1,0 +1,21 @@
+name: "Eastern Russell's viper"
+scientificName: Daboia siamensis
+group: snake
+danger: 5
+summary: >-
+  The eastern relative of Russell's viper, a leading cause of snakebite death in Myanmar.
+venom: >-
+  Haemotoxic: bleeding, clotting failure and kidney failure.
+habitat: >-
+  Open grassland and rice fields.
+size: 1–1.3 m
+regions:
+  - CN-GD
+  - ID
+  - KH
+  - MM
+  - TH
+  - TW
+gbif:
+  include:
+    - KH

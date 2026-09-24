@@ -1,0 +1,53 @@
+name: Black-necked spitting cobra
+scientificName: Naja nigricollis
+group: snake
+danger: 4
+summary: >-
+  A widespread African spitting cobra that can spray venom accurately into the eyes from over 2
+  m.
+venom: >-
+  Cytotoxic: severe swelling and tissue death around bites. Venom in the eyes causes intense
+  pain and can blind if not rinsed immediately with water.
+habitat: >-
+  Savanna, dry woodland and farmland; often near houses.
+size: 1.2–2.2 m
+regions:
+  - AO
+  - BF
+  - BJ
+  - CD
+  - CF
+  - CI
+  - CM
+  - ET
+  - GH
+  - GM
+  - GN
+  - KE
+  - ML
+  - MR
+  - MW
+  - NA
+  - NG
+  - RW
+  - SD
+  - SL
+  - SN
+  - SS
+  - TD
+  - TG
+  - TZ
+  - UG
+  - ZM
+gbif:
+  exclude:
+    - ZA # misidentified Mozambique spitting cobras
+  include:
+    - ML
+    - BF
+    - TG
+    - TD
+    - CM
+    - CF
+    - SD
+    - ET

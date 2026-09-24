@@ -12,10 +12,14 @@ habitat: >-
   Open woodland, grassland and farmland — rarely in dense forest.
 size: 1.5–2 m
 regions:
-  - AU-QLD
-  - AU-NSW
-  - AU-VIC
-  - AU-SA
-  - AU-NT
   - AU-ACT
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-VIC
+  - AU-WA
   - PG
+gbif:
+  include:
+    - PG

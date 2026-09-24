@@ -11,12 +11,20 @@ habitat: >-
   Dry, sheltered spots near people: sheds, letterboxes, outdoor furniture.
 size: Female body about 1 cm
 regions:
-  - AU-WA
-  - AU-NT
-  - AU-SA
-  - AU-QLD
-  - AU-NSW
-  - AU-VIC
-  - AU-TAS
   - AU-ACT
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - ID
+  - IN
+  - JP-13
+  - JP-23
+  - JP-26
+  - JP-27
+  - JP-28
+  - JP-40
   - NZ

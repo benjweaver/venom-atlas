@@ -1,0 +1,25 @@
+name: Amazonian wandering spider
+scientificName: Phoneutria fera
+group: spider
+danger: 4
+summary: >-
+  A large wandering spider of the Amazon rainforest, related to the Brazilian wandering spider.
+venom: >-
+  Neurotoxic: severe pain, sweating and irregular heartbeat; serious in children.
+habitat: >-
+  Rainforest floor and plantations.
+size: Leg span up to 15 cm
+regions:
+  - BO
+  - BR-AC
+  - BR-AM
+  - BR-MT
+  - BR-PA
+  - BR-RO
+  - CO
+  - EC
+  - GF
+  - GY
+  - PE
+  - SR
+  - TT

@@ -12,5 +12,15 @@ habitat: >-
   Tropical dry forest and thornscrub.
 size: Up to 90 cm
 regions:
-  - MX
   - GT
+  - MX-CHP
+  - MX-COL
+  - MX-GRO
+  - MX-JAL
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-OAX
+  - MX-SIN
+  - MX-SON
+  - MX-ZAC

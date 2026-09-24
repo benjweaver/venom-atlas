@@ -11,7 +11,14 @@ habitat: >-
   Dry scrub (fynbos, karoo), arid savanna and semi-desert.
 size: 1.2–1.6 m
 regions:
-  - ZA
-  - NA
   - BW
   - LS
+  - NA
+  - ZA-EC
+  - ZA-FS
+  - ZA-NC
+  - ZA-NW
+  - ZA-WC
+gbif:
+  include:
+    - LS

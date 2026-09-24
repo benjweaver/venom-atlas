@@ -1,0 +1,14 @@
+name: Katipō
+scientificName: Latrodectus katipo
+group: spider
+danger: 3
+summary: >-
+  New Zealand's only dangerous spider, a rare widow of coastal sand dunes.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Coastal sand dunes, among driftwood and dune grasses.
+size: Female body about 0.8 cm
+regions:
+  - NZ

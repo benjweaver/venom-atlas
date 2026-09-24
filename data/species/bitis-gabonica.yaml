@@ -1,0 +1,32 @@
+name: Gaboon viper
+scientificName: Bitis gabonica
+group: snake
+danger: 5
+summary: >-
+  A huge, perfectly camouflaged viper with the longest fangs of any snake and the largest venom
+  yield of any viper.
+venom: >-
+  Haemotoxic and cytotoxic: massive swelling, bleeding and tissue death; also affects the heart.
+  Potentially fatal.
+habitat: >-
+  Rainforest floor and woodland, lying hidden in leaf litter.
+size: 1.2–1.8 m
+regions:
+  - AO
+  - BI
+  - BJ
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - GA
+  - GH
+  - KE
+  - MZ
+  - NG
+  - TZ
+  - UG
+  - ZA-NL
+  - ZM
+  - ZW

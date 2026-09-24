@@ -1,0 +1,18 @@
+name: Red-bellied black snake
+scientificName: Pseudechis porphyriacus
+group: snake
+danger: 3
+summary: >-
+  A glossy black snake with a red belly, common along eastern Australian waterways. Bites are
+  painful but rarely fatal.
+venom: >-
+  Anticoagulant and myotoxic; causes pain, nausea and bleeding problems.
+habitat: >-
+  Streams, swamps and wetlands.
+size: 1.2–1.5 m
+regions:
+  - AU-QLD
+  - AU-NSW
+  - AU-VIC
+  - AU-SA
+  - AU-ACT

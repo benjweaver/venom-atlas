@@ -1,0 +1,29 @@
+name: "Jameson's mamba"
+scientificName: Dendroaspis jamesoni
+group: snake
+danger: 4
+summary: >-
+  The green-and-black mamba of central Africa, arboreal and fast.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Rainforest, forest edges and farmland with trees.
+size: 1.5–2.2 m
+regions:
+  - AO
+  - BJ
+  - CD
+  - CF
+  - CG
+  - CM
+  - GA
+  - GQ
+  - KE
+  - NG
+  - SS
+  - UG
+gbif:
+  include:
+    - GQ
+    - SS

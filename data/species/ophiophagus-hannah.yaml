@@ -12,17 +12,24 @@ habitat: >-
   Rainforest, mangroves, bamboo thickets and plantations near streams.
 size: 3–4 m; up to 5.8 m
 regions:
-  - IN
   - BD
-  - NP
   - BT
-  - MM
-  - TH
-  - LA
-  - KH
-  - VN
-  - MY
-  - SG
+  - CN-FJ
+  - CN-GD
+  - CN-GZ
+  - CN-YN
+  - HK
   - ID
+  - IN-AS
+  - IN-KA
+  - IN-MZ
+  - IN-OR
+  - IN-SK
+  - IN-UT
+  - IN-WB
+  - KH
+  - MM
+  - NP
   - PH
-  - CN
+  - TH
+  - VN

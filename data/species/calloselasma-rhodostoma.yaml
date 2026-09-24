@@ -1,0 +1,19 @@
+name: Malayan pit viper
+scientificName: Calloselasma rhodostoma
+group: snake
+danger: 4
+summary: >-
+  A common ground viper of South East Asian plantations that causes many bites among rubber and
+  palm-oil workers.
+venom: >-
+  Haemotoxic: bleeding and clotting failure, with painful swelling and blistering.
+habitat: >-
+  Plantations, farmland and forest floor.
+size: 70–90 cm
+regions:
+  - TH
+  - MY
+  - KH
+  - LA
+  - VN
+  - ID

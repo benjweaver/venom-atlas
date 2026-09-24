@@ -1,0 +1,22 @@
+name: Chinese scorpion
+scientificName: Olivierus martensii
+group: scorpion
+danger: 3
+summary: >-
+  The most common scorpion of northern China, also used in traditional medicine.
+venom: >-
+  Neurotoxic: pain and numbness, occasionally systemic effects.
+habitat: >-
+  Dry hills and farmland.
+size: 5–6 cm
+regions:
+  - CN-BJ
+  - CN-GS
+  - CN-HA
+  - CN-HE
+  - CN-LN
+  - CN-NM
+  - CN-SD
+  - CN-SN
+  - CN-SX
+  - CN-TJ

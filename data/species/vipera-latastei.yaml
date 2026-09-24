@@ -1,0 +1,14 @@
+name: "Lataste's viper"
+scientificName: Vipera latastei
+group: snake
+danger: 2
+summary: >-
+  An Iberian viper with an upturned snout.
+venom: >-
+  Pain and swelling; serious effects are rare.
+habitat: >-
+  Rocky, dry hillsides and scrub.
+size: 50–70 cm
+regions:
+  - ES
+  - PT

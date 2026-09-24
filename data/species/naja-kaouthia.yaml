@@ -1,0 +1,35 @@
+name: Monocled cobra
+scientificName: Naja kaouthia
+group: snake
+danger: 5
+summary: >-
+  A cobra with a single ring-shaped mark on its hood, common across eastern India and South East
+  Asia.
+venom: >-
+  Neurotoxic and cytotoxic: paralysis and severe local tissue damage.
+habitat: >-
+  Rice paddies, swamps, farmland and towns.
+size: 1.2–1.5 m
+regions:
+  - BD
+  - BT
+  - CN-GX
+  - CN-YN
+  - IN-AS
+  - IN-MZ
+  - IN-SK
+  - IN-WB
+  - KH
+  - LA
+  - MM
+  - MY
+  - NP
+  - TH
+  - VN
+gbif:
+  include:
+    - NP
+    - LA
+    - KH
+    - CN-YN
+    - CN-GX

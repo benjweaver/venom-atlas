@@ -1,0 +1,31 @@
+name: Urutu
+scientificName: Bothrops alternatus
+group: snake
+danger: 4
+summary: >-
+  A boldly patterned pit viper of the grasslands of southern South America.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding, blistering and tissue death; potentially
+  fatal or limb-threatening without antivenom.
+habitat: >-
+  Grassland, marshes and farmland.
+size: 0.8–1.7 m
+regions:
+  - AR-B
+  - AR-C
+  - AR-D
+  - AR-E
+  - AR-N
+  - AR-P
+  - AR-S
+  - AR-W
+  - AR-X
+  - BR-GO
+  - BR-MG
+  - BR-MS
+  - BR-PR
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - PY
+  - UY

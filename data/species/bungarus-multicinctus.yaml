@@ -11,8 +11,24 @@ habitat: >-
   Wet lowlands, rice paddies and scrub near water; nocturnal.
 size: 1–1.5 m
 regions:
-  - CN
-  - TW
-  - VN
+  - CN-AH
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HB
+  - CN-HI
+  - CN-HN
+  - CN-JX
+  - CN-YN
+  - CN-ZJ
+  - HK
   - LA
   - MM
+  - MO
+  - TH
+  - TW
+  - VN
+gbif:
+  include:
+    - LA

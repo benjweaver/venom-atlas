@@ -11,9 +11,30 @@ habitat: >-
   Almost everywhere from forests to farmland and towns, often near rat-infested fields.
 size: 1–1.5 m
 regions:
-  - IN
-  - PK
-  - NP
   - BD
+  - IN-AP
+  - IN-BR
+  - IN-CT
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-HR
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-ML
+  - IN-MP
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
   - LK
-  - BT
+  - NP
+  - PK
+gbif:
+  exclude:
+    - VN # misidentified Indochinese cobras

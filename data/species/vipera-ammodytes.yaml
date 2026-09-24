@@ -1,0 +1,32 @@
+name: Nose-horned viper
+scientificName: Vipera ammodytes
+group: snake
+danger: 3
+summary: >-
+  Europe's most dangerous snake, recognisable by the soft horn on its snout.
+venom: >-
+  Haemotoxic and cytotoxic, with some neurotoxic effects: pain, swelling and occasionally life-
+  threatening reactions.
+habitat: >-
+  Dry rocky hillsides, scree and stone walls in the Balkans and surrounding areas.
+size: 60–90 cm
+regions:
+  - AL
+  - AT
+  - BA
+  - BG
+  - GE
+  - GR
+  - HR
+  - IT
+  - ME
+  - MK
+  - RO
+  - RS
+  - SI
+  - TR
+  - XK
+gbif:
+  include:
+    - TR
+    - GE

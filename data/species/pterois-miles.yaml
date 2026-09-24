@@ -1,0 +1,52 @@
+name: Devil firefish
+scientificName: Pterois miles
+group: fish
+danger: 2
+summary: >-
+  A lionfish of the Red Sea and Indian Ocean, now spreading through the Mediterranean via the
+  Suez Canal.
+venom: >-
+  Very painful spine wounds with swelling; hot water relieves the pain.
+habitat: >-
+  Reefs, rocky coasts and wrecks.
+size: Up to 35 cm
+regions:
+  - AE
+  - AL
+  - CY
+  - EG
+  - GR
+  - HR
+  - ID
+  - IL
+  - IN-AN
+  - IN-GA
+  - IO
+  - IT
+  - JO
+  - KE
+  - KM
+  - LB
+  - LK
+  - LY
+  - ME
+  - MG
+  - MT
+  - MU
+  - MV
+  - MY
+  - MZ
+  - OM
+  - RE
+  - SA
+  - SC
+  - SD
+  - SO
+  - SY
+  - TH
+  - TN
+  - TR
+  - TZ
+  - YT
+  - ZA-EC
+  - ZA-NL

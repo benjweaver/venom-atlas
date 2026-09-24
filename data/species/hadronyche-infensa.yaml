@@ -1,0 +1,14 @@
+name: Darling Downs funnel-web spider
+scientificName: Hadronyche infensa
+group: spider
+danger: 4
+summary: >-
+  A funnel-web of south-eastern Queensland and northern New South Wales.
+venom: >-
+  Neurotoxic (atracotoxin); potentially dangerous.
+habitat: >-
+  Forest and woodland, in burrows.
+size: Body 2–3 cm
+regions:
+  - AU-QLD
+  - AU-NSW

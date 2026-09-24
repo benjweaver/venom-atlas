@@ -12,7 +12,14 @@ habitat: >-
   Forest floor, plantations, and inside buildings, shoes and clothing.
 size: Leg span up to 15 cm
 regions:
-  - BR
-  - AR
+  - AR-A
+  - AR-N
+  - AR-W
+  - AR-Y
+  - BR-MG
+  - BR-PR
+  - BR-RJ
+  - BR-RS
+  - BR-SC
+  - BR-SP
   - PY
-  - UY

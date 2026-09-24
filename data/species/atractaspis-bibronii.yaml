@@ -1,0 +1,28 @@
+name: "Bibron's burrowing asp"
+scientificName: Atractaspis bibronii
+group: snake
+danger: 2
+summary: >-
+  A small, secretive burrowing snake with fangs that swing sideways, so it can bite even when
+  held behind the head.
+venom: >-
+  Cytotoxic: severe pain, swelling and sometimes tissue loss around a finger or toe.
+habitat: >-
+  Savanna and semi-desert, underground or under rocks.
+size: 30–60 cm
+regions:
+  - BW
+  - CD
+  - KE
+  - MW
+  - MZ
+  - NA
+  - SZ
+  - TZ
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZM
+  - ZW

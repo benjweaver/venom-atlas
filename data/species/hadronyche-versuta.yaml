@@ -1,0 +1,13 @@
+name: Blue Mountains funnel-web spider
+scientificName: Hadronyche versuta
+group: spider
+danger: 5
+summary: >-
+  A funnel-web of the Blue Mountains and central coast of New South Wales.
+venom: >-
+  Neurotoxic (atracotoxin); potentially fatal, treated with funnel-web antivenom.
+habitat: >-
+  Moist forest, in burrows and logs.
+size: Body 2–3 cm
+regions:
+  - AU-NSW

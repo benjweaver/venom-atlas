@@ -11,8 +11,9 @@ habitat: >-
   Freshwater rivers, streams and lakes of eastern Australia.
 size: 40–60 cm
 regions:
-  - AU-QLD
-  - AU-NSW
   - AU-ACT
-  - AU-VIC
+  - AU-NSW
+  - AU-QLD
+  - AU-SA
   - AU-TAS
+  - AU-VIC

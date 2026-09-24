@@ -114,6 +114,17 @@ const wikipedia = computed(
       </div>
     </dl>
 
+    <p v-if="species.gbifKey" class="mt-3 text-[11px] text-(--muted)">
+      Range based on occurrence records from
+      <a
+        :href="`https://www.gbif.org/species/${species.gbifKey}`"
+        target="_blank"
+        rel="noopener"
+        class="underline"
+        >GBIF</a
+      >, reviewed by hand.
+    </p>
+
     <a
       :href="wikipedia"
       target="_blank"

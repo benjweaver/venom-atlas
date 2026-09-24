@@ -1,0 +1,21 @@
+name: Granulated thick-tailed scorpion
+scientificName: Parabuthus granulatus
+group: scorpion
+danger: 4
+summary: >-
+  A thick-tailed scorpion of the arid western parts of southern Africa, responsible for serious
+  stings.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Sandy arid scrub.
+size: 9–15 cm
+regions:
+  - AO
+  - BW
+  - NA
+  - ZA-EC
+  - ZA-LP
+  - ZA-NC
+  - ZA-WC

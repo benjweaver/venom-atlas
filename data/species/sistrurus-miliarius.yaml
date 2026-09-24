@@ -1,0 +1,28 @@
+name: Pygmy rattlesnake
+scientificName: Sistrurus miliarius
+group: snake
+danger: 2
+summary: >-
+  A tiny rattlesnake of the south-eastern US whose rattle sounds like an insect buzz.
+venom: >-
+  Haemotoxic: painful swelling; almost never fatal.
+habitat: >-
+  Pine flatwoods, marshes and sandhills.
+size: 40–60 cm
+regions:
+  - US-NC
+  - US-SC
+  - US-GA
+  - US-FL
+  - US-AL
+  - US-MS
+  - US-LA
+  - US-TN
+  - US-AR
+  - US-OK
+  - US-TX
+  - US-MO
+  - US-KY
+gbif:
+  include:
+    - US-TN

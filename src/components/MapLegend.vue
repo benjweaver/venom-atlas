@@ -15,7 +15,14 @@ defineProps<{ range: boolean }>()
     </template>
     <template v-else>
       <div class="mb-1 font-medium text-(--ink)">Species recorded</div>
-      <div class="flex gap-2">
+      <div class="flex flex-wrap gap-x-2 gap-y-1">
+        <span class="flex items-center gap-1">
+          <span
+            class="h-3 w-3 rounded-sm ring-1 ring-(--line) ring-inset"
+            :style="{ background: 'var(--map-land)' }"
+          />
+          None
+        </span>
         <span v-for="(_, i) in HEAT_STEPS" :key="i" class="flex items-center gap-1">
           <span class="h-3 w-3 rounded-sm" :style="{ background: `var(--heat-${i + 1})` }" />
           {{ heatLabel(i) }}

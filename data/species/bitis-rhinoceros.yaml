@@ -1,0 +1,18 @@
+name: West African Gaboon viper
+scientificName: Bitis rhinoceros
+group: snake
+danger: 5
+summary: >-
+  The West African relative of the Gaboon viper, with a pair of horns on its snout.
+venom: >-
+  Haemotoxic and cytotoxic; causes severe swelling, bleeding and necrosis.
+habitat: >-
+  Rainforest and forest edges.
+size: 1.2–1.8 m
+regions:
+  - BJ
+  - CI
+  - GH
+  - GN
+  - LR
+  - SL

@@ -10,21 +10,43 @@ habitat: >-
   Dry scrub, rock piles, burrows, garages and outbuildings.
 size: Female body about 1.4 cm
 regions:
-  - US-WA
-  - US-OR
-  - US-CA
-  - US-NV
-  - US-ID
-  - US-UT
-  - US-AZ
-  - US-NM
-  - US-MT
-  - US-WY
-  - US-CO
-  - US-TX
-  - CA-BC
   - CA-AB
+  - CA-BC
   - CA-SK
+  - MX-AGU
   - MX-BCN
-  - MX-SON
+  - MX-BCS
   - MX-CHH
+  - MX-COA
+  - MX-DIF
+  - MX-DUR
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-NLE
+  - MX-PUE
+  - MX-QUE
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-ZAC
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-HI
+  - US-ID
+  - US-KS
+  - US-MT
+  - US-ND
+  - US-NE
+  - US-NM
+  - US-NV
+  - US-OK
+  - US-OR
+  - US-SD
+  - US-TX
+  - US-UT
+  - US-WA
+  - US-WY

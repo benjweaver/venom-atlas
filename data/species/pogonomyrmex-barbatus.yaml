@@ -1,0 +1,44 @@
+name: Red harvester ant
+scientificName: Pogonomyrmex barbatus
+group: insect
+danger: 2
+summary: >-
+  A seed-harvesting ant of the American Southwest with one of the most toxic insect venoms.
+venom: >-
+  Very painful, long-lasting stings; allergic reactions possible.
+habitat: >-
+  Desert grassland and open ground.
+size: 6–10 mm
+regions:
+  - MX-AGU
+  - MX-CHH
+  - MX-COA
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-VER
+  - MX-ZAC
+  - US-AR
+  - US-AZ
+  - US-CO
+  - US-KS
+  - US-NM
+  - US-OK
+  - US-TX
+gbif:
+  exclude:
+    - US-CA # misidentified harvester ants

@@ -1,0 +1,35 @@
+name: Levantine viper
+scientificName: Macrovipera lebetina
+group: snake
+danger: 5
+summary: >-
+  A large viper ranging from North Africa and Cyprus to Central Asia, and a major cause of
+  serious bites in that region.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding and shock.
+habitat: >-
+  Dry rocky hillsides, scrub and farmland.
+size: 1–1.5 m
+regions:
+  - AF
+  - AM
+  - AZ
+  - CY
+  - GE
+  - GR
+  - IQ
+  - IR
+  - LB
+  - PK
+  - RU
+  - SY
+  - TJ
+  - TM
+  - TR
+  - UZ
+gbif:
+  include:
+    - AF
+    - PK
+    - TM
+  name: Macrovipera lebetinus

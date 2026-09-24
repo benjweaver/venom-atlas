@@ -11,30 +11,40 @@ habitat: >-
   Heathland, moorland, woodland edges and rocky hillsides.
 size: 50–65 cm
 regions:
-  - GB
-  - FR
+  - AT
+  - AX
   - BE
-  - NL
-  - LU
+  - BG
+  - BY
+  - CH
+  - CN-XJ
+  - CZ
   - DE
   - DK
-  - NO
-  - SE
+  - EE
   - FI
-  - PL
-  - CZ
-  - SK
-  - AT
-  - CH
-  - IT
+  - FR
+  - GB
+  - HR
   - HU
-  - RO
-  - UA
-  - BY
+  - IT
+  - KZ
   - LT
   - LV
-  - EE
-  - RU
-  - KZ
+  - ME
   - MN
-  - CN
+  - NL
+  - NO
+  - PL
+  - RO
+  - RU
+  - SE
+  - SI
+  - SK
+  - UA
+gbif:
+  include:
+    - HU
+    - KZ
+    - MN
+    - CN-XJ

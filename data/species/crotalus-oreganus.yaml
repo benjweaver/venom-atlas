@@ -1,0 +1,24 @@
+name: Western rattlesnake
+scientificName: Crotalus oreganus
+group: snake
+danger: 3
+summary: >-
+  The rattlesnake of the Pacific Northwest, the Great Basin and much of California.
+venom: >-
+  Haemotoxic and cytotoxic, with neurotoxic effects in some populations.
+habitat: >-
+  Grassland, rocky hillsides, open woodland and scrub.
+size: 0.6–1.2 m
+regions:
+  - CA-BC
+  - MX-BCN
+  - MX-BCS
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-ID
+  - US-NV
+  - US-OR
+  - US-UT
+  - US-WA
+  - US-WY

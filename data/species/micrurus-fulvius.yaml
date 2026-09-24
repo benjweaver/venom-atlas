@@ -12,10 +12,17 @@ habitat: >-
   Pine flatwoods, sandhills and hardwood hammocks, often hidden under leaf litter.
 size: 0.5–0.8 m
 regions:
+  - MX-SLP
+  - MX-TAM
+  - US-AL
+  - US-FL
+  - US-GA
+  - US-LA
+  - US-MS
   - US-NC
   - US-SC
-  - US-GA
-  - US-FL
-  - US-AL
-  - US-MS
-  - US-LA
+  - US-TX
+gbif:
+  include:
+    - US-MS
+    - US-LA

@@ -1,0 +1,20 @@
+name: Transvaal thick-tailed scorpion
+scientificName: Parabuthus transvaalicus
+group: scorpion
+danger: 4
+summary: >-
+  The most dangerous scorpion of southern Africa, able to spray venom from its tail.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Hot, dry savanna and sandy soils.
+size: 9–11 cm
+regions:
+  - BW
+  - MZ
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NW
+  - ZW

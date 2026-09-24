@@ -11,26 +11,92 @@ habitat: >-
   Coral reefs, rocky coasts and seagrass.
 size: Up to 38 cm
 regions:
-  - US-FL
-  - US-GA
-  - US-SC
-  - US-NC
-  - US-TX
+  - AI
+  - AU-NSW
   - AU-QLD
   - AU-WA
-  - ID
-  - PH
-  - JP
-  - FJ
-  - PG
-  - MY
-  - BS
-  - CU
-  - MX
-  - BZ
-  - HN
-  - JM
-  - DO
-  - CO
-  - VE
+  - AW
+  - BB
+  - BL
+  - BM
   - BR
+  - BS
+  - BZ
+  - CK
+  - CN
+  - CO
+  - CR
+  - CU
+  - CW
+  - DJ
+  - DM
+  - DO
+  - EG
+  - FJ
+  - FM
+  - GD
+  - GF
+  - GP
+  - GR
+  - GU
+  - HK
+  - HN
+  - ID
+  - IN
+  - JM
+  - JO
+  - JP-22
+  - JP-46
+  - JP-47
+  - KE
+  - KR
+  - KY
+  - LC
+  - LK
+  - MF
+  - MG
+  - MH
+  - MP
+  - MQ
+  - MU
+  - MV
+  - MX-ROO
+  - MY
+  - MZ
+  - NC
+  - NI
+  - NZ
+  - PA
+  - PF
+  - PG
+  - PH
+  - PR
+  - PW
+  - RE
+  - SB
+  - SC
+  - SX
+  - TC
+  - TH
+  - TL
+  - TO
+  - TT
+  - TW
+  - TZ
+  - US-FL
+  - US-SC
+  - US-TX
+  - VE
+  - VG
+  - VI
+  - VN
+  - VU
+  - WF
+  - WS
+  - YT
+  - ZA-NL
+gbif:
+  exclude:
+    - FR # misidentified P. miles
+    - CY # misidentified P. miles
+    - IL # misidentified P. miles

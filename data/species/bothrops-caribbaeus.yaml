@@ -1,0 +1,13 @@
+name: Saint Lucia lancehead
+scientificName: Bothrops caribbaeus
+group: snake
+danger: 4
+summary: >-
+  A lancehead found only on Saint Lucia.
+venom: >-
+  Causes blood clots (thrombosis) and local tissue damage.
+habitat: >-
+  Dry forest and plantations.
+size: 1–2 m
+regions:
+  - LC

@@ -1,0 +1,59 @@
+name: South American rattlesnake
+scientificName: Crotalus durissus
+group: snake
+danger: 5
+summary: >-
+  The only rattlesnake across most of South America, with a strongly neurotoxic venom.
+venom: >-
+  Neurotoxic and myotoxic: paralysis, muscle breakdown and kidney failure; potentially fatal.
+habitat: >-
+  Dry savanna, grassland and open scrub.
+size: 1–1.5 m
+regions:
+  - AR-A
+  - AR-D
+  - AR-G
+  - AR-H
+  - AR-K
+  - AR-N
+  - AR-P
+  - AR-S
+  - AR-X
+  - BO
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-DF
+  - BR-GO
+  - BR-MA
+  - BR-MG
+  - BR-MS
+  - BR-MT
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-RO
+  - BR-RR
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - BR-TO
+  - CO
+  - GF
+  - GY
+  - PY
+  - SR
+  - UY
+  - VE
+gbif:
+  exclude:
+    - MX # now Crotalus simus
+    - GT # now Crotalus simus
+    - CR # now Crotalus simus
+  include:
+    - UY
+    - SR

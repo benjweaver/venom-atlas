@@ -12,10 +12,12 @@ habitat: >-
   Desert scrub and rocky foothills; spends most of its life underground.
 size: About 50 cm
 regions:
+  - MX-SIN
+  - MX-SON
   - US-AZ
+  - US-NM
   - US-NV
   - US-UT
-  - US-NM
-  - US-CA
-  - MX-SON
-  - MX-SIN
+gbif:
+  include:
+    - MX-SIN

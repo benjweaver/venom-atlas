@@ -10,18 +10,19 @@ habitat: >-
   Rocky deserts, woodland and grassland, sheltering under stones and logs.
 size: Up to 20 cm
 regions:
-  - US-TX
-  - US-NM
-  - US-AZ
-  - US-OK
-  - US-AR
-  - US-LA
-  - US-MO
-  - US-KS
   - MX-CHH
   - MX-COA
-  - MX-NLE
-  - MX-TAM
-  - MX-SON
   - MX-DUR
-  - MX-SLP
+  - MX-NLE
+  - MX-SIN
+  - MX-SON
+  - MX-TAM
+  - US-AR
+  - US-AZ
+  - US-CO
+  - US-KS
+  - US-LA
+  - US-MO
+  - US-NM
+  - US-OK
+  - US-TX

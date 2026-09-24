@@ -11,21 +11,26 @@ habitat: >-
   Lowland rainforest, plantations and farmland, often near water.
 size: 1.2–1.8 m; occasionally 2.5 m
 regions:
-  - MX-TAM
-  - MX-SLP
-  - MX-VER
-  - MX-OAX
-  - MX-TAB
-  - MX-CHP
-  - MX-CAM
-  - MX-ROO
-  - MX-PUE
-  - GT
   - BZ
-  - HN
-  - NI
-  - CR
-  - PA
   - CO
+  - CR
   - EC
+  - GT
+  - HN
+  - MX-CAM
+  - MX-CHP
+  - MX-HID
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-ROO
+  - MX-SLP
+  - MX-TAB
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - NI
+  - PA
+  - PE
+  - TT
   - VE

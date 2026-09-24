@@ -1,0 +1,36 @@
+name: Black-tailed rattlesnake
+scientificName: Crotalus molossus
+group: snake
+danger: 3
+summary: >-
+  A handsome, relatively placid rattlesnake of the Southwest and Mexico with a jet-black tail.
+venom: >-
+  Haemotoxic: pain, swelling and bruising; rarely fatal.
+habitat: >-
+  Rocky canyons, mountain woodland and desert slopes.
+size: 0.8–1.1 m
+regions:
+  - MX-AGU
+  - MX-CHH
+  - MX-COA
+  - MX-DIF
+  - MX-DUR
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-VER
+  - MX-ZAC
+  - US-AZ
+  - US-NM
+  - US-TX

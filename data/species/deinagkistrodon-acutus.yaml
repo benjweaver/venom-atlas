@@ -1,0 +1,23 @@
+name: Hundred-pace viper
+scientificName: Deinagkistrodon acutus
+group: snake
+danger: 4
+summary: >-
+  A heavy pit viper of southern China and Taiwan whose name claims victims die within a hundred
+  paces.
+venom: >-
+  Haemotoxic: severe bleeding, swelling and tissue damage.
+habitat: >-
+  Wooded hills and mountain forests, often near streams.
+size: 0.8–1.5 m
+regions:
+  - CN-AH
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HN
+  - CN-JX
+  - CN-ZJ
+  - TW
+  - VN

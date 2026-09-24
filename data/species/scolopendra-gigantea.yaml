@@ -1,0 +1,17 @@
+name: Amazonian giant centipede
+scientificName: Scolopendra gigantea
+group: centipede
+danger: 2
+summary: >-
+  The largest centipede in the world, big enough to catch bats.
+venom: >-
+  Extremely painful bite with swelling and fever; rarely dangerous to adults.
+habitat: >-
+  Rainforest, caves and rocky areas.
+size: Up to 30 cm
+regions:
+  - AW
+  - BR-BA
+  - CO
+  - TT
+  - VE

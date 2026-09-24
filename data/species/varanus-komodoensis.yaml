@@ -1,0 +1,14 @@
+name: Komodo dragon
+scientificName: Varanus komodoensis
+group: lizard
+danger: 3
+summary: >-
+  The largest living lizard. Its bite delivers venom that stops blood clotting and lowers blood
+  pressure in prey.
+venom: >-
+  Anticoagulant venom and severe tearing wounds; attacks on people are rare but have been fatal.
+habitat: >-
+  Dry savanna and forest on a few Indonesian islands.
+size: 2–3 m
+regions:
+  - ID

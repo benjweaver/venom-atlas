@@ -12,18 +12,29 @@ habitat: >-
   Savanna, open woodland and rocky hills, often in termite mounds or hollow trees.
 size: 2–3 m; up to 4.3 m
 regions:
-  - ZA
-  - SZ
-  - MZ
-  - ZW
-  - BW
-  - NA
-  - ZM
-  - MW
-  - TZ
-  - KE
-  - ET
-  - SO
-  - CD
   - AO
+  - BW
+  - CD
+  - CF
+  - ET
+  - KE
+  - MW
+  - MZ
+  - NA
+  - SO
   - SS
+  - SZ
+  - TZ
+  - UG
+  - ZA-LP
+  - ZA-MP
+  - ZA-NL
+  - ZA-NW
+  - ZM
+  - ZW
+gbif:
+  include:
+    - ET
+    - SO
+    - CD
+    - SS

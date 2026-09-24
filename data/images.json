@@ -1,4 +1,25 @@
 {
+  "acanthaster-planci": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Acanthaster_planci_460468243_%28closeup%29.jpg/960px-Acanthaster_planci_460468243_%28closeup%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Acanthaster_planci_460468243_(closeup).jpg",
+    "artist": "John Hepburn",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "acanthophis-antarcticus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/CSIRO_ScienceImage_3990_Death_Adder.jpg/960px-CSIRO_ScienceImage_3990_Death_Adder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3990_Death_Adder.jpg",
+    "artist": "John Wombey, CSIRO",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "agkistrodon-bilineatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Agkistrodon_bilineatus_2.jpg/960px-Agkistrodon_bilineatus_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Agkistrodon_bilineatus_2.jpg",
+    "artist": "User:Haplochromis",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
   "agkistrodon-contortrix": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Agkistrodon_contortrix_contortrix_CDC-a.png/960px-Agkistrodon_contortrix_contortrix_CDC-a.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Agkistrodon_contortrix_contortrix_CDC-a.png",
@@ -11,12 +32,60 @@
     "artist": "CDC/ Edward J. Wozniak D.V.M., Ph.D., John Willson at the University of Georgia, at the Savannah River Ecology Laboratory (SREL)",
     "license": "Public domain"
   },
+  "aipysurus-laevis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Aipysurus_laevis.jpg/960px-Aipysurus_laevis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Aipysurus_laevis.jpg",
+    "artist": "Richard Ling",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "androctonus-australis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/51/Androctonus_australis_02.JPG/960px-Androctonus_australis_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Androctonus_australis_02.JPG",
+    "artist": "HTO",
+    "license": "Public domain"
+  },
+  "androctonus-crassicauda": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Black_scorpion.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_scorpion.jpg",
+    "artist": "Per-Anders Olsson",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "androctonus-mauritanicus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Androctonus_mauritanicus_14916664.jpg/960px-Androctonus_mauritanicus_14916664.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Androctonus_mauritanicus_14916664.jpg",
+    "artist": "Valentin Moser",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "apis-mellifera": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Apis_mellifera_Western_honey_bee.jpg/960px-Apis_mellifera_Western_honey_bee.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Apis_mellifera_Western_honey_bee.jpg",
+    "artist": "Andreas Trepte",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "atractaspis-bibronii": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Atractaspis_bibronii_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Atractaspis_bibronii_2.jpg",
+    "artist": "Matt Muir",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "atrax-robustus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Atrax_Robustus.jpg/960px-Atrax_Robustus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Atrax_Robustus.jpg",
     "artist": "Sputniktilt",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "austrelaps-superbus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/LowlandcopperheadMullawallah.jpg/960px-LowlandcopperheadMullawallah.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:LowlandcopperheadMullawallah.jpg",
+    "artist": "Ed Dunens",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
   "bitis-arietans": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Bitis_arietans_by_Danny_S._1.JPG/960px-Bitis_arietans_by_Danny_S._1.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -25,12 +94,47 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "bitis-gabonica": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Bitis_gabonica.jpg/960px-Bitis_gabonica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bitis_gabonica.jpg",
+    "artist": "Marius Burger",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "bitis-nasicornis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/25/Bitis_nasicornis_Nashornviper_%28cropped%29.jpg/960px-Bitis_nasicornis_Nashornviper_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bitis_nasicornis_Nashornviper_(cropped).jpg",
+    "artist": "Holger Krisp",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "bitis-rhinoceros": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Viperidae_-_Bitis_gabonica_rhinoceros.JPG/960px-Viperidae_-_Bitis_gabonica_rhinoceros.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Viperidae_-_Bitis_gabonica_rhinoceros.JPG",
+    "artist": "Hectonichus",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "blarina-brevicauda": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Blarina_brevicauda.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Blarina_brevicauda.jpg",
     "artist": "Gilles Gonthier from Canada",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "bothriechis-schlegelii": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Bothriechis_schlegelii_from_Antioquia_department%2C_Colombia%2C_in_life.jpg/960px-Bothriechis_schlegelii_from_Antioquia_department%2C_Colombia%2C_in_life.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bothriechis_schlegelii_from_Antioquia_department,_Colombia,_in_life.jpg",
+    "artist": "Alejandro Arteaga, R. Alexander Pyron, Abel Batista, Jose Vieira, Elson Meneses Pelayo, Eric N. Smith, C\u00e9sar L. Barrio Amor\u00f3s, Claudia Koch, Stefanie Agne, Jorge H. Valencia, Lucas Bustamante, Kyle J. Harris",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bothrops-alternatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/Urut%C3%BA-cruzeiro_%28Bothrops_alternatus%29.jpg/960px-Urut%C3%BA-cruzeiro_%28Bothrops_alternatus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Urut%C3%BA-cruzeiro_(Bothrops_alternatus).jpg",
+    "artist": "Gionorossi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "bothrops-asper": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Bothrops_asper_170971120.jpg/960px-Bothrops_asper_170971120.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -39,12 +143,74 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "bothrops-atrox": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Bothrops_atrox_113840233.jpg/960px-Bothrops_atrox_113840233.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bothrops_atrox_113840233.jpg",
+    "artist": "Dar\u00edo De la Fuente",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "bothrops-caribbaeus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/62/Bothrops_caribbaeus.jpg/960px-Bothrops_caribbaeus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bothrops_caribbaeus.jpg",
+    "artist": "Katie Breach",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "bothrops-insularis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Bothrops_insularis.jpg/960px-Bothrops_insularis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bothrops_insularis.jpg",
+    "artist": "Nayeryouakim",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "bothrops-jararaca": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Bothrops_jararaca.jpg/960px-Bothrops_jararaca.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bothrops_jararaca.jpg",
+    "artist": "Leandro Avelar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "bothrops-jararacussu": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Img_3080-1440x959.jpg/960px-Img_3080-1440x959.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Img_3080-1440x959.jpg",
+    "artist": "Wanderbio",
+    "license": "Public domain"
+  },
+  "bothrops-lanceolatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Martinique_lancehead.jpg/960px-Martinique_lancehead.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Martinique_lancehead.jpg",
+    "artist": "RatioTile",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "bothrops-moojeni": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/BrazilianLancehead.jpg/960px-BrazilianLancehead.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:BrazilianLancehead.jpg",
+    "artist": "(Greg Hume)",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
   "bungarus-caeruleus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Bungarus_caerulus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Bungarus_caerulus.jpg",
     "artist": "Jayendra Chiplunkar",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "bungarus-candidus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Bungar_candi_120608-0343_krw.jpg/960px-Bungar_candi_120608-0343_krw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Bungar_candi_120608-0343_krw.jpg",
+    "artist": "Wibowo Djatmiko (Wie146)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "bungarus-fasciatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/The_Banded_Krait.jpg/960px-The_Banded_Krait.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:The_Banded_Krait.jpg",
+    "artist": "Arup2602",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
   "bungarus-multicinctus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Bungarus_multicinctus_339509447.jpg/960px-Bungarus_multicinctus_339509447.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -53,10 +219,66 @@
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
+  "buthus-occitanus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/ButhusScorpion7.jpg/960px-ButhusScorpion7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:ButhusScorpion7.jpg",
+    "artist": "Nabokov - the required attribution if you use this photo is \"Photo by Tom Oates\"",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "calloselasma-rhodostoma": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Callos_rhodos_120610-0642_krw.jpg/960px-Callos_rhodos_120610-0642_krw.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Callos_rhodos_120610-0642_krw.jpg",
+    "artist": "Wibowo Djatmiko (Wie146)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "carukia-barnesi": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Cubozoas.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Cubozoas.JPG",
+    "artist": "Forgerz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "causus-rhombeatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Causus_rhombeatus00.jpg/960px-Causus_rhombeatus00.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Causus_rhombeatus00.jpg",
+    "artist": "Paul venter",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "centruroides-limpidus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Centruroides-limpidus-range.png/960px-Centruroides-limpidus-range.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Centruroides-limpidus-range.png",
+    "artist": "Dkallen78",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "centruroides-sculpturatus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Centruroides_sculpturatus_191624836.jpg/960px-Centruroides_sculpturatus_191624836.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Centruroides_sculpturatus_191624836.jpg",
     "artist": "Andrew Meeds",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "centruroides-suffusus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Centruroides_suffusus.jpg/960px-Centruroides_suffusus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Centruroides_suffusus.jpg",
+    "artist": "Drini (Pedro S\u00e1nchez)",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+  },
+  "cerastes-cerastes": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c9/Hornviper_Cerastes_cerastes.jpg/960px-Hornviper_Cerastes_cerastes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hornviper_Cerastes_cerastes.jpg",
+    "artist": "Holger Krisp",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "cheiracanthium-punctorium": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cheiracanthium_punctorium_-_Ludivine_Lamare_-_302947938.jpeg/960px-Cheiracanthium_punctorium_-_Ludivine_Lamare_-_302947938.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Cheiracanthium_punctorium_-_Ludivine_Lamare_-_302947938.jpeg",
+    "artist": "Ludivine Lamare",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -67,11 +289,32 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
   },
+  "chironex-yamaguchii": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Chironex_yamaguchii.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Chironex_yamaguchii.jpg",
+    "artist": "OpenCage",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
   "conus-geographus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/79/Conus-geographicus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Conus-geographicus.jpg",
     "artist": "Kerry Matz, National Institute of General Medical Services",
     "license": "Public domain"
+  },
+  "conus-striatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Pionoconus_striatus_01.JPG/960px-Pionoconus_striatus_01.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pionoconus_striatus_01.JPG",
+    "artist": "H. Zell",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "conus-textile": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Textile_cone.JPG/960px-Textile_cone.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Textile_cone.JPG",
+    "artist": "Richard Ling",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
   "crotalus-adamanteus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4b/Adult_Crotalus_adamanteus.jpg/960px-Adult_Crotalus_adamanteus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -87,6 +330,33 @@
     "license": "CC BY 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
   },
+  "crotalus-basiliscus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Crotalus_basiliscus.jpg/960px-Crotalus_basiliscus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Crotalus_basiliscus.jpg",
+    "artist": "snakecollector",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "crotalus-cerastes": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/70/Crotalus_cerastes_mesquite_springs_CA-2.jpg/960px-Crotalus_cerastes_mesquite_springs_CA-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Crotalus_cerastes_mesquite_springs_CA-2.jpg",
+    "artist": "derivative work: Victorrocha (talk \u00b7 contribs) Crotalus_cerastes_mesquite_springs_CA.JPG: Tigerhawkvok (talk \u00b7 contribs)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "crotalus-durissus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Crotalus_durissus.jpg/960px-Crotalus_durissus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Crotalus_durissus.jpg",
+    "artist": "Leandro Avelar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "crotalus-helleri": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Crotalus_viridis_helleri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Crotalus_viridis_helleri.jpg",
+    "artist": "Photo by: Chris Brown",
+    "license": "Public domain"
+  },
   "crotalus-horridus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Timber_Rattlesnake_%28Crotalus_horridus%29_-_Flickr_-_2ndPeter.jpg/960px-Timber_Rattlesnake_%28Crotalus_horridus%29_-_Flickr_-_2ndPeter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Timber_Rattlesnake_(Crotalus_horridus)_-_Flickr_-_2ndPeter.jpg",
@@ -94,11 +364,46 @@
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
+  "crotalus-molossus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Crotalus_molossus_molossus2.jpg/960px-Crotalus_molossus_molossus2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Crotalus_molossus_molossus2.jpg",
+    "artist": "Caudatejake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "crotalus-oreganus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Crotalus_oreganus.jpg/960px-Crotalus_oreganus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Crotalus_oreganus.jpg",
+    "artist": "Connor Long",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "crotalus-ruber": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Crotalus_ruber1.jpg/960px-Crotalus_ruber1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Crotalus_ruber1.jpg",
+    "artist": "Caudatejake",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "crotalus-scutulatus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/e/e2/Crotalus_scutulatus_02.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Crotalus_scutulatus_02.JPG",
     "artist": "Lvthn13 at English Wikipedia (Original text: Self-Created)",
     "license": "Public domain"
+  },
+  "crotalus-simus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Yucatan_Neotropical_Rattlesnake_045.jpg/960px-Yucatan_Neotropical_Rattlesnake_045.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Yucatan_Neotropical_Rattlesnake_045.jpg",
+    "artist": "Ltshears",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "crotalus-tigris": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Tiger_Rattlesnake_001.jpg/960px-Tiger_Rattlesnake_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tiger_Rattlesnake_001.jpg",
+    "artist": "Ltshears",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "crotalus-viridis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Crotalus_viridis_-_Flickr_-_aspidoscelis_%2817%29.jpg/960px-Crotalus_viridis_-_Flickr_-_aspidoscelis_%2817%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -107,6 +412,27 @@
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
+  "cyanea-capillata": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_7.jpg/960px-Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_7.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lion%27s_mane_jellyfish_in_Gullmarn_fjord_at_S%C3%A4mstad_7.jpg",
+    "artist": "W.carter",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "daboia-mauritanica": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Macrovipera_mauritanica_IMG_5083.jpg/960px-Macrovipera_mauritanica_IMG_5083.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Macrovipera_mauritanica_IMG_5083.jpg",
+    "artist": "Bjoertvedt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "daboia-palaestinae": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Vipera_palaestina.jpg/960px-Vipera_palaestina.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vipera_palaestina.jpg",
+    "artist": "Guy Haimovitch",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
   "daboia-russelii": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Daboia_russelii_A_Chawla01.jpg/960px-Daboia_russelii_A_Chawla01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Daboia_russelii_A_Chawla01.jpg",
@@ -114,11 +440,58 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "daboia-siamensis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Daboia-siamensis-siamese-russells-viper-thailand.jpg/960px-Daboia-siamensis-siamese-russells-viper-thailand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Daboia-siamensis-siamese-russells-viper-thailand.jpg",
+    "artist": "Tontanthailand",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "dasyatis-pastinaca": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/46/Black_sea_fauna_stingray_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_sea_fauna_stingray_01.jpg",
+    "artist": "Florin DUMITRESCU",
+    "license": "Public domain"
+  },
+  "deinagkistrodon-acutus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Sharp-Nosed_Viper_01.jpg/960px-Sharp-Nosed_Viper_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Sharp-Nosed_Viper_01.jpg",
+    "artist": "No machine-readable author provided. Danleo~commonswiki assumed (based on copyright claims).",
+    "license": "CC BY 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
+  },
+  "dendroaspis-angusticeps": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Green_mamba.jpg/960px-Green_mamba.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Green_mamba.jpg",
+    "artist": "David~O",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "dendroaspis-jamesoni": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Black-tailed_Jameson%27s_Mamba_%28Dendroaspis_jamesoni_kaimosae%29.jpg/960px-Black-tailed_Jameson%27s_Mamba_%28Dendroaspis_jamesoni_kaimosae%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Black-tailed_Jameson%27s_Mamba_(Dendroaspis_jamesoni_kaimosae).jpg",
+    "artist": "Richard RoZ",
+    "license": "Public domain"
+  },
   "dendroaspis-polylepis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/76/Dendroaspis_polylepis_%2814%29.jpg/960px-Dendroaspis_polylepis_%2814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Dendroaspis_polylepis_(14).jpg",
     "artist": "TimVickers",
     "license": "Public domain"
+  },
+  "dendroaspis-viridis": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Dendroaspis_viridisPCCA20051227-1885B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Dendroaspis_viridisPCCA20051227-1885B.jpg",
+    "artist": "Patrick Coin no u(Patrick Coin)",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
+  },
+  "dispholidus-typus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Dispholidus_typus_333317716.jpg/960px-Dispholidus_typus_333317716.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dispholidus_typus_333317716.jpg",
+    "artist": "Miguel da Fonseca",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
   },
   "echiichthys-vipera": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Echiichthys_vipera.jpg/960px-Echiichthys_vipera.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -133,6 +506,61 @@
     "artist": "Shantanu Kuveskar",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "echis-coloratus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/%D7%90%D7%A4%D7%A2%D7%94_%D7%9E%D7%92%D7%95%D7%95%D7%9F-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:%D7%90%D7%A4%D7%A2%D7%94_%D7%9E%D7%92%D7%95%D7%95%D7%9F-2.jpg",
+    "artist": "\u05d3\u05d5\u05d3 \u05d3\u05d5\u05d3.. Original uploader was Androctonus at he.wikipedia",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "echis-ocellatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Echis_ocellatus.jpg/960px-Echis_ocellatus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Echis_ocellatus.jpg",
+    "artist": "Peter Alfrey",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "echis-pyramidum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Echis_pyramidum-4.jpg/960px-Echis_pyramidum-4.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Echis_pyramidum-4.jpg",
+    "artist": "TimVickers",
+    "license": "Public domain"
+  },
+  "gloydius-blomhoffii": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/48/Mamushi_togurosugata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Mamushi_togurosugata.jpg",
+    "artist": "\uff2b\uff53 at Japanese Wikipedia / http://www.aikis.or.jp/~keisotyo/",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "gloydius-halys": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/%D0%A9%D0%B8%D1%82%D0%BE%D0%BC%D0%BE%D1%80%D0%B4%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%91%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D1%82%D1%80%D0%BE%D0%BF%D0%B5.jpg/960px-%D0%A9%D0%B8%D1%82%D0%BE%D0%BC%D0%BE%D1%80%D0%B4%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%91%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D1%82%D1%80%D0%BE%D0%BF%D0%B5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:%D0%A9%D0%B8%D1%82%D0%BE%D0%BC%D0%BE%D1%80%D0%B4%D0%BD%D0%B8%D0%BA_%D0%BD%D0%B0_%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%91%D0%B0%D0%B9%D0%BA%D0%B0%D0%BB%D1%8C%D1%81%D0%BA%D0%BE%D0%B9_%D1%82%D1%80%D0%BE%D0%BF%D0%B5.jpg",
+    "artist": "Dion Art",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "hadronyche-formidabilis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/AustralianMuseum_spider_specimen_19.JPG/960px-AustralianMuseum_spider_specimen_19.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:AustralianMuseum_spider_specimen_19.JPG",
+    "artist": "Toby Hudson",
+    "license": "CC BY-SA 3.0 au",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en"
+  },
+  "hadronyche-infensa": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/AustralianMuseum_spider_specimen_10.JPG/960px-AustralianMuseum_spider_specimen_10.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:AustralianMuseum_spider_specimen_10.JPG",
+    "artist": "Toby Hudson",
+    "license": "CC BY-SA 3.0 au",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/au/deed.en"
+  },
+  "hadronyche-versuta": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Atrax_Versutus.jpg/960px-Atrax_Versutus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Atrax_Versutus.jpg",
+    "artist": "Sputniktilt",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "hapalochlaena": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Hapalochlaena_lunulata2.JPG/960px-Hapalochlaena_lunulata2.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -155,6 +583,72 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
   },
+  "hemachatus-haemachatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Rinkhals2.jpg/960px-Rinkhals2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rinkhals2.jpg",
+    "artist": "ProfbergerLee R. Berger",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "hemiscorpius-lepturus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6f/Hemiscorpius_lepturus_%2810.3897-evolsyst.3.37464%29_Figure_24.jpg/960px-Hemiscorpius_lepturus_%2810.3897-evolsyst.3.37464%29_Figure_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hemiscorpius_lepturus_(10.3897-evolsyst.3.37464)_Figure_24.jpg",
+    "artist": "Monod L, Duperre N, Harms D (2019) An annotated catalogue of the scorpion types (Arachnida, Scorpiones) held in the Zoological Museum Hamburg. Part I: Parvorder Iurida Soleglad & Fet, 2003. Evolutionary Systematics 3(2): 109-200. https://doi.org/10.3897/evolsyst.3.37464",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "hottentotta-tamulus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Scorpion_Photograph_By_Shantanu_Kuveskar.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Scorpion_Photograph_By_Shantanu_Kuveskar.jpg",
+    "artist": "Shantanu Kuveskar",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "hydrophis-platurus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Pelamis_platura%2C_Costa_Rica.jpg/960px-Pelamis_platura%2C_Costa_Rica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pelamis_platura,_Costa_Rica.jpg",
+    "artist": "Aloaiza",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "hydrophis-schistosus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/ValakadynRooij.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:ValakadynRooij.jpg",
+    "artist": "Nelly de Rooij",
+    "license": "Public domain"
+  },
+  "hypnale-hypnale": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Babysnake800pix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Babysnake800pix.jpg",
+    "artist": "Vssekm at en.wikipedia",
+    "license": "Public domain"
+  },
+  "lachesis-muta": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Lachesis_muta_muta.jpg/960px-Lachesis_muta_muta.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lachesis_muta_muta.jpg",
+    "artist": "Christopher Murray",
+    "license": "Public domain"
+  },
+  "lachesis-stenophrys": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Lachesis_stenophrys_%283%29.jpg/960px-Lachesis_stenophrys_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lachesis_stenophrys_(3).jpg",
+    "artist": "TimVickers",
+    "license": "Public domain"
+  },
+  "laticauda-colubrina": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Banded_Sea_Krait_%28Laticauda_colubrina%29_%2814641328165%29.jpg/960px-Banded_Sea_Krait_%28Laticauda_colubrina%29_%2814641328165%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Banded_Sea_Krait_(Laticauda_colubrina)_(14641328165).jpg",
+    "artist": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "latrodectus-geometricus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Brown_widow_spider_Latrodectus_geometricus_low_oblique_view.jpg/960px-Brown_widow_spider_Latrodectus_geometricus_low_oblique_view.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Brown_widow_spider_Latrodectus_geometricus_low_oblique_view.jpg",
+    "artist": "Mfield, Matthew Field, http://www.photography.mattfield.com",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+  },
   "latrodectus-hasselti": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Latrodectus_hasselti_close.jpg/960px-Latrodectus_hasselti_close.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_hasselti_close.jpg",
@@ -169,10 +663,37 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "latrodectus-indistinctus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Latrodectus_indistinctus_37390662.jpg/960px-Latrodectus_indistinctus_37390662.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_indistinctus_37390662.jpg",
+    "artist": "magriet b",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "latrodectus-katipo": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Katip%C5%8D%2C_Birdlings_Flat_7591%2C_New_Zealand_imported_from_iNaturalist_photo_373793836.jpg/960px-Katip%C5%8D%2C_Birdlings_Flat_7591%2C_New_Zealand_imported_from_iNaturalist_photo_373793836.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Katip%C5%8D,_Birdlings_Flat_7591,_New_Zealand_imported_from_iNaturalist_photo_373793836.jpg",
+    "artist": "(c) Dustin Edmundson, some rights reserved (CC BY)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "latrodectus-mactans": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Latrodectus_mactans_eating.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_mactans_eating.JPG",
     "artist": "Unknown",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "latrodectus-tredecimguttatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/Latrodectus_tredecimguttatus_female.jpg/960px-Latrodectus_tredecimguttatus_female.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_tredecimguttatus_female.jpg",
+    "artist": "No machine-readable author provided. Kork~commonswiki assumed (based on copyright claims).",
+    "license": "Public domain"
+  },
+  "latrodectus-variolus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Latrodectus_variolus_%28Northern_Black_Widow%29%2C_F_Theridiidae.jpg/960px-Latrodectus_variolus_%28Northern_Black_Widow%29%2C_F_Theridiidae.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_variolus_(Northern_Black_Widow),_F_Theridiidae.jpg",
+    "artist": "Marshal Hedin",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
@@ -182,12 +703,54 @@
     "artist": "This file is a work by Ester Inbar (user:ST or he:user:ST). More of my work can be found in Category:Files by User:ST. If you use my work outside Wikimedia I would appreciate being notified and referred to site where used here.",
     "license": "Attribution"
   },
+  "lonomia-obliqua": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Lonomia_sp.jpg/960px-Lonomia_sp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Lonomia_sp.jpg",
+    "artist": "Benjamint444",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+  },
+  "loxosceles-deserta": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Desert_Recluse_%28Loxosceles_deserta%29.jpg/960px-Desert_Recluse_%28Loxosceles_deserta%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Desert_Recluse_(Loxosceles_deserta).jpg",
+    "artist": "DesertTrip",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "loxosceles-intermedia": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Loxosceles_Romulo2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Loxosceles_Romulo2.jpg",
+    "artist": "Romulo",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "loxosceles-laeta": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d2/Chilean_recluse_spider_%28Loxosceles_laeta%29.jpg/960px-Chilean_recluse_spider_%28Loxosceles_laeta%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Chilean_recluse_spider_(Loxosceles_laeta).jpg",
+    "artist": "Ssiltane",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "loxosceles-reclusa": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Brown_Recluse.jpg/960px-Brown_Recluse.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Brown_Recluse.jpg",
     "artist": "Rosa Pineda",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "loxosceles-rufescens": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Loxosceles_rufescens2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Loxosceles_rufescens2.jpg",
+    "artist": "Antonio Serrano",
+    "license": "GPL",
+    "licenseUrl": "http://www.gnu.org/licenses/gpl.html"
+  },
+  "macrovipera-lebetina": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Macrovipera_lebetina_obtusa03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Macrovipera_lebetina_obtusa03.jpg",
+    "artist": "V\u00e1clav Gvo\u017ed\u00edk",
+    "license": "CC BY-SA 2.5",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
   },
   "megalopyge-opercularis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Megalopyge_opercularisPCCP20040714-5799B.jpg/960px-Megalopyge_opercularisPCCP20040714-5799B.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -196,12 +759,68 @@
     "license": "CC BY-SA 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
   },
+  "mesobuthus-eupeus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c7/Mesobuthus_eupeus_in_human_hand.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Mesobuthus_eupeus_in_human_hand.jpg",
+    "artist": "Alireza5166",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "metlapilcoatlus-mexicanus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Atropoides-nummifer-1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Atropoides-nummifer-1a.jpg",
+    "artist": "Patrick Gijsbers",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "micropechis-ikaheca": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Ikaheka_Snake%2C_Kabupaten_de_Sorong%2C_Papouasie_occidentale%2C_Indon%C3%A9sie_imported_from_iNaturalist_photo_487753176.jpg/960px-Ikaheka_Snake%2C_Kabupaten_de_Sorong%2C_Papouasie_occidentale%2C_Indon%C3%A9sie_imported_from_iNaturalist_photo_487753176.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Ikaheka_Snake,_Kabupaten_de_Sorong,_Papouasie_occidentale,_Indon%C3%A9sie_imported_from_iNaturalist_photo_487753176.jpg",
+    "artist": "no rights reserved",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "micruroides-euryxanthus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Micruroides_euryxanthus.jpg/960px-Micruroides_euryxanthus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Micruroides_euryxanthus.jpg",
+    "artist": "David Jahn",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "micrurus-corallinus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Micrurus_corallinus_-_Jonathan_Lorencetti_Ehlert_-_345266865.jpeg/960px-Micrurus_corallinus_-_Jonathan_Lorencetti_Ehlert_-_345266865.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Micrurus_corallinus_-_Jonathan_Lorencetti_Ehlert_-_345266865.jpeg",
+    "artist": "Jonathan Lorencetti Ehlert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "micrurus-fulvius": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Coral_009.jpg/960px-Coral_009.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Coral_009.jpg",
     "artist": "Norman.benton",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "micrurus-lemniscatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Micrurus_lemniscatus.jpg/960px-Micrurus_lemniscatus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Micrurus_lemniscatus.jpg",
+    "artist": "Lvulgaris",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "micrurus-nigrocinctus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/Coralillo_%28Micrurus_nigrocinctus%29_%286955307478%29.jpg/960px-Coralillo_%28Micrurus_nigrocinctus%29_%286955307478%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Coralillo_(Micrurus_nigrocinctus)_(6955307478).jpg",
+    "artist": "J. Paulo Carbajal-Borges from Morelia, M\u00e9xico",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "micrurus-surinamensis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Aquatic_Coralsnake_%28Micrurus_surinamensis%29_in_Peru.jpg/960px-Aquatic_Coralsnake_%28Micrurus_surinamensis%29_in_Peru.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Aquatic_Coralsnake_(Micrurus_surinamensis)_in_Peru.jpg",
+    "artist": "dhfischer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
   "micrurus-tener": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Micrurus_tener.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
@@ -210,10 +829,80 @@
     "license": "CC BY-SA 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.5"
   },
+  "missulena-bradleyi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/Mouse_spider.jpg/960px-Mouse_spider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mouse_spider.jpg",
+    "artist": "Fir0002",
+    "license": "GFDL 1.2",
+    "licenseUrl": "http://www.gnu.org/licenses/old-licenses/fdl-1.2.html"
+  },
+  "myrmecia-pilosula": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d8/Shattuck_C25795-1%2C_ANIC32-023626%2C_Myrmecia%2C_near_Bungendore%2C_NSW.png/960px-Shattuck_C25795-1%2C_ANIC32-023626%2C_Myrmecia%2C_near_Bungendore%2C_NSW.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Shattuck_C25795-1,_ANIC32-023626,_Myrmecia,_near_Bungendore,_NSW.png",
+    "artist": "Steve Shattuck",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "naja-annulifera": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Snouted_Cobra_-_in_Egypt.jpg/960px-Snouted_Cobra_-_in_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Snouted_Cobra_-_in_Egypt.jpg",
+    "artist": "Sonnqor",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "naja-ashei": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Naja_ashei.jpg/960px-Naja_ashei.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_ashei.jpg",
+    "artist": "rasenior",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "naja-atra": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Naja_atra_%2803%29.jpg/960px-Naja_atra_%2803%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_atra_(03).jpg",
+    "artist": "Thomas Brown",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "naja-haje": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Egyptian_Cobra_Snake.jpg/960px-Egyptian_Cobra_Snake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Cobra_Snake.jpg",
+    "artist": "safaritravelplus",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "naja-kaouthia": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Monocled_cobra_%28cropped%29.jpg/960px-Monocled_cobra_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Monocled_cobra_(cropped).jpg",
+    "artist": "Akash M. Deshmukh",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "naja-melanoleuca": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/13/Cobra_des_for%C3%AAts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Cobra_des_for%C3%AAts.jpg",
+    "artist": "Warren Klein",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "naja-mossambica": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Mozambique_spitting_cobra_%28Naja_mossambica%29.jpg/960px-Mozambique_spitting_cobra_%28Naja_mossambica%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mozambique_spitting_cobra_(Naja_mossambica).jpg",
+    "artist": "Ryanvanhuyssteen",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "naja-naja": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Indian_Cobra%2C_crop.jpg/960px-Indian_Cobra%2C_crop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Indian_Cobra,_crop.jpg",
     "artist": "Pavan Kumar N",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "naja-nigricollis": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Naja_nigricollis_%28Warren_Klein%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_nigricollis_(Warren_Klein).jpg",
+    "artist": "Warren Klein",
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
@@ -224,12 +913,68 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "naja-oxiana": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/86/Naja_oxiana_Caspian_cobra_in_a_defensive_posture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_oxiana_Caspian_cobra_in_a_defensive_posture.jpg",
+    "artist": "Omid Mozaffari",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "naja-pallida": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Naja_pallida%2C_Boston.jpg/960px-Naja_pallida%2C_Boston.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_pallida,_Boston.jpg",
+    "artist": "Steven G. Johnson",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "naja-philippinensis": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/25/Naja_philippinensis.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_philippinensis.png",
+    "artist": "Mario Lutz",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "naja-siamensis": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Naja_siamensis_by_Danny_S..jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_siamensis_by_Danny_S..jpg",
+    "artist": "Danny S.",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "naja-sputatrix": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Naja_sputatrix.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Naja_sputatrix.jpg",
+    "artist": "Department of Sustainability & Environment",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "naja-sumatrana": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Equatrorial-spitting-cobra_001.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Equatrorial-spitting-cobra_001.jpg",
+    "artist": "Nick Baker",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
   "notechis-scutatus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Notechis_scutatus_260523890.jpg/960px-Notechis_scutatus_260523890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Notechis_scutatus_260523890.jpg",
     "artist": "Max Tibby",
     "license": "CC0",
     "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "nycticebus-coucang": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2d/Nycticebus_coucang_004.jpg/960px-Nycticebus_coucang_004.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Nycticebus_coucang_004.jpg",
+    "artist": "David Haring / Duke Lemur Center",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "olivierus-martensii": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Mesobuthus_martensii_%28283%29.jpg/960px-Mesobuthus_martensii_%28283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Mesobuthus_martensii_(283).jpg",
+    "artist": "J\u00e1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
   "ophiophagus-hannah": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg/960px-12_-_The_Mystical_King_Cobra_and_Coffee_Forests.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -259,9 +1004,30 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
   },
+  "parabuthus-granulatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Granulated_Thick-tailed_Scorpion_%28Parabuthus_granulatus%29_%22_Brown_Phase_%22_%287003255311%29.jpg/960px-Granulated_Thick-tailed_Scorpion_%28Parabuthus_granulatus%29_%22_Brown_Phase_%22_%287003255311%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Granulated_Thick-tailed_Scorpion_(Parabuthus_granulatus)_%22_Brown_Phase_%22_(7003255311).jpg",
+    "artist": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "parabuthus-transvaalicus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Parabuthus_transvaalicus.jpg/960px-Parabuthus_transvaalicus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Parabuthus_transvaalicus.jpg",
+    "artist": "RichardMcJimsey",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "paraponera-clavata": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Paraponera_clavata.jpg/960px-Paraponera_clavata.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Paraponera_clavata.jpg",
+    "artist": "Hans Hillewaert",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pelagia-noctiluca": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Pelagia_noctiluca_%28Sardinia%29.jpg/960px-Pelagia_noctiluca_%28Sardinia%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pelagia_noctiluca_(Sardinia).jpg",
     "artist": "Hans Hillewaert",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
@@ -272,6 +1038,13 @@
     "artist": "Xpda",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "phoneutria-fera": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Wandering_Spider_%28Phoneutria_fera%29_%2810623228224%29.jpg/960px-Wandering_Spider_%28Phoneutria_fera%29_%2810623228224%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Wandering_Spider_(Phoneutria_fera)_(10623228224).jpg",
+    "artist": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
   },
   "phoneutria-nigriventer": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_de_Santa_B%C3%A1rbara_Giordano_Rossi_%2812%29.jpg/960px-Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_de_Santa_B%C3%A1rbara_Giordano_Rossi_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -286,17 +1059,94 @@
     "artist": "Image courtesy of Islands in the Sea 2002, NOAA/OER.",
     "license": "Public domain"
   },
+  "physalia-utriculus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8f/Physalia-utriculus.jpg/960px-Physalia-utriculus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Physalia-utriculus.jpg",
+    "artist": "NaNuu Michael Fried",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "plotosus-lineatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3b/Pez_gato_de_coral_%28Plotosus_lineatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_127.jpg/960px-Pez_gato_de_coral_%28Plotosus_lineatus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_127.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pez_gato_de_coral_(Plotosus_lineatus),_Zanz%C3%ADbar,_Tanzania,_2024-06-01,_DD_127.jpg",
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pogonomyrmex-barbatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Pogonomyrmex_barbatus_casent0006306_profile_1.jpg/960px-Pogonomyrmex_barbatus_casent0006306_profile_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pogonomyrmex_barbatus_casent0006306_profile_1.jpg",
+    "artist": "Unknown",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "potamotrygon-motoro": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ca/Pfauenaugen-Stechrochen_-_Ocellate_river_stingray_-_Potamotrygon_motoro.jpg/960px-Pfauenaugen-Stechrochen_-_Ocellate_river_stingray_-_Potamotrygon_motoro.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pfauenaugen-Stechrochen_-_Ocellate_river_stingray_-_Potamotrygon_motoro.jpg",
+    "artist": "Raimond Spekking",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "protobothrops-flavoviridis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Habu-pitviper.jpg/960px-Habu-pitviper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Habu-pitviper.jpg",
     "artist": "No specific photographer credit",
     "license": "Public domain"
   },
+  "protobothrops-mucrosquamatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Trimeresurus_mucrosquamatus_Taiwan.jpg/960px-Trimeresurus_mucrosquamatus_Taiwan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Trimeresurus_mucrosquamatus_Taiwan.jpg",
+    "artist": "Evan Pickett",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pseudechis-australis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Pseudechis_australis_ugmedia.jpg/960px-Pseudechis_australis_ugmedia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pseudechis_australis_ugmedia.jpg",
+    "artist": "Smacdonald",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "pseudechis-porphyriacus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/02/Pseudechis_porphyriacus_%2835307320466%29.jpg/960px-Pseudechis_porphyriacus_%2835307320466%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Pseudechis_porphyriacus_(35307320466).jpg",
+    "artist": "Donald Hobern from Copenhagen, Denmark",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "pseudocerastes-persicus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Pseudocerastes_persicus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Pseudocerastes_persicus.jpg",
+    "artist": "Zuhair Amr",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "pseudonaja-affinis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/Dugite_%28Pseudonaja_affinis%29.png/960px-Dugite_%28Pseudonaja_affinis%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Dugite_(Pseudonaja_affinis).png",
+    "artist": "Bradford G. Jones",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "pseudonaja-nuchalis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Western_Brown_snake.jpg/960px-Western_Brown_snake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Western_Brown_snake.jpg",
+    "artist": "Andy",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
   "pseudonaja-textilis": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Eastern_Brown_Snake_-_Kempsey_NSW.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Eastern_Brown_Snake_-_Kempsey_NSW.jpg",
     "artist": "Poyt448 Peter Woodard",
     "license": "Public domain"
+  },
+  "pterois-miles": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Going_away_%2851510843964%29.jpg/960px-Going_away_%2851510843964%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Going_away_(51510843964).jpg",
+    "artist": "Paolo Gamba from Paris, France",
+    "license": "CC BY 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
   },
   "pterois-volitans": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Pterois_volitans_Manado-e_edit.jpg/960px-Pterois_volitans_Manado-e_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -305,12 +1155,66 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
   },
+  "rhabdophis-subminiatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Rhabdop_submin_080217-4693_ipb.jpg/960px-Rhabdop_submin_080217-4693_ipb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rhabdop_submin_080217-4693_ipb.jpg",
+    "artist": "W.A. Djatmiko (Wie146)",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "rhabdophis-tigrinus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Rhabdophis_tigrinus_IMG_6559.retouch.JPG/960px-Rhabdophis_tigrinus_IMG_6559.retouch.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Rhabdophis_tigrinus_IMG_6559.retouch.JPG",
+    "artist": "Yasunori Koide",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "scolopendra-gigantea": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Scolopendra_gigantea.jpg/960px-Scolopendra_gigantea.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Scolopendra_gigantea.jpg",
+    "artist": "Katka Nem\u010dokov\u00e1",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
   "scolopendra-heros": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Scolopendra_heros.jpg/960px-Scolopendra_heros.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Scolopendra_heros.jpg",
     "artist": "John",
     "license": "CC BY 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.0"
+  },
+  "scolopendra-subspinipes": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Scolopendra_subspinipes_as_found_on_the_Hawaiian_Island_of_Maui.jpg/960px-Scolopendra_subspinipes_as_found_on_the_Hawaiian_Island_of_Maui.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Scolopendra_subspinipes_as_found_on_the_Hawaiian_Island_of_Maui.jpg",
+    "artist": "Richard N Horne",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "sistrurus-catenatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b9/Eastern_Massasauga_Rattlesnake_%28Sistrurus_catenatus%29.jpg/960px-Eastern_Massasauga_Rattlesnake_%28Sistrurus_catenatus%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Eastern_Massasauga_Rattlesnake_(Sistrurus_catenatus).jpg",
+    "artist": "Benjamin Genter",
+    "license": "CC0",
+    "licenseUrl": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+  },
+  "sistrurus-miliarius": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Sistrurus_miliaris_miliaris_CDC.png/960px-Sistrurus_miliaris_miliaris_CDC.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Sistrurus_miliaris_miliaris_CDC.png",
+    "artist": "Unknown",
+    "license": "Public domain"
+  },
+  "solenopsis-invicta": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Fire_ants_01.jpg/960px-Fire_ants_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Fire_ants_01.jpg",
+    "artist": "Stephen Ausmus",
+    "license": "Public domain"
+  },
+  "synanceia-horrida": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Synanceia_horrida_Lembeh2.jpg/960px-Synanceia_horrida_Lembeh2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Synanceia_horrida_Lembeh2.jpg",
+    "artist": "Dan Schofield",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
   "synanceia-verrucosa": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/Synanceia_verrucosa_Prague_2011_2.jpg/960px-Synanceia_verrucosa_Prague_2011_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -319,6 +1223,89 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "thelotornis-capensis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Vine_Snake_%28Thelotornis_capensis%29_%286011690147%29.jpg/960px-Vine_Snake_%28Thelotornis_capensis%29_%286011690147%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vine_Snake_(Thelotornis_capensis)_(6011690147).jpg",
+    "artist": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "tityus-bahiensis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Tityus_bahiensis.jpg/960px-Tityus_bahiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tityus_bahiensis.jpg",
+    "artist": "Limberger",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "tityus-serrulatus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Scorpiones_Moreira.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Scorpiones_Moreira.jpg",
+    "artist": "Fernanda",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "tityus-stigmurus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/89/Tityus_stigmurus.jpg/960px-Tityus_stigmurus.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tityus_stigmurus.jpg",
+    "artist": "Mberigan",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "tityus-trivittatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/Tityus_trivittatus_-_01.jpg/960px-Tityus_trivittatus_-_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Tityus_trivittatus_-_01.jpg",
+    "artist": "66legiones",
+    "license": "Public domain"
+  },
+  "toxopneustes-pileolus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e2/Erizo_de_flor_%28Toxopneustes_pileolus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_134.jpg/960px-Erizo_de_flor_%28Toxopneustes_pileolus%29%2C_Zanz%C3%ADbar%2C_Tanzania%2C_2024-06-01%2C_DD_134.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Erizo_de_flor_(Toxopneustes_pileolus),_Zanz%C3%ADbar,_Tanzania,_2024-06-01,_DD_134.jpg",
+    "artist": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "trachinus-draco": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Trachinus_draco_2.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Trachinus_draco_2.jpeg",
+    "artist": "Tomasz Sienicki [user: tsca, mail: tomasz.sienicki at gmail.com]",
+    "license": "CC BY 1.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/1.0"
+  },
+  "trimeresurus-albolabris": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Trimeresurus_albolabris_male.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Trimeresurus_albolabris_male.jpg",
+    "artist": "W.A. Djatmiko",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "http://creativecommons.org/licenses/by-sa/3.0/"
+  },
+  "trimeresurus-stejnegeri": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Trimeresurus_stejnegeri.jpg/960px-Trimeresurus_stejnegeri.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Trimeresurus_stejnegeri.jpg",
+    "artist": "Evan Pickett",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "tropidechis-carinatus": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Tropcarin3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Tropcarin3.jpg",
+    "artist": "Donald Fischer",
+    "license": "CC BY-SA 1.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/1.0"
+  },
+  "varanus-komodoensis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/202306_Varanus_komodoensis.jpg/960px-202306_Varanus_komodoensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:202306_Varanus_komodoensis.jpg",
+    "artist": "James Jolokia (james1203)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "vespa-crabro": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/VespaCrabroCollezione.jpg/960px-VespaCrabroCollezione.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:VespaCrabroCollezione.jpg",
+    "artist": "Filippo Turetta",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "vespa-mandarinia": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Vespa_mandarinia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Vespa_mandarinia.jpg",
@@ -326,11 +1313,53 @@
     "license": "CC BY 2.5",
     "licenseUrl": "https://creativecommons.org/licenses/by/2.5"
   },
+  "vespa-velutina": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Asian_hornet_%28Vespa_velutina%29.jpg/960px-Asian_hornet_%28Vespa_velutina%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Asian_hornet_(Vespa_velutina).jpg",
+    "artist": "Charles J. Sharp",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "vespula-vulgaris": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Vespula_vulgaris-m.jpg/960px-Vespula_vulgaris-m.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vespula_vulgaris-m.jpg",
+    "artist": "Magne Fl\u00e5ten",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "vipera-ammodytes": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Vipera-ammodytes-ruffoi-weiblich.jpg/960px-Vipera-ammodytes-ruffoi-weiblich.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Vipera-ammodytes-ruffoi-weiblich.jpg",
+    "artist": "Holger Krisp",
+    "license": "CC BY 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/3.0"
+  },
+  "vipera-aspis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/Asp_Viper_%28Vipera_aspis%29_female_%28found_by_Jean_NICOLAS%29_%2835565228091%29.jpg/960px-Asp_Viper_%28Vipera_aspis%29_female_%28found_by_Jean_NICOLAS%29_%2835565228091%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Asp_Viper_(Vipera_aspis)_female_(found_by_Jean_NICOLAS)_(35565228091).jpg",
+    "artist": "Bernard DUPONT from FRANCE",
+    "license": "CC BY-SA 2.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
   "vipera-berus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Common_European_viper_%28Vipera_berus%29_female_Pieniny.jpg/960px-Common_European_viper_%28Vipera_berus%29_female_Pieniny.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Common_European_viper_(Vipera_berus)_female_Pieniny.jpg",
     "artist": "Charles J. Sharp",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "vipera-latastei": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Vivora_de_mijas.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Vivora_de_mijas.jpg",
+    "artist": "Elguerreroalex",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
+  },
+  "walterinnesia-aegyptia": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Black_snake_IMG.jpg/960px-Black_snake_IMG.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Black_snake_IMG.jpg",
+    "artist": "Kimo1211",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   }
 }

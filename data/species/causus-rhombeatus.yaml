@@ -1,0 +1,42 @@
+name: Rhombic night adder
+scientificName: Causus rhombeatus
+group: snake
+danger: 2
+summary: >-
+  A common, docile snake of African gardens and grassland, frequently responsible for bites that
+  are painful but rarely serious.
+venom: >-
+  Mainly cytotoxic: pain and swelling; systemic effects are rare.
+habitat: >-
+  Moist savanna, grassland and gardens, often near water where it hunts toads.
+size: 60–90 cm
+regions:
+  - AO
+  - BW
+  - CD
+  - CM
+  - ET
+  - GH
+  - KE
+  - MW
+  - MZ
+  - NG
+  - SS
+  - SZ
+  - TZ
+  - UG
+  - ZA-EC
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZM
+  - ZW
+gbif:
+  include:
+    - MZ
+    - NG
+    - CM
+    - SS

@@ -1,0 +1,21 @@
+name: Equatorial spitting cobra
+scientificName: Naja sumatrana
+group: snake
+danger: 4
+summary: >-
+  A glossy black spitting cobra of Malaysia and Indonesia.
+venom: >-
+  Neurotoxic and cytotoxic; spat venom injures the eyes.
+habitat: >-
+  Rainforest, plantations and edges of towns.
+size: 1.2–1.5 m
+regions:
+  - MY
+  - SG
+  - ID
+  - TH
+  - BN
+  - PH
+gbif:
+  include:
+    - BN

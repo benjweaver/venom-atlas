@@ -1,0 +1,19 @@
+name: Mexican west coast rattlesnake
+scientificName: Crotalus basiliscus
+group: snake
+danger: 4
+summary: >-
+  A large rattlesnake of Mexico's Pacific slope.
+venom: >-
+  Haemotoxic and cytotoxic; potentially fatal.
+habitat: >-
+  Tropical dry forest and thornscrub.
+size: 1.2–1.8 m
+regions:
+  - MX-CHH
+  - MX-COL
+  - MX-JAL
+  - MX-MIC
+  - MX-NAY
+  - MX-SIN
+  - MX-SON

@@ -1,0 +1,21 @@
+name: Central American rattlesnake
+scientificName: Crotalus simus
+group: snake
+danger: 5
+summary: >-
+  A large rattlesnake of Mexico and Central America with a potent, often neurotoxic venom.
+venom: >-
+  Neurotoxic and haemotoxic; potentially fatal.
+habitat: >-
+  Dry forest, savanna and farmland.
+size: 1.2–1.8 m
+regions:
+  - CR
+  - GT
+  - HN
+  - MX-CAM
+  - MX-CHP
+  - MX-OAX
+  - MX-ROO
+  - NI
+  - SV

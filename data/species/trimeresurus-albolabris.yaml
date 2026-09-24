@@ -1,0 +1,31 @@
+name: White-lipped pit viper
+scientificName: Trimeresurus albolabris
+group: snake
+danger: 3
+summary: >-
+  A bright green pit viper common in gardens and parks across South East Asia, responsible for
+  many bites.
+venom: >-
+  Haemotoxic: swelling and bleeding problems; deaths are rare.
+habitat: >-
+  Forest edges, gardens, bamboo and farmland.
+size: 60–90 cm
+regions:
+  - BD
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - HK
+  - ID
+  - KH
+  - LA
+  - MM
+  - MO
+  - NP
+  - TH
+  - VN
+gbif:
+  include:
+    - NP
+    - BD

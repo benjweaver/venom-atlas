@@ -1,0 +1,27 @@
+name: Painted coral snake
+scientificName: Micrurus corallinus
+group: snake
+danger: 4
+summary: >-
+  A coral snake of the Atlantic Forest of Brazil and neighbouring countries.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure.
+habitat: >-
+  Forest leaf litter and edges.
+size: 60–80 cm
+regions:
+  - AR-N
+  - BR-BA
+  - BR-ES
+  - BR-MG
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-SC
+  - BR-SP
+  - PE
+  - PY
+gbif:
+  exclude:
+    - CO # misidentified coral snakes

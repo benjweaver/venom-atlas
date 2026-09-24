@@ -1,0 +1,14 @@
+name: Dugite
+scientificName: Pseudonaja affinis
+group: snake
+danger: 5
+summary: >-
+  The brown snake of south-western Australia, common around Perth's suburbs.
+venom: >-
+  Causes clotting failure and collapse; potentially fatal.
+habitat: >-
+  Coastal heath, woodland and suburbs.
+size: 1.5–2 m
+regions:
+  - AU-WA
+  - AU-SA

@@ -1,0 +1,14 @@
+name: New Guinea small-eyed snake
+scientificName: Micropechis ikaheca
+group: snake
+danger: 4
+summary: >-
+  A secretive, nocturnal elapid of New Guinea whose venom causes paralysis and muscle damage.
+venom: >-
+  Neurotoxic and myotoxic; potentially fatal.
+habitat: >-
+  Rainforest and plantations; burrows in leaf litter.
+size: 1–2 m
+regions:
+  - PG
+  - ID

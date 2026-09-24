@@ -1,0 +1,17 @@
+name: Javan spitting cobra
+scientificName: Naja sputatrix
+group: snake
+danger: 4
+summary: >-
+  The spitting cobra of Java and the Lesser Sunda Islands.
+venom: >-
+  Neurotoxic and cytotoxic; spat venom injures the eyes.
+habitat: >-
+  Farmland, forest edges and villages.
+size: 1–1.3 m
+regions:
+  - ID
+  - TL
+gbif:
+  include:
+    - TL

@@ -1,0 +1,16 @@
+name: Nayarit scorpion
+scientificName: Centruroides noxius
+group: scorpion
+danger: 5
+summary: >-
+  The most toxic scorpion in Mexico, from the western state of Nayarit.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Dry forest, villages and houses.
+size: 5–6 cm
+regions:
+  - MX-NAY
+  - MX-JAL
+photo: none

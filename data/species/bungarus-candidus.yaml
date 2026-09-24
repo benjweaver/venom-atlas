@@ -1,0 +1,20 @@
+name: Malayan krait
+scientificName: Bungarus candidus
+group: snake
+danger: 5
+summary: >-
+  A black-and-white banded krait of South East Asia whose bites are often painless, yet
+  frequently fatal.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Farmland, plantations and forest; enters houses at night.
+size: 1–1.6 m
+regions:
+  - ID
+  - KH
+  - LA
+  - MY
+  - TH
+  - VN

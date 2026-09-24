@@ -1,0 +1,38 @@
+name: Yellow-lipped sea krait
+scientificName: Laticauda colubrina
+group: snake
+danger: 3
+summary: >-
+  A blue-and-black banded sea snake that comes ashore to rest and lay eggs. Very reluctant to
+  bite.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Coral reefs and rocky shores; hunts eels at sea.
+size: 0.8–1.4 m
+regions:
+  - AU
+  - FJ
+  - ID
+  - IN-AN
+  - JP-47
+  - LK
+  - MM
+  - MY
+  - NC
+  - NZ
+  - PG
+  - PH
+  - PW
+  - SB
+  - SG
+  - TH
+  - TL
+  - TO
+  - TW
+  - VU
+  - WF
+gbif:
+  include:
+    - LK

@@ -1,0 +1,34 @@
+name: Common lancehead
+scientificName: Bothrops atrox
+group: snake
+danger: 5
+summary: >-
+  The pit viper responsible for most snakebites in the Amazon basin.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding, blistering and tissue death; potentially
+  fatal or limb-threatening without antivenom.
+habitat: >-
+  Lowland rainforest, riverbanks, plantations and clearings.
+size: 0.8–1.5 m
+regions:
+  - BO
+  - BR-AC
+  - BR-AM
+  - BR-AP
+  - BR-CE
+  - BR-MA
+  - BR-MT
+  - BR-PA
+  - BR-RO
+  - BR-RR
+  - CO
+  - EC
+  - GF
+  - GY
+  - PE
+  - SR
+  - TT
+  - VE
+gbif:
+  exclude:
+    - MX # misidentified Bothrops asper

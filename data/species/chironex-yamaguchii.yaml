@@ -1,0 +1,17 @@
+name: Habu-kurage
+scientificName: Chironex yamaguchii
+group: jellyfish
+danger: 4
+summary: >-
+  A box jellyfish of the western Pacific, responsible for deaths in Okinawa and the Philippines.
+venom: >-
+  Severe pain and skin damage; large stings can cause cardiac arrest.
+habitat: >-
+  Shallow coastal waters and beaches.
+size: Bell up to 12 cm
+regions:
+  - JP-47
+  - PH
+gbif:
+  include:
+    - PH

@@ -11,9 +11,10 @@ habitat: >-
   Wetlands, creeks, dams and coastal swamps.
 size: About 1.2 m
 regions:
-  - AU-VIC
-  - AU-TAS
-  - AU-SA
+  - AU-ACT
   - AU-NSW
-  - AU-WA
   - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA

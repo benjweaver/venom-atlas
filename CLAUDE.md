@@ -26,8 +26,14 @@ and say how to undo it.
   The schema is `src/data/schema.ts`; the loader (`scripts/species-loader.ts`)
   is the only thing that reads the YAML, and both the build and
   `npm run validate` go through it.
-- `data/images.json` and `public/geo/` are generated (`npm run images`,
-  `npm run boundaries`) and committed. Don't hand-edit them; fix the script.
+- `data/images.json`, `data/gbif.json`, `data/gadm-iso.json` and `public/geo/`
+  are generated (`npm run images`, `npm run ranges`, `npm run boundaries`) and
+  committed. Don't hand-edit them; fix the script.
+- `regions` is normally written by `npm run ranges --write`. To correct it,
+  use `gbif.exclude` / `gbif.include` in the species file rather than editing
+  `regions` directly, or the next `--write` undoes the fix.
+- Scope is medically significant venomous animals: things whose bite or
+  sting can seriously harm a person. Not poisonous animals.
 - Region codes are ISO 3166 as they appear in `public/geo/`. A species lists a
   country or that country's states, never both.
 - Accuracy matters more than coverage: leave a region out rather than guess.

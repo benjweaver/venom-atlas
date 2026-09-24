@@ -1,0 +1,48 @@
+name: Chinese red-headed centipede
+scientificName: Scolopendra subspinipes
+group: centipede
+danger: 2
+summary: >-
+  A large, aggressive centipede of tropical Asia and the Pacific, and a common bite in homes.
+venom: >-
+  Extremely painful bite with swelling; rare serious effects include heart and kidney problems.
+habitat: >-
+  Leaf litter, under logs and inside houses in warm, humid places.
+size: Up to 20 cm
+regions:
+  - BB
+  - BM
+  - BR-RJ
+  - BS
+  - CK
+  - CN
+  - CV
+  - DM
+  - GF
+  - GP
+  - ID
+  - JM
+  - JP-09
+  - KN
+  - LK
+  - MF
+  - MG
+  - MM
+  - MQ
+  - MY
+  - NC
+  - PF
+  - PH
+  - PR
+  - SC
+  - SG
+  - ST
+  - TH
+  - TT
+  - TW
+  - US-HI
+  - VI
+  - VN
+  - VU
+  - WS
+  - YT

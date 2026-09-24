@@ -1,0 +1,23 @@
+name: Eastern green mamba
+scientificName: Dendroaspis angusticeps
+group: snake
+danger: 4
+summary: >-
+  A slender, bright green tree snake of East African coastal forest. Shy and rarely seen, but
+  its bite is dangerous.
+venom: >-
+  Neurotoxic, with cardiotoxic components; causes paralysis and can be fatal without antivenom.
+habitat: >-
+  Coastal forest, thickets and plantations, mostly in trees.
+size: 1.8–2 m
+regions:
+  - KE
+  - MW
+  - MZ
+  - TZ
+  - ZA-NC
+  - ZA-NL
+  - ZW
+gbif:
+  include:
+    - ZW

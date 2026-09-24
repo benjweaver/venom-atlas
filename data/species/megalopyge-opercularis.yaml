@@ -12,20 +12,34 @@ habitat: >-
   Oak, elm, citrus and other trees and shrubs, including in gardens and schoolyards.
 size: About 2.5 cm
 regions:
-  - US-TX
-  - US-LA
-  - US-MS
+  - CO
+  - CR
+  - HN
+  - MX-JAL
+  - MX-NAY
+  - MX-NLE
+  - MX-SLP
+  - MX-TAM
+  - MX-VER
+  - PR
   - US-AL
+  - US-AR
+  - US-AZ
+  - US-DE
   - US-FL
   - US-GA
-  - US-SC
-  - US-NC
-  - US-VA
-  - US-TN
-  - US-AR
-  - US-OK
+  - US-LA
   - US-MD
-  - US-DE
-  - MX-TAM
-  - MX-NLE
-  - MX-VER
+  - US-MS
+  - US-NC
+  - US-NJ
+  - US-OK
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA
+gbif:
+  exclude:
+    - BR # other Megalopyge species
+    - PE # other Megalopyge species
+    - GF # other Megalopyge species

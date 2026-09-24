@@ -1,0 +1,34 @@
+name: Giant silkworm moth caterpillar
+scientificName: Lonomia obliqua
+group: insect
+danger: 5
+summary: >-
+  A spiny, camouflaged caterpillar that clusters on tree trunks. Brushing against a group has
+  caused fatal bleeding.
+venom: >-
+  Anticoagulant: bleeding from gums and wounds, internal bleeding and kidney failure. A specific
+  antivenom exists in Brazil.
+habitat: >-
+  Trunks of fruit and forest trees.
+size: Caterpillar 5–7 cm
+regions:
+  - AR-N
+  - BR-BA
+  - BR-DF
+  - BR-ES
+  - BR-GO
+  - BR-MA
+  - BR-MG
+  - BR-PR
+  - BR-RJ
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - PY
+  - UY
+gbif:
+  exclude:
+    - CO # other Lonomia species
+    - CR # other Lonomia species
+    - MX # other Lonomia species
+    - PA # other Lonomia species

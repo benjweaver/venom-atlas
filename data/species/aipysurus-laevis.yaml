@@ -1,0 +1,19 @@
+name: Olive sea snake
+scientificName: Aipysurus laevis
+group: snake
+danger: 3
+summary: >-
+  A large, curious sea snake of the Great Barrier Reef and nearby reefs, well known to divers.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Coral reefs.
+size: 1.2–2 m
+regions:
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - NC
+  - PG

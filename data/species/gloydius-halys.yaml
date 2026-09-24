@@ -1,0 +1,17 @@
+name: Halys pit viper
+scientificName: Gloydius halys
+group: snake
+danger: 3
+summary: >-
+  A small pit viper of the steppes, ranging from the Caspian Sea to northern China.
+venom: >-
+  Haemotoxic and cytotoxic: pain, swelling and bleeding problems.
+habitat: >-
+  Steppe, semi-desert and rocky mountain slopes.
+size: 50–75 cm
+regions:
+  - CN-HE
+  - KG
+  - KZ
+  - MN
+  - RU

@@ -1,0 +1,25 @@
+name: Snouted cobra
+scientificName: Naja annulifera
+group: snake
+danger: 5
+summary: >-
+  A heavy-bodied cobra of southern African savanna, sometimes banded.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Savanna, bushveld and farmland, often near termite mounds.
+size: 1.5–2.5 m
+regions:
+  - BW
+  - MZ
+  - NA
+  - SZ
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZM
+  - ZW

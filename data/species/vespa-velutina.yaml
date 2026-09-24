@@ -1,0 +1,38 @@
+name: Asian hornet
+scientificName: Vespa velutina
+group: insect
+danger: 2
+summary: >-
+  A yellow-legged hornet from South East Asia, invasive in Europe since 2004 and a serious
+  threat to honey bees.
+venom: >-
+  For most people the sting is painful but local. For the allergic, a single sting can cause
+  anaphylaxis, which needs adrenaline and emergency care; mass stings can be fatal to anyone.
+habitat: >-
+  Towns, farmland and forest; large nests high in trees.
+size: 25–30 mm
+regions:
+  - BE
+  - CH
+  - CN-GD
+  - CN-JS
+  - CN-SD
+  - CN-YN
+  - CN-ZJ
+  - DE
+  - ES
+  - FR
+  - GB
+  - HK
+  - ID
+  - IN
+  - IT
+  - KR
+  - LU
+  - NL
+  - PT
+  - TW
+  - VN
+gbif:
+  include:
+    - GB

@@ -41,3 +41,8 @@ regions:
   - US-WV
   - MX-COA
   - MX-CHH
+gbif:
+  include:
+    - US-IA
+    - MX-COA
+    - MX-CHH

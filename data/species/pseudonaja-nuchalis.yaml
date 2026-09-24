@@ -1,0 +1,17 @@
+name: Northern brown snake
+scientificName: Pseudonaja nuchalis
+group: snake
+danger: 5
+summary: >-
+  A fast, variable brown snake of northern and central Australia.
+venom: >-
+  Causes clotting failure (consumption coagulopathy); potentially fatal.
+habitat: >-
+  Open woodland, grassland and farmland.
+size: 1–1.5 m
+regions:
+  - AU-WA
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-NSW

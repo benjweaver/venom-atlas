@@ -1,0 +1,18 @@
+name: Lowland copperhead
+scientificName: Austrelaps superbus
+group: snake
+danger: 4
+summary: >-
+  A cold-tolerant snake of south-eastern Australia and Tasmania, active in cooler weather than
+  most snakes.
+venom: >-
+  Neurotoxic, with some cytotoxic effects; potentially fatal.
+habitat: >-
+  Swamps, marshes and wet grassland.
+size: 1–1.5 m
+regions:
+  - AU-ACT
+  - AU-NSW
+  - AU-SA
+  - AU-TAS
+  - AU-VIC

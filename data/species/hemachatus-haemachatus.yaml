@@ -1,0 +1,29 @@
+name: Rinkhals
+scientificName: Hemachatus haemachatus
+group: snake
+danger: 4
+summary: >-
+  A spitting cobra relative of southern Africa that famously plays dead, rolling over with its
+  mouth open.
+venom: >-
+  Neurotoxic and cytotoxic; spat venom causes painful eye injury.
+habitat: >-
+  Grassland and moist highveld, often around farms and gardens.
+size: 0.9–1.2 m
+regions:
+  - LS
+  - SZ
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZW
+gbif:
+  include:
+    - LS
+    - SZ
+    - ZW

@@ -1,0 +1,16 @@
+name: Brazilian recluse
+scientificName: Loxosceles intermedia
+group: spider
+danger: 3
+summary: >-
+  The recluse spider responsible for most bites in southern Brazil.
+venom: >-
+  Cytotoxic: necrotic skin lesions; occasionally systemic illness.
+habitat: >-
+  Houses and outbuildings.
+size: Body about 1 cm
+regions:
+  - BR-PR
+  - BR-RS
+  - BR-SC
+  - BR-SP

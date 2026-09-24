@@ -1,0 +1,66 @@
+name: Common wasp
+scientificName: Vespula vulgaris
+group: insect
+danger: 2
+summary: >-
+  The familiar picnic wasp of Europe, which becomes persistent in late summer.
+venom: >-
+  For most people the sting is painful but local. For the allergic, a single sting can cause
+  anaphylaxis, which needs adrenaline and emergency care; mass stings can be fatal to anyone.
+habitat: >-
+  Gardens, woodland and towns; nests in the ground and in roofs.
+size: 12–17 mm
+regions:
+  - AR-R
+  - AR-V
+  - AT
+  - AU-TAS
+  - AU-VIC
+  - AX
+  - BE
+  - BG
+  - BY
+  - CA-AB
+  - CA-BC
+  - CA-MB
+  - CA-NS
+  - CA-QC
+  - CH
+  - CL
+  - CN
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FO
+  - FR
+  - GB
+  - GR
+  - HR
+  - HU
+  - IE
+  - IM
+  - IT
+  - JP-01
+  - JP-02
+  - KZ
+  - LI
+  - LT
+  - LU
+  - NL
+  - NO
+  - NZ
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SE
+  - SK
+  - TR
+  - UA
+  - US-MN
+  - US-WV
+  - UZ

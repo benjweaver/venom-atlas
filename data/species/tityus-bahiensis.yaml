@@ -1,0 +1,21 @@
+name: Brazilian brown scorpion
+scientificName: Tityus bahiensis
+group: scorpion
+danger: 4
+summary: >-
+  A dark brown scorpion of south-eastern Brazil and a common cause of stings.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Farmland, gardens and houses.
+size: 6–7 cm
+regions:
+  - AR-N
+  - BR-BA
+  - BR-MG
+  - BR-PR
+  - BR-RN
+  - BR-RS
+  - BR-SC
+  - BR-SP

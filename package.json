@@ -20,6 +20,7 @@
     "lint": "eslint . --fix --max-warnings 0",
     "lint:check": "eslint . --max-warnings 0",
     "format": "prettier --write .",
+    "ranges": "tsx scripts/ranges.ts",
     "check": "npm run validate && npm run lint:check && npm run typecheck && npm test && npm run build"
   },
   "dependencies": {

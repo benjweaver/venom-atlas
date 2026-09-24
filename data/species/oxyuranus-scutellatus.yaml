@@ -11,7 +11,8 @@ habitat: >-
   Tropical woodland, grassland and sugar-cane fields.
 size: About 2 m
 regions:
-  - AU-QLD
+  - AU-NSW
   - AU-NT
+  - AU-QLD
   - AU-WA
   - PG

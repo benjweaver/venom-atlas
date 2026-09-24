@@ -1,0 +1,29 @@
+name: Brown spotted pit viper
+scientificName: Protobothrops mucrosquamatus
+group: snake
+danger: 3
+summary: >-
+  A slender pit viper of Taiwan and southern China, and a major cause of bites in Taiwan.
+venom: >-
+  Haemotoxic and cytotoxic: swelling and tissue damage.
+habitat: >-
+  Forest, bamboo, farmland and around homes.
+size: 0.9–1.2 m
+regions:
+  - CN-AH
+  - CN-CQ
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HI
+  - CN-HN
+  - CN-JX
+  - CN-SC
+  - CN-ZJ
+  - HK
+  - IN
+  - JP-47
+  - MM
+  - TW
+  - VN

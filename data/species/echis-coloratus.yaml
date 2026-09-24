@@ -1,0 +1,23 @@
+name: Painted saw-scaled viper
+scientificName: Echis coloratus
+group: snake
+danger: 4
+summary: >-
+  A saw-scaled viper of rocky deserts in Arabia and the eastern Sahara.
+venom: >-
+  Haemotoxic: bleeding and clotting failure that can last days.
+habitat: >-
+  Rocky desert, wadis and mountain slopes.
+size: 50–80 cm
+regions:
+  - EG
+  - IL
+  - JO
+  - OM
+  - PS
+  - SA
+  - YE
+gbif:
+  include:
+    - EG
+    - YE

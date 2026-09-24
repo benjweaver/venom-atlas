@@ -10,14 +10,13 @@ habitat: >-
   Woodland, rocky canyons, thornscrub and suburban gardens.
 size: 0.5–0.8 m
 regions:
-  - US-TX
-  - US-LA
-  - US-AR
   - MX-COA
-  - MX-NLE
-  - MX-TAM
-  - MX-SLP
-  - MX-QUE
-  - MX-HID
-  - MX-VER
   - MX-GUA
+  - MX-HID
+  - MX-MEX
+  - MX-NLE
+  - MX-QUE
+  - MX-SLP
+  - MX-TAM
+  - US-LA
+  - US-TX

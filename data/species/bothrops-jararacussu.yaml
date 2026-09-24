@@ -1,0 +1,23 @@
+name: Jararacussu
+scientificName: Bothrops jararacussu
+group: snake
+danger: 5
+summary: >-
+  A heavy lancehead of the Atlantic Forest with one of the largest venom yields of any American
+  pit viper.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding, blistering and tissue death; potentially
+  fatal or limb-threatening without antivenom.
+habitat: >-
+  Humid forest and swampy lowlands.
+size: 1.5–2.2 m
+regions:
+  - AR-N
+  - BR-ES
+  - BR-MG
+  - BR-PR
+  - BR-RJ
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - PY

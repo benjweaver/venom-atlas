@@ -1,0 +1,69 @@
+name: Red imported fire ant
+scientificName: Solenopsis invicta
+group: insect
+danger: 2
+summary: >-
+  A South American ant, invasive in the US, Australia and Asia, that attacks in swarms when its
+  mound is disturbed.
+venom: >-
+  Burning stings that form pus-filled blisters; allergic reactions can be fatal.
+habitat: >-
+  Open sunny ground: lawns, fields and roadsides.
+size: 2–6 mm
+regions:
+  - AG
+  - AI
+  - AR-E
+  - AR-G
+  - AR-H
+  - AR-N
+  - AR-P
+  - AR-S
+  - AR-W
+  - AU-QLD
+  - BR-MG
+  - BR-MS
+  - BR-MT
+  - BR-PR
+  - BR-RO
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - BS
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-HI
+  - CN-HN
+  - CN-JX
+  - CN-YN
+  - HK
+  - IT
+  - KN
+  - KR
+  - MF
+  - MO
+  - MX-DIF
+  - MX-MEX
+  - PR
+  - PY
+  - TT
+  - TW
+  - US-AL
+  - US-AR
+  - US-CA
+  - US-FL
+  - US-GA
+  - US-LA
+  - US-MD
+  - US-MS
+  - US-NC
+  - US-NM
+  - US-OK
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA
+  - VG
+  - VI
+  - VN

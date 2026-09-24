@@ -11,22 +11,25 @@ habitat: >-
   Short- and mixed-grass prairie, sagebrush and rocky outcrops.
 size: 0.9–1.1 m
 regions:
-  - US-MT
-  - US-ND
-  - US-SD
-  - US-WY
-  - US-NE
-  - US-KS
-  - US-CO
-  - US-OK
-  - US-TX
-  - US-NM
-  - US-AZ
-  - US-IA
-  - US-ID
-  - US-UT
   - CA-AB
   - CA-SK
+  - MX-BCN
   - MX-CHH
-  - MX-COA
-  - MX-SON
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-IA
+  - US-ID
+  - US-KS
+  - US-MT
+  - US-ND
+  - US-NE
+  - US-NM
+  - US-NV
+  - US-OK
+  - US-OR
+  - US-SD
+  - US-TX
+  - US-UT
+  - US-WA
+  - US-WY

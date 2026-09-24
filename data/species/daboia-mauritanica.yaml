@@ -1,0 +1,15 @@
+name: Moorish viper
+scientificName: Daboia mauritanica
+group: snake
+danger: 4
+summary: >-
+  A large, thick-bodied viper of north-west Africa.
+venom: >-
+  Haemotoxic and cytotoxic; severe bites can be fatal.
+habitat: >-
+  Dry rocky hillsides, scrub and oasis margins.
+size: 1–1.5 m
+regions:
+  - DZ
+  - MA
+  - TN

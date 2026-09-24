@@ -1,0 +1,43 @@
+name: Striated cone
+scientificName: Conus striatus
+group: mollusc
+danger: 4
+summary: >-
+  A fish-hunting cone snail with potent venom.
+venom: >-
+  Conotoxins cause paralysis; no antivenom exists.
+habitat: >-
+  Sand and reefs in the Indo-Pacific.
+size: Shell up to 13 cm
+regions:
+  - AS
+  - AU-QLD
+  - AU-WA
+  - EG
+  - FJ
+  - FM
+  - GU
+  - ID
+  - IN
+  - JP-47
+  - KE
+  - MG
+  - MH
+  - MP
+  - MZ
+  - NC
+  - OM
+  - PF
+  - PG
+  - PH
+  - PW
+  - RE
+  - SB
+  - TH
+  - TO
+  - TW
+  - TZ
+  - US-HI
+  - VN
+  - VU
+  - WS

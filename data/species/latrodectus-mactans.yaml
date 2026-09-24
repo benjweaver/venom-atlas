@@ -12,23 +12,58 @@ habitat: >-
   Woodpiles, sheds, outhouses, stone walls and other sheltered, undisturbed places.
 size: Female body about 1.3 cm
 regions:
+  - BS
+  - CU
+  - DO
+  - MX-AGU
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-QUE
+  - MX-SIN
+  - MX-SLP
+  - MX-TAM
+  - MX-TLA
+  - MX-VER
+  - MX-YUC
+  - MX-ZAC
   - US-AL
   - US-AR
+  - US-CO
+  - US-DC
+  - US-DE
   - US-FL
   - US-GA
+  - US-IL
+  - US-KS
   - US-KY
   - US-LA
+  - US-MD
+  - US-MO
   - US-MS
   - US-NC
+  - US-NJ
+  - US-NY
+  - US-OH
   - US-OK
+  - US-PA
   - US-SC
   - US-TN
   - US-TX
   - US-VA
-  - US-MO
-  - US-IL
-  - US-IN
-  - US-OH
-  - US-KS
-  - US-MD
-  - US-DE
+  - US-WV
+gbif:
+  exclude:
+    - AU # misidentified redbacks

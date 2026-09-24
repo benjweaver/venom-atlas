@@ -1,0 +1,44 @@
+name: Common stingray
+scientificName: Dasyatis pastinaca
+group: fish
+danger: 2
+summary: >-
+  A stingray of European waters that lies buried in sand; stings happen when it is stepped on.
+venom: >-
+  Deep, painful wounds from the tail barb, with swelling and risk of infection.
+habitat: >-
+  Sandy and muddy shallows.
+size: Disc up to 45 cm
+regions:
+  - BE
+  - BJ
+  - CY
+  - DZ
+  - EG
+  - ES
+  - FR
+  - GB
+  - GG
+  - GR
+  - HR
+  - IE
+  - IL
+  - IT
+  - JE
+  - LB
+  - MA
+  - MR
+  - MT
+  - NL
+  - PT
+  - TN
+  - TR
+  - UA
+  - ZA
+gbif:
+  exclude:
+    - AU # misidentified local rays
+    - US # misidentified local rays
+  include:
+    - MA
+    - TN

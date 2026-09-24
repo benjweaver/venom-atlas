@@ -1,0 +1,15 @@
+name: Northern tree funnel-web spider
+scientificName: Hadronyche formidabilis
+group: spider
+danger: 5
+summary: >-
+  A large funnel-web that lives in tree hollows. Like the Sydney funnel-web, its bite can kill
+  quickly.
+venom: >-
+  Neurotoxic (atracotoxin): rapid, potentially fatal effects; funnel-web antivenom is effective.
+habitat: >-
+  Rainforest, in tree hollows.
+size: Body up to 5 cm
+regions:
+  - AU-QLD
+  - AU-NSW

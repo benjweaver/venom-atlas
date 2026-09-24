@@ -1,0 +1,21 @@
+name: Central American coral snake
+scientificName: Micrurus nigrocinctus
+group: snake
+danger: 4
+summary: >-
+  The most common coral snake of Central America.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure.
+habitat: >-
+  Forest, farmland and gardens.
+size: 50–90 cm
+regions:
+  - CO
+  - CR
+  - GT
+  - HN
+  - MX-CHP
+  - NI
+  - PA
+  - SV

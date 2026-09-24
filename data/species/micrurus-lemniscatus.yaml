@@ -1,0 +1,32 @@
+name: South American coral snake
+scientificName: Micrurus lemniscatus
+group: snake
+danger: 4
+summary: >-
+  A widespread coral snake of the Amazon basin with black rings in groups of three.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure.
+habitat: >-
+  Rainforest and savanna, often near water.
+size: 0.8–1.2 m
+regions:
+  - BO
+  - BR-AC
+  - BR-AM
+  - BR-MG
+  - BR-PA
+  - BR-RO
+  - BR-RR
+  - BR-SP
+  - CO
+  - EC
+  - GF
+  - GY
+  - PE
+  - SR
+  - TT
+  - VE
+gbif:
+  include:
+    - VE

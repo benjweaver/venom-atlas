@@ -1,0 +1,31 @@
+name: Aquatic coral snake
+scientificName: Micrurus surinamensis
+group: snake
+danger: 4
+summary: >-
+  A coral snake that hunts fish and eels in Amazonian swamps.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure.
+habitat: >-
+  Slow rivers, swamps and flooded forest.
+size: 0.8–1.2 m
+regions:
+  - BO
+  - BR-AC
+  - BR-AM
+  - BR-AP
+  - BR-MT
+  - BR-PA
+  - BR-RO
+  - CO
+  - EC
+  - GF
+  - GY
+  - PE
+  - SR
+  - VE
+gbif:
+  include:
+    - VE
+    - GY

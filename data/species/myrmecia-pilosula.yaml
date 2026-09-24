@@ -1,0 +1,22 @@
+name: Jack jumper ant
+scientificName: Myrmecia pilosula
+group: insect
+danger: 3
+summary: >-
+  A black jumping ant of south-eastern Australia and a leading cause of insect-sting anaphylaxis
+  in Tasmania.
+venom: >-
+  Painful sting; frequent allergic reactions, occasionally fatal.
+habitat: >-
+  Open woodland and grassland.
+size: 10–12 mm
+regions:
+  - AU-TAS
+  - AU-VIC
+  - AU-NSW
+  - AU-ACT
+  - AU-SA
+  - AU-WA
+gbif:
+  include:
+    - AU-WA

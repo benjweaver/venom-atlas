@@ -1,0 +1,30 @@
+name: Western green mamba
+scientificName: Dendroaspis viridis
+group: snake
+danger: 4
+summary: >-
+  A long, green tree-dwelling mamba of the West African rainforest belt.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Rainforest, coastal thicket and plantations; arboreal.
+size: 1.4–2.1 m
+regions:
+  - SN
+  - GM
+  - GW
+  - GN
+  - SL
+  - LR
+  - CI
+  - GH
+  - TG
+  - BJ
+  - NG
+gbif:
+  include:
+    - SN
+    - GW
+    - LR
+    - NG

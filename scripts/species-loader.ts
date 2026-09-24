@@ -12,6 +12,7 @@ import { imageSchema, speciesSchema, type Species } from '../src/data/schema.ts'
 export const ROOT = join(import.meta.dirname, '..')
 export const SPECIES_DIR = join(ROOT, 'data', 'species')
 export const IMAGES_FILE = join(ROOT, 'data', 'images.json')
+export const GBIF_FILE = join(ROOT, 'data', 'gbif.json')
 const GEO_DIR = join(ROOT, 'public', 'geo')
 
 export class DataError extends Error {
@@ -39,6 +40,15 @@ export function readImages(): Record<string, z.infer<typeof imageSchema>> {
   return z.record(z.string(), imageSchema).parse(JSON.parse(readFileSync(IMAGES_FILE, 'utf8')))
 }
 
+/** GBIF taxon keys from `npm run ranges`, used to link each species to its records. */
+export function readGbifKeys(): Record<string, number> {
+  if (!existsSync(GBIF_FILE)) return {}
+  const cache = z
+    .record(z.string(), z.looseObject({ key: z.number() }))
+    .parse(JSON.parse(readFileSync(GBIF_FILE, 'utf8')))
+  return Object.fromEntries(Object.entries(cache).map(([slug, { key }]) => [slug, key]))
+}
+
 export function speciesFiles(): string[] {
   return readdirSync(SPECIES_DIR)
     .filter((f) => f.endsWith('.yaml'))
@@ -52,6 +62,7 @@ export function speciesFiles(): string[] {
  */
 export function loadSpecies(regions = knownRegions()): Species[] {
   const images = readImages()
+  const gbifKeys = readGbifKeys()
   const problems: string[] = []
   const species: Species[] = []
 
@@ -86,6 +97,9 @@ export function loadSpecies(regions = knownRegions()): Species[] {
       seen.add(code)
       if (!regions.has(code)) problems.push(`${where}: unknown region code ${code}`)
     }
+    for (const code of [...(data.gbif?.exclude ?? []), ...(data.gbif?.include ?? [])]) {
+      if (!regions.has(code)) problems.push(`${where}: unknown region code ${code} in gbif`)
+    }
     // Listing "US" and "US-AZ" together is ambiguous: is it the whole country
     // or just Arizona? The map would show the whole country, so say which.
     for (const code of data.regions) {
@@ -96,7 +110,7 @@ export function loadSpecies(regions = knownRegions()): Species[] {
       }
     }
 
-    species.push({ ...data, slug, image: images[slug] })
+    species.push({ ...data, slug, image: images[slug], gbifKey: gbifKeys[slug] })
   }
 
   if (problems.length) throw new DataError(problems)

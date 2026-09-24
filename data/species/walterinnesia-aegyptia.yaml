@@ -1,0 +1,23 @@
+name: Desert black snake
+scientificName: Walterinnesia aegyptia
+group: snake
+danger: 4
+summary: >-
+  A glossy black elapid of Middle Eastern deserts, related to cobras but without a hood.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Sandy and rocky desert, often near vegetation and farms.
+size: 1–1.3 m
+regions:
+  - EG
+  - IL
+  - IQ
+  - IR
+  - JO
+  - SA
+gbif:
+  include:
+    - EG
+    - JO

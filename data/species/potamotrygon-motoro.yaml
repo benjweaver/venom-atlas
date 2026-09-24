@@ -1,0 +1,34 @@
+name: Ocellate river stingray
+scientificName: Potamotrygon motoro
+group: fish
+danger: 3
+summary: >-
+  A freshwater stingray of South American rivers, feared by fishermen and waders.
+venom: >-
+  Extremely painful wounds that often become necrotic ulcers slow to heal.
+habitat: >-
+  Sandy river beds and flooded forest.
+size: Disc up to 50 cm
+regions:
+  - AR-B
+  - AR-E
+  - AR-N
+  - AR-S
+  - BO
+  - BR-AC
+  - BR-AM
+  - BR-GO
+  - BR-MA
+  - BR-MS
+  - BR-MT
+  - BR-PA
+  - BR-PR
+  - BR-RR
+  - BR-SP
+  - BR-TO
+  - CO
+  - EC
+  - PE
+  - PY
+  - SG
+  - VE

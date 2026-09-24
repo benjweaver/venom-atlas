@@ -11,8 +11,29 @@ habitat: >-
   Open grassland, farmland and scrub, especially rice fields where rodents are plentiful.
 size: 1–1.2 m
 regions:
-  - IN
-  - PK
-  - NP
   - BD
+  - IN-AP
+  - IN-CT
+  - IN-GA
+  - IN-GJ
+  - IN-HP
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-PB
+  - IN-RJ
+  - IN-TG
+  - IN-TN
+  - IN-UP
+  - IN-UT
+  - IN-WB
   - LK
+  - NP
+  - PK
+gbif:
+  exclude:
+    - MM # Eastern Russell's viper, a separate species
+  include:
+    - NP

@@ -1,0 +1,18 @@
+name: Sidewinder
+scientificName: Crotalus cerastes
+group: snake
+danger: 2
+summary: >-
+  A small desert rattlesnake that moves by sidewinding across loose sand.
+venom: >-
+  Haemotoxic: painful swelling; bites are rarely serious.
+habitat: >-
+  Sandy desert with sparse shrubs.
+size: 50–70 cm
+regions:
+  - US-CA
+  - US-NV
+  - US-UT
+  - US-AZ
+  - MX-BCN
+  - MX-SON

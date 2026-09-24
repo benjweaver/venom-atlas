@@ -1,0 +1,26 @@
+name: Southern twig snake
+scientificName: Thelotornis capensis
+group: snake
+danger: 4
+summary: >-
+  A thin, bark-coloured tree snake that looks exactly like a twig. There is no antivenom for its
+  bite.
+venom: >-
+  Haemotoxic: can cause fatal bleeding, developing slowly over a day or more.
+habitat: >-
+  Savanna and woodland, motionless among branches.
+size: 0.8–1.4 m
+regions:
+  - AO
+  - BW
+  - MW
+  - MZ
+  - NA
+  - SZ
+  - TZ
+  - ZA-EC
+  - ZA-LP
+  - ZA-MP
+  - ZA-NL
+  - ZM
+  - ZW

@@ -20,3 +20,7 @@ regions:
   - US-UT
   - US-OK
   - MX
+gbif:
+  # GBIF files thousands of European spider-wasp records under Pepsis, an
+  # American genus, so its proposals are wrong. Range kept by hand.
+  manual: true

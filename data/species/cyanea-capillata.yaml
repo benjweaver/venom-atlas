@@ -1,0 +1,33 @@
+name: "Lion's mane jellyfish"
+scientificName: Cyanea capillata
+group: jellyfish
+danger: 2
+summary: >-
+  The largest known jellyfish, with tentacles that can trail over 30 m.
+venom: >-
+  Painful burning stings; rarely serious.
+habitat: >-
+  Cold northern waters of the Atlantic and Pacific.
+size: Bell up to 2 m
+regions:
+  - CA-BC
+  - CA-MB
+  - CA-NB
+  - CA-NL
+  - CA-NS
+  - CA-NU
+  - DE
+  - DK
+  - FR
+  - GB
+  - GL
+  - IE
+  - IM
+  - IS
+  - NL
+  - NO
+  - RU
+  - SE
+  - US-AK
+  - US-MD
+  - US-ME

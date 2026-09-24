@@ -1,0 +1,37 @@
+name: South American bushmaster
+scientificName: Lachesis muta
+group: snake
+danger: 5
+summary: >-
+  The longest viper in the Americas, a secretive rainforest giant.
+venom: >-
+  Haemotoxic and cytotoxic, often with vomiting, diarrhoea and low blood pressure; potentially
+  fatal.
+habitat: >-
+  Undisturbed lowland rainforest.
+size: 2–3 m
+regions:
+  - BO
+  - BR-AC
+  - BR-AM
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-MT
+  - BR-PA
+  - BR-PE
+  - BR-RO
+  - BR-RR
+  - CO
+  - CR
+  - EC
+  - GF
+  - GY
+  - PA
+  - PE
+  - SR
+  - TT
+  - VE
+gbif:
+  include:
+    - VE

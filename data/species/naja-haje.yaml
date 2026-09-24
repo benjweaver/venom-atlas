@@ -1,0 +1,35 @@
+name: Egyptian cobra
+scientificName: Naja haje
+group: snake
+danger: 5
+summary: >-
+  A large, heavy cobra of northern Africa, thought to be the asp of ancient Egypt.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Dry savanna, semi-desert, oases and farmland, often near water and villages.
+size: 1.5–2 m
+regions:
+  - BJ
+  - CD
+  - DZ
+  - EG
+  - ET
+  - KE
+  - LY
+  - MA
+  - ML
+  - NE
+  - NG
+  - SD
+  - SS
+  - TD
+  - TN
+  - TZ
+  - UG
+gbif:
+  include:
+    - LY
+    - NE
+    - ML

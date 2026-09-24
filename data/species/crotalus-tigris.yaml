@@ -1,0 +1,15 @@
+name: Tiger rattlesnake
+scientificName: Crotalus tigris
+group: snake
+danger: 4
+summary: >-
+  A small-headed rattlesnake of the Sonoran Desert whose venom is among the most toxic of all
+  rattlesnakes.
+venom: >-
+  Strongly neurotoxic (Mojave-toxin-like); low yield, but potentially dangerous.
+habitat: >-
+  Rocky desert canyons and foothills.
+size: 60–90 cm
+regions:
+  - US-AZ
+  - MX-SON

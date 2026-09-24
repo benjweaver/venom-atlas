@@ -1,0 +1,50 @@
+name: Boomslang
+scientificName: Dispholidus typus
+group: snake
+danger: 4
+summary: >-
+  A large-eyed, rear-fanged tree snake. Bites are rare, but its venom stops blood clotting and
+  killed the herpetologist Karl Schmidt in 1957.
+venom: >-
+  Haemotoxic: slow-onset internal and external bleeding that can continue for days. A specific
+  antivenom exists.
+habitat: >-
+  Savanna, woodland and scrub; arboreal.
+size: 1.2–1.6 m
+regions:
+  - AO
+  - BJ
+  - BW
+  - CD
+  - CI
+  - CM
+  - ET
+  - GH
+  - KE
+  - MW
+  - MZ
+  - NA
+  - NG
+  - SN
+  - SO
+  - SS
+  - SZ
+  - TZ
+  - UG
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZM
+  - ZW
+gbif:
+  include:
+    - ET
+    - SO
+    - NG
+    - SN

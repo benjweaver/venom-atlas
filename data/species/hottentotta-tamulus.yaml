@@ -1,0 +1,31 @@
+name: Indian red scorpion
+scientificName: Hottentotta tamulus
+group: scorpion
+danger: 5
+summary: >-
+  Regarded as the most dangerous scorpion in the world by some researchers; stings cause many
+  deaths in rural India.
+venom: >-
+  Neurotoxic: releases a surge of adrenaline-like chemicals that can cause heart failure and
+  fluid on the lungs. Prazosin and antivenom are used in treatment.
+habitat: >-
+  Farmland, villages and houses.
+size: 5–9 cm
+regions:
+  - IN-AP
+  - IN-BR
+  - IN-GJ
+  - IN-KA
+  - IN-MH
+  - IN-MP
+  - IN-OR
+  - IN-TG
+  - IN-TN
+  - LK
+  - NP
+  - PK
+gbif:
+  include:
+    - PK
+    - NP
+    - LK

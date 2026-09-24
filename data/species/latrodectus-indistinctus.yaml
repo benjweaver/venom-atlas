@@ -1,0 +1,18 @@
+name: Black button spider
+scientificName: Latrodectus indistinctus
+group: spider
+danger: 3
+summary: >-
+  A black widow of southern Africa.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Arid scrub, grass and farmland.
+size: Female body about 1.5 cm
+regions:
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-NC
+  - ZA-WC

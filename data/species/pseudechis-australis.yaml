@@ -1,0 +1,17 @@
+name: Mulga snake (king brown)
+scientificName: Pseudechis australis
+group: snake
+danger: 4
+summary: >-
+  One of the largest and most widespread Australian snakes, with a very high venom yield.
+venom: >-
+  Myotoxic and anticoagulant: muscle breakdown, kidney failure and bleeding.
+habitat: >-
+  Almost every habitat except the south-east and the wettest forest.
+size: 1.5–2.5 m
+regions:
+  - AU-WA
+  - AU-NT
+  - AU-SA
+  - AU-QLD
+  - AU-NSW

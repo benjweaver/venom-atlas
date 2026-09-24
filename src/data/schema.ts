@@ -26,7 +26,25 @@ export const speciesSchema = z
     size: z.string().optional(),
     // Wikipedia article title used to find a photo. Defaults to scientificName.
     wikipedia: z.string().optional(),
+    // A specific Wikimedia Commons file to use instead ("Crotalus atrox 1.jpg"),
+    // or "none" when no freely licensed photo exists.
+    photo: z.string().optional(),
     regions: z.array(regionCode).min(1),
+    // How `npm run ranges` treats this species. See scripts/gbif-range.ts.
+    gbif: z
+      .object({
+        // Name to look up on GBIF, when scientificName doesn't match there.
+        name: z.string().optional(),
+        // Places GBIF has records for that aren't real range: captive animals,
+        // misidentifications. A country code excludes all of its states.
+        exclude: z.array(regionCode).optional(),
+        // Places to keep even though GBIF has too few records there.
+        include: z.array(regionCode).optional(),
+        // Don't propose ranges for this species at all; `regions` is maintained by hand.
+        manual: z.literal(true).optional(),
+      })
+      .strict()
+      .optional(),
   })
   .strict()
 
@@ -49,4 +67,6 @@ export type SpeciesImage = z.infer<typeof imageSchema>
 export interface Species extends SpeciesFile {
   slug: string
   image?: SpeciesImage
+  /** GBIF taxon the range came from, for the "range data" link. */
+  gbifKey?: number
 }

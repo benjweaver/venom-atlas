@@ -1,0 +1,21 @@
+name: Sunda slow loris
+scientificName: Nycticebus coucang
+group: mammal
+danger: 2
+summary: >-
+  A wide-eyed primate that mixes a secretion from glands in its arms with saliva to make a
+  venomous bite.
+venom: >-
+  Painful, slow-healing wounds; in some people, anaphylactic shock.
+habitat: >-
+  Tropical forest canopy.
+size: About 30 cm
+regions:
+  - ID
+  - MM
+  - MY
+  - SG
+  - TH
+gbif:
+  exclude:
+    - US # captive pets

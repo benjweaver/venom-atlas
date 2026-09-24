@@ -1,0 +1,20 @@
+name: Northeastern Brazilian scorpion
+scientificName: Tityus stigmurus
+group: scorpion
+danger: 4
+summary: >-
+  The main cause of scorpion stings in north-eastern Brazil.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Dry scrub (caatinga), towns and houses.
+size: 5–7 cm
+regions:
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-PB
+  - BR-PE
+  - BR-RN
+  - BR-SE

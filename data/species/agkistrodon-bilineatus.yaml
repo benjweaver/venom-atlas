@@ -1,0 +1,28 @@
+name: Cantil
+scientificName: Agkistrodon bilineatus
+group: snake
+danger: 4
+summary: >-
+  A dark, heavy-bodied relative of the cottonmouth found in the dry forests of Mexico and
+  Central America.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding, blistering and tissue death; potentially
+  fatal or limb-threatening without antivenom.
+habitat: >-
+  Tropical dry forest and thornscrub near water.
+size: 0.8–1.2 m
+regions:
+  - MX-CHH
+  - MX-CHP
+  - MX-COL
+  - MX-GRO
+  - MX-JAL
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-OAX
+  - MX-SIN
+  - MX-SON
+  - MX-TAM
+  - MX-YUC
+  - SV

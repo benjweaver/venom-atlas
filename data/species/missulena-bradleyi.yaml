@@ -1,0 +1,15 @@
+name: Eastern mouse spider
+scientificName: Missulena bradleyi
+group: spider
+danger: 3
+summary: >-
+  A stocky burrowing spider whose rare serious bites resemble funnel-web envenomation.
+venom: >-
+  Neurotoxic; most bites are mild, but funnel-web antivenom has been used for severe ones.
+habitat: >-
+  Burrows in open ground and riverbanks.
+size: Body 1–3 cm
+regions:
+  - AU-NSW
+  - AU-QLD
+  - AU-VIC

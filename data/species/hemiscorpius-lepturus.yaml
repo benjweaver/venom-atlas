@@ -1,0 +1,16 @@
+name: Iranian scorpion
+scientificName: Hemiscorpius lepturus
+group: scorpion
+danger: 5
+summary: >-
+  A slender scorpion of Iran and Iraq with an unusual venom that destroys tissue and blood cells
+  rather than nerves.
+venom: >-
+  Cytotoxic and haemolytic: painless at first, then ulcers, kidney failure and blood cell
+  destruction; causes most scorpion deaths in Iran.
+habitat: >-
+  Houses, especially in south-western Iran.
+size: 5–8 cm
+regions:
+  - IQ
+  - IR

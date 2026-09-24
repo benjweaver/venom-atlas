@@ -1,0 +1,39 @@
+name: Flower urchin
+scientificName: Toxopneustes pileolus
+group: other
+danger: 3
+summary: >-
+  A sea urchin covered in flower-like pincers that inject venom; stings have caused paralysis.
+venom: >-
+  Severe pain, and in rare cases numbness, paralysis and breathing difficulty.
+habitat: >-
+  Coral reefs, rubble and seagrass in the Indo-Pacific.
+size: 10–15 cm across
+regions:
+  - AU-NSW
+  - AU-QLD
+  - FJ
+  - GU
+  - ID
+  - JP-47
+  - KE
+  - MG
+  - MH
+  - MP
+  - MU
+  - MZ
+  - NC
+  - NF
+  - OM
+  - PH
+  - RE
+  - SC
+  - TH
+  - TO
+  - TW
+  - TZ
+  - VN
+  - VU
+gbif:
+  include:
+    - AU-QLD

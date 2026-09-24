@@ -1,0 +1,24 @@
+name: Arabian fat-tailed scorpion
+scientificName: Androctonus crassicauda
+group: scorpion
+danger: 4
+summary: >-
+  A dark fat-tailed scorpion of the Middle East, often found in and around houses.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Desert, rocky hills and buildings.
+size: 8–10 cm
+regions:
+  - EG
+  - IL
+  - IQ
+  - IR
+  - OM
+  - SA
+  - TR
+gbif:
+  include:
+    - IQ
+    - TR

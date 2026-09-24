@@ -1,0 +1,18 @@
+name: Eyelash viper
+scientificName: Bothriechis schlegelii
+group: snake
+danger: 3
+summary: >-
+  A small, colourful arboreal pit viper with raised scales over its eyes, often golden yellow.
+venom: >-
+  Haemotoxic: pain, swelling and bleeding; deaths are rare.
+habitat: >-
+  Humid forest, among vines and branches.
+size: 50–80 cm
+regions:
+  - CO
+  - CR
+  - EC
+  - HN
+  - NI
+  - PA

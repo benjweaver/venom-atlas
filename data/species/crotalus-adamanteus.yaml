@@ -11,10 +11,8 @@ habitat: >-
   Longleaf pine forests, palmetto flatwoods, coastal scrub and barrier islands.
 size: Typically 1–1.8 m; record over 2.4 m
 regions:
-  - US-NC
-  - US-SC
-  - US-GA
-  - US-FL
   - US-AL
+  - US-FL
+  - US-GA
   - US-MS
-  - US-LA
+  - US-SC

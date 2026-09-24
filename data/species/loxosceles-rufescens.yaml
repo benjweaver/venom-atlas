@@ -1,0 +1,36 @@
+name: Mediterranean recluse
+scientificName: Loxosceles rufescens
+group: spider
+danger: 2
+summary: >-
+  A recluse spider that has spread from the Mediterranean to many parts of the world.
+venom: >-
+  Cytotoxic: local skin lesions; serious cases are uncommon.
+habitat: >-
+  Dark places in buildings, caves and under stones.
+size: Body 7–9 mm
+regions:
+  - AU-SA
+  - CN
+  - CY
+  - DZ
+  - ES
+  - FR
+  - GR
+  - HR
+  - IL
+  - IN
+  - IR
+  - IT
+  - JP
+  - MA
+  - MT
+  - PT
+  - RE
+  - SH
+  - SY
+  - TN
+  - TR
+  - US-LA
+  - US-OH
+  - ZA-WC

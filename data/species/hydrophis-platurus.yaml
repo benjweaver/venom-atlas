@@ -1,0 +1,55 @@
+name: Yellow-bellied sea snake
+scientificName: Hydrophis platurus
+group: snake
+danger: 4
+summary: >-
+  The most widespread snake in the world, drifting in open tropical oceans from Africa to the
+  Americas.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Open ocean surface; sometimes washed onto beaches.
+size: 60–90 cm
+regions:
+  - AE
+  - AU-NSW
+  - AU-QLD
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - CO
+  - CR
+  - EC
+  - GT
+  - ID
+  - IN
+  - IR
+  - KE
+  - LK
+  - MX-BCN
+  - MX-BCS
+  - MX-CHP
+  - MX-COL
+  - MX-GRO
+  - MX-JAL
+  - MX-MIC
+  - MX-NAY
+  - MX-OAX
+  - MX-SIN
+  - MX-SON
+  - NC
+  - NI
+  - NZ
+  - PA
+  - PH
+  - SV
+  - TH
+  - US
+  - ZA-EC
+  - ZA-WC
+gbif:
+  include:
+    - PH
+    - LK
+    - KE

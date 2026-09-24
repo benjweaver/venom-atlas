@@ -1,0 +1,78 @@
+name: European hornet
+scientificName: Vespa crabro
+group: insect
+danger: 2
+summary: >-
+  Europe's largest wasp. Despite its reputation, it is less aggressive than common wasps.
+venom: >-
+  For most people the sting is painful but local. For the allergic, a single sting can cause
+  anaphylaxis, which needs adrenaline and emergency care; mass stings can be fatal to anyone.
+habitat: >-
+  Woodland, parks and orchards; nests in hollow trees and roofs.
+size: 25–35 mm
+regions:
+  - AT
+  - AX
+  - BE
+  - BG
+  - BY
+  - CA-ON
+  - CA-QC
+  - CH
+  - CN-BJ
+  - CN-JS
+  - CN-SD
+  - CZ
+  - DE
+  - DK
+  - EE
+  - ES
+  - FI
+  - FR
+  - GB
+  - GE
+  - GR
+  - HR
+  - HU
+  - IT
+  - JP-01
+  - JP-08
+  - JP-12
+  - JP-13
+  - KR
+  - LT
+  - LU
+  - ME
+  - NL
+  - NO
+  - PL
+  - PT
+  - RO
+  - RS
+  - RU
+  - SE
+  - SI
+  - SK
+  - TR
+  - UA
+  - US-AL
+  - US-AR
+  - US-DC
+  - US-DE
+  - US-GA
+  - US-IL
+  - US-IN
+  - US-KY
+  - US-MA
+  - US-MD
+  - US-MO
+  - US-NC
+  - US-NJ
+  - US-NY
+  - US-OH
+  - US-PA
+  - US-SC
+  - US-TN
+  - US-VA
+  - US-VT
+  - US-WV

@@ -12,21 +12,106 @@ habitat: >-
   Warm ocean surface waters; frequently blown onto beaches.
 size: Float up to 30 cm; tentacles up to 10 m or more
 regions:
-  - US-FL
-  - US-TX
-  - US-HI
-  - US-NC
-  - US-SC
-  - US-GA
   - AU-NSW
   - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
   - AU-WA
-  - ES
-  - PT
-  - MX
-  - BR
+  - BB
+  - BM
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-MA
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-RS
+  - BR-SC
+  - BR-SE
+  - BR-SP
   - BS
+  - BZ
+  - CA-NS
+  - CL
+  - CN
+  - CO
+  - CR
   - CU
-  - ZA
+  - CV
+  - DZ
+  - EC
+  - ES
+  - FJ
+  - FR
   - GB
+  - GF
+  - GM
+  - GU
+  - HK
+  - ID
   - IE
+  - IM
+  - IN-GA
+  - IN-MH
+  - JP-14
+  - JP-47
+  - KE
+  - LK
+  - MA
+  - MP
+  - MQ
+  - MU
+  - MX-BCS
+  - MX-COL
+  - MX-GRO
+  - MX-JAL
+  - MX-NAY
+  - MX-SIN
+  - MX-SON
+  - MX-VER
+  - MX-YUC
+  - MY
+  - MZ
+  - NA
+  - NC
+  - NF
+  - NZ
+  - PA
+  - PE
+  - PH
+  - PT
+  - SC
+  - SH
+  - SN
+  - TH
+  - TT
+  - TW
+  - TZ
+  - US-AL
+  - US-FL
+  - US-GA
+  - US-HI
+  - US-LA
+  - US-MA
+  - US-MS
+  - US-NC
+  - US-NY
+  - US-RI
+  - US-SC
+  - US-TX
+  - US-VA
+  - UY
+  - VE
+  - VN
+  - ZA-EC
+  - ZA-NL
+  - ZA-WC
+gbif:
+  exclude:
+    - AQ # drifted specimens

@@ -1,0 +1,37 @@
+name: Mediterranean black widow
+scientificName: Latrodectus tredecimguttatus
+group: spider
+danger: 3
+summary: >-
+  A black widow with thirteen red spots, found around the Mediterranean and into Central Asia.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure;
+  rarely fatal.
+habitat: >-
+  Dry grassland, fields and stone walls.
+size: Female body about 1.5 cm
+regions:
+  - CN-XJ
+  - CY
+  - ES
+  - FR
+  - GE
+  - GR
+  - HR
+  - IL
+  - IR
+  - IT
+  - KG
+  - KZ
+  - MA
+  - PT
+  - RO
+  - RU
+  - TN
+  - TR
+  - UA
+  - UZ
+gbif:
+  include:
+    - CY
+    - TN

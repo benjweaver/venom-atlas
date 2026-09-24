@@ -1,0 +1,37 @@
+name: Rhinoceros viper
+scientificName: Bitis nasicornis
+group: snake
+danger: 4
+summary: >-
+  A strikingly patterned viper of central African rainforest with prominent horns on its nose.
+venom: >-
+  Haemotoxic and cytotoxic; serious bites cause swelling, bleeding and tissue death.
+habitat: >-
+  Wet rainforest, swamps and riverbanks.
+size: 0.7–1 m
+regions:
+  - AO
+  - BJ
+  - CD
+  - CF
+  - CG
+  - CI
+  - CM
+  - GA
+  - GH
+  - GN
+  - GQ
+  - KE
+  - LR
+  - NG
+  - RW
+  - TZ
+  - UG
+gbif:
+  include:
+    - GN
+    - NG
+    - CF
+    - RW
+    - TZ
+    - AO

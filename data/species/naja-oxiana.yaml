@@ -1,0 +1,23 @@
+name: Caspian cobra
+scientificName: Naja oxiana
+group: snake
+danger: 5
+summary: >-
+  The cobra of Central Asia, considered one of the most venomous cobras.
+venom: >-
+  Neurotoxic: progressive paralysis that can stop breathing; potentially fatal without antivenom
+  and ventilation.
+habitat: >-
+  Rocky foothills, scrub and river valleys.
+size: 1–1.5 m
+regions:
+  - AF
+  - IR
+  - PK
+  - TJ
+  - TM
+  - UZ
+gbif:
+  include:
+    - TJ
+    - AF

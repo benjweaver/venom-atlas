@@ -1,0 +1,24 @@
+name: Jararaca
+scientificName: Bothrops jararaca
+group: snake
+danger: 4
+summary: >-
+  The most common cause of snakebite in south-eastern Brazil. A drug developed from its venom,
+  captopril, is used to treat high blood pressure.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling, bleeding, blistering and tissue death; potentially
+  fatal or limb-threatening without antivenom.
+habitat: >-
+  Atlantic Forest, farmland and suburbs.
+size: 0.8–1.6 m
+regions:
+  - AR-N
+  - BR-BA
+  - BR-ES
+  - BR-MG
+  - BR-PR
+  - BR-RJ
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - PY

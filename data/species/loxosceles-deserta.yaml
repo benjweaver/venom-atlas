@@ -1,0 +1,22 @@
+name: Desert recluse
+scientificName: Loxosceles deserta
+group: spider
+danger: 2
+summary: >-
+  A pale recluse spider of the deserts of the south-western US and north-western Mexico.
+venom: >-
+  Cytotoxic: local skin lesions; serious reactions are rare.
+habitat: >-
+  Under rocks, dead cactus and packrat nests.
+size: Body 8–10 mm
+regions:
+  - MX-BCN
+  - MX-SON
+  - US-AZ
+  - US-CA
+  - US-NM
+  - US-NV
+gbif:
+  include:
+    - MX-BCN
+    - MX-SON

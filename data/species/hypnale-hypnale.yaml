@@ -1,0 +1,18 @@
+name: Hump-nosed viper
+scientificName: Hypnale hypnale
+group: snake
+danger: 3
+summary: >-
+  A small viper of Sri Lanka and south-west India, once thought harmless and now known to cause
+  serious kidney injury.
+venom: >-
+  Haemotoxic: bleeding and acute kidney injury; no specific antivenom.
+habitat: >-
+  Forest floor, plantations and gardens.
+size: 30–50 cm
+regions:
+  - IN-GA
+  - IN-KA
+  - IN-KL
+  - IN-TN
+  - LK

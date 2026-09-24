@@ -11,11 +11,29 @@ habitat: >-
   Coral reefs and sand in shallow tropical waters of the Indo-Pacific.
 size: Shell 10–15 cm
 regions:
+  - AU-NT
   - AU-QLD
   - AU-WA
-  - AU-NT
-  - ID
-  - PH
-  - PG
-  - JP
+  - EG
   - FJ
+  - GU
+  - ID
+  - IO
+  - JP-47
+  - KE
+  - MG
+  - MH
+  - MV
+  - MZ
+  - NC
+  - OM
+  - PG
+  - PH
+  - RE
+  - SB
+  - SC
+  - TH
+  - TO
+  - TZ
+  - VU
+  - ZA

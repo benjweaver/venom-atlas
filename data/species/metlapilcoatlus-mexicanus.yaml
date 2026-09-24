@@ -1,0 +1,19 @@
+name: Mexican jumping pit viper
+scientificName: Metlapilcoatlus mexicanus
+group: snake
+danger: 3
+summary: >-
+  A stout pit viper that can strike so forcefully it seems to leave the ground.
+venom: >-
+  Haemotoxic and cytotoxic: pain, swelling and bleeding.
+habitat: >-
+  Humid forest floor.
+size: 60–80 cm
+regions:
+  - BZ
+  - CR
+  - GT
+  - HN
+  - MX-CHP
+  - MX-OAX
+  - PA

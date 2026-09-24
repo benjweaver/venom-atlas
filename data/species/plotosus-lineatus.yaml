@@ -1,0 +1,63 @@
+name: Striped eel catfish
+scientificName: Plotosus lineatus
+group: fish
+danger: 2
+summary: >-
+  A reef catfish with venomous spines; juveniles swim in dense ball-shaped schools.
+venom: >-
+  Very painful spine wounds; rarely serious.
+habitat: >-
+  Reefs, estuaries and seagrass.
+size: Up to 30 cm
+regions:
+  - AE
+  - AU-NSW
+  - AU-QLD
+  - AU-WA
+  - CN-FJ
+  - CN-GD
+  - CY
+  - EG
+  - FJ
+  - GR
+  - HK
+  - ID
+  - IL
+  - IN-AN
+  - IN-TN
+  - IT
+  - JP-12
+  - JP-14
+  - JP-46
+  - JP-47
+  - KE
+  - KM
+  - KR
+  - LB
+  - LK
+  - MG
+  - MU
+  - MY
+  - MZ
+  - NC
+  - NF
+  - OM
+  - PG
+  - PH
+  - RE
+  - SA
+  - SB
+  - SC
+  - SG
+  - SO
+  - SY
+  - TH
+  - TL
+  - TN
+  - TO
+  - TR
+  - TW
+  - TZ
+  - VN
+  - VU
+  - ZA-NL

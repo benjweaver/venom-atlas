@@ -1,0 +1,15 @@
+name: Red diamond rattlesnake
+scientificName: Crotalus ruber
+group: snake
+danger: 3
+summary: >-
+  A brick-red rattlesnake of southern California and Baja California, usually calm.
+venom: >-
+  Haemotoxic and cytotoxic: pain, swelling and bleeding.
+habitat: >-
+  Chaparral, rocky hillsides and coastal scrub.
+size: 0.8–1.5 m
+regions:
+  - US-CA
+  - MX-BCN
+  - MX-BCS

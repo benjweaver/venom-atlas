@@ -12,18 +12,25 @@ habitat: >-
   Deserts, scrub, grassland and rocky hillsides, from sea level to about 2,000 m.
 size: Typically 1–1.5 m; exceptionally over 2 m
 regions:
-  - US-AZ
-  - US-CA
-  - US-NV
-  - US-NM
-  - US-TX
-  - US-OK
-  - MX-SON
+  - MX-BCN
   - MX-CHH
   - MX-COA
-  - MX-NLE
-  - MX-TAM
   - MX-DUR
+  - MX-GUA
+  - MX-HID
+  - MX-NLE
+  - MX-QUE
   - MX-SIN
-  - MX-ZAC
   - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-VER
+  - MX-ZAC
+  - US-AR
+  - US-AZ
+  - US-CA
+  - US-KS
+  - US-NM
+  - US-NV
+  - US-OK
+  - US-TX

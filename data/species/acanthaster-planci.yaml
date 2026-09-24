@@ -1,0 +1,62 @@
+name: Crown-of-thorns starfish
+scientificName: Acanthaster planci
+group: other
+danger: 2
+summary: >-
+  A large, coral-eating starfish covered in venomous spines.
+venom: >-
+  Spine punctures cause severe pain, swelling and vomiting, and can break off in the wound.
+habitat: >-
+  Coral reefs of the Indo-Pacific.
+size: Up to 35 cm across
+regions:
+  - AE
+  - AS
+  - AU-QLD
+  - CK
+  - CR
+  - DJ
+  - EC
+  - EG
+  - FJ
+  - FM
+  - GS
+  - GU
+  - ID
+  - IN
+  - IO
+  - JP-47
+  - KE
+  - KM
+  - LK
+  - MG
+  - MH
+  - MP
+  - MV
+  - MX-BCS
+  - MX-COL
+  - MY
+  - MZ
+  - NC
+  - NZ
+  - OM
+  - PA
+  - PF
+  - PG
+  - PH
+  - PW
+  - RE
+  - SA
+  - SB
+  - SC
+  - TF
+  - TH
+  - TO
+  - TW
+  - US-HI
+  - VN
+  - VU
+  - WF
+  - WS
+  - YT
+  - ZA-NL

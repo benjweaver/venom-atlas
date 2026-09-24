@@ -1,0 +1,20 @@
+name: Estuarine stonefish
+scientificName: Synanceia horrida
+group: fish
+danger: 4
+summary: >-
+  A stonefish of muddy estuaries, as dangerous as its reef relative and just as well hidden.
+venom: >-
+  Dorsal spines inject venom causing excruciating pain, swelling and sometimes shock. Antivenom
+  exists.
+habitat: >-
+  Estuaries, mudflats and shallow reefs.
+size: Up to 30 cm
+regions:
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - ID
+  - MY
+  - PH
+  - SG

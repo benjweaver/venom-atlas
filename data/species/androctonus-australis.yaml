@@ -1,0 +1,23 @@
+name: Fat-tailed scorpion
+scientificName: Androctonus australis
+group: scorpion
+danger: 5
+summary: >-
+  A thick-tailed scorpion of North Africa whose name means "man-killer". One of the most
+  dangerous scorpions in the world.
+venom: >-
+  Neurotoxic: intense pain, then sweating, vomiting, racing heart and, in severe cases (mostly
+  children), heart and lung failure. Antivenom exists.
+habitat: >-
+  Sandy and rocky desert, often near settlements.
+size: 8–10 cm
+regions:
+  - DZ
+  - EG
+  - LY
+  - TN
+gbif:
+  exclude:
+    - US # pet-trade animals
+  include:
+    - LY

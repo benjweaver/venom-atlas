@@ -1,0 +1,15 @@
+name: Rough-scaled snake
+scientificName: Tropidechis carinatus
+group: snake
+danger: 4
+summary: >-
+  A keeled-scaled snake of eastern Australian rainforest, often mistaken for a harmless
+  keelback.
+venom: >-
+  Neurotoxic, anticoagulant and myotoxic; potentially fatal.
+habitat: >-
+  Rainforest and wet forest near streams.
+size: 70–100 cm
+regions:
+  - AU-QLD
+  - AU-NSW

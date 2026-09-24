@@ -12,19 +12,25 @@ habitat: >-
   Undisturbed indoor spaces — closets, attics, boxes — and under rocks and bark outdoors.
 size: Body 6–20 mm
 regions:
+  - MX
   - US-AL
   - US-AR
+  - US-CO
   - US-GA
+  - US-IA
   - US-IL
   - US-IN
-  - US-IA
   - US-KS
   - US-KY
   - US-LA
-  - US-MS
+  - US-MD
   - US-MO
+  - US-MS
+  - US-NC
   - US-NE
+  - US-NM
   - US-OH
   - US-OK
   - US-TN
   - US-TX
+  - US-VA

@@ -1,0 +1,26 @@
+name: "Stejneger's pit viper"
+scientificName: Trimeresurus stejnegeri
+group: snake
+danger: 3
+summary: >-
+  A green pit viper of southern China and Taiwan, common near homes and a frequent cause of
+  bites.
+venom: >-
+  Haemotoxic: swelling and bleeding problems.
+habitat: >-
+  Forests, bamboo groves and gardens.
+size: 60–90 cm
+regions:
+  - CN-AH
+  - CN-CQ
+  - CN-FJ
+  - CN-GD
+  - CN-GX
+  - CN-GZ
+  - CN-HB
+  - CN-HI
+  - CN-HN
+  - CN-JX
+  - CN-ZJ
+  - TW
+  - VN
