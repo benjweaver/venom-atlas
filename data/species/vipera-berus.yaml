@@ -1,0 +1,40 @@
+name: Common European adder
+scientificName: Vipera berus
+group: snake
+danger: 2
+summary: >-
+  The only venomous snake in Britain and the most widespread venomous snake in the world,
+  reaching north of the Arctic Circle.
+venom: >-
+  Pain and swelling, sometimes nausea and low blood pressure. Deaths are extremely rare.
+habitat: >-
+  Heathland, moorland, woodland edges and rocky hillsides.
+size: 50–65 cm
+regions:
+  - GB
+  - FR
+  - BE
+  - NL
+  - LU
+  - DE
+  - DK
+  - NO
+  - SE
+  - FI
+  - PL
+  - CZ
+  - SK
+  - AT
+  - CH
+  - IT
+  - HU
+  - RO
+  - UA
+  - BY
+  - LT
+  - LV
+  - EE
+  - RU
+  - KZ
+  - MN
+  - CN

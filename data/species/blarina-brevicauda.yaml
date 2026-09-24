@@ -1,0 +1,47 @@
+name: Northern short-tailed shrew
+scientificName: Blarina brevicauda
+group: mammal
+danger: 1
+summary: >-
+  One of very few venomous mammals. Its saliva paralyses prey such as insects and mice.
+venom: >-
+  Harmless to people beyond a painful bite with local burning and swelling.
+habitat: >-
+  Forests, fields and marshes with deep leaf litter or snow cover.
+size: About 12 cm including tail
+regions:
+  - US-ME
+  - US-NH
+  - US-VT
+  - US-MA
+  - US-RI
+  - US-CT
+  - US-NY
+  - US-NJ
+  - US-PA
+  - US-DE
+  - US-MD
+  - US-WV
+  - US-VA
+  - US-NC
+  - US-TN
+  - US-KY
+  - US-OH
+  - US-IN
+  - US-IL
+  - US-MI
+  - US-WI
+  - US-MN
+  - US-IA
+  - US-MO
+  - US-ND
+  - US-SD
+  - US-NE
+  - US-KS
+  - CA-SK
+  - CA-MB
+  - CA-ON
+  - CA-QC
+  - CA-NB
+  - CA-NS
+  - CA-PE

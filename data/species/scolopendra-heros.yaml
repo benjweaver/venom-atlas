@@ -1,0 +1,27 @@
+name: Giant desert centipede
+scientificName: Scolopendra heros
+group: centipede
+danger: 1
+summary: >-
+  North America's largest centipede, with bright warning colours and powerful venom claws.
+venom: >-
+  Very painful bite with local swelling; serious effects are rare.
+habitat: >-
+  Rocky deserts, woodland and grassland, sheltering under stones and logs.
+size: Up to 20 cm
+regions:
+  - US-TX
+  - US-NM
+  - US-AZ
+  - US-OK
+  - US-AR
+  - US-LA
+  - US-MO
+  - US-KS
+  - MX-CHH
+  - MX-COA
+  - MX-NLE
+  - MX-TAM
+  - MX-SON
+  - MX-DUR
+  - MX-SLP

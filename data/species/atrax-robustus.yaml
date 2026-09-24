@@ -1,0 +1,15 @@
+name: Sydney funnel-web spider
+scientificName: Atrax robustus
+group: spider
+danger: 5
+summary: >-
+  Among the most dangerous spiders in the world. Males wander in search of mates in summer and
+  end up in houses and pools.
+venom: >-
+  Neurotoxic (delta-atracotoxin): can kill a child within an hour. No deaths since antivenom was
+  introduced in 1981.
+habitat: >-
+  Moist forest and gardens around Sydney, in burrows under rocks and logs.
+size: Body 1.5–3.5 cm
+regions:
+  - AU-NSW

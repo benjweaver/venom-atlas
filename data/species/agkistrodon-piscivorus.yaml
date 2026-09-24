@@ -1,0 +1,30 @@
+name: Cottonmouth
+scientificName: Agkistrodon piscivorus
+group: snake
+danger: 3
+summary: >-
+  A semi-aquatic pit viper of south-eastern swamps, named for the white lining of its mouth it
+  shows as a warning.
+venom: >-
+  Haemotoxic and cytotoxic: severe pain, swelling and tissue damage; fatalities are rare with
+  treatment.
+habitat: >-
+  Swamps, marshes, slow rivers, lake edges and drainage ditches.
+size: 0.8–1.2 m
+regions:
+  - US-AL
+  - US-AR
+  - US-FL
+  - US-GA
+  - US-IL
+  - US-IN
+  - US-KY
+  - US-LA
+  - US-MS
+  - US-MO
+  - US-NC
+  - US-OK
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA

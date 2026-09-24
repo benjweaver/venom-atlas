@@ -1,0 +1,28 @@
+name: King cobra
+scientificName: Ophiophagus hannah
+group: snake
+danger: 5
+summary: >-
+  The world's longest venomous snake. It eats mainly other snakes. Recent studies split it into
+  four species, all treated together here.
+venom: >-
+  Neurotoxic: a single bite delivers a large volume of venom that can cause paralysis and death
+  within hours.
+habitat: >-
+  Rainforest, mangroves, bamboo thickets and plantations near streams.
+size: 3–4 m; up to 5.8 m
+regions:
+  - IN
+  - BD
+  - NP
+  - BT
+  - MM
+  - TH
+  - LA
+  - KH
+  - VN
+  - MY
+  - SG
+  - ID
+  - PH
+  - CN

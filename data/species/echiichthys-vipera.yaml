@@ -1,0 +1,27 @@
+name: Lesser weever fish
+scientificName: Echiichthys vipera
+group: fish
+danger: 1
+summary: >-
+  A small fish that buries itself in the sand in shallow water, with venomous spines on its back
+  that catch barefoot paddlers.
+venom: >-
+  Sudden, intense pain and swelling. Hot water (as hot as can be tolerated) eases it; serious
+  effects are rare.
+habitat: >-
+  Sandy shallows of beaches, especially at low tide in summer.
+size: Up to 15 cm
+regions:
+  - GB
+  - IE
+  - FR
+  - BE
+  - NL
+  - DE
+  - DK
+  - ES
+  - PT
+  - IT
+  - GR
+  - HR
+  - MA

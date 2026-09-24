@@ -1,0 +1,30 @@
+name: Brown recluse
+scientificName: Loxosceles reclusa
+group: spider
+danger: 3
+summary: >-
+  A shy brown spider with a violin-shaped mark. Far less common as a bite cause than often
+  believed, but a real bite can be serious.
+venom: >-
+  Cytotoxic: most bites are minor, but some cause a slowly spreading ulcer (necrotic
+  arachnidism); rarely, systemic illness.
+habitat: >-
+  Undisturbed indoor spaces — closets, attics, boxes — and under rocks and bark outdoors.
+size: Body 6–20 mm
+regions:
+  - US-AL
+  - US-AR
+  - US-GA
+  - US-IL
+  - US-IN
+  - US-IA
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MS
+  - US-MO
+  - US-NE
+  - US-OH
+  - US-OK
+  - US-TN
+  - US-TX

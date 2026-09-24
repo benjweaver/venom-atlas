@@ -1,0 +1,29 @@
+name: Western diamondback rattlesnake
+scientificName: Crotalus atrox
+group: snake
+danger: 4
+summary: >-
+  A heavy-bodied rattlesnake of the desert Southwest and the cause of most serious snakebites in
+  northern Mexico and the south-western United States.
+venom: >-
+  Mainly haemotoxic: severe pain, swelling, bruising and tissue damage, with bleeding and low
+  blood pressure in serious bites. Treated with antivenom.
+habitat: >-
+  Deserts, scrub, grassland and rocky hillsides, from sea level to about 2,000 m.
+size: Typically 1–1.5 m; exceptionally over 2 m
+regions:
+  - US-AZ
+  - US-CA
+  - US-NV
+  - US-NM
+  - US-TX
+  - US-OK
+  - MX-SON
+  - MX-CHH
+  - MX-COA
+  - MX-NLE
+  - MX-TAM
+  - MX-DUR
+  - MX-SIN
+  - MX-ZAC
+  - MX-SLP

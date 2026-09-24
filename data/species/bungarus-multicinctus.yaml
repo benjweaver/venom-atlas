@@ -1,0 +1,18 @@
+name: Many-banded krait
+scientificName: Bungarus multicinctus
+group: snake
+danger: 5
+summary: >-
+  A black-and-white banded krait of southern China and South East Asia with one of the most
+  toxic snake venoms known.
+venom: >-
+  Neurotoxic: often painless bites followed by paralysis and respiratory failure.
+habitat: >-
+  Wet lowlands, rice paddies and scrub near water; nocturnal.
+size: 1–1.5 m
+regions:
+  - CN
+  - TW
+  - VN
+  - LA
+  - MM

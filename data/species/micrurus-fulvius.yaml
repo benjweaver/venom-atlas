@@ -1,0 +1,21 @@
+name: Eastern coral snake
+scientificName: Micrurus fulvius
+group: snake
+danger: 4
+summary: >-
+  A small, brightly banded elapid. Bites are uncommon because it is secretive, but its venom is
+  strongly neurotoxic.
+venom: >-
+  Neurotoxic: symptoms can be delayed for hours, then progress to paralysis and respiratory
+  failure. Antivenom supply in the US is limited.
+habitat: >-
+  Pine flatwoods, sandhills and hardwood hammocks, often hidden under leaf litter.
+size: 0.5–0.8 m
+regions:
+  - US-NC
+  - US-SC
+  - US-GA
+  - US-FL
+  - US-AL
+  - US-MS
+  - US-LA

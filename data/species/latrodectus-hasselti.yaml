@@ -1,0 +1,22 @@
+name: Redback spider
+scientificName: Latrodectus hasselti
+group: spider
+danger: 3
+summary: >-
+  Australia's widow spider, black with a red stripe on its back. Bites are common but deaths are
+  unknown since antivenom arrived.
+venom: >-
+  Neurotoxic (latrotoxin): persistent pain that can spread, sweating, nausea and malaise.
+habitat: >-
+  Dry, sheltered spots near people: sheds, letterboxes, outdoor furniture.
+size: Female body about 1 cm
+regions:
+  - AU-WA
+  - AU-NT
+  - AU-SA
+  - AU-QLD
+  - AU-NSW
+  - AU-VIC
+  - AU-TAS
+  - AU-ACT
+  - NZ

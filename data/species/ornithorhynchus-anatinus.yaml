@@ -1,0 +1,18 @@
+name: Platypus
+scientificName: Ornithorhynchus anatinus
+group: mammal
+danger: 2
+summary: >-
+  An egg-laying mammal whose males carry venomous spurs on their hind legs, used mainly against
+  rival males.
+venom: >-
+  Not lethal to people, but the pain is intense, long-lasting and resistant to morphine.
+habitat: >-
+  Freshwater rivers, streams and lakes of eastern Australia.
+size: 40–60 cm
+regions:
+  - AU-QLD
+  - AU-NSW
+  - AU-ACT
+  - AU-VIC
+  - AU-TAS

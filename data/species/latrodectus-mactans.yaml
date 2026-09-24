@@ -1,0 +1,34 @@
+name: Southern black widow
+scientificName: Latrodectus mactans
+group: spider
+danger: 3
+summary: >-
+  The classic black widow: glossy black with a red hourglass on the underside of the female's
+  abdomen.
+venom: >-
+  Neurotoxic (latrotoxin): spreading muscle pain, cramps, sweating and raised blood pressure.
+  Deaths are now very rare.
+habitat: >-
+  Woodpiles, sheds, outhouses, stone walls and other sheltered, undisturbed places.
+size: Female body about 1.3 cm
+regions:
+  - US-AL
+  - US-AR
+  - US-FL
+  - US-GA
+  - US-KY
+  - US-LA
+  - US-MS
+  - US-NC
+  - US-OK
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-VA
+  - US-MO
+  - US-IL
+  - US-IN
+  - US-OH
+  - US-KS
+  - US-MD
+  - US-DE

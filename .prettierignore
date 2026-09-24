@@ -1,0 +1,5 @@
+dist
+coverage
+.cache
+public/geo
+data/images.json

@@ -1,0 +1,254 @@
+<script setup lang="ts">
+import allSpecies from 'virtual:species'
+import { computed, defineAsyncComponent, reactive, ref, shallowRef, watch } from 'vue'
+
+import FilterBar from '@/components/FilterBar.vue'
+import MapLegend from '@/components/MapLegend.vue'
+import SpeciesCard from '@/components/SpeciesCard.vue'
+import SpeciesDetail from '@/components/SpeciesDetail.vue'
+import type { Species } from '@/data/schema'
+import { GROUPS } from '@/data/taxonomy'
+import { loadCountries, loadSubdivisions, type Regions } from '@/lib/geo'
+import {
+  countryOf,
+  countsByCountry,
+  countsBySubdivision,
+  isSubdivision,
+  speciesIn,
+  type Match,
+} from '@/lib/regions'
+import { useUrlState } from '@/lib/url-state'
+
+// MapLibre is most of the JavaScript. Loading it separately lets the species
+// list render straight away while the map is still downloading.
+const AtlasMap = defineAsyncComponent(() => import('@/components/AtlasMap.vue'))
+
+const view = useUrlState()
+
+// Region code → display name, filled in as boundary files load.
+const names = reactive(new Map<string, string>())
+function remember(regions: Regions | null) {
+  for (const f of regions?.features ?? []) names.set(f.properties.code, f.properties.name)
+}
+const regionName = (code: string) => names.get(code) ?? code
+
+const countries = shallowRef<Regions | null>(null)
+const loadError = ref<string | null>(null)
+loadCountries()
+  .then((c) => {
+    remember(c)
+    countries.value = c
+  })
+  .catch((e: Error) => (loadError.value = e.message))
+
+// ── Filtering ─────────────────────────────────────────────────────────────
+const available = GROUPS.filter((g) => allSpecies.some((s) => s.group === g))
+
+function matchesQuery(s: Species, q: string): boolean {
+  if (!q) return true
+  const needle = q.toLowerCase()
+  return s.name.toLowerCase().includes(needle) || s.scientificName.toLowerCase().includes(needle)
+}
+
+const filtered = computed(() =>
+  allSpecies.filter(
+    (s) => (!view.groups.length || view.groups.includes(s.group)) && matchesQuery(s, view.query),
+  ),
+)
+
+// ── Selected place ────────────────────────────────────────────────────────
+const country = computed(() => (view.region ? countryOf(view.region) : null))
+const subdivisions = shallowRef<Regions | null>(null)
+
+watch(
+  country,
+  async (cc) => {
+    if (!cc) return (subdivisions.value = null)
+    const subs = await loadSubdivisions(cc)
+    if (country.value !== cc) return // the user moved on while it loaded
+    remember(subs)
+    subdivisions.value = subs
+  },
+  { immediate: true },
+)
+
+const countryCounts = computed(() => countsByCountry(filtered.value))
+const subdivisionCounts = computed(() =>
+  subdivisions.value
+    ? countsBySubdivision(
+        filtered.value,
+        subdivisions.value.features.map((f) => f.properties.code),
+      )
+    : new Map<string, number>(),
+)
+
+const listed = computed<Match[]>(() =>
+  view.region
+    ? speciesIn(filtered.value, view.region)
+    : [...filtered.value]
+        .sort((a, b) => b.danger - a.danger || a.name.localeCompare(b.name))
+        .map((species) => ({ species, countryWide: false })),
+)
+
+// ── Selected species ──────────────────────────────────────────────────────
+const selectedSpecies = computed(() => allSpecies.find((s) => s.slug === view.species) ?? null)
+const range = shallowRef<Regions | null>(null)
+
+// A species' range can mix whole countries with states from several
+// countries, so its shape is assembled from whichever boundary files it needs.
+watch(
+  [selectedSpecies, countries],
+  async ([species, all]) => {
+    if (!species || !all) return (range.value = null)
+    const codes = new Set(species.regions)
+    const needed = [...new Set(species.regions.filter(isSubdivision).map(countryOf))]
+    const subs = await Promise.all(needed.map(loadSubdivisions))
+    if (selectedSpecies.value !== species) return
+    subs.forEach(remember)
+    range.value = {
+      type: 'FeatureCollection',
+      features: [all, ...subs].flatMap(
+        (r) => r?.features.filter((f) => codes.has(f.properties.code)) ?? [],
+      ),
+    }
+  },
+  { immediate: true },
+)
+
+// ── Navigation ────────────────────────────────────────────────────────────
+function selectRegion(code: string | null) {
+  view.region = code
+  view.species = null
+}
+
+const breadcrumb = computed(() => {
+  const crumbs: { code: string | null; label: string }[] = [{ code: null, label: 'World' }]
+  if (country.value) crumbs.push({ code: country.value, label: regionName(country.value) })
+  if (view.region && isSubdivision(view.region)) {
+    crumbs.push({ code: view.region, label: regionName(view.region) })
+  }
+  return crumbs
+})
+
+const countryTotal = countsByCountry(allSpecies).size
+
+// Opening or leaving a species starts the panel at the top. On a phone the
+// panel sits below the map, so scroll the page down to it as well.
+const panel = ref<HTMLElement>()
+const content = ref<HTMLElement>()
+watch(
+  () => view.species,
+  (slug) => {
+    content.value?.scrollTo({ top: 0 })
+    if (slug && !matchMedia('(min-width: 768px)').matches) {
+      panel.value?.scrollIntoView({ behavior: 'smooth' })
+    }
+  },
+)
+
+addEventListener('keydown', (e) => {
+  if (e.key !== 'Escape' || e.target instanceof HTMLInputElement) return
+  if (view.species) view.species = null
+  else if (view.region) selectRegion(null)
+})
+</script>
+
+<template>
+  <!-- Phones: map on top, then the panel, and the whole page scrolls.
+       Wider screens: map and panel side by side, the panel scrolling on its own. -->
+  <div class="md:flex md:h-full">
+    <main class="relative h-[50vh] md:h-full md:flex-1">
+      <AtlasMap
+        v-if="countries"
+        :countries="countries"
+        :country-counts="countryCounts"
+        :subdivisions="subdivisions"
+        :subdivision-counts="subdivisionCounts"
+        :selected="view.region"
+        :range="range"
+        @select="selectRegion"
+      />
+      <p v-else-if="loadError" class="p-6 text-sm text-(--accent)">{{ loadError }}</p>
+      <MapLegend
+        v-if="countries"
+        :range="!!range"
+        class="absolute top-3 left-3 md:top-auto md:bottom-8"
+      />
+    </main>
+
+    <aside
+      ref="panel"
+      class="bg-(--surface) md:flex md:w-[420px] md:flex-col md:border-l md:border-(--line)"
+    >
+      <header class="space-y-3 border-b border-(--line) p-4">
+        <div>
+          <h1 class="text-xl font-bold tracking-tight">
+            <button type="button" @click="selectRegion(null)">
+              Venom<span class="text-(--accent)">Atlas</span>
+            </button>
+          </h1>
+          <p class="text-xs text-(--muted)">
+            {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
+          </p>
+        </div>
+        <FilterBar v-model:groups="view.groups" v-model:query="view.query" :available="available" />
+      </header>
+
+      <div ref="content" class="p-4 md:min-h-0 md:flex-1 md:overflow-y-auto">
+        <SpeciesDetail
+          v-if="selectedSpecies"
+          :species="selectedSpecies"
+          :region-name="regionName"
+          @back="view.species = null"
+          @region="selectRegion"
+        />
+
+        <template v-else>
+          <nav class="mb-1 flex flex-wrap items-center gap-1 text-xs text-(--muted)">
+            <template v-for="(crumb, i) in breadcrumb" :key="crumb.label">
+              <span v-if="i > 0">›</span>
+              <button
+                type="button"
+                class="hover:text-(--ink)"
+                :class="{ 'font-medium text-(--ink)': i === breadcrumb.length - 1 }"
+                @click="selectRegion(crumb.code)"
+              >
+                {{ crumb.label }}
+              </button>
+            </template>
+          </nav>
+          <h2 class="text-lg font-semibold">
+            {{ view.region ? regionName(view.region) : 'All species' }}
+          </h2>
+          <p class="mb-3 text-sm text-(--muted)">
+            <template v-if="!view.region && !listed.length">No species match.</template>
+            <template v-else-if="!view.region"
+              >Select a country on the map to narrow it down.</template
+            >
+            <template v-else-if="listed.length">
+              {{ listed.length }} species recorded{{
+                subdivisions && !isSubdivision(view.region) ? ' · click a state or province' : ''
+              }}
+            </template>
+            <template v-else>No species recorded here yet.</template>
+          </p>
+
+          <ul class="-mx-2 space-y-1">
+            <li v-for="{ species, countryWide } in listed" :key="species.slug">
+              <SpeciesCard
+                :species="species"
+                :country-wide="countryWide"
+                @open="view.species = species.slug"
+              />
+            </li>
+          </ul>
+        </template>
+      </div>
+
+      <footer class="border-t border-(--line) px-4 py-2 text-[11px] leading-snug text-(--muted)">
+        For education only — not medical advice. If you're bitten or stung, call your local
+        emergency number. Ranges are simplified and not exhaustive.
+      </footer>
+    </aside>
+  </div>
+</template>

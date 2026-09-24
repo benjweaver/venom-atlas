@@ -1,0 +1,21 @@
+name: Geographic cone snail
+scientificName: Conus geographus
+group: mollusc
+danger: 5
+summary: >-
+  A beautiful, hunting sea snail that harpoons fish with a venomous tooth. It has killed shell
+  collectors who picked it up.
+venom: >-
+  Conotoxins cause paralysis and respiratory failure. No antivenom exists.
+habitat: >-
+  Coral reefs and sand in shallow tropical waters of the Indo-Pacific.
+size: Shell 10–15 cm
+regions:
+  - AU-QLD
+  - AU-WA
+  - AU-NT
+  - ID
+  - PH
+  - PG
+  - JP
+  - FJ

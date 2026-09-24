@@ -1,0 +1,17 @@
+name: Coastal taipan
+scientificName: Oxyuranus scutellatus
+group: snake
+danger: 5
+summary: >-
+  A large, fast Australian elapid with long fangs. Before antivenom, almost every bite was
+  fatal.
+venom: >-
+  Neurotoxic and blood-clotting disruption; rapid paralysis and bleeding.
+habitat: >-
+  Tropical woodland, grassland and sugar-cane fields.
+size: About 2 m
+regions:
+  - AU-QLD
+  - AU-NT
+  - AU-WA
+  - PG

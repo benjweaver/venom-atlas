@@ -1,0 +1,16 @@
+name: Mexican beaded lizard
+scientificName: Heloderma horridum
+group: lizard
+danger: 2
+summary: >-
+  The larger, darker relative of the Gila monster, found in the dry forests of western Mexico
+  and Guatemala.
+venom: >-
+  Painful bites with swelling, sweating, vomiting and low blood pressure; rarely dangerous to
+  healthy adults.
+habitat: >-
+  Tropical dry forest and thornscrub.
+size: Up to 90 cm
+regions:
+  - MX
+  - GT

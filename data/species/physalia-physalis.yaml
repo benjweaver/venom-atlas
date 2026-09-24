@@ -1,0 +1,32 @@
+name: "Portuguese man o' war"
+scientificName: Physalia physalis
+group: jellyfish
+danger: 3
+summary: >-
+  Not a true jellyfish but a floating colony of organisms, drifting on a gas-filled sail with
+  tentacles that can trail 10 m.
+venom: >-
+  Very painful welts; rarely, severe reactions affecting breathing and heart. Tentacles still
+  sting when washed ashore.
+habitat: >-
+  Warm ocean surface waters; frequently blown onto beaches.
+size: Float up to 30 cm; tentacles up to 10 m or more
+regions:
+  - US-FL
+  - US-TX
+  - US-HI
+  - US-NC
+  - US-SC
+  - US-GA
+  - AU-NSW
+  - AU-QLD
+  - AU-WA
+  - ES
+  - PT
+  - MX
+  - BR
+  - BS
+  - CU
+  - ZA
+  - GB
+  - IE

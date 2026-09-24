@@ -1,0 +1,23 @@
+name: Texas coral snake
+scientificName: Micrurus tener
+group: snake
+danger: 4
+summary: >-
+  The coral snake of Texas and north-eastern Mexico, closely related to the eastern coral snake.
+venom: >-
+  Neurotoxic, with delayed onset; can cause paralysis and respiratory failure without treatment.
+habitat: >-
+  Woodland, rocky canyons, thornscrub and suburban gardens.
+size: 0.5–0.8 m
+regions:
+  - US-TX
+  - US-LA
+  - US-AR
+  - MX-COA
+  - MX-NLE
+  - MX-TAM
+  - MX-SLP
+  - MX-QUE
+  - MX-HID
+  - MX-VER
+  - MX-GUA

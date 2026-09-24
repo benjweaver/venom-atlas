@@ -1,0 +1,20 @@
+name: Arizona bark scorpion
+scientificName: Centruroides sculpturatus
+group: scorpion
+danger: 3
+summary: >-
+  The most venomous scorpion in North America, and a common household intruder in the Sonoran
+  Desert.
+venom: >-
+  Neurotoxic: intense pain, numbness and tingling; in young children, uncontrolled movements and
+  breathing problems. Antivenom is available.
+habitat: >-
+  Desert and riparian areas; climbs well and hides in cracks, bark and buildings.
+size: 5–8 cm
+regions:
+  - US-AZ
+  - US-NM
+  - US-NV
+  - US-UT
+  - US-CA
+  - MX-SON

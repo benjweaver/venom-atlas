@@ -1,0 +1,18 @@
+name: Brazilian wandering spider
+scientificName: Phoneutria nigriventer
+group: spider
+danger: 4
+summary: >-
+  A large, fast, aggressive-postured spider of south-eastern South America, frequently found in
+  banana plantations and homes.
+venom: >-
+  Neurotoxic: severe pain, sweating, irregular heartbeat and, notoriously, painful erections.
+  Serious cases are mostly in children; antivenom exists.
+habitat: >-
+  Forest floor, plantations, and inside buildings, shoes and clothing.
+size: Leg span up to 15 cm
+regions:
+  - BR
+  - AR
+  - PY
+  - UY

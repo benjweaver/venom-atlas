@@ -1,0 +1,19 @@
+name: Mainland tiger snake
+scientificName: Notechis scutatus
+group: snake
+danger: 5
+summary: >-
+  A variably banded elapid of southern Australia, common around wetlands and responsible for
+  many serious bites.
+venom: >-
+  Neurotoxic, myotoxic and anticoagulant; potentially fatal without treatment.
+habitat: >-
+  Wetlands, creeks, dams and coastal swamps.
+size: About 1.2 m
+regions:
+  - AU-VIC
+  - AU-TAS
+  - AU-SA
+  - AU-NSW
+  - AU-WA
+  - AU-QLD

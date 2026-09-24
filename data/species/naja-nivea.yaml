@@ -1,0 +1,17 @@
+name: Cape cobra
+scientificName: Naja nivea
+group: snake
+danger: 5
+summary: >-
+  A slender, variably coloured cobra of southern Africa with one of the most potent venoms of
+  any African cobra.
+venom: >-
+  Neurotoxic: progressive paralysis and respiratory failure, which can develop within hours.
+habitat: >-
+  Dry scrub (fynbos, karoo), arid savanna and semi-desert.
+size: 1.2–1.6 m
+regions:
+  - ZA
+  - NA
+  - BW
+  - LS

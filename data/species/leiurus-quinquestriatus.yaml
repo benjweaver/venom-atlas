@@ -1,0 +1,21 @@
+name: Deathstalker scorpion
+scientificName: Leiurus quinquestriatus
+group: scorpion
+danger: 4
+summary: >-
+  A pale yellow desert scorpion with one of the most potent scorpion venoms. Healthy adults
+  usually recover, but children are at real risk.
+venom: >-
+  Neurotoxic: extreme pain, then fever, convulsions and heart and lung complications in severe
+  cases.
+habitat: >-
+  Arid desert and scrub, sheltering under stones and in burrows.
+size: 8–11 cm
+regions:
+  - EG
+  - SD
+  - ER
+  - ET
+  - LY
+  - TD
+  - NE

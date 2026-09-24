@@ -1,0 +1,36 @@
+name: Red lionfish
+scientificName: Pterois volitans
+group: fish
+danger: 2
+summary: >-
+  A strikingly striped reef fish with venomous spines. Native to the Indo-Pacific and now
+  invasive across the Caribbean and western Atlantic.
+venom: >-
+  Very painful puncture wounds with swelling; rarely dangerous. Hot water eases the pain.
+habitat: >-
+  Coral reefs, rocky coasts and seagrass.
+size: Up to 38 cm
+regions:
+  - US-FL
+  - US-GA
+  - US-SC
+  - US-NC
+  - US-TX
+  - AU-QLD
+  - AU-WA
+  - ID
+  - PH
+  - JP
+  - FJ
+  - PG
+  - MY
+  - BS
+  - CU
+  - MX
+  - BZ
+  - HN
+  - JM
+  - DO
+  - CO
+  - VE
+  - BR

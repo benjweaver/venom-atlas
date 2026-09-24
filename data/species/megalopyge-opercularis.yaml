@@ -1,0 +1,31 @@
+name: Puss caterpillar
+scientificName: Megalopyge opercularis
+group: insect
+danger: 2
+summary: >-
+  A furry, harmless-looking caterpillar hiding venomous spines. One of the most venomous
+  caterpillars in North America.
+venom: >-
+  Intense burning pain radiating from the sting site, sometimes with nausea, headache and
+  swollen lymph nodes.
+habitat: >-
+  Oak, elm, citrus and other trees and shrubs, including in gardens and schoolyards.
+size: About 2.5 cm
+regions:
+  - US-TX
+  - US-LA
+  - US-MS
+  - US-AL
+  - US-FL
+  - US-GA
+  - US-SC
+  - US-NC
+  - US-VA
+  - US-TN
+  - US-AR
+  - US-OK
+  - US-MD
+  - US-DE
+  - MX-TAM
+  - MX-NLE
+  - MX-VER

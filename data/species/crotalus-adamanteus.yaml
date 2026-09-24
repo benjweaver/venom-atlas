@@ -1,0 +1,20 @@
+name: Eastern diamondback rattlesnake
+scientificName: Crotalus adamanteus
+group: snake
+danger: 4
+summary: >-
+  The heaviest venomous snake in the Americas, found in the pine woods and scrub of the south-
+  eastern United States.
+venom: >-
+  Haemotoxic and tissue-damaging; large venom yields make untreated bites potentially fatal.
+habitat: >-
+  Longleaf pine forests, palmetto flatwoods, coastal scrub and barrier islands.
+size: Typically 1–1.8 m; record over 2.4 m
+regions:
+  - US-NC
+  - US-SC
+  - US-GA
+  - US-FL
+  - US-AL
+  - US-MS
+  - US-LA

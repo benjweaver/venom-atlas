@@ -1,0 +1,32 @@
+name: Mojave rattlesnake
+scientificName: Crotalus scutulatus
+group: snake
+danger: 5
+summary: >-
+  A desert rattlesnake whose venom in many populations is strongly neurotoxic, making it one of
+  the most dangerous snakes in North America.
+venom: >-
+  "Mojave toxin" in many populations attacks nerves and muscles: weakness, difficulty breathing
+  and swallowing, sometimes with little local swelling to warn of severity.
+habitat: >-
+  Open desert flats, creosote scrub and grassland rather than rocky terrain.
+size: 0.6–1.3 m
+regions:
+  - US-CA
+  - US-NV
+  - US-UT
+  - US-AZ
+  - US-NM
+  - US-TX
+  - MX-SON
+  - MX-CHH
+  - MX-COA
+  - MX-DUR
+  - MX-ZAC
+  - MX-SLP
+  - MX-AGU
+  - MX-JAL
+  - MX-GUA
+  - MX-QUE
+  - MX-HID
+  - MX-PUE

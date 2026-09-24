@@ -1,0 +1,31 @@
+name: Terciopelo (fer-de-lance)
+scientificName: Bothrops asper
+group: snake
+danger: 5
+summary: >-
+  A large, fast-striking pit viper responsible for most snakebite deaths in Central America.
+venom: >-
+  Haemotoxic and tissue-destroying: bleeding, swelling, blistering and necrosis; untreated bites
+  can be fatal or cause limb loss.
+habitat: >-
+  Lowland rainforest, plantations and farmland, often near water.
+size: 1.2–1.8 m; occasionally 2.5 m
+regions:
+  - MX-TAM
+  - MX-SLP
+  - MX-VER
+  - MX-OAX
+  - MX-TAB
+  - MX-CHP
+  - MX-CAM
+  - MX-ROO
+  - MX-PUE
+  - GT
+  - BZ
+  - HN
+  - NI
+  - CR
+  - PA
+  - CO
+  - EC
+  - VE

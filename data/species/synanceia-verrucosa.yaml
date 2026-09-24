@@ -1,0 +1,27 @@
+name: Reef stonefish
+scientificName: Synanceia verrucosa
+group: fish
+danger: 4
+summary: >-
+  The most venomous fish known, perfectly camouflaged as a rock on reefs and shallow flats.
+venom: >-
+  Dorsal spines inject venom causing excruciating pain, swelling and, in severe cases, shock and
+  heart problems. Antivenom exists.
+habitat: >-
+  Shallow reefs, rubble and tidal flats of the Indian and Pacific Oceans.
+size: Up to 40 cm
+regions:
+  - AU-QLD
+  - AU-NT
+  - AU-WA
+  - EG
+  - SA
+  - ID
+  - PH
+  - JP
+  - TH
+  - MY
+  - IN
+  - MZ
+  - FJ
+  - PG

@@ -1,0 +1,29 @@
+name: Black mamba
+scientificName: Dendroaspis polylepis
+group: snake
+danger: 5
+summary: >-
+  Africa's longest venomous snake, fast and nervous. It is named for the inky black inside of
+  its mouth, not its grey-brown body.
+venom: >-
+  Rapidly acting neurotoxins cause paralysis and respiratory failure; almost always fatal
+  without antivenom and breathing support.
+habitat: >-
+  Savanna, open woodland and rocky hills, often in termite mounds or hollow trees.
+size: 2–3 m; up to 4.3 m
+regions:
+  - ZA
+  - SZ
+  - MZ
+  - ZW
+  - BW
+  - NA
+  - ZM
+  - MW
+  - TZ
+  - KE
+  - ET
+  - SO
+  - CD
+  - AO
+  - SS

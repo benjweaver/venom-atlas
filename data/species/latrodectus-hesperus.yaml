@@ -1,0 +1,30 @@
+name: Western black widow
+scientificName: Latrodectus hesperus
+group: spider
+danger: 3
+summary: >-
+  The black widow of western North America, from southern Canada to Mexico.
+venom: >-
+  Neurotoxic (latrotoxin): severe muscle pain and cramping, sweating, nausea. Rarely fatal.
+habitat: >-
+  Dry scrub, rock piles, burrows, garages and outbuildings.
+size: Female body about 1.4 cm
+regions:
+  - US-WA
+  - US-OR
+  - US-CA
+  - US-NV
+  - US-ID
+  - US-UT
+  - US-AZ
+  - US-NM
+  - US-MT
+  - US-WY
+  - US-CO
+  - US-TX
+  - CA-BC
+  - CA-AB
+  - CA-SK
+  - MX-BCN
+  - MX-SON
+  - MX-CHH

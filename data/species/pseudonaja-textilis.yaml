@@ -1,0 +1,21 @@
+name: Eastern brown snake
+scientificName: Pseudonaja textilis
+group: snake
+danger: 5
+summary: >-
+  Responsible for more snakebite deaths in Australia than any other species, largely because it
+  thrives around farms and towns.
+venom: >-
+  Causes a blood-clotting catastrophe (consumption coagulopathy) and sudden collapse;
+  potentially fatal.
+habitat: >-
+  Open woodland, grassland and farmland — rarely in dense forest.
+size: 1.5–2 m
+regions:
+  - AU-QLD
+  - AU-NSW
+  - AU-VIC
+  - AU-SA
+  - AU-NT
+  - AU-ACT
+  - PG

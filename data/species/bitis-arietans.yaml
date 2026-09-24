@@ -1,0 +1,43 @@
+name: Puff adder
+scientificName: Bitis arietans
+group: snake
+danger: 4
+summary: >-
+  A thick, slow-moving viper that relies on camouflage and stays put when approached, so people
+  step on it. It causes more serious bites than any other African snake.
+venom: >-
+  Cytotoxic: extreme swelling, blistering and tissue death, with bleeding problems. Potentially
+  fatal.
+habitat: >-
+  Almost every habitat except dense rainforest and true desert.
+size: About 1 m
+regions:
+  - ZA
+  - NA
+  - BW
+  - ZW
+  - ZM
+  - MZ
+  - MW
+  - TZ
+  - KE
+  - UG
+  - ET
+  - SO
+  - SS
+  - SD
+  - NG
+  - GH
+  - SN
+  - ML
+  - CM
+  - CD
+  - AO
+  - MA
+  - SA
+  - YE
+  - OM
+  - TD
+  - NE
+  - BF
+  - CI

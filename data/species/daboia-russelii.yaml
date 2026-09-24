@@ -1,0 +1,18 @@
+name: "Russell's viper"
+scientificName: Daboia russelii
+group: snake
+danger: 5
+summary: >-
+  One of the "Big Four" of South Asia, blamed for more snakebite deaths than any other species
+  in the region.
+venom: >-
+  Haemotoxic: uncontrolled bleeding, kidney failure and shock.
+habitat: >-
+  Open grassland, farmland and scrub, especially rice fields where rodents are plentiful.
+size: 1–1.2 m
+regions:
+  - IN
+  - PK
+  - NP
+  - BD
+  - LK

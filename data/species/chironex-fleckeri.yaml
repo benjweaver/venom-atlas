@@ -1,0 +1,17 @@
+name: Australian box jellyfish
+scientificName: Chironex fleckeri
+group: jellyfish
+danger: 5
+summary: >-
+  The most venomous marine animal known. Nearly transparent, with tentacles up to 3 m long.
+venom: >-
+  Venom attacks heart, nerves and skin; massive stings can cause cardiac arrest within minutes.
+  Pour vinegar on stings and call for help.
+habitat: >-
+  Shallow coastal waters, estuaries and beaches of tropical northern Australia, mostly
+  October–May.
+size: Bell up to 30 cm across
+regions:
+  - AU-QLD
+  - AU-NT
+  - AU-WA

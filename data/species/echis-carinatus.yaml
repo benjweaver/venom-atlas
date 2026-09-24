@@ -1,0 +1,20 @@
+name: Saw-scaled viper
+scientificName: Echis carinatus
+group: snake
+danger: 5
+summary: >-
+  A small, irritable viper that rasps its scales together in warning. Because it is common near
+  people, it causes a huge number of bites.
+venom: >-
+  Haemotoxic: stops blood from clotting, causing bleeding that can continue for days;
+  potentially fatal.
+habitat: >-
+  Dry scrub, rocky and sandy areas, and farmland.
+size: 30–60 cm
+regions:
+  - IN
+  - PK
+  - LK
+  - AF
+  - IR
+  - OM

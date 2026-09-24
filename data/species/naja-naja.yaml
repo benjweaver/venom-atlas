@@ -1,0 +1,19 @@
+name: Indian cobra
+scientificName: Naja naja
+group: snake
+danger: 5
+summary: >-
+  The spectacled cobra of snake-charmer fame, and one of the "Big Four" snakes responsible for
+  most snakebite deaths in India.
+venom: >-
+  Neurotoxic and cytotoxic: paralysis, respiratory failure and local tissue damage.
+habitat: >-
+  Almost everywhere from forests to farmland and towns, often near rat-infested fields.
+size: 1–1.5 m
+regions:
+  - IN
+  - PK
+  - NP
+  - BD
+  - LK
+  - BT

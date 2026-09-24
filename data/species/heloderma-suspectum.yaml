@@ -1,0 +1,21 @@
+name: Gila monster
+scientificName: Heloderma suspectum
+group: lizard
+danger: 2
+summary: >-
+  One of the few venomous lizards. It chews venom into a bite rather than injecting it, and
+  clamps on tenaciously.
+venom: >-
+  Extremely painful bites with swelling, nausea and low blood pressure. No confirmed deaths from
+  healthy adults in modern times.
+habitat: >-
+  Desert scrub and rocky foothills; spends most of its life underground.
+size: About 50 cm
+regions:
+  - US-AZ
+  - US-NV
+  - US-UT
+  - US-NM
+  - US-CA
+  - MX-SON
+  - MX-SIN

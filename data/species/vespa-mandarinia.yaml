@@ -1,0 +1,25 @@
+name: Northern giant hornet
+scientificName: Vespa mandarinia
+group: insect
+danger: 2
+summary: >-
+  The world's largest hornet. Individual stings are very painful, and mass stings from a
+  disturbed nest can kill.
+venom: >-
+  Large doses of venom that damage tissue; multiple stings can cause kidney failure and death,
+  and allergy adds risk.
+habitat: >-
+  Low mountains and forest, nesting underground.
+size: Queens up to 5 cm
+regions:
+  - JP
+  - CN
+  - KR
+  - TW
+  - IN
+  - NP
+  - TH
+  - VN
+  - LA
+  - MM
+  - RU

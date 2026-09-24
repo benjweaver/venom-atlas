@@ -1,0 +1,16 @@
+name: Habu
+scientificName: Protobothrops flavoviridis
+group: snake
+danger: 3
+summary: >-
+  A long, slender pit viper of Japan's southern islands, where warning signs and bite response
+  services are part of daily life.
+venom: >-
+  Haemotoxic and cytotoxic: severe swelling and tissue damage; deaths are now rare thanks to
+  antivenom.
+habitat: >-
+  Forest, farmland, stone walls and around houses on the Amami and Okinawa islands.
+size: 1–2.2 m
+regions:
+  - JP-46
+  - JP-47

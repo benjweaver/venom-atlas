@@ -1,0 +1,17 @@
+name: Inland taipan
+scientificName: Oxyuranus microlepidotus
+group: snake
+danger: 5
+summary: >-
+  Measured by laboratory toxicity, the most venomous snake on earth — but reclusive and remote,
+  with very few recorded bites.
+venom: >-
+  Neurotoxic, haemotoxic and myotoxic; potentially fatal within hours without antivenom.
+habitat: >-
+  Deep-cracking clay plains and gibber deserts of the channel country.
+size: 1.5–2 m
+regions:
+  - AU-QLD
+  - AU-SA
+  - AU-NSW
+  - AU-NT

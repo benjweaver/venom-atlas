@@ -1,0 +1,26 @@
+name: Blue-ringed octopus
+scientificName: Hapalochlaena
+group: mollusc
+danger: 5
+summary: >-
+  Small, docile octopuses that flash iridescent blue rings when threatened. Their bite is tiny
+  but can be lethal.
+venom: >-
+  Tetrodotoxin: paralysis and respiratory failure within minutes, while the victim stays
+  conscious. No antivenom; survival depends on artificial respiration.
+habitat: >-
+  Rock pools, coral reefs and shallow seagrass beds.
+size: 12–20 cm
+wikipedia: Blue-ringed octopus
+regions:
+  - AU-NSW
+  - AU-VIC
+  - AU-TAS
+  - AU-SA
+  - AU-WA
+  - AU-QLD
+  - AU-NT
+  - JP
+  - PH
+  - ID
+  - PG
