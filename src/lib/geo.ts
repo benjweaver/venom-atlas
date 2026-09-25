@@ -28,8 +28,7 @@ function fetchJson<T>(url: string): Promise<T | null> {
     .catch(() => null)
 }
 
-// Files live in public/geo; BASE_URL makes this work when the site is served
-// from a sub-path (GitHub Pages project sites).
+// Files live in public/geo, resolved against Vite's BASE_URL ("/" by default).
 function load(path: string): Promise<Regions | null> {
   let pending = cache.get(path)
   if (!pending) {

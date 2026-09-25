@@ -211,15 +211,16 @@ them into `public/` and change `src`.
 
 `npm run build` produces `dist/`, a folder of static files.
 
-**GitHub Pages (set up already).** `.github/workflows/ci.yml` checks every
-push and PR, and deploys `main` once deployment is switched on. It's off by
-default, because Pages on a private repo needs a paid plan. To switch it on, go
-to repo **Settings → Pages → Source: GitHub Actions**, then run
-`gh variable set DEPLOY_PAGES --body true`. The workflow sets `BASE_PATH=/<repo>/` because project sites
-are served from a sub-path. With a custom domain, set it to `/`.
+**Cloudflare (live at https://venom-atlas.benjweaver.dev).** Cloudflare
+Workers serves `dist/` as static files, configured in `wrangler.jsonc`.
+Cloudflare builds straight from the repo: every push to `main` runs
+`npm run build` then `npx wrangler deploy`, and other branches get preview
+URLs. GitHub Actions (`.github/workflows/ci.yml`) only checks pushes and pull
+requests; it doesn't deploy.
 
-**Cloudflare Pages / Netlify / Vercel.** Connect the repo, set build command
-`npm run build` and output directory `dist`. No `BASE_PATH` is needed.
+**Anywhere else.** Any static host works (Netlify, Vercel, S3): build command
+`npm run build`, output directory `dist`. The site must be served from the root
+of a domain or subdomain.
 
 There are no client-side routes, because view state lives in the query string
 (`?r=US-AZ&s=crotalus-atrox`). No host needs rewrite rules, and every view is a

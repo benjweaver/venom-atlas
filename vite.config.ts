@@ -8,9 +8,6 @@ import { defineConfig } from 'vite'
 import { speciesPlugin } from './scripts/vite-plugin-species.ts'
 
 export default defineConfig({
-  // GitHub Pages serves a project site from /<repo>/, so the deploy workflow
-  // sets BASE_PATH. Everywhere else (dev, Cloudflare Pages, Netlify) it's "/".
-  base: process.env.BASE_PATH ?? '/',
   plugins: [vue(), tailwindcss(), speciesPlugin()],
   resolve: {
     // `@/lib` rather than `../../lib`. Mirrored in tsconfig.app.json paths —
