@@ -161,12 +161,18 @@ function selectRegion(code: string | null) {
   view.species = null
 }
 
-// A map click. Clicking a place opens it; clicking empty sea only lets go of
-// the place, so an open species stays open. That matters for sea species,
-// whose dots are exactly where people click.
+// A map click. Clicking a place opens it; clicking empty sea steps out one
+// level, like Escape: a species closes back to its place, and a place back to
+// the world. (Clicks on a sea species' record dots don't count as empty sea;
+// see AtlasMap.vue.)
 function onMapSelect(code: string | null) {
   if (code) selectRegion(code)
-  else view.region = null
+  else stepOut()
+}
+
+function stepOut() {
+  if (view.species) view.species = null
+  else if (view.region) selectRegion(null)
 }
 
 const breadcrumb = computed(() => {
@@ -199,8 +205,7 @@ function showMap() {
 
 addEventListener('keydown', (e) => {
   if (e.key !== 'Escape' || e.target instanceof HTMLInputElement) return
-  if (view.species) view.species = null
-  else if (view.region) selectRegion(null)
+  stepOut()
 })
 </script>
 

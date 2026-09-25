@@ -321,17 +321,21 @@ onMounted(() => {
     if (hovered) map!.setFeatureState(hovered, { hover: true })
   }
 
+  // A record dot's count: on hover with a mouse, on tap on a touch screen.
+  const showDot = (n: number, point: { x: number; y: number }) => {
+    tooltip.value = {
+      x: point.x,
+      y: point.y,
+      name: `${n} ${n === 1 ? 'record' : 'records'}`,
+      detail: 'within about 20 km',
+    }
+  }
+
   map.on('mousemove', (e: MapMouseEvent) => {
     const [dot] = map!.queryRenderedFeatures(e.point, { layers: ['records-circle'] })
     if (dot) {
       setHover(null)
-      const n = dot.properties.n as number
-      tooltip.value = {
-        x: e.point.x,
-        y: e.point.y,
-        name: `${n} ${n === 1 ? 'record' : 'records'}`,
-        detail: 'within about 20 km',
-      }
+      showDot(dot.properties.n as number, e.point)
       map!.getCanvas().style.cursor = ''
       return
     }
@@ -359,12 +363,21 @@ onMounted(() => {
     tooltip.value = null
   })
 
+  // A tap on a place opens it. A tap on a record dot at sea shows its count
+  // (so tapping around a sea species' dots doesn't close it), and a tap on
+  // empty sea means "step out", which App.vue handles.
   map.on('click', (e: MapMouseEvent) => {
     const [hit] = map!.queryRenderedFeatures(e.point, {
       layers: ['subdivisions-fill', 'countries-fill'],
     })
-    emit('select', hit ? (hit.properties.code as string) : null)
+    if (hit) return emit('select', hit.properties.code as string)
+    const [dot] = map!.queryRenderedFeatures(e.point, { layers: ['records-circle'] })
+    if (dot) return showDot(dot.properties.n as number, e.point)
+    tooltip.value = null
+    emit('select', null)
   })
+  // A tapped dot's count goes away once the map moves.
+  map.on('movestart', () => (tooltip.value = null))
 })
 
 onBeforeUnmount(() => {
