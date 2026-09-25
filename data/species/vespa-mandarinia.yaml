@@ -13,6 +13,7 @@ habitat: >-
 size: Queens up to 5 cm
 regions:
   - BT
+  - CA-BC
   - CN-AH
   - CN-BJ
   - CN-FJ
@@ -73,7 +74,4 @@ regions:
   - RU
   - TH
   - TW
-gbif:
-  exclude:
-    - US # eradicated incursion (2019–2024)
-    - CA # eradicated incursion (2019–2024)
+  - US-WA

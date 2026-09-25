@@ -31,4 +31,6 @@ regions:
   - VE
 gbif:
   exclude:
-    - MX # misidentified Bothrops asper
+    - code: MX
+      reason: "misidentified Bothrops asper; not in this native range"
+      source: "Catalogue of Life / Herpetofauna de ocho Biodiverciudades de Colombia - Bioblitz 2022"

@@ -26,7 +26,3 @@ regions:
   - PE
   - SR
   - TT
-  - VE
-gbif:
-  include:
-    - VE

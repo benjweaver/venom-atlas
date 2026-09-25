@@ -12,9 +12,5 @@ habitat: >-
 size: 6–9 cm
 regions:
   - DZ
-  - EG
   - IL
   - TN
-gbif:
-  include:
-    - EG

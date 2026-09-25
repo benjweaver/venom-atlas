@@ -25,4 +25,6 @@ regions:
   - US-KY
 gbif:
   include:
-    - US-TN
+    - code: US-TN
+      reason: "3 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/2444222"

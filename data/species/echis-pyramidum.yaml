@@ -11,15 +11,17 @@ habitat: >-
   Dry, rocky and sandy country, scrub and farmland.
 size: 40–80 cm
 regions:
+  - CF
   - DJ
+  - DZ
   - EG
   - ER
   - ET
   - KE
+  - LY
   - MR
   - SD
   - SO
   - SS
-gbif:
-  include:
-    - SO
+  - TN
+  - UG

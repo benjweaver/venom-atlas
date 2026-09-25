@@ -11,25 +11,31 @@ habitat: >-
   Dry savanna, semi-desert, oases and farmland, often near water and villages.
 size: 1.5–2 m
 regions:
+  - BF
   - BJ
   - CD
+  - CF
+  - CM
   - DZ
   - EG
+  - EH
+  - ER
   - ET
+  - GN
+  - GW
   - KE
   - LY
   - MA
   - ML
+  - MR
   - NE
   - NG
   - SD
+  - SN
+  - SO
   - SS
   - TD
   - TN
   - TZ
   - UG
-gbif:
-  include:
-    - LY
-    - NE
-    - ML
+  - ZW

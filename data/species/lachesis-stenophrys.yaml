@@ -13,6 +13,3 @@ regions:
   - NI
   - CR
   - PA
-gbif:
-  include:
-    - NI

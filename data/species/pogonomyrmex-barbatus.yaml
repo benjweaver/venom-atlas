@@ -34,11 +34,9 @@ regions:
   - MX-ZAC
   - US-AR
   - US-AZ
+  - US-CA
   - US-CO
   - US-KS
   - US-NM
   - US-OK
   - US-TX
-gbif:
-  exclude:
-    - US-CA # misidentified harvester ants

@@ -65,10 +65,16 @@ regions: # ISO 3166 codes, normally written by `npm run ranges`
   - US-AZ #   a state/province...
   - MX #   ...or a whole country
 gbif: # optional: steer `npm run ranges`
-  exclude: [CA] #   GBIF records here aren't real range (captive, misidentified)
-  include: [US-NM] #   real range that GBIF under-records
-  name: Other name #   the name GBIF files it under, if different
-  manual: true #   GBIF is no use for this species; keep regions by hand
+  exclude: # places the data wrongly includes
+    - code: CA
+      reason: pet-trade animals
+      source: 'https://…' # required: a URL or citation, not an opinion
+  include: # real range the data misses
+    - code: US-NM
+      source: 'https://…'
+  name: Other name # the name GBIF files it under, if different
+  manual: true # GBIF is no use for this species; keep regions by hand…
+  source: 'https://…' # …from this source (required with manual)
 ```
 
 **Regions.** Countries are listed whole, except the big ones, which are listed
@@ -115,7 +121,30 @@ The numbers are record counts. That's the evidence you're reviewing.
   outlines by where the records' coordinates fall. The matches are cached in
   `data/gadm-iso.json`.
 
-**What it can't do.** Records follow people. Western Europe, the US and
+**Checklists.** Records follow people. Papua New Guinea, much of Africa and
+parts of South Asia are thinly recorded, so records alone miss real range.
+So the script also reads GBIF's checklist distributions: published "this
+species occurs in this country" statements, from the Catalogue of Life (which
+carries the Reptile Database's ranges), the World Register of Marine Species
+and national species checklists. Alien and invasive-species registers are
+ignored (they're why a rattlesnake would otherwise be "in Belgium"). Checklist
+countries are added to the proposal (`GN(checklist)` in the diff), except the
+big subdivided countries, which still need records at state level
+(`scripts/checklist.ts`).
+
+**Every place is sourced.** Each listed place must be backed by GBIF
+records, a trusted checklist, or a cited hand-made addition, and validation
+fails otherwise. Hand-made `include` and `exclude` entries need a `source`.
+The site shows it all: hover a place to see what supports it, and each
+species page has a Sources section listing record counts, checklists,
+citations, and any places deliberately not listed, with the reason and source.
+
+**On the map**, places with records are drawn solid, with record dots.
+Places known only from checklists or review are drawn faint with a dashed
+outline and listed in italics, so the site never implies records that don't
+exist.
+
+**What it still can't do.** Even with checklists, coverage is uneven. Records follow people. Western Europe, the US and
 Australia are densely recorded, while much of Africa and South Asia is thin.
 So a proposal can _drop_ a place where the animal certainly lives because
 nobody has uploaded a record from there. That's what `gbif.include` is for.

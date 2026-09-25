@@ -11,10 +11,12 @@ habitat: >-
   Savanna and woodland, near water, often entering houses at night.
 size: 1–1.5 m
 regions:
+  - AO
   - BW
   - MW
   - MZ
   - NA
+  - SO
   - SZ
   - TZ
   - ZA-GT

@@ -14,10 +14,5 @@ size: 8–10 cm
 regions:
   - DZ
   - EG
-  - LY
   - TN
-gbif:
-  exclude:
-    - US # pet-trade animals
-  include:
-    - LY
+  - US-NY

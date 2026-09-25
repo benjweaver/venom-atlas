@@ -20,6 +20,3 @@ regions:
   - AU-VIC
   - AU-WA
   - PG
-gbif:
-  include:
-    - PG

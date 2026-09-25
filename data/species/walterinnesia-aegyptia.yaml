@@ -16,8 +16,5 @@ regions:
   - IQ
   - IR
   - JO
+  - PS
   - SA
-gbif:
-  include:
-    - EG
-    - JO

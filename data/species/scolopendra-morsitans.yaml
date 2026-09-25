@@ -19,6 +19,7 @@ regions:
   - BW
   - CD
   - CV
+  - DZ
   - GM
   - GP
   - HK
@@ -46,11 +47,13 @@ regions:
   - RE
   - SH
   - SN
+  - SO
   - TH
   - TW
   - TZ
   - US-HI
   - VN
+  - WS
   - ZA-EC
   - ZA-GT
   - ZA-LP

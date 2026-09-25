@@ -32,6 +32,3 @@ regions:
   - SR
   - TT
   - VE
-gbif:
-  include:
-    - VE

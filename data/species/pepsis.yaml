@@ -12,15 +12,165 @@ habitat: >-
 size: Up to 5 cm
 wikipedia: Tarantula hawk
 regions:
+  - BR-AL
+  - BR-AM
+  - BR-BA
+  - BR-CE
+  - BR-DF
+  - BR-GO
+  - BR-MA
+  - BR-MG
+  - BR-MT
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RN
+  - BR-SP
+  - CL
+  - CO
+  - CR
+  - CU
+  - DO
+  - EC
+  - GF
+  - GP
+  - HN
+  - HT
+  - KG
+  - KN
+  - LB
+  - MF
+  - MQ
+  - MX-BCN
+  - MX-BCS
+  - MX-CHH
+  - MX-CHP
+  - MX-COA
+  - MX-COL
+  - MX-DIF
+  - MX-DUR
+  - MX-GRO
+  - MX-GUA
+  - MX-HID
+  - MX-JAL
+  - MX-MEX
+  - MX-MIC
+  - MX-MOR
+  - MX-NAY
+  - MX-NLE
+  - MX-OAX
+  - MX-PUE
+  - MX-ROO
+  - MX-SIN
+  - MX-SLP
+  - MX-SON
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - PA
+  - PE
+  - PR
+  - RU
+  - TR
+  - US-AR
   - US-AZ
-  - US-NM
-  - US-TX
   - US-CA
+  - US-CO
+  - US-FL
+  - US-GA
+  - US-KS
+  - US-KY
+  - US-LA
+  - US-MO
+  - US-NC
+  - US-NM
   - US-NV
-  - US-UT
   - US-OK
-  - MX
+  - US-SC
+  - US-TN
+  - US-TX
+  - US-UT
+  - US-VA
+  - VE
+  - VI
 gbif:
-  # GBIF files thousands of European spider-wasp records under Pepsis, an
-  # American genus, so its proposals are wrong. Range kept by hand.
-  manual: true
+  exclude:
+    - code: SE
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: NL
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: FI
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: GB
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: DE
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: FR
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: AT
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: NO
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: EE
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: PL
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: BE
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: UA
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: CH
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: LU
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: AX
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: HU
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: ES
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: IT
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: LI
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: BG
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: DK
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: RO
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: CZ
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: BY
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: LV
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"
+    - code: RS
+      reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
+      source: "https://en.wikipedia.org/wiki/Tarantula_hawk"

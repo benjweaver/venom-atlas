@@ -35,4 +35,6 @@ regions:
   - VN
 gbif:
   include:
-    - GB
+    - code: GB
+      reason: "19 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/1311477"

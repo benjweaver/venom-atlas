@@ -15,7 +15,3 @@ regions:
   - BR-SP
   - CO
   - GF
-  - VE
-gbif:
-  include:
-    - VE

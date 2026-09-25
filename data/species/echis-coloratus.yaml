@@ -17,7 +17,3 @@ regions:
   - PS
   - SA
   - YE
-gbif:
-  include:
-    - EG
-    - YE

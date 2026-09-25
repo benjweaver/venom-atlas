@@ -19,11 +19,14 @@ import { parse } from 'yaml'
 
 import { speciesSchema, type SpeciesFile } from '../src/data/schema.ts'
 import { makeInlandTest, makeStateResolver, type Outline } from './assign-cells.ts'
+import { checklistCountries, type Distribution } from './checklist.ts'
 import {
   diffRegions,
   proposeRegions,
+  overridesOf,
   regionsFromCells,
   SUBDIVIDED,
+  withChecklist,
   type GbifCounts,
 } from './gbif-range.ts'
 import { fetchGrid, tilesFor, type GridPoint } from './occurrence-grid.ts'
@@ -77,6 +80,9 @@ export interface CachedRange extends GbifCounts {
   fetched: string
   /** Records that couldn't be placed on our map (codes we don't draw). */
   unmapped: Record<string, number>
+  /** Countries native-range checklists list the species in, with the
+   *  checklists that say so (scripts/checklist.ts). */
+  checklist?: Record<string, string[]>
 }
 
 const readJson = <T>(file: string, fallback: T): T => {
@@ -307,6 +313,20 @@ async function fetchAttributedGrid(counts: CachedRange): Promise<GridCell[]> {
   return [...cells.values()].sort((a, b) => a[0] - b[0] || a[1] - b[1])
 }
 
+const countryNames = readJson<Record<string, string>>(join(ROOT, 'data', 'country-names.json'), {})
+
+async function fetchChecklist(
+  key: number,
+  regions: Set<string>,
+): Promise<Record<string, string[]>> {
+  const { results } = await get<{ results: Distribution[] }>(`/species/${key}/distributions`, [
+    ['limit', 500],
+  ])
+  const { sources, unmatched } = checklistCountries(results, countryNames)
+  if (unmatched.length) console.log(`  checklist names not matched: ${unmatched.join('; ')}`)
+  return Object.fromEntries(Object.entries(sources).filter(([code]) => regions.has(code)))
+}
+
 const gadmCache = readJson<Record<string, string | null>>(GADM_FILE, {})
 
 async function resolveGadm(gid: string): Promise<string | null> {
@@ -385,8 +405,14 @@ async function main() {
   let failures = 0
   let changed = 0
 
-  const fmt = (codes: string[], counts: GbifCounts) =>
-    codes.map((c) => `${c}(${counts.subdivisions[c] ?? counts.countries[c] ?? 0})`).join(' ')
+  // Evidence per place: record count, or "checklist" when that's the source.
+  const fmt = (codes: string[], counts: GbifCounts, checklist: string[] = []) =>
+    codes
+      .map((c) => {
+        const n = counts.subdivisions[c] ?? counts.countries[c] ?? 0
+        return `${c}(${!n && checklist.includes(c) ? 'checklist' : n})`
+      })
+      .join(' ')
 
   for (const file of speciesFiles()) {
     const slug = basename(file, '.yaml')
@@ -411,6 +437,10 @@ async function main() {
     try {
       if (refetch) {
         cache[slug] = await fetchRange(species.gbif?.name ?? species.scientificName, regions)
+        writeSorted(CACHE_FILE, cache)
+      }
+      if (refetch || !cache[slug].checklist) {
+        cache[slug].checklist = await fetchChecklist(cache[slug].key, regions)
         writeSorted(CACHE_FILE, cache)
       }
       // Every species gets its record grid, drawn as dots on the map, with each
@@ -456,9 +486,13 @@ async function main() {
           n,
         }))
       : []
-    const proposed = species.aquatic
-      ? regionsFromCells(cells, species.gbif)
-      : proposeRegions(counts, species.gbif)
+    const proposed = withChecklist(
+      species.aquatic
+        ? regionsFromCells(cells, overridesOf(species.gbif))
+        : proposeRegions(counts, overridesOf(species.gbif)),
+      Object.keys(counts.checklist ?? {}),
+      overridesOf(species.gbif),
+    )
     // Evidence shown in the diff: GBIF counts, or for aquatic species the
     // records in each territory's dots.
     const evidence: GbifCounts = species.aquatic
@@ -476,8 +510,9 @@ async function main() {
     }
     changed++
     console.log(`~ ${slug}: ${counts.total} records`)
-    if (diff.added.length) console.log(`    + ${fmt(diff.added, evidence)}`)
-    if (diff.removed.length) console.log(`    - ${fmt(diff.removed, evidence)}`)
+    const listed = Object.keys(counts.checklist ?? {})
+    if (diff.added.length) console.log(`    + ${fmt(diff.added, evidence, listed)}`)
+    if (diff.removed.length) console.log(`    - ${fmt(diff.removed, evidence, listed)}`)
     if (flags.has('--write')) writeFileSync(file, replaceRegions(raw, proposed))
   }
 

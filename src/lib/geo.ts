@@ -5,6 +5,8 @@ export interface RegionProps {
   name: string
   /** Wikidata id, used to link to the region's Wikipedia article. */
   wikidata?: string
+  /** On a species' range: false where it's known without any records. */
+  recorded?: boolean
   continent?: string
   count?: number
 }

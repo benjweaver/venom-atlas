@@ -15,10 +15,9 @@ regions:
   - IL
   - IQ
   - IR
+  - JO
+  - KW
   - OM
   - PK
-gbif:
-  include:
-    - IQ
-    - AF
-    - PK
+  - SA
+  - SY

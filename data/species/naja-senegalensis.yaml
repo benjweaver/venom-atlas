@@ -12,19 +12,14 @@ habitat: >-
 size: 1.5–2 m
 regions:
   - BF
+  - BJ
+  - CI
   - GH
   - GM
   - GN
+  - GW
   - ML
   - MR
   - NE
+  - NG
   - SN
-gbif:
-  include:
-    - SN
-    - GM
-    - GN
-    - ML
-    - BF
-    - NE
-    - GH

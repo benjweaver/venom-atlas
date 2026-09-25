@@ -19,6 +19,3 @@ regions:
   - ZA-NC
   - ZA-NW
   - ZA-WC
-gbif:
-  include:
-    - LS

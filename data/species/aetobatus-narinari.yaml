@@ -45,6 +45,7 @@ regions:
   - CR
   - CU
   - CW
+  - DJ
   - DM
   - DO
   - EC
@@ -67,13 +68,16 @@ regions:
   - JM
   - JP-46
   - KE
+  - KM
   - KN
   - KY
   - LC
   - LK
   - LR
+  - MG
   - MH
   - MQ
+  - MU
   - MV
   - MX-BCS
   - MX-CAM
@@ -139,5 +143,9 @@ regions:
   - ZA-NL
 gbif:
   exclude:
-    - ES # Indo-Pacific eagle rays are a separate species
-    - IL # Indo-Pacific eagle rays are a separate species
+    - code: ES
+      reason: "Indo-Pacific eagle rays are a separate species; not in this native range"
+      source: "World Register of Marine Species"
+    - code: IL
+      reason: "Indo-Pacific eagle rays are a separate species; not in this native range"
+      source: "World Register of Marine Species"

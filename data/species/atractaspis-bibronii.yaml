@@ -11,12 +11,14 @@ habitat: >-
   Savanna and semi-desert, underground or under rocks.
 size: 30–60 cm
 regions:
+  - AO
   - BW
   - CD
   - KE
   - MW
   - MZ
   - NA
+  - SO
   - SZ
   - TZ
   - ZA-GT

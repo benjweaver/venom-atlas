@@ -25,7 +25,10 @@ regions:
   - BR-SE
   - CO
   - GY
+  - SR
   - VE
 gbif:
   exclude:
-    - US # imported specimens
+    - code: US
+      reason: "imported specimens; not in this native range"
+      source: "Catalogue of Life"

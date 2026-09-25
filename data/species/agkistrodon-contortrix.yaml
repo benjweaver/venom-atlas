@@ -43,6 +43,12 @@ regions:
   - MX-CHH
 gbif:
   include:
-    - US-IA
-    - MX-COA
-    - MX-CHH
+    - code: US-IA
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/9215881"
+    - code: MX-COA
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/9215881"
+    - code: MX-CHH
+      reason: "14 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/9215881"

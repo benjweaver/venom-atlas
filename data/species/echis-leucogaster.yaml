@@ -10,9 +10,14 @@ habitat: >-
   Dry scrub, rocky desert edges and oases.
 size: 40–70 cm
 regions:
+  - BF
+  - EH
+  - GM
   - MA
   - ML
   - MR
   - NE
+  - NG
   - SN
+  - TD
   - TN

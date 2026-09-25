@@ -21,7 +21,5 @@ regions:
   - AR-Y
   - BO
   - BR-MS
+  - CO
   - PY
-gbif:
-  exclude:
-    - CO # misidentified widows

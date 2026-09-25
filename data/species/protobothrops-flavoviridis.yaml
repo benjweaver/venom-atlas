@@ -16,4 +16,6 @@ regions:
   - JP-47
 gbif:
   exclude:
-    - GU # not established
+    - code: GU
+      reason: "not established; not in this native range"
+      source: "Catalogue of Life"

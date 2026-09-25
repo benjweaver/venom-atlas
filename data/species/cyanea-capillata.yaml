@@ -58,8 +58,18 @@ regions:
   - US-WA
 gbif:
   exclude:
-    - AU # other Cyanea species
-    - IN # other Cyanea species
-    - MX # other Cyanea species
-    - US-FL # other Cyanea species
-    - US-GA # other Cyanea species
+    - code: AU
+      reason: "other Cyanea species; not in this native range"
+      source: "World Register of Marine Species"
+    - code: IN
+      reason: "other Cyanea species; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MX
+      reason: "other Cyanea species; not in this native range"
+      source: "World Register of Marine Species"
+    - code: US-FL
+      reason: "other Cyanea species; not in this native range"
+      source: "World Register of Marine Species"
+    - code: US-GA
+      reason: "other Cyanea species; not in this native range"
+      source: "World Register of Marine Species"

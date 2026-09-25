@@ -51,9 +51,16 @@ regions:
   - VE
 gbif:
   exclude:
-    - MX # now Crotalus simus
-    - GT # now Crotalus simus
-    - CR # now Crotalus simus
+    - code: MX
+      reason: "now Crotalus simus; not in this native range"
+      source: "Catalogue of Life"
+    - code: GT
+      reason: "now Crotalus simus; not in this native range"
+      source: "Catalogue of Life"
+    - code: CR
+      reason: "now Crotalus simus; not in this native range"
+      source: "Catalogue of Life"
   include:
-    - UY
-    - SR
+    - code: UY
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/2444433"

@@ -13,7 +13,6 @@ size: 1.2–1.5 m
 regions:
   - BD
   - BT
-  - CN-GX
   - CN-YN
   - IN-AS
   - IN-MZ
@@ -28,8 +27,9 @@ regions:
   - VN
 gbif:
   include:
-    - NP
-    - LA
-    - KH
-    - CN-YN
-    - CN-GX
+    - code: NP
+      reason: "3 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/2470368"
+    - code: CN-YN
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/2470368"

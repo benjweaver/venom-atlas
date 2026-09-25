@@ -22,6 +22,7 @@ regions:
   - DZ
   - EG
   - ES
+  - FI
   - FR
   - GE
   - GR
@@ -52,6 +53,3 @@ regions:
   - TJ
   - TR
   - UZ
-gbif:
-  exclude:
-    - FI # imported

@@ -30,7 +30,3 @@ regions:
   - SG
   - TH
   - VN
-gbif:
-  include:
-    - KH
-    - BN

@@ -11,7 +11,3 @@ habitat: >-
 size: 1–1.3 m
 regions:
   - ID
-  - TL
-gbif:
-  include:
-    - TL

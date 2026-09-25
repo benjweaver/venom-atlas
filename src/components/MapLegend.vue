@@ -1,7 +1,13 @@
 <script setup lang="ts">
 import { HEAT_STEPS, heatLabel } from '@/lib/heat'
 
-defineProps<{ range: boolean; records: boolean; aquatic?: 'marine' | 'freshwater' }>()
+defineProps<{
+  range: boolean
+  records: boolean
+  /** The species has places listed without any records. */
+  unrecorded?: boolean
+  aquatic?: 'marine' | 'freshwater'
+}>()
 </script>
 
 <template>
@@ -22,6 +28,10 @@ defineProps<{ range: boolean; records: boolean; aquatic?: 'marine' | 'freshwater
         </span>
         <span class="inline-flex items-center gap-1.5">
           <span class="h-3 w-3 rounded-sm bg-(--map-range) opacity-40" /> Places it's found in
+        </span>
+        <span v-if="unrecorded" class="inline-flex items-center gap-1.5">
+          <span class="h-3 w-3 rounded-sm border border-dashed border-(--map-range)" />
+          Known range, no records
         </span>
       </div>
     </template>

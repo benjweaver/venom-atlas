@@ -12,12 +12,17 @@ habitat: >-
 size: 40–80 cm
 regions:
   - AE
+  - AF
   - IN-GJ
   - IN-HR
   - IN-RJ
   - IR
+  - LK
   - OM
   - PK
+  - QA
+  - TJ
+  - TM
   - UZ
 gbif:
   name: Echis carinatus sochureki

@@ -24,12 +24,10 @@ regions:
   - MX-MIC
   - MX-NAY
   - MX-OAX
+  - MX-ROO
   - MX-SIN
   - MX-SON
   - PA
   - SV
   - US-CA
-gbif:
-  exclude:
-    - MX-ROO # Pacific species; Caribbean records misidentified
-    - US-TX # Pacific species; Gulf records misidentified
+  - US-TX

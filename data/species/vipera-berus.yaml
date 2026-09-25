@@ -17,7 +17,6 @@ regions:
   - BG
   - BY
   - CH
-  - CN-XJ
   - CZ
   - DE
   - DK
@@ -44,7 +43,12 @@ regions:
   - UA
 gbif:
   include:
-    - HU
-    - KZ
-    - MN
-    - CN-XJ
+    - code: HU
+      reason: "8 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/5960862"
+    - code: KZ
+      reason: "12 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/5960862"
+    - code: MN
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/5960862"

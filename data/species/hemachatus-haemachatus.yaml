@@ -22,8 +22,3 @@ regions:
   - ZA-NW
   - ZA-WC
   - ZW
-gbif:
-  include:
-    - LS
-    - SZ
-    - ZW

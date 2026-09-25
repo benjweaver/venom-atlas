@@ -18,5 +18,9 @@ regions:
   - US-NV
 gbif:
   include:
-    - MX-BCN
-    - MX-SON
+    - code: MX-BCN
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/5170643"
+    - code: MX-SON
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/5170643"

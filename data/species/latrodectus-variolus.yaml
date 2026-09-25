@@ -28,7 +28,6 @@ regions:
   - US-LA
   - US-MA
   - US-MD
-  - US-ME
   - US-MI
   - US-MN
   - US-MO
@@ -50,6 +49,9 @@ regions:
   - US-WV
 gbif:
   include:
-    - US-ME
-    - US-NH
-    - US-MN
+    - code: US-NH
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/2157950"
+    - code: US-MN
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/2157950"

@@ -13,6 +13,7 @@ size: 60–90 cm
 regions:
   - AL
   - AT
+  - AZ
   - BA
   - BG
   - GE
@@ -24,9 +25,4 @@ regions:
   - RO
   - RS
   - SI
-  - TR
   - XK
-gbif:
-  include:
-    - TR
-    - GE

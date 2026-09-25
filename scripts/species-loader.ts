@@ -7,7 +7,13 @@ import { basename, join } from 'node:path'
 import { parse } from 'yaml'
 import { z } from 'zod'
 
-import { imageSchema, speciesSchema, type Species } from '../src/data/schema.ts'
+import {
+  imageSchema,
+  speciesSchema,
+  type Evidence,
+  type Species,
+  type SpeciesFile,
+} from '../src/data/schema.ts'
 
 export const ROOT = join(import.meta.dirname, '..')
 export const SPECIES_DIR = join(ROOT, 'data', 'species')
@@ -43,12 +49,18 @@ export function readImages(): Record<string, z.infer<typeof imageSchema>> {
 }
 
 /** GBIF taxon keys from `npm run ranges`, used to link each species to its records. */
-export function readGbifKeys(): Record<string, number> {
+const gbifEntry = z.looseObject({
+  key: z.number(),
+  countries: z.record(z.string(), z.number()).default({}),
+  subdivisions: z.record(z.string(), z.number()).default({}),
+  checklist: z.record(z.string(), z.array(z.string())).optional(),
+})
+export type GbifEntry = z.infer<typeof gbifEntry>
+
+/** What `npm run ranges` learned per species: taxon key, record counts, checklists. */
+export function readGbif(): Record<string, GbifEntry> {
   if (!existsSync(GBIF_FILE)) return {}
-  const cache = z
-    .record(z.string(), z.looseObject({ key: z.number() }))
-    .parse(JSON.parse(readFileSync(GBIF_FILE, 'utf8')))
-  return Object.fromEntries(Object.entries(cache).map(([slug, { key }]) => [slug, key]))
+  return z.record(z.string(), gbifEntry).parse(JSON.parse(readFileSync(GBIF_FILE, 'utf8')))
 }
 
 export function speciesFiles(): string[] {
@@ -59,12 +71,48 @@ export function speciesFiles(): string[] {
 }
 
 /**
+ * What supports each listed place: GBIF records (counted from the record dots
+ * when there are any, so the numbers match the map), the checklists that list
+ * it, and cited hand-made additions. A country listed whole is supported by
+ * records in any of its states.
+ */
+export function evidenceFor(
+  data: SpeciesFile,
+  entry: GbifEntry | undefined,
+  gridFile?: string,
+): Record<string, Evidence[]> {
+  const cells = gridFile
+    ? (JSON.parse(readFileSync(gridFile, 'utf8')) as [number, number, number, string?][])
+    : []
+  // Records in the place's dots, or else GBIF's count for it: a territory
+  // smaller than a grid cell (Hong Kong, Washington DC) can share its dot with
+  // a neighbour but still has its own records.
+  const recordsIn = (code: string) =>
+    cells.reduce((n, c) => (c[3] === code || c[3]?.startsWith(`${code}-`) ? n + c[2] : n), 0) ||
+    (entry?.subdivisions[code] ?? entry?.countries[code] ?? 0)
+  const result: Record<string, Evidence[]> = {}
+  for (const code of data.regions) {
+    const list: Evidence[] = []
+    const count = recordsIn(code)
+    if (count) list.push({ kind: 'records', count })
+    for (const source of entry?.checklist?.[code] ?? []) list.push({ kind: 'checklist', source })
+    for (const e of data.gbif?.include ?? []) {
+      if (e.code === code) list.push({ kind: 'cited', source: e.source })
+    }
+    if (data.gbif?.manual && data.gbif.source)
+      list.push({ kind: 'cited', source: data.gbif.source })
+    result[code] = list
+  }
+  return result
+}
+
+/**
  * Parses and checks every file, collecting all problems before throwing so a
  * contributor sees the full list at once rather than one error per run.
  */
 export function loadSpecies(regions = knownRegions()): Species[] {
   const images = readImages()
-  const gbifKeys = readGbifKeys()
+  const gbif = readGbif()
   const problems: string[] = []
   const species: Species[] = []
 
@@ -99,12 +147,7 @@ export function loadSpecies(regions = knownRegions()): Species[] {
       seen.add(code)
       if (!regions.has(code)) problems.push(`${where}: unknown region code ${code}`)
     }
-    if (data.aquatic && data.gbif?.include?.length) {
-      problems.push(
-        `${where}: aquatic species list exactly the places with record dots — use gbif.exclude, not gbif.include`,
-      )
-    }
-    for (const code of [...(data.gbif?.exclude ?? []), ...(data.gbif?.include ?? [])]) {
+    for (const { code } of [...(data.gbif?.exclude ?? []), ...(data.gbif?.include ?? [])]) {
       if (!regions.has(code)) problems.push(`${where}: unknown region code ${code} in gbif`)
     }
     // Listing "US" and "US-AZ" together is ambiguous: is it the whole country
@@ -117,8 +160,32 @@ export function loadSpecies(regions = knownRegions()): Species[] {
       }
     }
 
-    const records = existsSync(join(GRID_DIR, `${slug}.json`))
-    species.push({ ...data, slug, image: images[slug], gbifKey: gbifKeys[slug], records })
+    const gridFile = join(GRID_DIR, `${slug}.json`)
+    const records = existsSync(gridFile)
+    const evidence = evidenceFor(data, gbif[slug], records ? gridFile : undefined)
+    for (const code of data.regions) {
+      if (!evidence[code]?.length) {
+        problems.push(
+          `${where}: ${code} is listed with no source (no records, checklist or citation)`,
+        )
+      }
+    }
+    if (data.gbif?.manual && !data.gbif.source) {
+      problems.push(`${where}: a hand-kept range (gbif.manual) needs gbif.source`)
+    }
+    // Places listed without a single record: from checklists or citations.
+    const unrecorded = records
+      ? data.regions.filter((code) => !evidence[code]?.some((e) => e.kind === 'records'))
+      : undefined
+    species.push({
+      ...data,
+      slug,
+      image: images[slug],
+      gbifKey: gbif[slug]?.key,
+      records,
+      unrecorded,
+      evidence,
+    })
   }
 
   if (problems.length) throw new DataError(problems)

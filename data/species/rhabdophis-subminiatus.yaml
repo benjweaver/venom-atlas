@@ -14,11 +14,12 @@ regions:
   - ID
   - IN-AS
   - KH
-  - LA
   - MM
+  - MY
   - TH
   - VN
 gbif:
   include:
-    - LA
-    - KH
+    - code: KH
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/8904282"

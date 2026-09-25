@@ -55,6 +55,7 @@ regions:
   - IN-WB
   - IO
   - JM
+  - JP-13
   - KH
   - KN
   - KY
@@ -121,6 +122,3 @@ regions:
   - VU
   - YT
   - ZA-NL
-gbif:
-  exclude:
-    - JP # port interceptions, not established

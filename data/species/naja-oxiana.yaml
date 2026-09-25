@@ -13,11 +13,8 @@ size: 1–1.5 m
 regions:
   - AF
   - IR
+  - KG
   - PK
   - TJ
   - TM
   - UZ
-gbif:
-  include:
-    - TJ
-    - AF

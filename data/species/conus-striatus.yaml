@@ -41,6 +41,7 @@ regions:
   - MY
   - MZ
   - NC
+  - NZ
   - OM
   - PF
   - PG
@@ -67,5 +68,9 @@ regions:
   - ZA-NL
 gbif:
   exclude:
-    - IT # mislocated record
-    - MA # mislocated record
+    - code: IT
+      reason: "mislocated record; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MA
+      reason: "mislocated record; not in this native range"
+      source: "World Register of Marine Species"

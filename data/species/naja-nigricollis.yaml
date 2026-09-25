@@ -17,22 +17,28 @@ regions:
   - BJ
   - CD
   - CF
+  - CG
   - CI
   - CM
   - ET
+  - GA
   - GH
   - GM
   - GN
+  - GW
   - KE
+  - LR
   - ML
   - MR
   - MW
   - NA
+  - NE
   - NG
   - RW
   - SD
   - SL
   - SN
+  - SO
   - SS
   - TD
   - TG
@@ -41,13 +47,6 @@ regions:
   - ZM
 gbif:
   exclude:
-    - ZA # misidentified Mozambique spitting cobras
-  include:
-    - ML
-    - BF
-    - TG
-    - TD
-    - CM
-    - CF
-    - SD
-    - ET
+    - code: ZA
+      reason: "misidentified Mozambique spitting cobras; not in this native range"
+      source: "Catalogue of Life"

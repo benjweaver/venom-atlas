@@ -12,26 +12,21 @@ habitat: >-
   Dry savanna and farmland.
 size: 30–60 cm
 regions:
-  - SN
-  - GM
-  - ML
   - BF
-  - NE
-  - NG
-  - GH
-  - TG
   - BJ
   - CI
+  - GH
+  - GM
   - GN
-  - CM
+  - ML
+  - MR
+  - NE
+  - NG
+  - SN
   - TD
-  - CF
+  - TG
 gbif:
   exclude:
-    - KE # misidentified Echis pyramidum
-  include:
-    - SN
-    - GM
-    - GN
-    - CM
-    - CF
+    - code: KE
+      reason: "misidentified Echis pyramidum; not in this native range"
+      source: "Catalogue of Life"

@@ -18,4 +18,6 @@ regions:
   - PH
 gbif:
   include:
-    - BN
+    - code: BN
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/7992764"

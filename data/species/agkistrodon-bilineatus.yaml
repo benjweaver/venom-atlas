@@ -12,6 +12,8 @@ habitat: >-
   Tropical dry forest and thornscrub near water.
 size: 0.8–1.2 m
 regions:
+  - GT
+  - HN
   - MX-CHH
   - MX-CHP
   - MX-COL

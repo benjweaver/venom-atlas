@@ -25,6 +25,50 @@ const where = computed(() => {
     .sort((a, b) => props.regionName(a.country).localeCompare(props.regionName(b.country)))
 })
 
+const unrecorded = computed(() => new Set(props.species.unrecorded ?? []))
+
+// What supports each place, for its tooltip: "213 GBIF records · Catalogue of Life".
+function evidenceText(code: string): string {
+  return (props.species.evidence?.[code] ?? [])
+    .map((e) =>
+      e.kind === 'records'
+        ? `${e.count.toLocaleString()} GBIF ${e.count === 1 ? 'record' : 'records'}`
+        : e.source,
+    )
+    .join(' · ')
+}
+
+// The Sources section: each source, and the places it supports.
+const sources = computed(() => {
+  const bySource = new Map<string, string[]>()
+  let recordPlaces = 0
+  let recordCount = 0
+  for (const [code, list] of Object.entries(props.species.evidence ?? {})) {
+    for (const e of list) {
+      if (e.kind === 'records') {
+        recordPlaces++
+        recordCount += e.count
+      } else bySource.set(e.source, [...(bySource.get(e.source) ?? []), code])
+    }
+  }
+  return {
+    recordPlaces,
+    recordCount,
+    others: [...bySource].map(([source, codes]) => ({ source, codes, url: sourceUrl(source) })),
+  }
+})
+
+const scientific = computed(() => encodeURIComponent(props.species.scientificName))
+function sourceUrl(source: string): string | undefined {
+  if (/^https?:\/\//.test(source)) return source
+  if (/Catalogue of Life/i.test(source))
+    return `https://www.catalogueoflife.org/data/search?q=${scientific.value}`
+  if (/World Register of Marine Species/i.test(source))
+    return `https://www.marinespecies.org/aphia.php?p=taxlist&tName=${scientific.value}`
+  if (props.species.gbifKey) return `https://www.gbif.org/species/${props.species.gbifKey}`
+  return undefined
+}
+
 const wikipedia = computed(
   () =>
     `https://en.wikipedia.org/wiki/${encodeURIComponent(
@@ -103,6 +147,8 @@ const wikipedia = computed(
             <button
               type="button"
               class="text-(--accent) hover:underline"
+              :class="{ italic: unrecorded.has(country) }"
+              :title="evidenceText(country)"
               @click="$emit('region', country)"
             >
               {{ regionName(country) }}</button
@@ -112,6 +158,8 @@ const wikipedia = computed(
                 <button
                   type="button"
                   class="text-(--ink) hover:text-(--accent) hover:underline"
+                  :class="{ 'text-(--muted) italic': unrecorded.has(code) }"
+                  :title="evidenceText(code)"
                   @click="$emit('region', code)"
                 >
                   {{ regionName(code) }}</button
@@ -119,20 +167,49 @@ const wikipedia = computed(
               </template>
             </template>
           </div>
+          <p v-if="unrecorded.size" class="mt-2 text-[11px] text-(--muted)">
+            <em>Italic</em>: known range from checklists, with no records yet.
+          </p>
         </dd>
       </div>
     </dl>
 
-    <p v-if="species.gbifKey" class="mt-3 text-[11px] text-(--muted)">
-      Range based on occurrence records from
-      <a
-        :href="`https://www.gbif.org/species/${species.gbifKey}`"
-        target="_blank"
-        rel="noopener"
-        class="underline"
-        >GBIF</a
-      >, reviewed by hand.
-    </p>
+    <section v-if="species.evidence" class="mt-4 text-[11px] leading-relaxed text-(--muted)">
+      <h3 class="mb-1 text-xs font-semibold text-(--ink)">Sources</h3>
+      <ul class="space-y-1">
+        <li v-if="sources.recordPlaces && species.gbifKey">
+          <a
+            :href="`https://www.gbif.org/species/${species.gbifKey}`"
+            target="_blank"
+            rel="noopener"
+            class="underline"
+            >GBIF occurrence records</a
+          >: {{ sources.recordCount.toLocaleString() }} records in {{ sources.recordPlaces }}
+          {{ sources.recordPlaces === 1 ? 'place' : 'places' }}.
+        </li>
+        <li v-for="{ source, codes, url } in sources.others" :key="source">
+          <a v-if="url" :href="url" target="_blank" rel="noopener" class="underline">{{
+            source
+          }}</a>
+          <template v-else>{{ source }}</template
+          >: {{ codes.map(regionName).join(', ') }}.
+        </li>
+        <li v-for="e in species.gbif?.exclude ?? []" :key="`x-${e.code}`">
+          Not listed: {{ regionName(e.code) }}<template v-if="e.reason"> ({{ e.reason }})</template>
+          —
+          <a
+            v-if="/^https?:\/\//.test(e.source)"
+            :href="e.source"
+            target="_blank"
+            rel="noopener"
+            class="underline"
+            >source</a
+          ><template v-else>{{ e.source }}</template
+          >.
+        </li>
+      </ul>
+      <p class="mt-1">Hover a place to see what supports it.</p>
+    </section>
 
     <a
       :href="wikipedia"

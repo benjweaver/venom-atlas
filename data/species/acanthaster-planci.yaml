@@ -80,8 +80,18 @@ regions:
   - ZA-NL
 gbif:
   exclude:
-    - DK # museum or mislocated record
-    - FR # museum or mislocated record
-    - GB # museum or mislocated record
-    - IT # museum or mislocated record
-    - US-CT # museum or mislocated record
+    - code: DK
+      reason: "museum or mislocated record; not in this native range"
+      source: "World Register of Marine Species"
+    - code: FR
+      reason: "museum or mislocated record; not in this native range"
+      source: "World Register of Marine Species"
+    - code: GB
+      reason: "museum or mislocated record; not in this native range"
+      source: "World Register of Marine Species"
+    - code: IT
+      reason: "museum or mislocated record; not in this native range"
+      source: "World Register of Marine Species"
+    - code: US-CT
+      reason: "museum or mislocated record; not in this native range"
+      source: "World Register of Marine Species"

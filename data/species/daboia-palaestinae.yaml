@@ -15,7 +15,3 @@ regions:
   - JO
   - LB
   - SY
-gbif:
-  include:
-    - JO
-    - SY

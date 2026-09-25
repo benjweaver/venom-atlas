@@ -22,6 +22,7 @@ regions:
   - AU-WA
   - AW
   - BB
+  - BE
   - BM
   - BR-AL
   - BR-BA
@@ -180,4 +181,6 @@ regions:
   - ZA-WC
 gbif:
   exclude:
-    - AQ # drifted specimens
+    - code: AQ
+      reason: "drifted specimens; not in this native range"
+      source: "World Register of Marine Species"

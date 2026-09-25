@@ -19,6 +19,7 @@ regions:
   - GR
   - IQ
   - IR
+  - JO
   - LB
   - PK
   - RU
@@ -27,9 +28,10 @@ regions:
   - TM
   - TR
   - UZ
+  - YE
 gbif:
   include:
-    - AF
-    - PK
-    - TM
+    - code: TM
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/2444716"
   name: Macrovipera lebetinus

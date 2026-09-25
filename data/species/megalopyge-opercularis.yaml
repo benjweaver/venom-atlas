@@ -14,6 +14,7 @@ size: About 2.5 cm
 regions:
   - CO
   - CR
+  - GF
   - HN
   - MX-JAL
   - MX-NAY
@@ -21,6 +22,7 @@ regions:
   - MX-SLP
   - MX-TAM
   - MX-VER
+  - PE
   - PR
   - US-AL
   - US-AR
@@ -38,8 +40,3 @@ regions:
   - US-TN
   - US-TX
   - US-VA
-gbif:
-  exclude:
-    - BR # other Megalopyge species
-    - PE # other Megalopyge species
-    - GF # other Megalopyge species

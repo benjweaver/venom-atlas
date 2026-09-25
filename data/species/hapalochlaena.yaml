@@ -22,6 +22,7 @@ regions:
   - AU-VIC
   - AU-WA
   - BD
+  - EG
   - ID
   - IN-AN
   - JP-27
@@ -35,8 +36,5 @@ regions:
   - SB
   - TH
   - TW
+  - US-CA
   - VU
-gbif:
-  exclude:
-    - US # aquarium animals
-    - EG # mislocated record

@@ -58,6 +58,17 @@ export interface Overrides {
   include?: string[]
 }
 
+/** The codes out of a species file's cited `gbif.include` / `gbif.exclude`. */
+export function overridesOf(gbif?: {
+  exclude?: { code: string }[]
+  include?: { code: string }[]
+}): Overrides {
+  return {
+    exclude: gbif?.exclude?.map((e) => e.code),
+    include: gbif?.include?.map((e) => e.code),
+  }
+}
+
 export function proposeRegions(
   counts: GbifCounts,
   overrides: Overrides = {},
@@ -133,4 +144,29 @@ export function regionsFromCells(
     if (code && !excluded.has(code) && !excluded.has(code.slice(0, 2))) regions.add(code)
   }
   return [...regions].sort()
+}
+
+/**
+ * Adds countries that checklists say the species is native to (see
+ * scripts/checklist.ts), filling places GBIF barely records. Big countries
+ * are skipped: listing one whole would mark the species in every state, so
+ * those still need records at state level. Exclusions still win.
+ */
+export function withChecklist(
+  regions: string[],
+  checklist: string[] = [],
+  overrides: Overrides = {},
+): string[] {
+  const excluded = new Set(overrides.exclude ?? [])
+  const result = new Set(regions)
+  for (const code of checklist) {
+    if (SUBDIVIDED.has(code) || excluded.has(code)) continue
+    result.add(code)
+  }
+  // Cited hand-made additions (also applied to water species' dot-derived lists).
+  for (const code of overrides.include ?? []) result.add(code)
+  for (const code of [...result]) {
+    if (code.length > 2 && result.has(code.slice(0, 2))) result.delete(code)
+  }
+  return [...result].sort()
 }

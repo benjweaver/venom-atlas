@@ -13,22 +13,35 @@ habitat: >-
 size: 1.2–1.6 m
 regions:
   - AO
+  - BF
+  - BI
   - BJ
   - BW
   - CD
+  - CF
+  - CG
   - CI
   - CM
   - ET
   - GH
+  - GM
+  - GN
   - KE
+  - LR
+  - ML
   - MW
   - MZ
   - NA
   - NG
+  - RW
+  - SD
+  - SL
   - SN
   - SO
   - SS
   - SZ
+  - TD
+  - TG
   - TZ
   - UG
   - ZA-EC
@@ -44,7 +57,6 @@ regions:
   - ZW
 gbif:
   include:
-    - ET
-    - SO
-    - NG
-    - SN
+    - code: SN
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/2452959"

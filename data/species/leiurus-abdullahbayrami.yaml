@@ -11,12 +11,11 @@ habitat: >-
   Dry, rocky hills.
 size: 8–11 cm
 regions:
+  - JO
+  - LB
   - TR
-  - SY
 gbif:
-  exclude:
-    - JO # misidentified Leiurus
-    - LB # misidentified Leiurus
   include:
-    - TR
-    - SY
+    - code: TR
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/7953371"

@@ -12,18 +12,11 @@ habitat: >-
 size: Female body about 1 cm
 regions:
   - EG
+  - GE
   - IL
   - IR
-  - JO
   - KZ
   - MA
   - PS
   - TM
   - TR
-  - UZ
-gbif:
-  include:
-    - JO
-    - KZ
-    - UZ
-    - TM

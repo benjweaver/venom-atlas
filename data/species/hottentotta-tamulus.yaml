@@ -22,10 +22,12 @@ regions:
   - IN-TG
   - IN-TN
   - LK
-  - NP
   - PK
 gbif:
   include:
-    - PK
-    - NP
-    - LK
+    - code: PK
+      reason: "3 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/7999797"
+    - code: LK
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/7999797"

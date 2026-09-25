@@ -30,35 +30,72 @@ regions:
   - IL
   - IT
   - JE
+  - KE
+  - KM
   - LB
   - MA
+  - MG
   - MR
   - MT
   - NL
   - NO
   - OM
   - PT
+  - RE
   - RU
+  - SE
   - SL
   - SN
   - TN
   - TR
   - UA
+  - ZA-EC
+  - ZA-NL
+  - ZA-WC
 gbif:
   exclude:
-    - AO # misidentified tropical rays
-    - BZ # misidentified tropical rays
-    - DO # misidentified tropical rays
-    - GD # misidentified tropical rays
-    - GH # misidentified tropical rays
-    - GP # misidentified tropical rays
-    - ID # misidentified tropical rays
-    - IN # misidentified tropical rays
-    - MU # misidentified tropical rays
-    - MX # misidentified tropical rays
-    - PH # misidentified tropical rays
-    - SC # misidentified tropical rays
-    - SD # misidentified tropical rays
-    - ZA # a different ray species
-    - AU # misidentified local rays
-    - US # misidentified local rays
+    - code: AO
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: BZ
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: DO
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: GD
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: GH
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: GP
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: ID
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: IN
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MU
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MX
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: PH
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: SC
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: SD
+      reason: "misidentified tropical rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: AU
+      reason: "misidentified local rays; not in this native range"
+      source: "World Register of Marine Species"
+    - code: US
+      reason: "misidentified local rays; not in this native range"
+      source: "World Register of Marine Species"

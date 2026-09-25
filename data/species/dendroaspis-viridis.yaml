@@ -11,20 +11,15 @@ habitat: >-
   Rainforest, coastal thicket and plantations; arboreal.
 size: 1.4–2.1 m
 regions:
-  - SN
-  - GM
-  - GW
-  - GN
-  - SL
-  - LR
+  - BJ
+  - CF
   - CI
   - GH
-  - TG
-  - BJ
+  - GM
+  - GN
+  - GW
+  - LR
   - NG
-gbif:
-  include:
-    - SN
-    - GW
-    - LR
-    - NG
+  - SL
+  - SN
+  - TG

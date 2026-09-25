@@ -11,6 +11,7 @@ habitat: >-
   Arid scrub, grass and farmland.
 size: Female body about 1.5 cm
 regions:
+  - NA
   - ZA-FS
   - ZA-GT
   - ZA-LP

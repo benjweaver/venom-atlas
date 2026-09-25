@@ -24,5 +24,9 @@ regions:
   - US-TX
 gbif:
   include:
-    - US-MS
-    - US-LA
+    - code: US-MS
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/9173089"
+    - code: US-LA
+      reason: "3 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/9173089"

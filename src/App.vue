@@ -117,10 +117,17 @@ watch(
     const subs = await Promise.all(needed.map(loadSubdivisions))
     if (selectedSpecies.value !== species) return
     subs.forEach(remember)
+    const unrecorded = new Set(species.unrecorded ?? [])
     range.value = {
       type: 'FeatureCollection',
       features: [all, ...subs].flatMap(
-        (r) => r?.features.filter((f) => codes.has(f.properties.code)) ?? [],
+        (r) =>
+          r?.features
+            .filter((f) => codes.has(f.properties.code))
+            .map((f) => ({
+              ...f,
+              properties: { ...f.properties, recorded: !unrecorded.has(f.properties.code) },
+            })) ?? [],
       ),
     }
   },
@@ -214,6 +221,7 @@ addEventListener('keydown', (e) => {
         v-if="countries"
         :range="!!range"
         :records="!!records"
+        :unrecorded="!!selectedSpecies?.unrecorded?.length"
         :aquatic="selectedSpecies?.aquatic"
         class="absolute top-3 left-3 md:top-auto md:bottom-8"
       />

@@ -11,6 +11,7 @@ habitat: >-
 size: 60–100 cm
 regions:
   - BD
+  - BT
   - IN-AS
   - IN-MN
   - IN-MZ
@@ -18,3 +19,5 @@ regions:
   - IN-TR
   - IN-WB
   - MM
+  - NP
+  - TH

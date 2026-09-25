@@ -15,6 +15,8 @@ import { execFileSync } from 'node:child_process'
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs'
 import { join } from 'node:path'
 
+import { normalizeName } from './checklist.ts'
+
 const root = join(import.meta.dirname, '..')
 const cache = join(root, '.cache', 'natural-earth')
 const out = join(root, 'public', 'geo')
@@ -188,6 +190,37 @@ run(
   'format=geojson',
   'precision=0.001',
 )
+
+// Every name Natural Earth knows each country by, for reading country lists
+// written as text (GBIF checklist distributions; see scripts/checklist.ts).
+{
+  const names: Record<string, string> = {}
+  const drawn = new Set(readLayer(countriesFile).map((f) => f.properties.code))
+  const source = JSON.parse(readFileSync(countriesSrc, 'utf8')) as {
+    features: { properties: Record<string, string | null> }[]
+  }
+  for (const { properties: p } of source.features) {
+    const code = p.ISO_A2_EH
+    if (!code || !drawn.has(code)) continue
+    for (const field of [
+      'NAME',
+      'NAME_LONG',
+      'FORMAL_EN',
+      'NAME_EN',
+      'NAME_ALT',
+      'ADMIN',
+      'GEOUNIT',
+    ]) {
+      const name = p[field]
+      if (name) names[normalizeName(name)] ??= code
+    }
+  }
+  for (const { code, name } of Object.values(OVERSEAS)) names[normalizeName(name)] = code
+  writeFileSync(
+    join(root, 'data', 'country-names.json'),
+    JSON.stringify(Object.fromEntries(Object.entries(names).sort()), null, 1) + '\n',
+  )
+}
 
 // Rivers and lakes, drawn under everything else so freshwater species' record
 // dots have the water they follow for context. `rank` is Natural Earth's

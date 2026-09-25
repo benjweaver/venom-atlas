@@ -28,12 +28,22 @@ regions:
   - LK
   - OM
   - PK
+  - QA
   - SA
+  - TJ
   - TM
   - UZ
 gbif:
   exclude:
-    - GH # misidentified African Echis
-    - KE # misidentified African Echis
-    - NG # misidentified African Echis
-    - SD # misidentified African Echis
+    - code: GH
+      reason: "misidentified African Echis; not in this native range"
+      source: "Catalogue of Life"
+    - code: KE
+      reason: "misidentified African Echis; not in this native range"
+      source: "Catalogue of Life"
+    - code: NG
+      reason: "misidentified African Echis; not in this native range"
+      source: "Catalogue of Life"
+    - code: SD
+      reason: "misidentified African Echis; not in this native range"
+      source: "Catalogue of Life"

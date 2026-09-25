@@ -14,7 +14,10 @@ regions:
   - ET
   - KE
   - SO
+  - SS
   - TZ
 gbif:
   include:
-    - DJ
+    - code: DJ
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/2470341"

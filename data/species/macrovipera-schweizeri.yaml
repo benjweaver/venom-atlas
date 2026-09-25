@@ -13,5 +13,6 @@ regions:
   - GR
 gbif:
   # GBIF treats the Milos viper as a form of the Levantine viper and has no
-  # records under this name. Range kept by hand: a few Cyclades islands.
+  # records under this name, so the range is kept by hand.
   manual: true
+  source: "https://en.wikipedia.org/wiki/Macrovipera_lebetinus_schweizeri"

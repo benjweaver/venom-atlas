@@ -88,6 +88,44 @@
       "CC": 7,
       "CX": 7,
       "AUS.3_1": 1
+    },
+    "checklist": {
+      "CR": [
+        "World Register of Marine Species"
+      ],
+      "IN": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MV": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "PA": [
+        "World Register of Marine Species"
+      ],
+      "PW": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "acanthophis-antarcticus": {
@@ -111,6 +149,11 @@
     },
     "unmapped": {
       "AUS.4_1": 11
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
     }
   },
   "acanthophis-praelongus": {
@@ -127,7 +170,12 @@
       "AU-NT": 14,
       "AU-WA": 3
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "acanthophis-pyrrhus": {
     "key": 2449630,
@@ -142,7 +190,12 @@
       "AU-WA": 54,
       "AU-QLD": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "aetobatus-narinari": {
     "key": 2419231,
@@ -269,6 +322,38 @@
     },
     "unmapped": {
       "BQ": 121
+    },
+    "checklist": {
+      "DJ": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "KM": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "RE": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "agkistrodon-bilineatus": {
@@ -302,7 +387,22 @@
       "MX-PUE": 1,
       "MX-VER": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "HN": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "SV": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "agkistrodon-contortrix": {
     "key": 9215881,
@@ -346,7 +446,12 @@
       "US-IA": 2,
       "US-WI": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "agkistrodon-piscivorus": {
     "key": 9105722,
@@ -376,7 +481,12 @@
       "US-MA": 2,
       "US-NY": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "agkistrodon-russeolus": {
     "key": 9328058,
@@ -392,7 +502,19 @@
       "MX-ROO": 17,
       "MX-TAB": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BZ": [
+        "Catalogue of Life"
+      ],
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "aipysurus-laevis": {
     "key": 2450131,
@@ -414,6 +536,14 @@
     },
     "unmapped": {
       "AUS.1_1": 5
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ],
+      "PG": [
+        "Catalogue of Life"
+      ]
     }
   },
   "alatina-alata": {
@@ -455,7 +585,12 @@
     "subdivisions": {
       "US-HI": 5
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CO": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "androctonus-amoreuxi": {
     "key": 6894174,
@@ -473,7 +608,8 @@
       "SD": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "androctonus-australis": {
     "key": 6894141,
@@ -490,7 +626,8 @@
     "subdivisions": {
       "US-NY": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "androctonus-bicolor": {
     "key": 6894162,
@@ -504,7 +641,8 @@
       "PS": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "androctonus-crassicauda": {
     "key": 6894171,
@@ -520,7 +658,8 @@
       "KW": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "androctonus-mauritanicus": {
     "key": 6894156,
@@ -532,7 +671,8 @@
       "ES": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "apis-cerana": {
     "key": 1341979,
@@ -679,6 +819,11 @@
     "unmapped": {
       "CHN.HKG": 2282,
       "IND.27_1": 21
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
     }
   },
   "apis-dorsata": {
@@ -747,7 +892,8 @@
     "unmapped": {
       "IND.27_1": 22,
       "CHN.HKG": 5
-    }
+    },
+    "checklist": {}
   },
   "apis-mellifera": {
     "key": 1341976,
@@ -1170,6 +1316,14 @@
       "CX": 3,
       "GI": 2,
       "CHN.HKG": 30
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "South African National Species Checklist"
+      ]
     }
   },
   "aspidelaps-lubricus": {
@@ -1188,7 +1342,19 @@
       "ZA-EC": 12,
       "ZA-FS": 5
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "asthenosoma-varium": {
     "key": 4341377,
@@ -1215,7 +1381,12 @@
     "subdivisions": {
       "JP-47": 13
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "PH": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "atheris-squamigera": {
     "key": 2443752,
@@ -1235,7 +1406,48 @@
       "CF": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GQ": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "atractaspis-bibronii": {
     "key": 2472573,
@@ -1267,7 +1479,59 @@
       "ZA-FS": 2,
       "ZA-WC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "MW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "SO": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "TZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "atrax-robustus": {
     "key": 2145055,
@@ -1281,7 +1545,12 @@
       "AU-NSW": 409,
       "AU-QLD": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "austrelaps-superbus": {
     "key": 2449884,
@@ -1299,7 +1568,12 @@
       "AU-ACT": 5,
       "AU-QLD": 4
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "automeris-io": {
     "key": 1866085,
@@ -1398,7 +1672,8 @@
       "US-CA": 1,
       "US-DC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "bitis-arietans": {
     "key": 8901465,
@@ -1458,7 +1733,104 @@
       "ZA-GT": 153,
       "ZA-FS": 73
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "BI": [
+        "Catalogue of Life"
+      ],
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "ER": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "SL": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "bitis-atropos": {
     "key": 2444884,
@@ -1480,7 +1852,28 @@
       "ZA-EC": 30,
       "ZA-FS": 25
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "LS": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "bitis-caudalis": {
     "key": 2444829,
@@ -1504,7 +1897,30 @@
       "ZA-EC": 6,
       "ZA-MP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "bitis-gabonica": {
     "key": 9102011,
@@ -1541,7 +1957,74 @@
       "ZA-NL": 183,
       "ZA-NC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GQ": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "bitis-nasicornis": {
     "key": 2444873,
@@ -1572,7 +2055,72 @@
     "subdivisions": {
       "ZA-NC": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "GQ": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "LR": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SL": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bitis-rhinoceros": {
     "key": 2444859,
@@ -1588,7 +2136,30 @@
       "GN": 5
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "GW": [
+        "Catalogue of Life"
+      ],
+      "LR": [
+        "Catalogue of Life"
+      ],
+      "SL": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "blarina-brevicauda": {
     "key": 2435862,
@@ -1648,7 +2219,8 @@
       "US-TX": 3,
       "US-MS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "bothriechis-lateralis": {
     "key": 2444663,
@@ -1660,7 +2232,15 @@
       "PA": 33
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothriechis-schlegelii": {
     "key": 2444681,
@@ -1681,7 +2261,12 @@
     "subdivisions": {
       "US-OH": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CO": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrocophias-hyoprora": {
     "key": 2444964,
@@ -1700,7 +2285,24 @@
       "BR-MT": 1,
       "BR-AC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-alternatus": {
     "key": 5220772,
@@ -1734,7 +2336,12 @@
       "AR-G": 1,
       "BR-MT": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-asper": {
     "key": 5220796,
@@ -1772,7 +2379,40 @@
       "BR-PA": 1,
       "MX-MEX": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BZ": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "HN": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "NI": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ],
+      "VE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-atrox": {
     "key": 5220775,
@@ -1812,7 +2452,40 @@
       "BR-RJ": 1,
       "MX-CHP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life",
+        "Herpetofauna de ocho Biodiverciudades de Colombia - Bioblitz 2022"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "GF": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "SR": [
+        "Catalogue of Life"
+      ],
+      "TT": [
+        "Catalogue of Life"
+      ],
+      "VE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-bilineatus": {
     "key": 7350051,
@@ -1843,7 +2516,36 @@
       "BR-MG": 2,
       "BR-ES": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "GF": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "SR": [
+        "Catalogue of Life"
+      ],
+      "VE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-caribbaeus": {
     "key": 5220812,
@@ -1854,7 +2556,8 @@
       "LC": 52
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "bothrops-diporus": {
     "key": 5220847,
@@ -1892,7 +2595,12 @@
       "AR-T": 1,
       "BR-MS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-insularis": {
     "key": 5220757,
@@ -1906,7 +2614,12 @@
       "BR-SP": 17,
       "BR-RJ": 4
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-jararaca": {
     "key": 5220785,
@@ -1935,7 +2648,12 @@
       "BR-TO": 1,
       "BR-GO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-jararacussu": {
     "key": 5220804,
@@ -1958,7 +2676,15 @@
       "BR-SC": 41,
       "BR-RS": 7
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "PY": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-lanceolatus": {
     "key": 5220806,
@@ -1970,7 +2696,8 @@
       "CR": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "bothrops-leucurus": {
     "key": 5220818,
@@ -1993,7 +2720,12 @@
       "BR-SP": 1,
       "BR-GO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-moojeni": {
     "key": 5220820,
@@ -2020,7 +2752,15 @@
       "BR-PA": 2,
       "BR-RJ": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-neuwiedi": {
     "key": 5220834,
@@ -2057,7 +2797,15 @@
       "BR-BA": 1,
       "BR-DF": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-pictus": {
     "key": 5220759,
@@ -2068,7 +2816,12 @@
       "PE": 16
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "PE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bothrops-punctatus": {
     "key": 5220871,
@@ -2080,7 +2833,18 @@
       "EC": 23
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bungarus-caeruleus": {
     "key": 9133009,
@@ -2121,6 +2885,26 @@
     },
     "unmapped": {
       "IND.27_1": 1
+    },
+    "checklist": {
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ],
+      "NP": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ]
     }
   },
   "bungarus-candidus": {
@@ -2138,7 +2922,15 @@
       "MM": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "KH": [
+        "Catalogue of Life"
+      ],
+      "LA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bungarus-fasciatus": {
     "key": 5226830,
@@ -2184,6 +2976,20 @@
     },
     "unmapped": {
       "CHN.HKG": 56
+    },
+    "checklist": {
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "BN": [
+        "Catalogue of Life"
+      ],
+      "KH": [
+        "Catalogue of Life"
+      ],
+      "MM": [
+        "Catalogue of Life"
+      ]
     }
   },
   "bungarus-multicinctus": {
@@ -2221,6 +3027,14 @@
     },
     "unmapped": {
       "CHN.HKG": 268
+    },
+    "checklist": {
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "TW": [
+        "Catalogue of Life"
+      ]
     }
   },
   "bungarus-niger": {
@@ -2242,7 +3056,21 @@
       "IN-AR": 2,
       "IN-ML": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "BT": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "NP": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "bungarus-sindanus": {
     "key": 5226822,
@@ -2259,7 +3087,15 @@
       "IN-GJ": 2,
       "IN-RJ": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "buthus-occitanus": {
     "key": 4553865,
@@ -2278,7 +3114,8 @@
       "TN": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "calloselasma-rhodostoma": {
     "key": 2443815,
@@ -2294,7 +3131,27 @@
       "LA": 5
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "KH": [
+        "Catalogue of Life"
+      ],
+      "LA": [
+        "Catalogue of Life"
+      ],
+      "MY": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ],
+      "VN": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "carukia-barnesi": {
     "key": 2264716,
@@ -2307,7 +3164,8 @@
     "subdivisions": {
       "AU-QLD": 3
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "causus-rhombeatus": {
     "key": 2443894,
@@ -2348,7 +3206,86 @@
       "ZA-NW": 33,
       "ZA-FS": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BI": [
+        "Catalogue of Life"
+      ],
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "LS": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "centruroides-elegans": {
     "key": 6894218,
@@ -2371,7 +3308,8 @@
       "MX-SON": 1,
       "MX-ZAC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "centruroides-exilicauda": {
     "key": 6894242,
@@ -2391,7 +3329,12 @@
       "MX-DUR": 1,
       "US-TX": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "centruroides-infamatus": {
     "key": 6894249,
@@ -2418,7 +3361,8 @@
       "MX-MOR": 1,
       "MX-TAB": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "centruroides-limpidus": {
     "key": 6894206,
@@ -2444,7 +3388,8 @@
       "MX-NAY": 3,
       "MX-DIF": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "centruroides-noxius": {
     "key": 6894198,
@@ -2459,7 +3404,8 @@
       "MX-JAL": 3,
       "MX-PUE": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "centruroides-sculpturatus": {
     "key": 6894244,
@@ -2483,7 +3429,8 @@
       "US-CO": 2,
       "MX-BCN": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "centruroides-suffusus": {
     "key": 6894260,
@@ -2505,7 +3452,8 @@
       "MX-SLP": 1,
       "MX-SON": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "centruroides-vittatus": {
     "key": 7455866,
@@ -2546,7 +3494,8 @@
       "US-KY": 1,
       "US-AZ": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "cerastes-cerastes": {
     "key": 8909697,
@@ -2573,7 +3522,48 @@
       "ML": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "EH": [
+        "Catalogue of Life"
+      ],
+      "IL": [
+        "Catalogue of Life"
+      ],
+      "JO": [
+        "Catalogue of Life"
+      ],
+      "LY": [
+        "Catalogue of Life"
+      ],
+      "MA": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "MR": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ],
+      "TN": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "cerastes-vipera": {
     "key": 5221013,
@@ -2592,7 +3582,42 @@
       "NE": 5
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "EH": [
+        "Catalogue of Life"
+      ],
+      "LY": [
+        "Catalogue of Life"
+      ],
+      "MA": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "MR": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ],
+      "TN": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "cerrophidion-godmani": {
     "key": 2444905,
@@ -2610,7 +3635,16 @@
       "MX-CHP": 108,
       "MX-OAX": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "cheiracanthium-punctorium": {
     "key": 2164096,
@@ -2655,7 +3689,18 @@
       "RS": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "RU": [
+        "Catalogue of Life"
+      ],
+      "TR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "chironex-fleckeri": {
     "key": 2264689,
@@ -2672,7 +3717,12 @@
       "AU-NT": 14,
       "AU-WA": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "chironex-yamaguchii": {
     "key": 4340380,
@@ -2686,7 +3736,12 @@
     "subdivisions": {
       "JP-47": 4
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "JP": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "chiropsalmus-quadrumanus": {
     "key": 2264675,
@@ -2714,7 +3769,12 @@
       "BR-RN": 1,
       "BR-SC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CO": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "chrysaora-quinquecirrha": {
     "key": 5185413,
@@ -2747,7 +3807,8 @@
       "US-MD": 1,
       "US-DE": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "conus-geographus": {
     "key": 5728277,
@@ -2811,6 +3872,20 @@
     },
     "unmapped": {
       "AUS.3_1": 1
+    },
+    "checklist": {
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "conus-magus": {
@@ -2848,7 +3923,8 @@
       "JP-46": 2,
       "CN-HI": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "conus-marmoreus": {
     "key": 5728181,
@@ -2901,6 +3977,14 @@
     },
     "unmapped": {
       "CC": 2
+    },
+    "checklist": {
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "conus-striatus": {
@@ -2975,6 +4059,23 @@
       "CC": 2,
       "UM": 1,
       "IND.27_1": 1
+    },
+    "checklist": {
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "conus-textile": {
@@ -3057,6 +4158,23 @@
       "UM": 2,
       "CX": 1,
       "CHN.HKG": 2
+    },
+    "checklist": {
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "conus-tulipa": {
@@ -3112,6 +4230,17 @@
       "CC": 10,
       "UM": 7,
       "IND.18_1": 1
+    },
+    "checklist": {
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "crotalus-adamanteus": {
@@ -3132,7 +4261,12 @@
       "US-LA": 1,
       "US-OH": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-atrox": {
     "key": 2444356,
@@ -3182,7 +4316,15 @@
       "US-FL": 1,
       "US-SD": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-basiliscus": {
     "key": 2444435,
@@ -3206,7 +4348,13 @@
       "MX-ZAC": 1,
       "MX-DIF": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "crotalus-cerastes": {
     "key": 2444360,
@@ -3226,7 +4374,15 @@
       "US-UT": 56,
       "MX-SLP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-cerberus": {
     "key": 7569560,
@@ -3240,7 +4396,12 @@
       "US-AZ": 623,
       "US-NM": 39
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-durissus": {
     "key": 2444433,
@@ -3317,7 +4478,27 @@
       "MX-ROO": 1,
       "US-MN": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "GF": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "SR": [
+        "Catalogue of Life"
+      ],
+      "VE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-helleri": {
     "key": 2444453,
@@ -3333,7 +4514,16 @@
       "MX-BCN": 4,
       "MX-BCS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-horridus": {
     "key": 2444468,
@@ -3377,7 +4567,12 @@
       "US-NE": 10,
       "US-NH": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-lepidus": {
     "key": 9142689,
@@ -3407,7 +4602,15 @@
       "MX-OAX": 1,
       "MX-PUE": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-molossus": {
     "key": 2444473,
@@ -3447,7 +4650,16 @@
       "MX-GRO": 1,
       "MX-BCS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-oreganus": {
     "key": 2444446,
@@ -3478,7 +4690,12 @@
       "US-OH": 1,
       "US-TX": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-polystictus": {
     "key": 2444429,
@@ -3500,7 +4717,12 @@
       "MX-OAX": 2,
       "MX-MOR": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "crotalus-pyrrhus": {
     "key": 9290992,
@@ -3519,7 +4741,16 @@
       "US-UT": 21,
       "MX-SON": 16
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-ruber": {
     "key": 2444393,
@@ -3537,7 +4768,13 @@
       "MX-ROO": 1,
       "US-MN": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "crotalus-scutulatus": {
     "key": 2444480,
@@ -3574,7 +4811,15 @@
       "MX-TAM": 1,
       "US-MI": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-simus": {
     "key": 8421777,
@@ -3600,7 +4845,28 @@
       "MX-NAY": 1,
       "MX-SLP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "HN": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "NI": [
+        "Catalogue of Life"
+      ],
+      "SV": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-tigris": {
     "key": 2444355,
@@ -3616,7 +4882,16 @@
       "MX-SON": 172,
       "US-CA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "crotalus-viridis": {
     "key": 8945077,
@@ -3658,7 +4933,18 @@
       "MX-DUR": 1,
       "MX-BCS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CA": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "cyanea-capillata": {
     "key": 2264478,
@@ -3715,6 +5001,23 @@
     },
     "unmapped": {
       "SJ": 78
+    },
+    "checklist": {
+      "BE": [
+        "World Register of Marine Species"
+      ],
+      "CA": [
+        "World Register of Marine Species"
+      ],
+      "FR": [
+        "World Register of Marine Species"
+      ],
+      "NL": [
+        "World Register of Marine Species"
+      ],
+      "PL": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "daboia-mauritanica": {
@@ -3728,7 +5031,21 @@
       "TN": 5
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "EH": [
+        "Catalogue of Life"
+      ],
+      "MA": [
+        "Catalogue of Life"
+      ],
+      "TN": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "daboia-palaestinae": {
     "key": 8228334,
@@ -3743,7 +5060,24 @@
       "JO": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "IL": [
+        "Catalogue of Life"
+      ],
+      "JO": [
+        "Catalogue of Life"
+      ],
+      "LB": [
+        "Catalogue of Life"
+      ],
+      "PS": [
+        "Catalogue of Life"
+      ],
+      "SY": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "daboia-russelii": {
     "key": 8602156,
@@ -3789,6 +5123,26 @@
     },
     "unmapped": {
       "IND.27_1": 3
+    },
+    "checklist": {
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "BT": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ],
+      "NP": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ]
     }
   },
   "daboia-siamensis": {
@@ -3807,7 +5161,27 @@
     "subdivisions": {
       "CN-GD": 7
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "KH": [
+        "Catalogue of Life"
+      ],
+      "MM": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ],
+      "TW": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "dasyatis-pastinaca": {
     "key": 2419543,
@@ -3872,7 +5246,42 @@
       "MX-ROO": 1,
       "ZA-NL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BE": [
+        "World Register of Marine Species"
+      ],
+      "FR": [
+        "World Register of Marine Species"
+      ],
+      "GR": [
+        "World Register of Marine Species"
+      ],
+      "IL": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "KM": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "PT": [
+        "World Register of Marine Species"
+      ],
+      "RE": [
+        "World Register of Marine Species"
+      ],
+      "SE": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "deinagkistrodon-acutus": {
     "key": 2444497,
@@ -3896,7 +5305,15 @@
       "CN-NM": 1,
       "CN-CQ": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "TW": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "demansia-psammophis": {
     "key": 2449510,
@@ -3918,7 +5335,12 @@
       "AU-ACT": 5,
       "JP-19": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "dendroaspis-angusticeps": {
     "key": 2469870,
@@ -3940,7 +5362,29 @@
       "ZA-NL": 212,
       "ZA-NC": 5
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "SZ": [
+        "South African National Species Checklist"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "dendroaspis-jamesoni": {
     "key": 2469880,
@@ -3962,7 +5406,30 @@
       "TZ": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "dendroaspis-polylepis": {
     "key": 8054654,
@@ -4001,7 +5468,89 @@
       "ZA-NC": 4,
       "ZA-EC": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "ER": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "GW": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "SN": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "dendroaspis-viridis": {
     "key": 2469890,
@@ -4020,7 +5569,45 @@
       "SN": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GM": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "GW": [
+        "Catalogue of Life"
+      ],
+      "LR": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SL": [
+        "Catalogue of Life"
+      ],
+      "SN": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "diadema-setosum": {
     "key": 5721108,
@@ -4109,6 +5696,48 @@
     "unmapped": {
       "CX": 1,
       "CHN.HKG": 48
+    },
+    "checklist": {
+      "EG": [
+        "South African National Species Checklist"
+      ],
+      "ID": [
+        "South African National Species Checklist"
+      ],
+      "KE": [
+        "South African National Species Checklist",
+        "World Register of Marine Species"
+      ],
+      "KR": [
+        "World Register of Marine Species"
+      ],
+      "LK": [
+        "South African National Species Checklist"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "South African National Species Checklist",
+        "World Register of Marine Species"
+      ],
+      "MV": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "South African National Species Checklist",
+        "World Register of Marine Species"
+      ],
+      "PH": [
+        "South African National Species Checklist",
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "dispholidus-typus": {
@@ -4154,7 +5783,116 @@
       "ZA-NC": 37,
       "ZA-FS": 6
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "BI": [
+        "Catalogue of Life"
+      ],
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GM": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "LR": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "SL": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "echiichthys-vipera": {
     "key": 2386469,
@@ -4185,7 +5923,27 @@
       "SI": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BE": [
+        "World Register of Marine Species"
+      ],
+      "FR": [
+        "World Register of Marine Species"
+      ],
+      "GB": [
+        "World Register of Marine Species"
+      ],
+      "GR": [
+        "World Register of Marine Species"
+      ],
+      "IL": [
+        "World Register of Marine Species"
+      ],
+      "PT": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "echis-carinatus": {
     "key": 2443876,
@@ -4235,6 +5993,41 @@
     },
     "unmapped": {
       "IND.27_1": 1
+    },
+    "checklist": {
+      "AE": [
+        "Catalogue of Life"
+      ],
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ],
+      "OM": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ],
+      "QA": [
+        "Catalogue of Life"
+      ],
+      "TJ": [
+        "Catalogue of Life"
+      ],
+      "TM": [
+        "Catalogue of Life"
+      ],
+      "UZ": [
+        "Catalogue of Life"
+      ]
     }
   },
   "echis-coloratus": {
@@ -4252,7 +6045,30 @@
       "IR": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "IL": [
+        "Catalogue of Life"
+      ],
+      "JO": [
+        "Catalogue of Life"
+      ],
+      "OM": [
+        "Catalogue of Life"
+      ],
+      "PS": [
+        "Catalogue of Life"
+      ],
+      "SA": [
+        "Catalogue of Life"
+      ],
+      "YE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "echis-leucogaster": {
     "key": 2443885,
@@ -4270,7 +6086,36 @@
       "NG": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "EH": [
+        "Catalogue of Life"
+      ],
+      "GM": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "MR": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SN": [
+        "Catalogue of Life"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "echis-ocellatus": {
     "key": 2443880,
@@ -4292,7 +6137,45 @@
       "SD": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GM": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "MR": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SN": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "echis-pyramidum": {
     "key": 2443858,
@@ -4317,7 +6200,48 @@
       "SN": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "DJ": [
+        "Catalogue of Life"
+      ],
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "ER": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "LY": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TN": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "echis-sochureki": {
     "key": 6157586,
@@ -4337,7 +6261,42 @@
       "IN-RJ": 15,
       "IN-HR": 3
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AE": [
+        "Catalogue of Life"
+      ],
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ],
+      "OM": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ],
+      "QA": [
+        "Catalogue of Life"
+      ],
+      "TJ": [
+        "Catalogue of Life"
+      ],
+      "TM": [
+        "Catalogue of Life"
+      ],
+      "UZ": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "eristicophis-macmahoni": {
     "key": 2444894,
@@ -4349,7 +6308,18 @@
       "AF": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "gloydius-blomhoffii": {
     "key": 8963116,
@@ -4409,7 +6379,15 @@
       "JP-45": 1,
       "JP-35": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "JP": [
+        "Catalogue of Life"
+      ],
+      "RU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "gloydius-brevicauda": {
     "key": 2444545,
@@ -4441,7 +6419,21 @@
       "CN-SD": 1,
       "CN-GD": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "KP": [
+        "Catalogue of Life"
+      ],
+      "KR": [
+        "Catalogue of Life"
+      ],
+      "RU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "gloydius-halys": {
     "key": 8544034,
@@ -4464,7 +6456,39 @@
       "CN-HL": 1,
       "JP-46": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "KG": [
+        "Catalogue of Life"
+      ],
+      "KZ": [
+        "Catalogue of Life"
+      ],
+      "MN": [
+        "Catalogue of Life"
+      ],
+      "RU": [
+        "Catalogue of Life"
+      ],
+      "TJ": [
+        "Catalogue of Life"
+      ],
+      "TM": [
+        "Catalogue of Life"
+      ],
+      "UZ": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "gloydius-ussuriensis": {
     "key": 2444547,
@@ -4481,7 +6505,12 @@
       "CN-HL": 13,
       "CN-LN": 6
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "RU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hadronyche-cerberea": {
     "key": 2145027,
@@ -4495,7 +6524,12 @@
       "AU-NSW": 123,
       "AU-VIC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hadronyche-formidabilis": {
     "key": 2145031,
@@ -4510,7 +6544,12 @@
       "AU-QLD": 43,
       "AU-TAS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hadronyche-infensa": {
     "key": 2145037,
@@ -4525,7 +6564,12 @@
       "AU-NSW": 76,
       "AU-TAS": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hadronyche-versuta": {
     "key": 2145036,
@@ -4542,6 +6586,11 @@
     },
     "unmapped": {
       "AUS.4_1": 3
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
     }
   },
   "hapalochlaena": {
@@ -4582,7 +6631,8 @@
     },
     "unmapped": {
       "AUS.4_1": 4
-    }
+    },
+    "checklist": {}
   },
   "heloderma-horridum": {
     "key": 2460820,
@@ -4610,7 +6660,13 @@
       "MX-PUE": 1,
       "US-CA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "heloderma-suspectum": {
     "key": 2460817,
@@ -4633,7 +6689,16 @@
       "US-FL": 1,
       "US-CA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hemachatus-haemachatus": {
     "key": 2470585,
@@ -4654,7 +6719,21 @@
       "ZA-NW": 17,
       "ZA-NC": 6
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "LS": [
+        "Catalogue of Life"
+      ],
+      "SZ": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hemiscorpius-lepturus": {
     "key": 6892767,
@@ -4666,7 +6745,8 @@
       "IQ": 4
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "heteropneustes-fossilis": {
     "key": 5202532,
@@ -4706,7 +6786,8 @@
       "IN-KA": 1,
       "IN-BR": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "hoplocephalus-bungaroides": {
     "key": 9561258,
@@ -4719,7 +6800,12 @@
     "subdivisions": {
       "AU-NSW": 570
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hoplocephalus-stephensii": {
     "key": 5960307,
@@ -4733,7 +6819,12 @@
       "AU-NSW": 594,
       "AU-QLD": 105
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hottentotta-saulcyi": {
     "key": 6893431,
@@ -4747,7 +6838,8 @@
       "SY": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "hottentotta-tamulus": {
     "key": 7999797,
@@ -4777,7 +6869,8 @@
       "IN-CT": 2,
       "IN-PB": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "hydrophis-curtus": {
     "key": 7606013,
@@ -4810,7 +6903,8 @@
       "CN-HI": 1,
       "IN-KA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "hydrophis-elegans": {
     "key": 5960332,
@@ -4829,7 +6923,12 @@
       "AU-WA": 31,
       "AU-SA": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "hydrophis-platurus": {
     "key": 7674056,
@@ -4909,6 +7008,17 @@
       "CX": 4,
       "UM": 1,
       "AUS.4_1": 10
+    },
+    "checklist": {
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ]
     }
   },
   "hydrophis-schistosus": {
@@ -4942,7 +7052,8 @@
       "IN-KA": 1,
       "IN-AP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "hydrophis-semperi": {
     "key": 5960317,
@@ -4953,7 +7064,13 @@
       "PH": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "PH": [
+        "Catalogue of Life",
+        "World Register of Marine Species"
+      ]
+    }
   },
   "hypanus-americanus": {
     "key": 9335213,
@@ -5043,7 +7160,8 @@
     },
     "unmapped": {
       "BQ": 120
-    }
+    },
+    "checklist": {}
   },
   "hypnale-hypnale": {
     "key": 2443917,
@@ -5063,6 +7181,14 @@
     },
     "unmapped": {
       "IND.27_1": 1
+    },
+    "checklist": {
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ]
     }
   },
   "inimicus-didactylus": {
@@ -5095,7 +7221,8 @@
       "AU-WA": 1,
       "JP-46": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "isometrus-maculatus": {
     "key": 4553860,
@@ -5153,7 +7280,8 @@
     "unmapped": {
       "UM": 9,
       "CC": 2
-    }
+    },
+    "checklist": {}
   },
   "lachesis-muta": {
     "key": 8486323,
@@ -5190,7 +7318,39 @@
       "BR-AP": 2,
       "BR-RJ": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "GF": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "SR": [
+        "Catalogue of Life"
+      ],
+      "TT": [
+        "Catalogue of Life"
+      ],
+      "VE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "lachesis-stenophrys": {
     "key": 5221067,
@@ -5202,7 +7362,18 @@
       "PA": 9
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "NI": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "laticauda-colubrina": {
     "key": 8374394,
@@ -5238,7 +7409,15 @@
       "AU-NSW": 3,
       "AU-NT": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MM": [
+        "Catalogue of Life"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "laticauda-laticaudata": {
     "key": 5222167,
@@ -5269,7 +7448,24 @@
       "IN-AN": 4,
       "JP-46": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ],
+      "MM": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "laticauda-semifasciata": {
     "key": 5222129,
@@ -5288,7 +7484,12 @@
       "JP-47": 7,
       "JP-46": 4
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "KR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "latrodectus-bishopi": {
     "key": 2157939,
@@ -5303,7 +7504,12 @@
       "US-MT": 1,
       "US-WI": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "latrodectus-corallinus": {
     "key": 2157934,
@@ -5330,7 +7536,18 @@
       "AR-F": 1,
       "BR-AM": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "latrodectus-curacaviensis": {
     "key": 2157948,
@@ -5365,7 +7582,18 @@
       "BR-SP": 1,
       "BR-AP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "SR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "latrodectus-geometricus": {
     "key": 2157944,
@@ -5622,6 +7850,20 @@
       "CC": 3,
       "UM": 3,
       "CHN.HKG": 1
+    },
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ]
     }
   },
   "latrodectus-hasselti": {
@@ -5671,6 +7913,17 @@
     "unmapped": {
       "AUS.1_1": 1,
       "AUS.4_1": 1
+    },
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "OM": [
+        "Catalogue of Life"
+      ],
+      "PG": [
+        "Catalogue of Life"
+      ]
     }
   },
   "latrodectus-hesperus": {
@@ -5742,7 +7995,18 @@
       "US-NC": 1,
       "US-OH": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CA": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "latrodectus-indistinctus": {
     "key": 2157940,
@@ -5763,7 +8027,17 @@
       "ZA-EC": 1,
       "ZA-MP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "latrodectus-katipo": {
     "key": 2157935,
@@ -5774,7 +8048,12 @@
       "NZ": 1709
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "NZ": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "latrodectus-mactans": {
     "key": 2157949,
@@ -5872,6 +8151,38 @@
     },
     "unmapped": {
       "BQ": 1
+    },
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "CU": [
+        "Catalogue of Life"
+      ],
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "GR": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life"
+      ],
+      "PG": [
+        "Catalogue of Life"
+      ],
+      "PH": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ],
+      "VI": [
+        "Catalogue of Life"
+      ]
     }
   },
   "latrodectus-pallidus": {
@@ -5893,7 +8204,28 @@
       "YE": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "GE": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "KZ": [
+        "Catalogue of Life"
+      ],
+      "TM": [
+        "Catalogue of Life"
+      ],
+      "TR": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "latrodectus-tredecimguttatus": {
     "key": 2157921,
@@ -5940,7 +8272,24 @@
       "CN-XJ": 7,
       "ZA-NL": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "KZ": [
+        "Catalogue of Life"
+      ],
+      "RU": [
+        "Catalogue of Life"
+      ],
+      "UA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "latrodectus-variolus": {
     "key": 2157950,
@@ -5995,7 +8344,15 @@
       "US-SD": 1,
       "US-WA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CA": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "leiurus-abdullahbayrami": {
     "key": 7953371,
@@ -6008,7 +8365,8 @@
       "TR": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "leiurus-hebraeus": {
     "key": 7758443,
@@ -6023,7 +8381,8 @@
       "LB": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "leiurus-quinquestriatus": {
     "key": 6893601,
@@ -6040,7 +8399,8 @@
       "TD": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "lonomia-achelous": {
     "key": 1867973,
@@ -6058,7 +8418,8 @@
       "BR-SP": 7,
       "BR-AM": 4
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "lonomia-obliqua": {
     "key": 1867980,
@@ -6096,7 +8457,8 @@
       "MX-ROO": 1,
       "MX-VER": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "loxosceles-deserta": {
     "key": 5170643,
@@ -6115,7 +8477,15 @@
       "MX-COA": 1,
       "US-UT": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "loxosceles-gaucho": {
     "key": 5170622,
@@ -6131,7 +8501,12 @@
       "BR-ES": 4,
       "BR-MG": 3
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "loxosceles-intermedia": {
     "key": 5170653,
@@ -6148,7 +8523,15 @@
       "BR-SC": 27,
       "BR-SP": 8
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "loxosceles-laeta": {
     "key": 5170659,
@@ -6185,7 +8568,21 @@
       "BR-RS": 2,
       "AR-Q": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "CL": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "loxosceles-reclusa": {
     "key": 5170704,
@@ -6236,7 +8633,8 @@
       "US-WY": 1,
       "US-CA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "loxosceles-rufescens": {
     "key": 5170652,
@@ -6316,6 +8714,29 @@
     },
     "unmapped": {
       "GI": 1
+    },
+    "checklist": {
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "KM": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ],
+      "PT": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
     }
   },
   "macrovipera-lebetina": {
@@ -6342,7 +8763,42 @@
       "TM": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "CY": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "IQ": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "JO": [
+        "Catalogue of Life"
+      ],
+      "LB": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ],
+      "SY": [
+        "Catalogue of Life"
+      ],
+      "TR": [
+        "Catalogue of Life"
+      ],
+      "YE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "macrovipera-schweizeri": {
     "key": 2444698,
@@ -6351,7 +8807,8 @@
     "total": 0,
     "countries": {},
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "malo-kingi": {
     "key": 5842340,
@@ -6364,7 +8821,8 @@
     "subdivisions": {
       "AU-QLD": 4
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "megalopyge-opercularis": {
     "key": 1751572,
@@ -6431,7 +8889,8 @@
       "MX-CHH": 1,
       "MX-COL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "mesobuthus-eupeus": {
     "key": 4553855,
@@ -6449,7 +8908,8 @@
       "TM": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "metlapilcoatlus-mexicanus": {
     "key": 11151347,
@@ -6469,7 +8929,34 @@
       "MX-OAX": 5,
       "MX-TAB": 3
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BZ": [
+        "Catalogue of Life"
+      ],
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "HN": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "NI": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ],
+      "SV": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micropechis-ikaheca": {
     "key": 9359401,
@@ -6481,7 +8968,12 @@
       "PG": 13
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "PG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micruroides-euryxanthus": {
     "key": 2470302,
@@ -6503,7 +8995,15 @@
       "MX-DUR": 1,
       "MX-GRO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micrurus-corallinus": {
     "key": 5227011,
@@ -6531,7 +9031,18 @@
       "BR-RO": 1,
       "BR-GO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "PY": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micrurus-diastema": {
     "key": 9073302,
@@ -6557,7 +9068,13 @@
       "MX-SON": 2,
       "MX-JAL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "micrurus-frontalis": {
     "key": 5227028,
@@ -6580,7 +9097,18 @@
       "BR-MT": 1,
       "BR-TO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "PY": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micrurus-fulvius": {
     "key": 9173089,
@@ -6609,7 +9137,12 @@
       "US-MA": 1,
       "US-MS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micrurus-lemniscatus": {
     "key": 5226973,
@@ -6650,7 +9183,21 @@
       "BR-RS": 1,
       "BR-AP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micrurus-mipartitus": {
     "key": 5226883,
@@ -6666,7 +9213,18 @@
       "PE": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micrurus-nigrocinctus": {
     "key": 5226844,
@@ -6688,7 +9246,19 @@
       "MX-CHP": 149,
       "MX-JAL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BZ": [
+        "Catalogue of Life"
+      ],
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ]
+    }
   },
   "micrurus-surinamensis": {
     "key": 5227019,
@@ -6715,7 +9285,30 @@
       "BR-RR": 2,
       "BR-GO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "GF": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "micrurus-tener": {
     "key": 5226950,
@@ -6743,7 +9336,16 @@
       "US-MN": 2,
       "MX-SON": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "millepora-alcicornis": {
     "key": 2265089,
@@ -6805,6 +9407,68 @@
     },
     "unmapped": {
       "BQ": 160
+    },
+    "checklist": {
+      "AS": [
+        "World Register of Marine Species"
+      ],
+      "AW": [
+        "World Register of Marine Species"
+      ],
+      "BM": [
+        "World Register of Marine Species"
+      ],
+      "BR": [
+        "World Register of Marine Species"
+      ],
+      "BZ": [
+        "World Register of Marine Species"
+      ],
+      "CO": [
+        "World Register of Marine Species"
+      ],
+      "CR": [
+        "World Register of Marine Species"
+      ],
+      "CU": [
+        "World Register of Marine Species"
+      ],
+      "CW": [
+        "World Register of Marine Species"
+      ],
+      "HN": [
+        "World Register of Marine Species"
+      ],
+      "JM": [
+        "World Register of Marine Species"
+      ],
+      "KY": [
+        "World Register of Marine Species"
+      ],
+      "MS": [
+        "World Register of Marine Species"
+      ],
+      "MX": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "NI": [
+        "World Register of Marine Species"
+      ],
+      "PA": [
+        "World Register of Marine Species"
+      ],
+      "PR": [
+        "World Register of Marine Species"
+      ],
+      "VE": [
+        "World Register of Marine Species"
+      ],
+      "VI": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "missulena-bradleyi": {
@@ -6821,7 +9485,12 @@
       "AU-VIC": 101,
       "AU-NT": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "missulena-occatoria": {
     "key": 2179702,
@@ -6840,7 +9509,12 @@
       "AU-ACT": 125,
       "AU-NT": 10
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "montivipera-xanthina": {
     "key": 4820419,
@@ -6852,7 +9526,12 @@
       "TR": 50
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "TR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "morbakka-fenneri": {
     "key": 4340375,
@@ -6867,7 +9546,8 @@
       "AU-QLD": 10,
       "AU-NSW": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "myrmecia-pilosula": {
     "key": 5035470,
@@ -6888,7 +9568,8 @@
     },
     "unmapped": {
       "AUS.4_1": 1
-    }
+    },
+    "checklist": {}
   },
   "myrmecia-pyriformis": {
     "key": 1317766,
@@ -6907,7 +9588,8 @@
     },
     "unmapped": {
       "AUS.4_1": 2
-    }
+    },
+    "checklist": {}
   },
   "naja-annulata": {
     "key": 2470378,
@@ -6924,7 +9606,48 @@
       "AO": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BI": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GQ": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-annulifera": {
     "key": 2470407,
@@ -6949,7 +9672,27 @@
       "ZA-MP": 41,
       "ZA-NC": 5
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BW": [
+        "South African National Species Checklist"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "South African National Species Checklist"
+      ],
+      "SZ": [
+        "South African National Species Checklist"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "naja-ashei": {
     "key": 2470364,
@@ -6965,7 +9708,27 @@
       "UG": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-atra": {
     "key": 2470319,
@@ -6992,6 +9755,14 @@
     },
     "unmapped": {
       "CHN.HKG": 184
+    },
+    "checklist": {
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "VN": [
+        "Catalogue of Life"
+      ]
     }
   },
   "naja-haje": {
@@ -7020,7 +9791,87 @@
       "ZW": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "EH": [
+        "Catalogue of Life"
+      ],
+      "ER": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "GW": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "LY": [
+        "Catalogue of Life"
+      ],
+      "MA": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "MR": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "SN": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-kaouthia": {
     "key": 2470368,
@@ -7056,7 +9907,30 @@
       "IN-UP": 1,
       "US-FL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "BT": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "KH": [
+        "Catalogue of Life"
+      ],
+      "LA": [
+        "Catalogue of Life"
+      ],
+      "MM": [
+        "Catalogue of Life"
+      ],
+      "MY": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-mandalayensis": {
     "key": 2470350,
@@ -7067,7 +9941,12 @@
       "MM": 38
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MM": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-melanoleuca": {
     "key": 2470376,
@@ -7107,7 +9986,42 @@
       "ZA-NL": 14,
       "ZA-NC": 5
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GQ": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "naja-mossambica": {
     "key": 2470421,
@@ -7135,7 +10049,40 @@
       "ZA-NC": 6,
       "ZA-EC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "naja-naja": {
     "key": 2470351,
@@ -7182,6 +10129,29 @@
     },
     "unmapped": {
       "IND.27_1": 3
+    },
+    "checklist": {
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "BT": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "LK": [
+        "Catalogue of Life"
+      ],
+      "NP": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ]
     }
   },
   "naja-nigricincta": {
@@ -7199,7 +10169,17 @@
       "ZA-WC": 56,
       "ZA-NC": 51
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "naja-nigricollis": {
     "key": 7580657,
@@ -7248,7 +10228,99 @@
       "ZA-WC": 2,
       "US-NM": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GM": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "GW": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "LR": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "MR": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "SL": [
+        "Catalogue of Life"
+      ],
+      "SN": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ],
+      "TG": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-nivea": {
     "key": 2470423,
@@ -7269,7 +10341,24 @@
       "ZA-NW": 16,
       "ZA-GT": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "LS": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-nubiae": {
     "key": 2470329,
@@ -7282,7 +10371,27 @@
       "DJ": 4
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "DJ": [
+        "Catalogue of Life"
+      ],
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "ER": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-oxiana": {
     "key": 2470322,
@@ -7301,7 +10410,33 @@
     "subdivisions": {
       "IN-HP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "KG": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ],
+      "TJ": [
+        "Catalogue of Life"
+      ],
+      "TM": [
+        "Catalogue of Life"
+      ],
+      "UZ": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-pallida": {
     "key": 2470341,
@@ -7317,7 +10452,24 @@
       "EG": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "Catalogue of Life"
+      ],
+      "SS": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-philippinensis": {
     "key": 2470313,
@@ -7328,7 +10480,12 @@
       "PH": 20
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "PH": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-samarensis": {
     "key": 2470388,
@@ -7339,7 +10496,12 @@
       "PH": 63
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "PH": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-senegalensis": {
     "key": 8304671,
@@ -7351,7 +10513,42 @@
       "BJ": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BF": [
+        "Catalogue of Life"
+      ],
+      "BJ": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GM": [
+        "Catalogue of Life"
+      ],
+      "GN": [
+        "Catalogue of Life"
+      ],
+      "GW": [
+        "Catalogue of Life"
+      ],
+      "ML": [
+        "Catalogue of Life"
+      ],
+      "NE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "SN": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-siamensis": {
     "key": 2470318,
@@ -7365,7 +10562,21 @@
       "LA": 3
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "KH": [
+        "Catalogue of Life"
+      ],
+      "LA": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ],
+      "VN": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-sputatrix": {
     "key": 2470370,
@@ -7376,7 +10587,12 @@
       "ID": 175
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "naja-subfulva": {
     "key": 9990542,
@@ -7407,7 +10623,77 @@
       "ZA-NL": 137,
       "ZA-LP": 6
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BI": [
+        "Catalogue of Life"
+      ],
+      "BW": [
+        "South African National Species Checklist"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "ET": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "South African National Species Checklist"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "SD": [
+        "Catalogue of Life"
+      ],
+      "SZ": [
+        "South African National Species Checklist"
+      ],
+      "TD": [
+        "Catalogue of Life"
+      ],
+      "TZ": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZM": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
   },
   "naja-sumatrana": {
     "key": 7992764,
@@ -7424,7 +10710,21 @@
       "CI": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "MY": [
+        "Catalogue of Life"
+      ],
+      "SG": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "notechis-scutatus": {
     "key": 2449662,
@@ -7446,6 +10746,11 @@
     },
     "unmapped": {
       "AUS.4_1": 1
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
     }
   },
   "nycticebus-coucang": {
@@ -7471,7 +10776,8 @@
       "CN-NM": 1,
       "US-MN": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "olindias-sambaquiensis": {
     "key": 2266803,
@@ -7491,7 +10797,8 @@
       "BR-PR": 2,
       "BR-ES": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "olivierus-martensii": {
     "key": 10704725,
@@ -7516,7 +10823,8 @@
       "CN-NX": 1,
       "CN-FJ": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "ophiophagus-hannah": {
     "key": 2469850,
@@ -7570,6 +10878,38 @@
     },
     "unmapped": {
       "CHN.HKG": 30
+    },
+    "checklist": {
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "BT": [
+        "Catalogue of Life"
+      ],
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "KH": [
+        "Catalogue of Life"
+      ],
+      "LA": [
+        "Catalogue of Life"
+      ],
+      "MM": [
+        "Catalogue of Life"
+      ],
+      "NP": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ],
+      "VN": [
+        "Catalogue of Life"
+      ]
     }
   },
   "ornithorhynchus-anatinus": {
@@ -7591,7 +10931,12 @@
       "AU-NT": 1,
       "US-FL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "oxyuranus-microlepidotus": {
     "key": 2449963,
@@ -7606,7 +10951,12 @@
       "AU-QLD": 59,
       "AU-NSW": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "oxyuranus-scutellatus": {
     "key": 9043837,
@@ -7624,7 +10974,15 @@
       "AU-NSW": 15,
       "AU-WA": 7
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "PG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "parabuthus-granulatus": {
     "key": 6894370,
@@ -7648,7 +11006,24 @@
       "ZA-GT": 2,
       "ZA-NW": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "South African National Species Checklist"
+      ],
+      "BW": [
+        "South African National Species Checklist"
+      ],
+      "NA": [
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "South African National Species Checklist"
+      ],
+      "ZW": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "parabuthus-mossambicensis": {
     "key": 6894362,
@@ -7669,7 +11044,27 @@
       "ZA-NC": 3,
       "ZA-NL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BW": [
+        "South African National Species Checklist"
+      ],
+      "MW": [
+        "South African National Species Checklist"
+      ],
+      "MZ": [
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "South African National Species Checklist"
+      ],
+      "ZM": [
+        "South African National Species Checklist"
+      ],
+      "ZW": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "parabuthus-transvaalicus": {
     "key": 6894340,
@@ -7692,7 +11087,21 @@
       "ZA-NL": 1,
       "ZA-WC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BW": [
+        "South African National Species Checklist"
+      ],
+      "MZ": [
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "South African National Species Checklist"
+      ],
+      "ZW": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "parabuthus-villosus": {
     "key": 6894351,
@@ -7708,7 +11117,15 @@
       "ZA-NC": 57,
       "ZA-WC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "NA": [
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "paraponera-clavata": {
     "key": 1320410,
@@ -7747,7 +11164,8 @@
       "BR-AP": 1,
       "BR-ES": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "paratrygon-aiereba": {
     "key": 2419325,
@@ -7773,7 +11191,8 @@
       "BR-RO": 2,
       "BR-GO": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "pastinachus-sephen": {
     "key": 2419714,
@@ -7814,7 +11233,18 @@
       "IN-TN": 1,
       "JP-47": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "pelagia-noctiluca": {
     "key": 2264423,
@@ -7888,6 +11318,20 @@
     },
     "unmapped": {
       "GI": 3
+    },
+    "checklist": {
+      "BE": [
+        "World Register of Marine Species"
+      ],
+      "CO": [
+        "World Register of Marine Species"
+      ],
+      "FR": [
+        "World Register of Marine Species"
+      ],
+      "PT": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "pepsis": {
@@ -8069,7 +11513,8 @@
     },
     "unmapped": {
       "BQ": 18
-    }
+    },
+    "checklist": {}
   },
   "philodryas-olfersii": {
     "key": 9084216,
@@ -8124,7 +11569,39 @@
       "AR-H": 1,
       "BR-TO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "GF": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "PY": [
+        "Catalogue of Life"
+      ],
+      "UY": [
+        "Catalogue of Life"
+      ],
+      "VE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "phoneutria-boliviensis": {
     "key": 5170395,
@@ -8152,7 +11629,24 @@
       "AR-E": 1,
       "BR-RO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BO": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "phoneutria-fera": {
     "key": 5170399,
@@ -8181,7 +11675,27 @@
       "BR-AP": 2,
       "BR-MA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "SR": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "phoneutria-nigriventer": {
     "key": 2152822,
@@ -8219,7 +11733,21 @@
       "BR-ES": 1,
       "BR-GO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "PY": [
+        "Catalogue of Life"
+      ],
+      "UY": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "physalia-physalis": {
     "key": 2264734,
@@ -8402,6 +11930,47 @@
       "BQ": 1,
       "AUS.4_1": 11,
       "CHN.HKG": 6
+    },
+    "checklist": {
+      "AU": [
+        "World Register of Marine Species"
+      ],
+      "BE": [
+        "World Register of Marine Species"
+      ],
+      "BR": [
+        "World Register of Marine Species"
+      ],
+      "CA": [
+        "World Register of Marine Species"
+      ],
+      "CO": [
+        "World Register of Marine Species"
+      ],
+      "FR": [
+        "World Register of Marine Species"
+      ],
+      "GB": [
+        "World Register of Marine Species"
+      ],
+      "JP": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "PT": [
+        "World Register of Marine Species"
+      ],
+      "US": [
+        "World Register of Marine Species"
+      ],
+      "VN": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "physalia-utriculus": {
@@ -8585,6 +12154,47 @@
       "BQ": 1,
       "AUS.4_1": 11,
       "CHN.HKG": 6
+    },
+    "checklist": {
+      "AU": [
+        "World Register of Marine Species"
+      ],
+      "BE": [
+        "World Register of Marine Species"
+      ],
+      "BR": [
+        "World Register of Marine Species"
+      ],
+      "CA": [
+        "World Register of Marine Species"
+      ],
+      "CO": [
+        "World Register of Marine Species"
+      ],
+      "FR": [
+        "World Register of Marine Species"
+      ],
+      "GB": [
+        "World Register of Marine Species"
+      ],
+      "JP": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "PT": [
+        "World Register of Marine Species"
+      ],
+      "US": [
+        "World Register of Marine Species"
+      ],
+      "VN": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "plotosus-lineatus": {
@@ -8685,6 +12295,35 @@
       "CHN.HKG": 24,
       "AUS.4_1": 1,
       "IND.27_1": 1
+    },
+    "checklist": {
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "KM": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "RE": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "pogonomyrmex-barbatus": {
@@ -8733,7 +12372,8 @@
       "US-UT": 2,
       "US-FL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "polistes-dominula": {
     "key": 5871389,
@@ -8894,6 +12534,11 @@
     },
     "unmapped": {
       "GI": 6
+    },
+    "checklist": {
+      "ZA": [
+        "South African National Species Checklist"
+      ]
     }
   },
   "porthidium-nasutum": {
@@ -8918,7 +12563,37 @@
       "MX-OAX": 2,
       "US-TX": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BZ": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "EC": [
+        "Catalogue of Life"
+      ],
+      "GT": [
+        "Catalogue of Life"
+      ],
+      "HN": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "NI": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "potamotrygon-leopoldi": {
     "key": 2419372,
@@ -8934,7 +12609,8 @@
       "BR-PA": 201,
       "BR-MT": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "potamotrygon-motoro": {
     "key": 2419333,
@@ -8977,7 +12653,8 @@
       "AR-L": 1,
       "AR-H": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "potamotrygon-orbignyi": {
     "key": 2419356,
@@ -9008,7 +12685,8 @@
       "BR-PI": 2,
       "BR-GO": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "protobothrops-flavoviridis": {
     "key": 2444178,
@@ -9023,7 +12701,12 @@
       "JP-47": 75,
       "JP-46": 59
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "JP": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "protobothrops-mucrosquamatus": {
     "key": 9738226,
@@ -9060,6 +12743,23 @@
     },
     "unmapped": {
       "CHN.HKG": 2
+    },
+    "checklist": {
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "LA": [
+        "Catalogue of Life"
+      ],
+      "MM": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ],
+      "VN": [
+        "Catalogue of Life"
+      ]
     }
   },
   "pseudechis-australis": {
@@ -9078,7 +12778,12 @@
       "AU-QLD": 570,
       "AU-NSW": 350
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudechis-colletti": {
     "key": 2449548,
@@ -9091,7 +12796,12 @@
     "subdivisions": {
       "AU-QLD": 74
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudechis-guttatus": {
     "key": 2449554,
@@ -9105,7 +12815,12 @@
       "AU-NSW": 588,
       "AU-QLD": 255
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudechis-porphyriacus": {
     "key": 2449538,
@@ -9126,6 +12841,11 @@
     },
     "unmapped": {
       "AUS.4_1": 70
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
     }
   },
   "pseudocerastes-persicus": {
@@ -9141,7 +12861,39 @@
       "SA": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AE": [
+        "Catalogue of Life"
+      ],
+      "AF": [
+        "Catalogue of Life"
+      ],
+      "IQ": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "JO": [
+        "Catalogue of Life"
+      ],
+      "KW": [
+        "Catalogue of Life"
+      ],
+      "OM": [
+        "Catalogue of Life"
+      ],
+      "PK": [
+        "Catalogue of Life"
+      ],
+      "SA": [
+        "Catalogue of Life"
+      ],
+      "SY": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudohaje-goldii": {
     "key": 2469835,
@@ -9161,7 +12913,51 @@
       "NG": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AO": [
+        "Catalogue of Life"
+      ],
+      "BI": [
+        "Catalogue of Life"
+      ],
+      "CD": [
+        "Catalogue of Life"
+      ],
+      "CF": [
+        "Catalogue of Life"
+      ],
+      "CG": [
+        "Catalogue of Life"
+      ],
+      "CI": [
+        "Catalogue of Life"
+      ],
+      "CM": [
+        "Catalogue of Life"
+      ],
+      "GA": [
+        "Catalogue of Life"
+      ],
+      "GH": [
+        "Catalogue of Life"
+      ],
+      "GQ": [
+        "Catalogue of Life"
+      ],
+      "KE": [
+        "Catalogue of Life"
+      ],
+      "NG": [
+        "Catalogue of Life"
+      ],
+      "RW": [
+        "Catalogue of Life"
+      ],
+      "UG": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudonaja-affinis": {
     "key": 2450206,
@@ -9175,7 +12971,12 @@
       "AU-WA": 933,
       "AU-SA": 202
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudonaja-mengdeni": {
     "key": 2450231,
@@ -9192,7 +12993,12 @@
       "AU-QLD": 47,
       "AU-NSW": 26
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudonaja-nuchalis": {
     "key": 2450217,
@@ -9210,7 +13016,12 @@
       "AU-NSW": 11,
       "AU-VIC": 4
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "pseudonaja-textilis": {
     "key": 8615718,
@@ -9233,6 +13044,14 @@
     },
     "unmapped": {
       "AUS.4_1": 12
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ],
+      "PG": [
+        "Catalogue of Life"
+      ]
     }
   },
   "pterois-antennata": {
@@ -9317,6 +13136,32 @@
       "CX": 8,
       "CC": 1,
       "CHN.HKG": 5
+    },
+    "checklist": {
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "RE": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "pterois-miles": {
@@ -9388,6 +13233,35 @@
     "unmapped": {
       "CX": 2,
       "IND.18_1": 2
+    },
+    "checklist": {
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "KM": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "RE": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "pterois-volitans": {
@@ -9531,6 +13405,23 @@
       "UM": 8,
       "CC": 6,
       "CHN.HKG": 5
+    },
+    "checklist": {
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "NZ": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "rhabdophis-subminiatus": {
@@ -9558,6 +13449,14 @@
     },
     "unmapped": {
       "CHN.HKG": 35
+    },
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "MY": [
+        "Catalogue of Life"
+      ]
     }
   },
   "rhabdophis-tigrinus": {
@@ -9645,7 +13544,12 @@
       "CN-GS": 1,
       "JP-42": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "RU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "rhopilema-nomadica": {
     "key": 2264597,
@@ -9678,7 +13582,12 @@
       "IN-WB": 1,
       "ZA-NL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "YE": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "scolopendra-cingulata": {
     "key": 5742390,
@@ -9726,6 +13635,35 @@
     "subdivisions": {},
     "unmapped": {
       "GI": 2
+    },
+    "checklist": {
+      "BG": [
+        "Catalogue of Life"
+      ],
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "CY": [
+        "Catalogue of Life"
+      ],
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "RO": [
+        "Catalogue of Life"
+      ],
+      "RU": [
+        "Catalogue of Life"
+      ],
+      "TJ": [
+        "Catalogue of Life"
+      ],
+      "TR": [
+        "Catalogue of Life"
+      ],
+      "UA": [
+        "Catalogue of Life"
+      ]
     }
   },
   "scolopendra-dehaani": {
@@ -9757,7 +13695,8 @@
     },
     "unmapped": {
       "CHN.HKG": 89
-    }
+    },
+    "checklist": {}
   },
   "scolopendra-gigantea": {
     "key": 5179388,
@@ -9774,7 +13713,8 @@
     "subdivisions": {
       "BR-BA": 11
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "scolopendra-heros": {
     "key": 5179407,
@@ -9807,7 +13747,15 @@
       "MX-DIF": 1,
       "US-MS": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "scolopendra-morsitans": {
     "key": 5179468,
@@ -9948,6 +13896,29 @@
       "BQ": 3,
       "UM": 2,
       "CHN.HKG": 4
+    },
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ],
+      "DZ": [
+        "World Register of Marine Species"
+      ],
+      "IN": [
+        "World Register of Marine Species"
+      ],
+      "MX": [
+        "Catalogue of Life"
+      ],
+      "SO": [
+        "World Register of Marine Species"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ],
+      "WS": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "scolopendra-subspinipes": {
@@ -10037,6 +14008,14 @@
       "CX": 106,
       "UM": 6,
       "CC": 2
+    },
+    "checklist": {
+      "MG": [
+        "Catalogue of Life"
+      ],
+      "SC": [
+        "Catalogue of Life"
+      ]
     }
   },
   "scorpaena-scrofa": {
@@ -10107,7 +14086,27 @@
       "ZA-NL": 5,
       "US-FL": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "GR": [
+        "World Register of Marine Species"
+      ],
+      "IL": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "PT": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "sistrurus-catenatus": {
     "key": 9223124,
@@ -10139,7 +14138,18 @@
       "US-MO": 1,
       "US-CO": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CA": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "sistrurus-miliarius": {
     "key": 2444222,
@@ -10165,7 +14175,12 @@
       "US-TN": 3,
       "US-KS": 2
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "sistrurus-tergeminus": {
     "key": 9454905,
@@ -10190,7 +14205,16 @@
       "MX-NLE": 2,
       "US-MI": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "MX": [
+        "Catalogue of Life",
+        "Lista de la herpetofauna con distribución en México"
+      ],
+      "US": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "solenopsis-geminata": {
     "key": 5035187,
@@ -10383,7 +14407,8 @@
       "UM": 2,
       "CHN.HKG": 1,
       "IND.27_1": 1
-    }
+    },
+    "checklist": {}
   },
   "solenopsis-invicta": {
     "key": 5035230,
@@ -10503,7 +14528,8 @@
     "unmapped": {
       "BQ": 1,
       "CHN.HKG": 21
-    }
+    },
+    "checklist": {}
   },
   "steatoda-nobilis": {
     "key": 2157203,
@@ -10571,7 +14597,8 @@
     },
     "unmapped": {
       "GI": 3
-    }
+    },
+    "checklist": {}
   },
   "synanceia-horrida": {
     "key": 5201175,
@@ -10595,7 +14622,8 @@
       "AU-NT": 4,
       "AU-NSW": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "synanceia-verrucosa": {
     "key": 5201174,
@@ -10680,6 +14708,38 @@
     "unmapped": {
       "CC": 1,
       "CX": 1
+    },
+    "checklist": {
+      "DJ": [
+        "World Register of Marine Species"
+      ],
+      "ER": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "RE": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "taeniura-lymma": {
@@ -10739,7 +14799,33 @@
       "ZA-NL": 2,
       "US-CA": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "DJ": [
+        "World Register of Marine Species"
+      ],
+      "ER": [
+        "World Register of Marine Species"
+      ],
+      "KE": [
+        "World Register of Marine Species"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "World Register of Marine Species"
+      ],
+      "TZ": [
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "thelotornis-capensis": {
     "key": 2456346,
@@ -10768,7 +14854,29 @@
       "ZA-GT": 2,
       "ZA-NW": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BW": [
+        "South African National Species Checklist"
+      ],
+      "MW": [
+        "Catalogue of Life"
+      ],
+      "MZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "SZ": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "South African National Species Checklist"
+      ]
+    }
   },
   "tityus-bahiensis": {
     "key": 6893786,
@@ -10793,7 +14901,8 @@
       "BR-DF": 1,
       "BR-ES": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "tityus-discrepans": {
     "key": 6893794,
@@ -10805,7 +14914,8 @@
       "TT": 5
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "tityus-obscurus": {
     "key": 8254070,
@@ -10827,7 +14937,8 @@
       "BR-MT": 2,
       "BR-AC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "tityus-pachyurus": {
     "key": 6893843,
@@ -10841,7 +14952,8 @@
       "PE": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "tityus-serrulatus": {
     "key": 6893860,
@@ -10866,7 +14978,8 @@
       "BR-MS": 1,
       "BR-AC": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "tityus-stigmurus": {
     "key": 6893856,
@@ -10888,7 +15001,8 @@
       "BR-RS": 1,
       "BR-AM": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "tityus-trivittatus": {
     "key": 6893897,
@@ -10905,7 +15019,8 @@
       "BR-PR": 2,
       "AR-X": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "toxopneustes-pileolus": {
     "key": 4341617,
@@ -10968,6 +15083,50 @@
     "unmapped": {
       "CX": 1,
       "CHN.HKG": 1
+    },
+    "checklist": {
+      "IN": [
+        "South African National Species Checklist"
+      ],
+      "JP": [
+        "South African National Species Checklist"
+      ],
+      "KE": [
+        "South African National Species Checklist",
+        "World Register of Marine Species"
+      ],
+      "KR": [
+        "World Register of Marine Species"
+      ],
+      "LK": [
+        "South African National Species Checklist"
+      ],
+      "MG": [
+        "World Register of Marine Species"
+      ],
+      "MU": [
+        "South African National Species Checklist",
+        "World Register of Marine Species"
+      ],
+      "MV": [
+        "World Register of Marine Species"
+      ],
+      "MZ": [
+        "World Register of Marine Species"
+      ],
+      "NC": [
+        "South African National Species Checklist"
+      ],
+      "PH": [
+        "World Register of Marine Species"
+      ],
+      "SC": [
+        "South African National Species Checklist",
+        "World Register of Marine Species"
+      ],
+      "ZA": [
+        "World Register of Marine Species"
+      ]
     }
   },
   "trachinus-draco": {
@@ -11016,7 +15175,27 @@
       "PL": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BE": [
+        "World Register of Marine Species"
+      ],
+      "FR": [
+        "World Register of Marine Species"
+      ],
+      "GB": [
+        "World Register of Marine Species"
+      ],
+      "GR": [
+        "World Register of Marine Species"
+      ],
+      "IL": [
+        "World Register of Marine Species"
+      ],
+      "SE": [
+        "World Register of Marine Species"
+      ]
+    }
   },
   "trimeresurus-albolabris": {
     "key": 8219807,
@@ -11055,6 +15234,14 @@
     },
     "unmapped": {
       "CHN.HKG": 907
+    },
+    "checklist": {
+      "BT": [
+        "Catalogue of Life"
+      ],
+      "NP": [
+        "Catalogue of Life"
+      ]
     }
   },
   "trimeresurus-erythrurus": {
@@ -11077,7 +15264,27 @@
       "IN-ML": 1,
       "IN-AP": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "BD": [
+        "Catalogue of Life"
+      ],
+      "BT": [
+        "Catalogue of Life"
+      ],
+      "IN": [
+        "Catalogue of Life"
+      ],
+      "MM": [
+        "Catalogue of Life"
+      ],
+      "NP": [
+        "Catalogue of Life"
+      ],
+      "TH": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "trimeresurus-insularis": {
     "key": 7656866,
@@ -11091,7 +15298,15 @@
       "TH": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ],
+      "TL": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "trimeresurus-stejnegeri": {
     "key": 2444513,
@@ -11121,7 +15336,15 @@
       "CN-NM": 1,
       "IN-MH": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CN": [
+        "Catalogue of Life"
+      ],
+      "TW": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "tropidechis-carinatus": {
     "key": 2449877,
@@ -11135,7 +15358,12 @@
       "AU-QLD": 524,
       "AU-NSW": 475
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "urobatis-halleri": {
     "key": 2420478,
@@ -11162,7 +15390,8 @@
       "MX-COL": 1,
       "US-TX": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "varanus-komodoensis": {
     "key": 2470854,
@@ -11178,7 +15407,12 @@
     "subdivisions": {
       "US-NM": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "ID": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "vespa-affinis": {
     "key": 1311357,
@@ -11245,7 +15479,8 @@
     "unmapped": {
       "CHN.HKG": 402,
       "IND.27_1": 2
-    }
+    },
+    "checklist": {}
   },
   "vespa-crabro": {
     "key": 1311527,
@@ -11409,7 +15644,8 @@
       "US-AZ": 1,
       "US-TX": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "vespa-mandarinia": {
     "key": 5871429,
@@ -11520,7 +15756,8 @@
       "JP-06": 1,
       "JP-07": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "vespa-orientalis": {
     "key": 1311433,
@@ -11601,7 +15838,8 @@
     },
     "unmapped": {
       "GI": 19
-    }
+    },
+    "checklist": {}
   },
   "vespa-tropica": {
     "key": 1311336,
@@ -11671,7 +15909,8 @@
     "unmapped": {
       "CHN.HKG": 96,
       "IND.27_1": 6
-    }
+    },
+    "checklist": {}
   },
   "vespa-velutina": {
     "key": 1311477,
@@ -11772,7 +16011,8 @@
     },
     "unmapped": {
       "CHN.HKG": 661
-    }
+    },
+    "checklist": {}
   },
   "vespula-germanica": {
     "key": 1311649,
@@ -11944,6 +16184,11 @@
     },
     "unmapped": {
       "GI": 5
+    },
+    "checklist": {
+      "ZA": [
+        "South African National Species Checklist"
+      ]
     }
   },
   "vespula-pensylvanica": {
@@ -11997,7 +16242,8 @@
       "US-IL": 1,
       "US-AK": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "vespula-vulgaris": {
     "key": 1311671,
@@ -12131,7 +16377,8 @@
       "US-NY": 1,
       "US-OR": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {}
   },
   "vipera-ammodytes": {
     "key": 2444308,
@@ -12155,7 +16402,48 @@
       "FI": 3
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "AL": [
+        "Catalogue of Life"
+      ],
+      "AT": [
+        "Catalogue of Life"
+      ],
+      "AZ": [
+        "Catalogue of Life"
+      ],
+      "BG": [
+        "Catalogue of Life"
+      ],
+      "GE": [
+        "Catalogue of Life"
+      ],
+      "GR": [
+        "Catalogue of Life"
+      ],
+      "HR": [
+        "Catalogue of Life"
+      ],
+      "IT": [
+        "Catalogue of Life"
+      ],
+      "ME": [
+        "Catalogue of Life"
+      ],
+      "MK": [
+        "Catalogue of Life"
+      ],
+      "RO": [
+        "Catalogue of Life"
+      ],
+      "RS": [
+        "Catalogue of Life"
+      ],
+      "SI": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "vipera-aspis": {
     "key": 2444339,
@@ -12177,7 +16465,24 @@
     "subdivisions": {
       "US-MN": 1
     },
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "CH": [
+        "Catalogue of Life"
+      ],
+      "DE": [
+        "Catalogue of Life"
+      ],
+      "ES": [
+        "Catalogue of Life"
+      ],
+      "FR": [
+        "Catalogue of Life"
+      ],
+      "IT": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "vipera-berus": {
     "key": 5960862,
@@ -12229,7 +16534,18 @@
       "SA": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "FI": [
+        "Catalogue of Life"
+      ],
+      "NO": [
+        "Catalogue of Life"
+      ],
+      "SE": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "vipera-latastei": {
     "key": 5960896,
@@ -12242,7 +16558,24 @@
       "MA": 2
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "DZ": [
+        "Catalogue of Life"
+      ],
+      "ES": [
+        "Catalogue of Life"
+      ],
+      "MA": [
+        "Catalogue of Life"
+      ],
+      "PT": [
+        "Catalogue of Life"
+      ],
+      "TN": [
+        "Catalogue of Life"
+      ]
+    }
   },
   "walterinnesia-aegyptia": {
     "key": 2469840,
@@ -12260,6 +16593,26 @@
       "TR": 1
     },
     "subdivisions": {},
-    "unmapped": {}
+    "unmapped": {},
+    "checklist": {
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "IL": [
+        "Catalogue of Life"
+      ],
+      "IQ": [
+        "Catalogue of Life"
+      ],
+      "JO": [
+        "Catalogue of Life"
+      ],
+      "PS": [
+        "Catalogue of Life"
+      ],
+      "SA": [
+        "Catalogue of Life"
+      ]
+    }
   }
 }

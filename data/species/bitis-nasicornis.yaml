@@ -23,15 +23,17 @@ regions:
   - GQ
   - KE
   - LR
+  - MW
   - NG
   - RW
+  - SL
+  - SS
+  - TG
   - TZ
   - UG
+  - ZM
 gbif:
   include:
-    - GN
-    - NG
-    - CF
-    - RW
-    - TZ
-    - AO
+    - code: RW
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/2444873"

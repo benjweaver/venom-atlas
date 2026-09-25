@@ -12,15 +12,23 @@ habitat: >-
 size: 60–90 cm
 regions:
   - AO
+  - BI
   - BW
   - CD
+  - CF
+  - CG
   - CM
   - ET
   - GH
   - KE
+  - LS
   - MW
   - MZ
+  - NA
   - NG
+  - RW
+  - SD
+  - SO
   - SS
   - SZ
   - TZ
@@ -34,9 +42,3 @@ regions:
   - ZA-WC
   - ZM
   - ZW
-gbif:
-  include:
-    - MZ
-    - NG
-    - CM
-    - SS

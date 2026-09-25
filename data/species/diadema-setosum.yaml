@@ -56,6 +56,7 @@ regions:
   - MG
   - MH
   - MM
+  - MU
   - MV
   - MY
   - MZ
@@ -86,7 +87,15 @@ regions:
   - ZA-NL
 gbif:
   exclude:
-    - AQ # mislocated record
-    - GS # mislocated record
-    - HM # mislocated record
-    - IS # mislocated record
+    - code: AQ
+      reason: "mislocated record; not in this native range"
+      source: "South African National Species Checklist / World Register of Marine Species"
+    - code: GS
+      reason: "mislocated record; not in this native range"
+      source: "South African National Species Checklist / World Register of Marine Species"
+    - code: HM
+      reason: "mislocated record; not in this native range"
+      source: "South African National Species Checklist / World Register of Marine Species"
+    - code: IS
+      reason: "mislocated record; not in this native range"
+      source: "South African National Species Checklist / World Register of Marine Species"

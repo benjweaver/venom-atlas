@@ -13,6 +13,7 @@ regions:
   - CA-MB
   - CA-ON
   - CA-QC
+  - CO
   - CR
   - GT
   - HN
@@ -80,6 +81,3 @@ regions:
   - US-VT
   - US-WI
   - US-WV
-gbif:
-  exclude:
-    - CO # other Automeris species

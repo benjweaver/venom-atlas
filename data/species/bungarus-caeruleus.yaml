@@ -12,6 +12,7 @@ habitat: >-
   Fields, scrub, villages and houses; active at night.
 size: About 1 m
 regions:
+  - AF
   - BD
   - IN-AP
   - IN-CT
@@ -33,7 +34,3 @@ regions:
   - LK
   - NP
   - PK
-gbif:
-  include:
-    - NP
-    - BD

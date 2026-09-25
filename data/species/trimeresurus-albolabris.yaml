@@ -11,7 +11,7 @@ habitat: >-
   Forest edges, gardens, bamboo and farmland.
 size: 60–90 cm
 regions:
-  - BD
+  - BT
   - CN-FJ
   - CN-GD
   - CN-GX
@@ -25,7 +25,3 @@ regions:
   - NP
   - TH
   - VN
-gbif:
-  include:
-    - NP
-    - BD

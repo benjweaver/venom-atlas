@@ -21,6 +21,12 @@ regions:
   - TN
 gbif:
   include:
-    - TN
-    - MR
-    - SD
+    - code: TN
+      reason: "4 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/6894174"
+    - code: MR
+      reason: "3 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/6894174"
+    - code: SD
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/6894174"

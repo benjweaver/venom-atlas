@@ -11,16 +11,12 @@ habitat: >-
   Buildings, basements and drains.
 size: 5–7 cm
 regions:
-  - AR-B
-  - AR-C
-  - AR-S
   - AR-X
   - BR-MS
   - BR-PR
   - PY
 gbif:
   include:
-    - AR-B
-    - AR-C
-    - AR-X
-    - AR-S
+    - code: AR-X
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/6893897"

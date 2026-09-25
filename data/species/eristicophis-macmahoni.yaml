@@ -13,7 +13,3 @@ regions:
   - PK
   - AF
   - IR
-gbif:
-  include:
-    - AF
-    - IR

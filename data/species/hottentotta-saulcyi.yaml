@@ -13,7 +13,3 @@ size: 6–9 cm
 regions:
   - IQ
   - IR
-  - TR
-gbif:
-  include:
-    - TR

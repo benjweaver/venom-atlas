@@ -19,4 +19,6 @@ regions:
   - AU-WA
 gbif:
   include:
-    - AU-WA
+    - code: AU-WA
+      reason: "3 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/5035470"

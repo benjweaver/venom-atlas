@@ -16,6 +16,5 @@ regions:
   - MY
   - SG
   - TH
-gbif:
-  exclude:
-    - US # captive pets
+  - US-CA
+  - US-WA

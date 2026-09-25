@@ -57,5 +57,9 @@ regions:
   - ZA-NL
 gbif:
   exclude:
-    - US # aquarium animals
-    - EC # misidentified
+    - code: US
+      reason: "aquarium animals; not in this native range"
+      source: "World Register of Marine Species"
+    - code: EC
+      reason: "misidentified; not in this native range"
+      source: "World Register of Marine Species"

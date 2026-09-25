@@ -24,6 +24,7 @@ regions:
   - CY
   - DJ
   - EG
+  - ER
   - FJ
   - FM
   - FR
@@ -75,10 +76,24 @@ regions:
   - ZA-NL
 gbif:
   exclude:
-    - BR # Atlantic records are misidentified
-    - DO # Atlantic records are misidentified
-    - DM # Atlantic records are misidentified
-    - GP # Atlantic records are misidentified
-    - KY # Atlantic records are misidentified
-    - EC # Atlantic records are misidentified
-    - ES # Atlantic records are misidentified
+    - code: BR
+      reason: "Atlantic records are misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: DO
+      reason: "Atlantic records are misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: DM
+      reason: "Atlantic records are misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: GP
+      reason: "Atlantic records are misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: KY
+      reason: "Atlantic records are misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: EC
+      reason: "Atlantic records are misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: ES
+      reason: "Atlantic records are misidentified; not in this native range"
+      source: "World Register of Marine Species"

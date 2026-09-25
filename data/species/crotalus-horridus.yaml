@@ -45,4 +45,6 @@ regions:
   - US-WI
 gbif:
   include:
-    - US-NH
+    - code: US-NH
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/2444468"

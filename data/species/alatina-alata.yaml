@@ -46,4 +46,6 @@ regions:
   - ZA-WC
 gbif:
   exclude:
-    - US-MA # misidentified
+    - code: US-MA
+      reason: "misidentified; not in this native range"
+      source: "World Register of Marine Species"

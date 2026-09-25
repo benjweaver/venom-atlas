@@ -12,6 +12,7 @@ aquatic: marine
 regions:
   - AG
   - AI
+  - AS
   - AW
   - BB
   - BL
@@ -25,6 +26,7 @@ regions:
   - BS
   - BZ
   - CO
+  - CR
   - CU
   - CV
   - CW
@@ -46,6 +48,7 @@ regions:
   - MX-ROO
   - MX-VER
   - MX-YUC
+  - MZ
   - NI
   - PA
   - PR
@@ -60,4 +63,6 @@ regions:
   - VI
 gbif:
   exclude:
-    - IN # Atlantic species; misidentified
+    - code: IN
+      reason: "Atlantic species; misidentified; not in this native range"
+      source: "World Register of Marine Species"

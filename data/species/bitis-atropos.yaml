@@ -12,7 +12,9 @@ habitat: >-
   Mountain grassland and fynbos.
 size: 30–50 cm
 regions:
+  - LS
   - MZ
+  - SZ
   - ZA-EC
   - ZA-FS
   - ZA-LP

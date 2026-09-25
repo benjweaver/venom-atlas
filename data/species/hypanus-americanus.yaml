@@ -40,6 +40,7 @@ regions:
   - CW
   - DM
   - DO
+  - EG
   - ES
   - GD
   - GF
@@ -49,6 +50,7 @@ regions:
   - GY
   - HN
   - ID
+  - IR
   - JM
   - KN
   - KY
@@ -61,10 +63,12 @@ regions:
   - MX-TAM
   - MX-VER
   - MX-YUC
+  - NC
   - NI
   - PA
   - PE
   - PR
+  - SC
   - SL
   - SR
   - TC
@@ -87,10 +91,3 @@ regions:
   - VE
   - VG
   - VI
-gbif:
-  exclude:
-    - EG # misidentified Indo-Pacific rays
-    - IR # misidentified Indo-Pacific rays
-    - NC # misidentified Indo-Pacific rays
-    - SC # misidentified Indo-Pacific rays
-    - US-NM # mislocated record, far inland

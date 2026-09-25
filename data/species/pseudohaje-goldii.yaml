@@ -12,20 +12,16 @@ habitat: >-
 size: 1.5–2.7 m
 regions:
   - AO
+  - BI
   - CD
   - CF
   - CG
+  - CI
   - CM
   - GA
   - GH
+  - GQ
   - KE
   - NG
+  - RW
   - UG
-gbif:
-  include:
-    - CD
-    - CG
-    - NG
-    - KE
-    - AO
-    - CF

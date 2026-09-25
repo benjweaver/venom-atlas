@@ -33,10 +33,17 @@ and say how to undo it.
   use `gbif.exclude` / `gbif.include` in the species file rather than editing
   `regions` directly, or the next `--write` undoes the fix.
 - Aquatic species (`aquatic: marine | freshwater`) take their places from
-  their GBIF record dots, each tagged with the territory GBIF attributes it to:
-  a territory is listed exactly when it has a dot, and the site only draws
-  dots for listed territories. No `gbif.include` on them; errors go in
-  `gbif.exclude`, which removes the territory and its dots.
+  their GBIF record dots, each tagged with the territory GBIF attributes it to,
+  plus checklist countries. The site only draws dots for listed territories.
+- **Nothing is added or removed by hand without a verifiable source.**
+  `gbif.include` / `gbif.exclude` entries are `{ code, source, reason? }` and
+  the source must be a URL or citation you have actually checked, never an
+  opinion. A hand-kept range (`gbif.manual`) needs `gbif.source`. Validation
+  rejects any listed place with no records, checklist or citation behind it.
+- Checklist distributions (Catalogue of Life, WoRMS, national checklists;
+  never alien/invasive registers) add countries records miss. Places without
+  records are styled as "known range, no records" on the site; keep that
+  distinction honest.
 - Scope is medically significant venomous animals: things whose bite or
   sting can seriously harm a person. Not poisonous animals.
 - Region codes are ISO 3166 as they appear in `public/geo/`. A species lists a

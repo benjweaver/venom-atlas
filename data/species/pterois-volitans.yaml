@@ -136,12 +136,30 @@ regions:
   - ZA-WC
 gbif:
   exclude:
-    - TR # Mediterranean lionfish are Pterois miles
-    - HR # Mediterranean lionfish are Pterois miles
-    - KW # misidentified
-    - SD # Red Sea lionfish are Pterois miles
-    - SO # misidentified
-    - SA # Red Sea records are Pterois miles
-    - FR # misidentified P. miles
-    - CY # misidentified P. miles
-    - IL # misidentified P. miles
+    - code: TR
+      reason: "Mediterranean lionfish are Pterois miles; not in this native range"
+      source: "World Register of Marine Species"
+    - code: HR
+      reason: "Mediterranean lionfish are Pterois miles; not in this native range"
+      source: "World Register of Marine Species"
+    - code: KW
+      reason: "misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: SD
+      reason: "Red Sea lionfish are Pterois miles; not in this native range"
+      source: "World Register of Marine Species"
+    - code: SO
+      reason: "misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: SA
+      reason: "Red Sea records are Pterois miles; not in this native range"
+      source: "World Register of Marine Species"
+    - code: FR
+      reason: "misidentified P. miles; not in this native range"
+      source: "World Register of Marine Species"
+    - code: CY
+      reason: "misidentified P. miles; not in this native range"
+      source: "World Register of Marine Species"
+    - code: IL
+      reason: "misidentified P. miles; not in this native range"
+      source: "World Register of Marine Species"

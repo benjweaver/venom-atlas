@@ -24,4 +24,6 @@ regions:
   - PY
 gbif:
   exclude:
-    - CO # misidentified coral snakes
+    - code: CO
+      reason: "misidentified coral snakes; not in this native range"
+      source: "Catalogue of Life"

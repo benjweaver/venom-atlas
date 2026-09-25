@@ -31,4 +31,6 @@ regions:
   - VN
 gbif:
   include:
-    - LA
+    - code: LA
+      reason: "4 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/5226813"

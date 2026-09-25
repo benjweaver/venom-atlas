@@ -14,6 +14,21 @@ export const regionCode = z
   .string()
   .regex(/^[A-Z]{2}(-[A-Z0-9]{1,3})?$/, 'expected an ISO code like "AU" or "US-AZ"')
 
+// A hand-made change to a species' places. Every one carries its source, so
+// the site can show why a place is (or isn't) listed and anyone can check it.
+export const citedRegion = z
+  .object({
+    code: regionCode,
+    // A checklist, paper or web page that supports the change (a URL or a
+    // citation), not an opinion.
+    source: z.string().min(1, 'every hand-made change needs a source'),
+    // What was wrong, for exclusions: "introduced", "misidentified P. miles".
+    reason: z.string().optional(),
+  })
+  .strict()
+
+export type CitedRegion = z.infer<typeof citedRegion>
+
 export const speciesSchema = z
   .object({
     name: z.string().min(1),
@@ -40,11 +55,13 @@ export const speciesSchema = z
         name: z.string().optional(),
         // Places GBIF has records for that aren't real range: captive animals,
         // misidentifications. A country code excludes all of its states.
-        exclude: z.array(regionCode).optional(),
-        // Places to keep even though GBIF has too few records there.
-        include: z.array(regionCode).optional(),
-        // Don't propose ranges for this species at all; `regions` is maintained by hand.
+        exclude: z.array(citedRegion).optional(),
+        // Places to keep even though the data has too few records there.
+        include: z.array(citedRegion).optional(),
+        // Don't propose ranges for this species at all; `regions` is maintained by hand...
         manual: z.literal(true).optional(),
+        // ...from this source, which the site cites for every place listed.
+        source: z.string().optional(),
       })
       .strict()
       .optional(),
@@ -67,6 +84,12 @@ export const imageSchema = z
 
 export type SpeciesImage = z.infer<typeof imageSchema>
 
+/** Why a place is listed, as shown on the site. */
+export type Evidence =
+  | { kind: 'records'; count: number }
+  | { kind: 'checklist'; source: string }
+  | { kind: 'cited'; source: string }
+
 export interface Species extends SpeciesFile {
   slug: string
   image?: SpeciesImage
@@ -74,4 +97,8 @@ export interface Species extends SpeciesFile {
   gbifKey?: number
   /** Has a record grid (dots on the map) at public/occurrence/<slug>.json. */
   records?: boolean
+  /** Listed places with no records: known from checklists or review only. */
+  unrecorded?: string[]
+  /** For each listed place, what supports it. */
+  evidence?: Record<string, Evidence[]>
 }

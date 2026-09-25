@@ -14,9 +14,6 @@ regions:
   - DJ
   - EG
   - ER
+  - NE
   - SD
   - TD
-gbif:
-  include:
-    - ER
-    - TD

@@ -18,12 +18,15 @@ regions:
   - CG
   - CM
   - GA
+  - GH
+  - GN
   - GQ
   - KE
   - NG
-  - SS
+  - TG
   - UG
 gbif:
   include:
-    - GQ
-    - SS
+    - code: GQ
+      reason: "3 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/2469880"

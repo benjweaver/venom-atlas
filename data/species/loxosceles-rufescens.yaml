@@ -10,6 +10,7 @@ habitat: >-
   Dark places in buildings, caves and under stones.
 size: Body 7–9 mm
 regions:
+  - AF
   - AU-SA
   - CY
   - DZ
@@ -20,8 +21,10 @@ regions:
   - IL
   - IR
   - IT
+  - KM
   - MA
   - MT
+  - PK
   - PT
   - RE
   - SH

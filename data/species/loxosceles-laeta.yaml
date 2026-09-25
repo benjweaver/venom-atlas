@@ -27,5 +27,9 @@ regions:
   - UY
 gbif:
   exclude:
-    - DE # captive/imported
-    - PT # imported
+    - code: DE
+      reason: "captive/imported; not in this native range"
+      source: "Catalogue of Life"
+    - code: PT
+      reason: "imported; not in this native range"
+      source: "Catalogue of Life"

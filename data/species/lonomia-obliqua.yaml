@@ -24,11 +24,8 @@ regions:
   - BR-RS
   - BR-SC
   - BR-SP
+  - CO
+  - CR
+  - PA
   - PY
   - UY
-gbif:
-  exclude:
-    - CO # other Lonomia species
-    - CR # other Lonomia species
-    - MX # other Lonomia species
-    - PA # other Lonomia species

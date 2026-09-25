@@ -12,7 +12,6 @@ habitat: >-
 size: Female body about 1.5 cm
 regions:
   - CN-XJ
-  - CY
   - ES
   - FR
   - GE
@@ -33,5 +32,6 @@ regions:
   - UZ
 gbif:
   include:
-    - CY
-    - TN
+    - code: TN
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/2157921"

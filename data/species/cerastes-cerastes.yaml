@@ -25,7 +25,3 @@ regions:
   - SD
   - TD
   - TN
-gbif:
-  include:
-    - ML
-    - JO

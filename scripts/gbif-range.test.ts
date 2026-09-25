@@ -3,6 +3,7 @@ import {
   minRecords,
   proposeRegions,
   regionsFromCells,
+  withChecklist,
   type GbifCounts,
 } from './gbif-range.ts'
 
@@ -90,5 +91,16 @@ describe('regionsFromCells', () => {
   it('drops excluded territories, and a country exclude covers its states', () => {
     const cells = [cell('AU-QLD', 50), cell('PH', 50), cell('US-CA', 50)]
     expect(regionsFromCells(cells, { exclude: ['US', 'PH'] })).toEqual(['AU-QLD'])
+  })
+})
+
+describe('withChecklist', () => {
+  it('adds checklist countries GBIF has no records for', () => {
+    // The box jellyfish: records in Queensland and Indonesia; a checklist adds PNG.
+    expect(withChecklist(['AU-QLD', 'ID'], ['PG', 'ID'])).toEqual(['AU-QLD', 'ID', 'PG'])
+  })
+
+  it('never lists a big country whole, and respects exclusions', () => {
+    expect(withChecklist(['MX-SON'], ['US', 'MX', 'BE'], { exclude: ['BE'] })).toEqual(['MX-SON'])
   })
 })

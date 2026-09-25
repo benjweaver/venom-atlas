@@ -14,6 +14,7 @@ size: About 1 m
 regions:
   - AO
   - BF
+  - BI
   - BJ
   - BW
   - CD
@@ -21,7 +22,9 @@ regions:
   - CG
   - CI
   - CM
+  - ER
   - ET
+  - GA
   - GH
   - GM
   - GN
@@ -37,11 +40,13 @@ regions:
   - RW
   - SA
   - SD
+  - SL
   - SN
   - SO
   - SS
   - SZ
   - TD
+  - TG
   - TZ
   - UG
   - YE
@@ -58,10 +63,15 @@ regions:
   - ZW
 gbif:
   include:
-    - SD
-    - ML
-    - CM
-    - TD
-    - NE
-    - BF
-    - YE
+    - code: SD
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/8901465"
+    - code: ML
+      reason: "2 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/8901465"
+    - code: TD
+      reason: "4 GBIF records, below the automatic threshold"
+      source: "https://www.gbif.org/species/8901465"
+    - code: YE
+      reason: "1 GBIF record, below the automatic threshold"
+      source: "https://www.gbif.org/species/8901465"

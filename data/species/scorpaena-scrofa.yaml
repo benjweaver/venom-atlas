@@ -36,6 +36,7 @@ regions:
   - IL
   - IT
   - JO
+  - KE
   - LB
   - LR
   - MC
@@ -59,13 +60,30 @@ regions:
   - ZA-WC
 gbif:
   exclude:
-    - ID # misidentified local scorpionfish
-    - MY # misidentified local scorpionfish
-    - TH # misidentified local scorpionfish
-    - MV # misidentified local scorpionfish
-    - JM # misidentified local scorpionfish
-    - MX # misidentified local scorpionfish
-    - US # misidentified local scorpionfish
-    - KE # misidentified local scorpionfish
-    - SO # misidentified local scorpionfish
-    - AE # misidentified local scorpionfish
+    - code: ID
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MY
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: TH
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MV
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: JM
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MX
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: US
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: SO
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"
+    - code: AE
+      reason: "misidentified local scorpionfish; not in this native range"
+      source: "World Register of Marine Species"

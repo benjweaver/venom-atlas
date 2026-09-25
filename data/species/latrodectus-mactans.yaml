@@ -64,6 +64,24 @@ regions:
   - US-TX
   - US-VA
   - US-WV
+  - VI
 gbif:
   exclude:
-    - AU # misidentified redbacks
+    - code: DZ
+      reason: "introduced; \"Probably native to North America only\""
+      source: "Catalogue of Life"
+    - code: EG
+      reason: "introduced; \"Probably native to North America only\""
+      source: "Catalogue of Life"
+    - code: GR
+      reason: "introduced; \"Probably native to North America only\""
+      source: "Catalogue of Life"
+    - code: PG
+      reason: "introduced; \"Probably native to North America only\""
+      source: "Catalogue of Life"
+    - code: PH
+      reason: "introduced; \"Probably native to North America only\""
+      source: "Catalogue of Life"
+    - code: AU
+      reason: "misidentified redbacks; not in this native range"
+      source: "Catalogue of Life"

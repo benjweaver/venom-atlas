@@ -109,11 +109,15 @@ function applyPalette() {
   map.setPaintProperty('range-fill', 'fill-color', c.range)
   // With dots, they carry the detail and the range fades back: faint for a
   // water species (the land isn't where it lives), lighter for a land one.
-  map.setPaintProperty(
-    'range-fill',
-    'fill-opacity',
-    !props.records ? 0.55 : props.aquatic ? 0.12 : 0.28,
-  )
+  const opacity = !props.records ? 0.55 : props.aquatic ? 0.12 : 0.28
+  // Places known without records (checklists, review) are fainter and dashed.
+  map.setPaintProperty('range-fill', 'fill-opacity', [
+    'case',
+    ['==', ['get', 'recorded'], false],
+    opacity * 0.5,
+    opacity,
+  ])
+  map.setPaintProperty('range-unrecorded-line', 'line-color', c.range)
   map.setPaintProperty('lakes-fill', 'fill-color', c.water)
   map.setPaintProperty('rivers-line', 'line-color', c.water)
   map.setPaintProperty('records-circle', 'circle-color', c.records)
@@ -232,7 +236,15 @@ onMounted(() => {
           id: 'range-line',
           type: 'line',
           source: 'range',
+          filter: ['!=', ['get', 'recorded'], false],
           paint: { 'line-color': c.range, 'line-width': 1.2 },
+        },
+        {
+          id: 'range-unrecorded-line',
+          type: 'line',
+          source: 'range',
+          filter: ['==', ['get', 'recorded'], false],
+          paint: { 'line-color': c.range, 'line-width': 1.2, 'line-dasharray': [2, 2] },
         },
         {
           id: 'records-circle',

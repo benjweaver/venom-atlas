@@ -73,8 +73,18 @@ regions:
   - ZA-NL
 gbif:
   exclude:
-    - EC # Indo-Pacific species; misidentified
-    - FR # Indo-Pacific species; misidentified
-    - GR # Indo-Pacific species; misidentified
-    - MX # Indo-Pacific species; misidentified
-    - US # Indo-Pacific species; misidentified
+    - code: EC
+      reason: "Indo-Pacific species; misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: FR
+      reason: "Indo-Pacific species; misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: GR
+      reason: "Indo-Pacific species; misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: MX
+      reason: "Indo-Pacific species; misidentified; not in this native range"
+      source: "World Register of Marine Species"
+    - code: US
+      reason: "Indo-Pacific species; misidentified; not in this native range"
+      source: "World Register of Marine Species"
