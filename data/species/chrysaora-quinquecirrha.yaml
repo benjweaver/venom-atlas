@@ -3,7 +3,8 @@ scientificName: Chrysaora quinquecirrha
 group: jellyfish
 danger: 1
 summary: >-
-  A common summer jellyfish of the US Atlantic coast, especially Chesapeake Bay.
+  A summer jellyfish of the US Atlantic coast, from Cape Cod to northern Florida. Its look-alike in
+  estuaries and the Gulf of Mexico, the bay nettle, was recognised as a separate species in 2017.
 venom: >-
   Painful, itchy welts; rarely serious.
 habitat: >-
@@ -11,30 +12,54 @@ habitat: >-
 size: Bell up to 25 cm
 aquatic: marine
 regions:
-  - CA-BC
-  - CA-NB
-  - CO
-  - JM
-  - MX-TAM
-  - MX-VER
-  - PA
-  - PR
-  - US-AL
   - US-CT
   - US-DE
   - US-FL
   - US-GA
-  - US-LA
   - US-MA
   - US-MD
-  - US-MS
   - US-NC
   - US-NJ
   - US-SC
-  - US-TX
   - US-VA
 gbif:
   exclude:
+    - code: CA-BC
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\" (this is the Pacific)"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: CA-NB
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\""
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: CO
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Caribbean sea nettles are genetically the bay nettle clade (\"C. c.f. chesapeakei\")"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: JM
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Caribbean sea nettles are genetically the bay nettle clade (\"C. c.f. chesapeakei\")"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: PA
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Caribbean sea nettles are genetically the bay nettle clade (\"C. c.f. chesapeakei\")"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: PR
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Caribbean sea nettles are genetically the bay nettle clade (\"C. c.f. chesapeakei\")"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: MX-TAM
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Gulf of Mexico sea nettles are the bay nettle, C. chesapeakei"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: MX-VER
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Gulf of Mexico sea nettles are the bay nettle, C. chesapeakei"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: US-AL
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Gulf of Mexico sea nettles are the bay nettle, C. chesapeakei"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: US-LA
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Gulf of Mexico sea nettles are the bay nettle, C. chesapeakei"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: US-MS
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Gulf of Mexico sea nettles are the bay nettle, C. chesapeakei"
+      source: "https://doi.org/10.7717/peerj.3863"
+    - code: US-TX
+      reason: "Bayha et al. 2017: C. quinquecirrha lives on the \"east coast of the USA south of Cape Cod … at least as far south as Georgia/Northern Florida\"; Gulf of Mexico sea nettles are the bay nettle, C. chesapeakei"
+      source: "https://doi.org/10.7717/peerj.3863"
     - code: KR
       reason: "lives on the US Atlantic coast; \"incorrect reports of C. quinquecirrha from other parts of the Atlantic and other oceans\""
       source: "https://en.wikipedia.org/wiki/Chrysaora_quinquecirrha"

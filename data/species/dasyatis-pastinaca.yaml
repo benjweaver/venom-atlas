@@ -12,7 +12,6 @@ size: Disc up to 45 cm
 aquatic: marine
 regions:
   - AL
-  - AR-B
   - BE
   - BG
   - BJ
@@ -30,18 +29,13 @@ regions:
   - IL
   - IT
   - JE
-  - KE
-  - KM
   - LB
   - MA
-  - MG
   - MR
   - MT
   - NL
   - NO
-  - OM
   - PT
-  - RE
   - RU
   - SE
   - SL
@@ -51,6 +45,24 @@ regions:
   - UA
 gbif:
   exclude:
+    - code: KE
+      reason: "outside the range \"from the North Sea to Angola\" (FishBase; Wikipedia gives the Mediterranean, Black Sea and north-east Atlantic). Southern African records were the blue stingray, once treated as the same species. WoRMS lists it."
+      source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
+    - code: KM
+      reason: "outside the range \"from the North Sea to Angola\" (FishBase; Wikipedia gives the Mediterranean, Black Sea and north-east Atlantic). Southern African records were the blue stingray, once treated as the same species. WoRMS lists it."
+      source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
+    - code: MG
+      reason: "outside the range \"from the North Sea to Angola\" (FishBase; Wikipedia gives the Mediterranean, Black Sea and north-east Atlantic). Southern African records were the blue stingray, once treated as the same species. WoRMS lists it."
+      source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
+    - code: RE
+      reason: "outside the range \"from the North Sea to Angola\" (FishBase; Wikipedia gives the Mediterranean, Black Sea and north-east Atlantic). Southern African records were the blue stingray, once treated as the same species. WoRMS lists it."
+      source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
+    - code: OM
+      reason: "outside the range \"from the North Sea to Angola\" (FishBase; Wikipedia gives the Mediterranean, Black Sea and north-east Atlantic). Southern African records were the blue stingray, once treated as the same species. WoRMS lists it."
+      source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
+    - code: AR-B
+      reason: "outside the range \"from the North Sea to Angola\" (FishBase; Wikipedia gives the Mediterranean, Black Sea and north-east Atlantic). Southern African records were the blue stingray, once treated as the same species. WoRMS lists it."
+      source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
     - code: ZA
       reason: "range is \"East Atlantic and the Mediterranean and Black Sea, from the North Sea to Angola\" (WoRMS lists South Africa)"
       source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
