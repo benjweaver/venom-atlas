@@ -36,7 +36,6 @@ regions:
   - IL
   - IT
   - JO
-  - KE
   - LB
   - LR
   - MC
@@ -60,6 +59,9 @@ regions:
   - ZA-WC
 gbif:
   exclude:
+    - code: KE
+      reason: "range is the eastern Atlantic and the Mediterranean (WoRMS lists Kenya)"
+      source: "https://www.fishbase.se/summary/Scorpaena-scrofa.html"
     - code: ID
       reason: "misidentified local scorpionfish; not in this native range"
       source: "World Register of Marine Species"

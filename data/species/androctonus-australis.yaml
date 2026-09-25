@@ -15,4 +15,8 @@ regions:
   - DZ
   - EG
   - TN
-  - US-NY
+gbif:
+  exclude:
+    - code: US
+      reason: "pet trade; \"a hardy desert scorpion from North Africa\""
+      source: "https://en.wikipedia.org/wiki/Androctonus_australis"

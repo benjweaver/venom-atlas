@@ -22,7 +22,6 @@ regions:
   - AU-VIC
   - AU-WA
   - BD
-  - EG
   - ID
   - IN-AN
   - JP-27
@@ -36,5 +35,12 @@ regions:
   - SB
   - TH
   - TW
-  - US-CA
   - VU
+gbif:
+  exclude:
+    - code: US
+      reason: "found \"in the Pacific and Indian Oceans, from Japan to Australia\""
+      source: "https://en.wikipedia.org/wiki/Blue-ringed_octopus"
+    - code: EG
+      reason: "found \"in the Pacific and Indian Oceans, from Japan to Australia\""
+      source: "https://en.wikipedia.org/wiki/Blue-ringed_octopus"

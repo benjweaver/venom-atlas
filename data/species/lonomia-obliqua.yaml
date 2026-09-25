@@ -24,8 +24,19 @@ regions:
   - BR-RS
   - BR-SC
   - BR-SP
-  - CO
-  - CR
-  - PA
   - PY
   - UY
+gbif:
+  exclude:
+    - code: CO
+      reason: "found in southern and south-eastern Brazil, Uruguay, Paraguay and Argentina"
+      source: "https://en.wikipedia.org/wiki/Lonomia_obliqua"
+    - code: CR
+      reason: "found in southern and south-eastern Brazil, Uruguay, Paraguay and Argentina"
+      source: "https://en.wikipedia.org/wiki/Lonomia_obliqua"
+    - code: MX
+      reason: "found in southern and south-eastern Brazil, Uruguay, Paraguay and Argentina"
+      source: "https://en.wikipedia.org/wiki/Lonomia_obliqua"
+    - code: PA
+      reason: "found in southern and south-eastern Brazil, Uruguay, Paraguay and Argentina"
+      source: "https://en.wikipedia.org/wiki/Lonomia_obliqua"

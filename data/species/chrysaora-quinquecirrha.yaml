@@ -15,10 +15,8 @@ regions:
   - CA-NB
   - CO
   - JM
-  - KR
   - MX-TAM
   - MX-VER
-  - MY
   - PA
   - PR
   - US-AL
@@ -35,3 +33,11 @@ regions:
   - US-SC
   - US-TX
   - US-VA
+gbif:
+  exclude:
+    - code: KR
+      reason: "lives on the US Atlantic coast; \"incorrect reports of C. quinquecirrha from other parts of the Atlantic and other oceans\""
+      source: "https://en.wikipedia.org/wiki/Chrysaora_quinquecirrha"
+    - code: MY
+      reason: "lives on the US Atlantic coast; \"incorrect reports of C. quinquecirrha from other parts of the Atlantic and other oceans\""
+      source: "https://en.wikipedia.org/wiki/Chrysaora_quinquecirrha"

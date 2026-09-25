@@ -13,7 +13,6 @@ habitat: >-
 size: Queens up to 5 cm
 regions:
   - BT
-  - CA-BC
   - CN-AH
   - CN-BJ
   - CN-FJ
@@ -74,4 +73,11 @@ regions:
   - RU
   - TH
   - TW
-  - US-WA
+gbif:
+  exclude:
+    - code: US
+      reason: "eradicated: WSDA and USDA declared it \"eradicated from Washington and the United States\" on 18 December 2024"
+      source: "https://content.govdelivery.com/accounts/WAAGR/bulletins/3c7f20e"
+    - code: CA
+      reason: "eradicated: last found in B.C. in 2021; the B.C. Ministry of Agriculture and Food says the province remains \"Northern Giant Hornet-free\""
+      source: "https://globalnews.ca/news/10924414/northern-giant-murder-hornet-eradicated/"

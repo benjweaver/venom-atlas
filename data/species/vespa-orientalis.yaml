@@ -22,7 +22,6 @@ regions:
   - DZ
   - EG
   - ES
-  - FI
   - FR
   - GE
   - GR
@@ -53,3 +52,8 @@ regions:
   - TJ
   - TR
   - UZ
+gbif:
+  exclude:
+    - code: FI
+      reason: "native to south-west Asia, north-east Africa, the Middle East, Central Asia and southern Europe; introduced to Mexico and Chile"
+      source: "https://en.wikipedia.org/wiki/Oriental_hornet"

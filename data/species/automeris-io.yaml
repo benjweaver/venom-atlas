@@ -13,7 +13,6 @@ regions:
   - CA-MB
   - CA-ON
   - CA-QC
-  - CO
   - CR
   - GT
   - HN
@@ -81,3 +80,8 @@ regions:
   - US-VT
   - US-WI
   - US-WV
+gbif:
+  exclude:
+    - code: CO
+      reason: "range is southern Canada and the United States"
+      source: "https://en.wikipedia.org/wiki/Automeris_io"

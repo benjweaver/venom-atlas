@@ -49,11 +49,11 @@ regions:
   - TN
   - TR
   - UA
-  - ZA-EC
-  - ZA-NL
-  - ZA-WC
 gbif:
   exclude:
+    - code: ZA
+      reason: "range is \"East Atlantic and the Mediterranean and Black Sea, from the North Sea to Angola\" (WoRMS lists South Africa)"
+      source: "https://www.fishbase.se/summary/Dasyatis-pastinaca.html"
     - code: AO
       reason: "misidentified tropical rays; not in this native range"
       source: "World Register of Marine Species"

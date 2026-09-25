@@ -16,5 +16,8 @@ regions:
   - MY
   - SG
   - TH
-  - US-CA
-  - US-WA
+gbif:
+  exclude:
+    - code: US
+      reason: "captive pets; native only to Indonesia, Malaysia, southern Thailand and Singapore"
+      source: "https://en.wikipedia.org/wiki/Sunda_slow_loris"

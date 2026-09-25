@@ -24,10 +24,16 @@ regions:
   - MX-MIC
   - MX-NAY
   - MX-OAX
-  - MX-ROO
   - MX-SIN
   - MX-SON
   - PA
   - SV
   - US-CA
-  - US-TX
+gbif:
+  exclude:
+    - code: MX-ROO
+      reason: "range is \"Eastern Pacific: northern California (USA) to Ecuador\""
+      source: "https://www.fishbase.se/summary/Urobatis-halleri.html"
+    - code: US-TX
+      reason: "range is \"Eastern Pacific: northern California (USA) to Ecuador\""
+      source: "https://www.fishbase.se/summary/Urobatis-halleri.html"
