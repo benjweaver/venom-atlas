@@ -17,5 +17,9 @@ regions:
   - US-CA
   - US-NM
   - US-NV
-  - US-TX
   - US-UT
+gbif:
+  exclude:
+    - code: US-TX
+      reason: "outside its range: \"southern California, southern Arizona, southern Nevada, extreme southwestern Utah and western New Mexico\", plus Baja California, Sonora and Chihuahua"
+      source: "https://en.wikipedia.org/wiki/Arizona_bark_scorpion"

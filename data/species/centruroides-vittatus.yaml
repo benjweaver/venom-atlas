@@ -23,8 +23,14 @@ regions:
   - US-KS
   - US-LA
   - US-MO
+  - US-MS
   - US-NE
   - US-NM
   - US-OK
   - US-TN
   - US-TX
+gbif:
+  include:
+    - code: US-MS
+      reason: "part of its native range: \"Arkansas, Colorado, Kansas, Illinois, Louisiana, Mississippi, Missouri, …\""
+      source: "https://en.wikipedia.org/wiki/Centruroides_vittatus"

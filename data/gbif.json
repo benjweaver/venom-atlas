@@ -3336,6 +3336,80 @@
       ]
     }
   },
+  "centruroides-gracilis": {
+    "key": 6894283,
+    "name": "Centruroides gracilis",
+    "fetched": "2026-09-25",
+    "total": 1886,
+    "countries": {
+      "MX": 1173,
+      "BZ": 215,
+      "US": 213,
+      "GT": 107,
+      "HN": 72,
+      "CU": 35,
+      "KY": 25,
+      "PA": 13,
+      "SV": 12,
+      "NI": 9,
+      "JM": 5,
+      "CO": 3,
+      "CR": 2,
+      "EC": 1,
+      "VG": 1
+    },
+    "subdivisions": {
+      "MX-ROO": 245,
+      "MX-YUC": 245,
+      "MX-VER": 204,
+      "US-FL": 186,
+      "MX-CAM": 94,
+      "MX-HID": 74,
+      "MX-CHP": 67,
+      "MX-SLP": 59,
+      "MX-TAM": 58,
+      "MX-OAX": 34,
+      "MX-TAB": 31,
+      "MX-QUE": 16,
+      "MX-GUA": 7,
+      "MX-PUE": 4,
+      "US-NC": 3,
+      "MX-MEX": 2,
+      "MX-MOR": 2,
+      "US-TX": 2,
+      "MX-DUR": 1,
+      "MX-JAL": 1,
+      "MX-NLE": 1,
+      "MX-DIF": 1,
+      "US-IL": 1,
+      "US-NY": 1,
+      "US-AZ": 1
+    },
+    "unmapped": {},
+    "checklist": {}
+  },
+  "centruroides-hentzi": {
+    "key": 6894188,
+    "name": "Centruroides hentzi",
+    "fetched": "2026-09-25",
+    "total": 1137,
+    "countries": {
+      "US": 1136,
+      "BS": 1
+    },
+    "subdivisions": {
+      "US-FL": 951,
+      "US-GA": 110,
+      "US-NC": 24,
+      "US-SC": 4,
+      "US-LA": 2,
+      "US-AL": 1,
+      "US-MS": 1,
+      "US-TN": 1
+    },
+    "unmapped": {},
+    "checklist": {}
+  },
   "centruroides-infamatus": {
     "key": 6894249,
     "name": "Centruroides infamatus",
@@ -15275,6 +15349,22 @@
         "South African National Species Checklist"
       ]
     }
+  },
+  "tityus-asthenes": {
+    "key": 6893887,
+    "name": "Tityus asthenes",
+    "fetched": "2026-09-25",
+    "total": 140,
+    "countries": {
+      "CO": 52,
+      "CR": 47,
+      "EC": 23,
+      "PE": 14,
+      "PA": 4
+    },
+    "subdivisions": {},
+    "unmapped": {},
+    "checklist": {}
   },
   "tityus-bahiensis": {
     "key": 6893786,

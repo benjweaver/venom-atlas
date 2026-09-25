@@ -1,0 +1,47 @@
+name: Slender brown scorpion
+scientificName: Centruroides gracilis
+group: scorpion
+danger: 2
+summary: >-
+  A bark scorpion native to Mexico, Guatemala, Belize and Honduras, introduced to Florida,
+  Cameroon, Gabon and Tenerife.
+venom: >-
+  Much less toxic than others of its genus, but neurotoxic and cardiotoxic: local pain and
+  swelling, and in rare severe cases heart rhythm problems, fluid on the lungs, convulsions or
+  death.
+habitat: >-
+  Native to northern Central America and Mexico; introduced populations in Florida, west-central
+  Africa and the Canary Islands.
+regions:
+  - BZ
+  - CM
+  - CU
+  - GA
+  - GT
+  - HN
+  - JM
+  - KY
+  - MX-CAM
+  - MX-CHP
+  - MX-GUA
+  - MX-HID
+  - MX-OAX
+  - MX-QUE
+  - MX-ROO
+  - MX-SLP
+  - MX-TAB
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - NI
+  - PA
+  - SV
+  - US-FL
+gbif:
+  include:
+    - code: CM
+      reason: "introduced: \"It is also introduced in parts of Africa, including Cameroon and Gabon\""
+      source: "https://en.wikipedia.org/wiki/Centruroides_gracilis"
+    - code: GA
+      reason: "introduced: \"It is also introduced in parts of Africa, including Cameroon and Gabon\""
+      source: "https://en.wikipedia.org/wiki/Centruroides_gracilis"

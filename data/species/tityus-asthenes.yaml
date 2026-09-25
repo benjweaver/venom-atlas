@@ -1,0 +1,23 @@
+name: Peruvian black scorpion
+scientificName: Tityus asthenes
+group: scorpion
+danger: 3
+summary: >-
+  A significantly venomous scorpion of South America, found in Peru.
+venom: >-
+  Venom mainly made of excitatory neurotoxins; it is venomous and should not be disturbed.
+habitat: >-
+  Found in Peru.
+regions:
+  - CO
+  - EC
+  - PE
+photo: none
+gbif:
+  exclude:
+    - code: CR
+      reason: "described as \"endemic to South America\""
+      source: "https://en.wikipedia.org/wiki/Tityus_asthenes"
+    - code: PA
+      reason: "described as \"endemic to South America\""
+      source: "https://en.wikipedia.org/wiki/Tityus_asthenes"

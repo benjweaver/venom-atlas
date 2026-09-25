@@ -1,0 +1,22 @@
+name: Hentz striped scorpion
+scientificName: Centruroides hentzi
+group: scorpion
+danger: 1
+summary: >-
+  The native bark scorpion of Florida, south-western Alabama and southern Georgia.
+venom: >-
+  Stings are painful and may cause discomfort but have no long-lasting effects or severe medical
+  consequences.
+habitat: >-
+  The south-eastern United States: Florida, south-western Alabama and the coastal plain of
+  southern Georgia.
+regions:
+  - US-AL
+  - US-FL
+  - US-GA
+  - US-NC
+gbif:
+  include:
+    - code: US-AL
+      reason: "native to \"the southeastern United States including the states of Florida, southwestern Alabama, and … southern Georgia\""
+      source: "https://en.wikipedia.org/wiki/Centruroides_hentzi"

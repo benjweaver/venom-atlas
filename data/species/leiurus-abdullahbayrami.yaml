@@ -11,11 +11,20 @@ habitat: >-
   Dry, rocky hills.
 size: 8–11 cm
 regions:
-  - JO
-  - LB
+  - SY
   - TR
 gbif:
+  exclude:
+    - code: JO
+      reason: "the 2014 Leiurus review gives its distribution as \"Turkey, Syria\"; Jordanian and Lebanese deathstalkers are L. hebraeus"
+      source: "https://www.gbif.org/species/201133251"
+    - code: LB
+      reason: "the 2014 Leiurus review gives its distribution as \"Turkey, Syria\"; Jordanian and Lebanese deathstalkers are L. hebraeus"
+      source: "https://www.gbif.org/species/201133251"
   include:
+    - code: SY
+      reason: "the 2014 Leiurus review gives its distribution as \"Turkey, Syria\" (Lowe, Yağmur & Kovařík 2014)"
+      source: "https://www.gbif.org/species/201133251"
     - code: TR
       reason: "1 GBIF record, below the automatic threshold"
       source: "https://www.gbif.org/species/7953371"

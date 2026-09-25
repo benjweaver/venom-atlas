@@ -11,12 +11,83 @@ habitat: >-
   Buildings, basements and drains.
 size: 5–7 cm
 regions:
+  - AR-A
+  - AR-B
+  - AR-D
+  - AR-E
+  - AR-F
+  - AR-G
+  - AR-H
+  - AR-J
+  - AR-K
+  - AR-L
+  - AR-M
+  - AR-N
+  - AR-S
+  - AR-T
+  - AR-W
   - AR-X
+  - AR-Y
   - BR-MS
   - BR-PR
   - PY
+  - UY
 gbif:
   include:
+    - code: UY
+      reason: "\"found in Brazil, Argentina, Paraguay, and Uruguay\""
+      source: "https://en.wikipedia.org/wiki/Tityus_trivittatus"
+    - code: AR-B
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-K
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-X
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-W
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-H
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-E
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-Y
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-F
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-M
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-N
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-A
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-D
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-G
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-J
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-S
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-T
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
+    - code: AR-L
+      reason: "province listed for T. trivittatus by Martínez, Bruni & Ojanguren Affilastro 2021 (Rev. Soc. Entomol. Argent.), which adds La Pampa"
+      source: "https://www.redalyc.org/journal/3220/322066981007/html/"
     - code: AR-X
       reason: "1 GBIF record, below the automatic threshold"
       source: "https://www.gbif.org/species/6893897"
