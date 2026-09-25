@@ -12,13 +12,9 @@ habitat: >-
 size: Disc up to 3 m
 aquatic: marine
 regions:
-  - AE
   - AG
   - AI
   - AO
-  - AU-NSW
-  - AU-QLD
-  - AU-WA
   - AW
   - BB
   - BJ
@@ -39,20 +35,14 @@ regions:
   - BZ
   - CG
   - CI
-  - CK
   - CM
   - CO
   - CR
   - CU
   - CW
-  - DJ
   - DM
   - DO
-  - EC
-  - EG
   - EH
-  - FJ
-  - FM
   - GA
   - GD
   - GF
@@ -63,65 +53,30 @@ regions:
   - GW
   - GY
   - HN
-  - ID
-  - IN-LD
   - JM
-  - JP-46
-  - KE
-  - KM
   - KN
   - KY
   - LC
-  - LK
   - LR
-  - MG
-  - MH
   - MQ
-  - MU
-  - MV
-  - MX-BCS
   - MX-CAM
-  - MX-CHP
-  - MX-GRO
-  - MX-JAL
-  - MX-NAY
-  - MX-OAX
   - MX-ROO
-  - MX-SIN
-  - MX-SON
   - MX-TAB
   - MX-TAM
   - MX-VER
   - MX-YUC
-  - MY
-  - MZ
-  - NC
   - NG
   - NI
   - PA
-  - PF
-  - PG
-  - PH
-  - PK
   - PR
-  - PW
-  - QA
-  - RE
-  - SA
-  - SC
   - SL
   - TC
   - TG
-  - TH
   - TT
-  - TV
-  - TW
-  - TZ
   - US-AL
   - US-DE
   - US-FL
   - US-GA
-  - US-HI
   - US-LA
   - US-MD
   - US-MS
@@ -134,15 +89,164 @@ regions:
   - VE
   - VG
   - VI
-  - VU
-  - WF
-  - WS
-  - YE
-  - YT
-  - ZA-EC
-  - ZA-NL
 gbif:
   exclude:
+    - code: MX-BCS
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MX-CHP
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MX-GRO
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MX-JAL
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MX-NAY
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MX-OAX
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MX-SIN
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MX-SON
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: EC
+      reason: "Pacific coast: \"Eastern Pacific species refers to A. laticeps\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: AE
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: AU-NSW
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: AU-QLD
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: AU-WA
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: CK
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: DJ
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: EG
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: FJ
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: FM
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: ID
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: IN-LD
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: JP-46
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: KE
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: KM
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: LK
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MG
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MH
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MU
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MV
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MY
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: MZ
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: NC
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: PF
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: PG
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: PH
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: PK
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: PW
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: QA
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: RE
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: SA
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: SC
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: TH
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: TV
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: TW
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: TZ
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: US-HI
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: VU
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: WF
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: WS
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: YE
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: YT
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: ZA-EC
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
+    - code: ZA-NL
+      reason: "Indo-Pacific records are a different species: \"Indo-Pacific species refer to Aetobatus ocellatus\""
+      source: "https://www.fishbase.se/summary/Aetobatus-narinari.html"
     - code: ES
       reason: "Indo-Pacific eagle rays are a separate species; not in this native range"
       source: "World Register of Marine Species"

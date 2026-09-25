@@ -29,6 +29,10 @@ regions:
   - TH
   - TL
   - TW
-  - TZ
   - VN
   - VU
+gbif:
+  exclude:
+    - code: TZ
+      reason: "range is \"Indo-West Pacific: Thailand to Vanuatu … south to Australia\""
+      source: "https://www.fishbase.se/summary/Inimicus-didactylus.html"

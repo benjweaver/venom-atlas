@@ -27,8 +27,6 @@ regions:
   - ER
   - FJ
   - FM
-  - FR
-  - GR
   - GU
   - ID
   - IL
@@ -44,7 +42,6 @@ regions:
   - MG
   - MH
   - MP
-  - MQ
   - MU
   - MV
   - MY
@@ -76,6 +73,15 @@ regions:
   - ZA-NL
 gbif:
   exclude:
+    - code: MQ
+      reason: "range is \"Indo-Pacific: Red Sea and East Africa to French Polynesia\""
+      source: "https://www.fishbase.se/summary/Synanceia-verrucosa.html"
+    - code: FR
+      reason: "Mediterranean records are from Israel, Turkey, Lebanon, Syria and Palestine only"
+      source: "https://ciesm.org/atlas/fishes_2nd_edition/Synanceia_verrucosa.pdf"
+    - code: GR
+      reason: "Mediterranean records are from Israel, Turkey, Lebanon, Syria and Palestine only"
+      source: "https://ciesm.org/atlas/fishes_2nd_edition/Synanceia_verrucosa.pdf"
     - code: BR
       reason: "Atlantic records are misidentified; not in this native range"
       source: "World Register of Marine Species"

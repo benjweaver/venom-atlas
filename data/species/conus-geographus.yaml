@@ -17,7 +17,6 @@ regions:
   - AU-NT
   - AU-QLD
   - AU-WA
-  - CO
   - EG
   - ER
   - FJ
@@ -62,3 +61,8 @@ regions:
   - YE
   - YT
   - ZA-NL
+gbif:
+  exclude:
+    - code: CO
+      reason: "an Indo-Pacific and Red Sea species, not found in the Americas"
+      source: "https://en.wikipedia.org/wiki/Conus_geographus"

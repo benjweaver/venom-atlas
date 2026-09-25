@@ -36,19 +36,14 @@ regions:
   - CO
   - CR
   - CU
-  - CV
   - CW
   - DM
   - DO
-  - ES
   - GD
   - GF
-  - GH
   - GP
-  - GW
   - GY
   - HN
-  - ID
   - JM
   - KN
   - KY
@@ -65,10 +60,8 @@ regions:
   - PA
   - PE
   - PR
-  - SL
   - SR
   - TC
-  - TH
   - TT
   - US-AL
   - US-DE
@@ -89,6 +82,27 @@ regions:
   - VI
 gbif:
   exclude:
+    - code: CV
+      reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
+      source: "https://www.fishbase.se/summary/Hypanus-americanus.html"
+    - code: ES
+      reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
+      source: "https://www.fishbase.se/summary/Hypanus-americanus.html"
+    - code: GH
+      reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
+      source: "https://www.fishbase.se/summary/Hypanus-americanus.html"
+    - code: GW
+      reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
+      source: "https://www.fishbase.se/summary/Hypanus-americanus.html"
+    - code: SL
+      reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
+      source: "https://www.fishbase.se/summary/Hypanus-americanus.html"
+    - code: ID
+      reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
+      source: "https://www.fishbase.se/summary/Hypanus-americanus.html"
+    - code: TH
+      reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
+      source: "https://www.fishbase.se/summary/Hypanus-americanus.html"
     - code: EG
       reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
       source: "https://www.fishbase.se/summary/Hypanus-americanus.html"

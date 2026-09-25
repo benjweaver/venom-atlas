@@ -15,7 +15,6 @@ regions:
   - AU-QLD
   - AU-WA
   - CN-HI
-  - EC
   - FJ
   - GU
   - HK
@@ -65,3 +64,8 @@ regions:
   - WS
   - YT
   - ZA-NL
+gbif:
+  exclude:
+    - code: EC
+      reason: "Indo-West Pacific species; \"T. roseus … is restricted to the East Pacific\""
+      source: "https://en.wikipedia.org/wiki/Toxopneustes_pileolus"

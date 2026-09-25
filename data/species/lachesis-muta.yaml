@@ -23,12 +23,18 @@ regions:
   - BR-RO
   - BR-RR
   - CO
-  - CR
   - EC
   - GF
   - GY
-  - PA
   - PE
   - SR
   - TT
   - VE
+gbif:
+  exclude:
+    - code: CR
+      reason: "South American bushmaster ranges only in South America; Central American bushmasters (southern Nicaragua, Costa Rica, Panama) are Lachesis stenophrys"
+      source: "https://en.wikipedia.org/wiki/Lachesis_stenophrys"
+    - code: PA
+      reason: "South American bushmaster ranges only in South America; Central American bushmasters (southern Nicaragua, Costa Rica, Panama) are Lachesis stenophrys"
+      source: "https://en.wikipedia.org/wiki/Lachesis_stenophrys"

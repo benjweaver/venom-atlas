@@ -13,33 +13,77 @@ size: Disc up to 1.8 m
 aquatic: marine
 regions:
   - AE
-  - AS
-  - AU-QLD
-  - AU-WA
-  - BD
   - BH
   - EG
-  - IN-GJ
-  - IN-LD
-  - IN-TN
   - IR
-  - JM
   - JO
-  - JP-47
   - KW
-  - LK
-  - MU
-  - MV
-  - MY
-  - MZ
-  - NC
   - OM
-  - PH
   - PK
-  - PW
   - SA
-  - SC
   - SD
-  - TH
-  - TW
-  - ZA-NL
+gbif:
+  exclude:
+    - code: AS
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: AU-QLD
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: AU-WA
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: BD
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: IN-GJ
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: IN-LD
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: IN-TN
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: JM
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: JP-47
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: LK
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: MU
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: MV
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: MY
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: MZ
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: NC
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: PH
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: PW
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: SC
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: TH
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: TW
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"
+    - code: ZA-NL
+      reason: "range is \"Northwestern Indian Ocean: Red Sea to Pakistan\""
+      source: "https://www.fishbase.se/summary/Pastinachus-sephen.html"

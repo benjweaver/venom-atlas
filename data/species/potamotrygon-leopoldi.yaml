@@ -12,7 +12,13 @@ habitat: >-
 size: Disc up to 60 cm
 aquatic: freshwater
 regions:
-  - AT
   - BR-MT
   - BR-PA
-  - DE
+gbif:
+  exclude:
+    - code: AT
+      reason: "aquarium fish; range is \"South America: Xingu River basin (Xingu and Fresco rivers)\""
+      source: "https://www.fishbase.se/summary/Potamotrygon-leopoldi.html"
+    - code: DE
+      reason: "aquarium fish; range is \"South America: Xingu River basin (Xingu and Fresco rivers)\""
+      source: "https://www.fishbase.se/summary/Potamotrygon-leopoldi.html"

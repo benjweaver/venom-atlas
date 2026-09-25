@@ -12,7 +12,6 @@ habitat: >-
 size: Up to 38 cm
 aquatic: marine
 regions:
-  - AE
   - AG
   - AI
   - AS
@@ -38,23 +37,16 @@ regions:
   - CR
   - CU
   - CW
-  - DJ
   - DM
   - DO
-  - EG
   - FJ
   - FM
   - GD
   - GF
   - GP
-  - GR
   - GU
   - HN
   - ID
-  - IN-AN
-  - IN-GA
-  - IN-KL
-  - IN-TN
   - JM
   - JP-12
   - JP-14
@@ -67,28 +59,21 @@ regions:
   - JP-45
   - JP-46
   - JP-47
-  - KE
   - KI
-  - KM
   - KN
   - KR
   - KY
   - LC
-  - LK
-  - MG
   - MH
   - MM
   - MP
   - MQ
   - MS
-  - MU
-  - MV
   - MX-ROO
   - MX-TAM
   - MX-VER
   - MX-YUC
   - MY
-  - MZ
   - NC
   - NF
   - NI
@@ -100,9 +85,7 @@ regions:
   - PH
   - PR
   - PW
-  - RE
   - SB
-  - SC
   - SR
   - TC
   - TH
@@ -110,7 +93,6 @@ regions:
   - TO
   - TT
   - TW
-  - TZ
   - US-AL
   - US-CT
   - US-FL
@@ -131,11 +113,71 @@ regions:
   - VU
   - WF
   - WS
-  - ZA-EC
-  - ZA-NL
-  - ZA-WC
 gbif:
   exclude:
+    - code: AE
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: DJ
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: EG
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: GR
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: IN-AN
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: IN-GA
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: IN-KL
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: IN-TN
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: KE
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: KM
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: LK
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: MG
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: MU
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: MV
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: MZ
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: RE
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: SC
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: TZ
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: ZA-EC
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: ZA-NL
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
+    - code: ZA-WC
+      reason: "Red Sea, western Indian Ocean and Mediterranean lionfish are Pterois miles: \"Replaced by the very similar Pterois miles from the Red Sea to Sumatra\""
+      source: "https://www.fishbase.se/summary/Pterois-volitans.html"
     - code: TR
       reason: "Mediterranean lionfish are Pterois miles; not in this native range"
       source: "World Register of Marine Species"

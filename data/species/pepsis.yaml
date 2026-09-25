@@ -37,9 +37,7 @@ regions:
   - GP
   - HN
   - HT
-  - KG
   - KN
-  - LB
   - MF
   - MQ
   - MX-BCN
@@ -71,8 +69,6 @@ regions:
   - PA
   - PE
   - PR
-  - RU
-  - TR
   - US-AR
   - US-AZ
   - US-CA
@@ -96,6 +92,18 @@ regions:
   - VI
 gbif:
   exclude:
+    - code: KG
+      reason: "Pepsis \"are restricted to the Americas, with the related genus Hemipepsis occurring in both Old and New Worlds\""
+      source: "https://en.wikipedia.org/wiki/Pepsis"
+    - code: LB
+      reason: "Pepsis \"are restricted to the Americas, with the related genus Hemipepsis occurring in both Old and New Worlds\""
+      source: "https://en.wikipedia.org/wiki/Pepsis"
+    - code: TR
+      reason: "Pepsis \"are restricted to the Americas, with the related genus Hemipepsis occurring in both Old and New Worlds\""
+      source: "https://en.wikipedia.org/wiki/Pepsis"
+    - code: RU
+      reason: "Pepsis \"are restricted to the Americas, with the related genus Hemipepsis occurring in both Old and New Worlds\""
+      source: "https://en.wikipedia.org/wiki/Pepsis"
     - code: SE
       reason: "tarantula hawks are \"found on all continents other than Europe and Antarctica\"; European records are other spider wasps"
       source: "https://en.wikipedia.org/wiki/Tarantula_hawk"

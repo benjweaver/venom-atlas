@@ -17,6 +17,10 @@ regions:
   - AU-QLD
   - AU-WA
   - ID
-  - MQ
   - NC
   - PG
+gbif:
+  exclude:
+    - code: MQ
+      reason: "range is \"the tropical eastern Indian Ocean and the western Pacific Ocean, from Indonesia to New Caledonia\""
+      source: "https://en.wikipedia.org/wiki/Olive_sea_snake"

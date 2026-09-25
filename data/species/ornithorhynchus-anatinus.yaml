@@ -14,9 +14,15 @@ aquatic: freshwater
 regions:
   - AU-ACT
   - AU-NSW
-  - AU-NT
   - AU-QLD
   - AU-SA
   - AU-TAS
   - AU-VIC
-  - US-FL
+gbif:
+  exclude:
+    - code: US-FL
+      reason: "\"native to the freshwaters of eastern Australia, from Queensland to Tasmania\"; the only captive platypuses outside Australia are in San Diego"
+      source: "https://en.wikipedia.org/wiki/Platypus"
+    - code: AU-NT
+      reason: "\"native to the freshwaters of eastern Australia, from Queensland to Tasmania\"; the only captive platypuses outside Australia are in San Diego"
+      source: "https://en.wikipedia.org/wiki/Platypus"

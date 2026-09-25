@@ -46,9 +46,7 @@ regions:
   - MZ
   - NG
   - NL
-  - PH
   - PT
-  - SH
   - SL
   - SN
   - TG
@@ -59,6 +57,12 @@ regions:
   - ZA-WC
 gbif:
   exclude:
+    - code: PH
+      reason: "range is the eastern Atlantic, \"British Isles (rare) to Senegal\", and the Mediterranean"
+      source: "https://www.fishbase.se/summary/Scorpaena-scrofa.html"
+    - code: SH
+      reason: "range is the eastern Atlantic, \"British Isles (rare) to Senegal\", and the Mediterranean"
+      source: "https://www.fishbase.se/summary/Scorpaena-scrofa.html"
     - code: KE
       reason: "range is the eastern Atlantic and the Mediterranean (WoRMS lists Kenya)"
       source: "https://www.fishbase.se/summary/Scorpaena-scrofa.html"
