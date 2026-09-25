@@ -207,6 +207,24 @@ Commons file (keep the credit fields).
 Images are served from Wikimedia's CDN. To self-host them instead, download
 them into `public/` and change `src`.
 
+## Theme, offline and icons
+
+- **Light and dark.** The button by the title cycles System → Light → Dark.
+  `src/lib/theme.ts` writes the result to `<html data-theme>`, `style.css`
+  keys the dark palette off it, and the map re-reads its colours when it
+  changes. The choice is remembered in the browser. `index.html` repeats the
+  logic inline so the right theme is there before the first paint.
+- **Installable and offline** (`vite-plugin-pwa`, configured in
+  `vite.config.ts`). The first visit caches the app and the world map. Each
+  country's states, the record dots and the photos are cached as they're
+  viewed, so anything you've looked at works offline. New deploys replace the
+  cache automatically.
+- **Icons.** `public/favicon.svg` follows the browser's light/dark setting.
+  The PNGs in `public/icons/` (app icons and the Apple touch icon) are
+  rendered from `favicon.svg` and `public/icons/app.svg`. To regenerate them,
+  use any SVG-to-PNG tool at 192, 512 (and 512 maskable, from `app.svg`) and
+  180 px, for example with [sharp](https://sharp.pixelplumbing.com/).
+
 ## Deploying
 
 `npm run build` produces `dist/`, a folder of static files.

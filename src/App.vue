@@ -4,8 +4,10 @@ import { computed, defineAsyncComponent, reactive, ref, shallowRef, watch } from
 
 import FilterBar from '@/components/FilterBar.vue'
 import MapLegend from '@/components/MapLegend.vue'
+import PlaceNav from '@/components/PlaceNav.vue'
 import SpeciesCard from '@/components/SpeciesCard.vue'
 import SpeciesDetail from '@/components/SpeciesDetail.vue'
+import ThemeToggle from '@/components/ThemeToggle.vue'
 import type { Species } from '@/data/schema'
 import { GROUPS } from '@/data/taxonomy'
 import {
@@ -179,18 +181,21 @@ const breadcrumb = computed(() => {
 const countryTotal = countsByCountry(allSpecies).size
 
 // Opening or leaving a species starts the panel at the top. On a phone the
-// panel sits below the map, so scroll the page down to it as well.
-const panel = ref<HTMLElement>()
+// panel sits below the map, so scroll the page down to the navigation bar,
+// which then sticks to the top of the screen.
+const navBar = ref<HTMLElement>()
 const content = ref<HTMLElement>()
+const isPhone = () => !matchMedia('(min-width: 768px)').matches
 watch(
   () => view.species,
   (slug) => {
     content.value?.scrollTo({ top: 0 })
-    if (slug && !matchMedia('(min-width: 768px)').matches) {
-      panel.value?.scrollIntoView({ behavior: 'smooth' })
-    }
+    if (slug && isPhone()) navBar.value?.scrollIntoView({ behavior: 'smooth' })
   },
 )
+function showMap() {
+  scrollTo({ top: 0, behavior: 'smooth' })
+}
 
 addEventListener('keydown', (e) => {
   if (e.key !== 'Escape' || e.target instanceof HTMLInputElement) return
@@ -227,47 +232,44 @@ addEventListener('keydown', (e) => {
       />
     </main>
 
-    <aside
-      ref="panel"
-      class="bg-(--surface) md:flex md:w-[420px] md:flex-col md:border-l md:border-(--line)"
-    >
+    <aside class="bg-(--surface) md:flex md:w-[420px] md:flex-col md:border-l md:border-(--line)">
       <header class="space-y-3 border-b border-(--line) p-4">
-        <div>
-          <h1 class="text-xl font-bold tracking-tight">
-            <button type="button" @click="selectRegion(null)">
-              Venom<span class="text-(--accent)">Atlas</span>
-            </button>
-          </h1>
-          <p class="text-xs text-(--muted)">
-            {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
-          </p>
+        <div class="flex items-start justify-between gap-3">
+          <div>
+            <h1 class="text-xl font-bold tracking-tight">
+              <button type="button" @click="selectRegion(null)">
+                Venom<span class="text-(--accent)">Atlas</span>
+              </button>
+            </h1>
+            <p class="text-xs text-(--muted)">
+              {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
+            </p>
+          </div>
+          <ThemeToggle />
         </div>
         <FilterBar v-model:groups="view.groups" v-model:query="view.query" :available="available" />
       </header>
+
+      <!-- Sticks to the top of the screen on phones as the page scrolls. -->
+      <div ref="navBar" class="sticky top-0 z-20 md:static">
+        <PlaceNav
+          :crumbs="breadcrumb"
+          :species="selectedSpecies?.name"
+          @go="selectRegion"
+          @close="view.species = null"
+          @map="showMap"
+        />
+      </div>
 
       <div ref="content" class="p-4 md:min-h-0 md:flex-1 md:overflow-y-auto">
         <SpeciesDetail
           v-if="selectedSpecies"
           :species="selectedSpecies"
           :region-name="regionName"
-          @back="view.species = null"
           @region="selectRegion"
         />
 
         <template v-else>
-          <nav class="mb-1 flex flex-wrap items-center gap-1 text-xs text-(--muted)">
-            <template v-for="(crumb, i) in breadcrumb" :key="crumb.label">
-              <span v-if="i > 0">›</span>
-              <button
-                type="button"
-                class="hover:text-(--ink)"
-                :class="{ 'font-medium text-(--ink)': i === breadcrumb.length - 1 }"
-                @click="selectRegion(crumb.code)"
-              >
-                {{ crumb.label }}
-              </button>
-            </template>
-          </nav>
           <div class="flex items-baseline justify-between gap-3">
             <h2 class="text-lg font-semibold">
               {{ view.region ? regionName(view.region) : 'All species' }}

@@ -29,6 +29,7 @@ import { onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { bbox, frameBox, loadWater, type BBox, type RecordPoints, type Regions } from '@/lib/geo'
 import { HEAT_STEPS } from '@/lib/heat'
 import { isSubdivision } from '@/lib/regions'
+import { theme } from '@/lib/theme'
 
 const props = defineProps<{
   countries: Regions
@@ -53,11 +54,10 @@ let ready = false
 const WORLD: [number, number, number, number] = [-160, -50, 175, 72]
 const EMPTY: Regions = { type: 'FeatureCollection', features: [] }
 setWorkerUrl(workerUrl)
-const scheme = matchMedia('(prefers-color-scheme: dark)')
 
 // Colours come from CSS custom properties so light/dark lives in one place
 // (style.css). MapLibre paints on a canvas and can't read CSS itself, so they
-// are read here and re-applied when the system theme flips.
+// are read here and re-applied when the theme changes.
 function palette() {
   const css = getComputedStyle(document.documentElement)
   const v = (name: string) => css.getPropertyValue(name).trim()
@@ -365,12 +365,9 @@ onMounted(() => {
     })
     emit('select', hit ? (hit.properties.code as string) : null)
   })
-
-  scheme.addEventListener('change', applyPalette)
 })
 
 onBeforeUnmount(() => {
-  scheme.removeEventListener('change', applyPalette)
   map?.remove()
 })
 
@@ -396,6 +393,9 @@ watch(() => [props.subdivisions, props.subdivisionCounts], syncSubdivisions)
 watch(() => props.records, syncRange)
 // Water and land species are coloured differently (blue and green).
 watch(() => props.aquatic, applyPalette)
+// Light/dark: the tokens in style.css have already switched by the time this
+// runs (watchers run after theme.ts has set <html data-theme>).
+watch(() => theme.resolved, applyPalette)
 watch(
   () => props.range,
   () => {

@@ -6,9 +6,10 @@ import { GROUP_LABELS } from '@/data/taxonomy'
 import { countryOf, isSubdivision } from '@/lib/regions'
 
 import DangerBadge from './DangerBadge.vue'
+import InfoTip from './InfoTip.vue'
 
 const props = defineProps<{ species: Species; regionName: (code: string) => string }>()
-defineEmits<{ back: []; region: [code: string] }>()
+defineEmits<{ region: [code: string] }>()
 
 // "United States: Arizona, New Mexico · Mexico" — states grouped under their
 // country so a long range stays scannable.
@@ -79,14 +80,6 @@ const wikipedia = computed(
 
 <template>
   <article>
-    <button
-      type="button"
-      class="mb-3 text-sm text-(--muted) hover:text-(--ink)"
-      @click="$emit('back')"
-    >
-      ← Back
-    </button>
-
     <figure v-if="species.image" class="-mx-4 mb-4">
       <img
         :src="species.image.src"
@@ -114,7 +107,7 @@ const wikipedia = computed(
     <p class="text-xs tracking-wide text-(--muted) uppercase">{{ GROUP_LABELS[species.group] }}</p>
     <h2 class="text-2xl leading-tight font-bold">{{ species.name }}</h2>
     <p class="text-sm text-(--muted) italic">{{ species.scientificName }}</p>
-    <DangerBadge :level="species.danger" class="mt-2" />
+    <DangerBadge :level="species.danger" explain class="mt-2" />
 
     <p class="mt-4">{{ species.summary }}</p>
     <p
@@ -158,25 +151,27 @@ const wikipedia = computed(
         </dd>
         <dd class="mt-1 space-y-1">
           <div v-for="{ country, subs } in where" :key="country">
-            <button
-              type="button"
-              class="text-(--accent) hover:underline"
-              :class="{ italic: unrecorded.has(country) }"
-              :title="evidenceText(country)"
-              @click="$emit('region', country)"
-            >
-              {{ regionName(country) }}</button
+            <InfoTip :text="evidenceText(country)" :tap="false"
+              ><button
+                type="button"
+                class="text-(--accent) hover:underline"
+                :class="{ italic: unrecorded.has(country) }"
+                @click="$emit('region', country)"
+              >
+                {{ regionName(country) }}
+              </button></InfoTip
             ><template v-if="subs.length">
               <span class="text-(--muted)">: </span>
               <template v-for="(code, i) in subs" :key="code">
-                <button
-                  type="button"
-                  class="text-(--ink) hover:text-(--accent) hover:underline"
-                  :class="{ 'text-(--muted) italic': unrecorded.has(code) }"
-                  :title="evidenceText(code)"
-                  @click="$emit('region', code)"
-                >
-                  {{ regionName(code) }}</button
+                <InfoTip :text="evidenceText(code)" :tap="false"
+                  ><button
+                    type="button"
+                    class="text-(--ink) hover:text-(--accent) hover:underline"
+                    :class="{ 'text-(--muted) italic': unrecorded.has(code) }"
+                    @click="$emit('region', code)"
+                  >
+                    {{ regionName(code) }}
+                  </button></InfoTip
                 ><span v-if="i < subs.length - 1" class="text-(--muted)">, </span>
               </template>
             </template>
@@ -222,7 +217,9 @@ const wikipedia = computed(
           >.
         </li>
       </ul>
-      <p class="mt-1">Hover a place to see what supports it.</p>
+      <!-- Only where there's a mouse: on touch, a tap on a place opens it. -->
+      <p class="mt-1 [@media(hover:none)]:hidden">Hover over a place to see what supports it.</p>
+      <p class="mt-1 [@media(hover:hover)]:hidden">Tap a place above to open it on the map.</p>
     </section>
 
     <a

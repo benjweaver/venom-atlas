@@ -4,11 +4,70 @@ import { fileURLToPath, URL } from 'node:url'
 import tailwindcss from '@tailwindcss/vite'
 import vue from '@vitejs/plugin-vue'
 import { defineConfig } from 'vite'
+import { VitePWA } from 'vite-plugin-pwa'
 
 import { speciesPlugin } from './scripts/vite-plugin-species.ts'
 
 export default defineConfig({
-  plugins: [vue(), tailwindcss(), speciesPlugin()],
+  plugins: [
+    vue(),
+    tailwindcss(),
+    speciesPlugin(),
+    // Installable, and usable offline: the app itself and the world map are
+    // cached on first visit; each country's states, the record dots and the
+    // photos are cached as they're viewed.
+    VitePWA({
+      registerType: 'autoUpdate',
+      manifest: {
+        name: 'Venom Atlas',
+        short_name: 'Venom Atlas',
+        description:
+          'An interactive world map of venomous animals by country and state, with cited ranges.',
+        start_url: '/',
+        scope: '/',
+        display: 'standalone',
+        background_color: '#f6f2ea',
+        theme_color: '#fffdf8',
+        icons: [
+          { src: '/icons/icon-192.png', sizes: '192x192', type: 'image/png', purpose: 'any' },
+          { src: '/icons/icon-512.png', sizes: '512x512', type: 'image/png', purpose: 'any' },
+          {
+            src: '/icons/maskable-512.png',
+            sizes: '512x512',
+            type: 'image/png',
+            purpose: 'maskable',
+          },
+        ],
+      },
+      workbox: {
+        globPatterns: [
+          '**/*.{js,css,html,svg,png}',
+          'geo/countries.json',
+          'geo/rivers.json',
+          'geo/lakes.json',
+        ],
+        // Direct visits to a data file get the file, not the app.
+        navigateFallbackDenylist: [/^\/(geo|occurrence|icons)\//],
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => /^\/(geo|occurrence)\//.test(url.pathname),
+            handler: 'StaleWhileRevalidate',
+            options: { cacheName: 'data', expiration: { maxEntries: 800 } },
+          },
+          {
+            // Photos come from Wikimedia's CDN, as opaque (no-CORS) responses.
+            urlPattern: ({ url }) => url.hostname === 'upload.wikimedia.org',
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'photos',
+              expiration: { maxEntries: 200, maxAgeSeconds: 60 * 60 * 24 * 90 },
+              cacheableResponse: { statuses: [0, 200] },
+            },
+          },
+        ],
+      },
+    }),
+  ],
   resolve: {
     // `@/lib` rather than `../../lib`. Mirrored in tsconfig.app.json paths —
     // both have to agree or the editor and the build disagree about imports.

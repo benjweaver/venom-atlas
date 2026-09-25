@@ -3,6 +3,8 @@ import { computed } from 'vue'
 
 import { HEAT_STEPS, heatLabel } from '@/lib/heat'
 
+import InfoTip from './InfoTip.vue'
+
 const props = defineProps<{
   range: boolean
   records: boolean
@@ -49,7 +51,12 @@ const fill = computed(() => (props.aquatic ? 'var(--map-range)' : 'var(--map-ran
       </span>
     </template>
     <template v-else>
-      <div class="mb-1 font-medium text-(--ink)">Species recorded</div>
+      <InfoTip
+        text="How many of the atlas's venomous species live in each country. Tap a country to see them, and its states where they're listed."
+        class="mb-1 font-medium text-(--ink)"
+      >
+        Species recorded <span class="ml-1 text-(--muted)" aria-hidden="true">ⓘ</span>
+      </InfoTip>
       <div class="flex flex-wrap gap-x-2 gap-y-1">
         <span class="flex items-center gap-1">
           <span

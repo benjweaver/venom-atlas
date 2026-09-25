@@ -2,7 +2,9 @@
 
 /* Every colour in the app, map included, is one of these tokens. The map reads
    them at runtime (AtlasMap.vue), so changing a colour here changes it
-   everywhere, in both themes. */
+   everywhere, in both themes. The dark set applies when <html data-theme> is
+   "dark", which src/lib/theme.ts sets from the visitor's choice or the system
+   setting (and index.html sets before first paint). */
 :root {
   --bg: #f6f2ea;
   --surface: #fffdf8;
@@ -38,39 +40,37 @@
   color-scheme: light;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #14120f;
-    --surface: #1d1a16;
-    --surface-2: #27231d;
-    --ink: #f1ebe0;
-    --muted: #a39a8b;
-    --line: #3a342b;
-    --accent: #ef7a5a;
+:root[data-theme='dark'] {
+  --bg: #14120f;
+  --surface: #1d1a16;
+  --surface-2: #27231d;
+  --ink: #f1ebe0;
+  --muted: #a39a8b;
+  --line: #3a342b;
+  --accent: #ef7a5a;
 
-    --map-ocean: #0e1316;
-    --map-land: #25272a;
-    --map-border: #43454a;
-    --map-range: #4fc1d6;
-    --map-range-land: #93c96a;
-    --map-records-land: #7ddc8a;
-    --map-water: #1a2429;
-    --map-records: #5cc8ff;
-    --map-selected: #fff4e0;
-    --heat-1: #5a3d17;
-    --heat-2: #8c4d17;
-    --heat-3: #bb5e1c;
-    --heat-4: #e27a2b;
-    --heat-5: #ffa25a;
+  --map-ocean: #0e1316;
+  --map-land: #25272a;
+  --map-border: #43454a;
+  --map-range: #4fc1d6;
+  --map-range-land: #93c96a;
+  --map-records-land: #7ddc8a;
+  --map-water: #1a2429;
+  --map-records: #5cc8ff;
+  --map-selected: #fff4e0;
+  --heat-1: #5a3d17;
+  --heat-2: #8c4d17;
+  --heat-3: #bb5e1c;
+  --heat-4: #e27a2b;
+  --heat-5: #ffa25a;
 
-    --danger-1: #97b85a;
-    --danger-2: #dcb440;
-    --danger-3: #ec8c42;
-    --danger-4: #ef5b4b;
-    --danger-5: #e0608f;
+  --danger-1: #97b85a;
+  --danger-2: #dcb440;
+  --danger-3: #ec8c42;
+  --danger-4: #ef5b4b;
+  --danger-5: #e0608f;
 
-    color-scheme: dark;
-  }
+  color-scheme: dark;
 }
 
 html,
@@ -110,9 +110,7 @@ body {
 #app .maplibregl-ctrl-attrib a {
   color: var(--ink);
 }
-@media (prefers-color-scheme: dark) {
-  #app .maplibregl-ctrl-icon,
-  #app .maplibregl-ctrl-attrib-button {
-    filter: invert(1);
-  }
+:root[data-theme='dark'] #app .maplibregl-ctrl-icon,
+:root[data-theme='dark'] #app .maplibregl-ctrl-attrib-button {
+  filter: invert(1);
 }
