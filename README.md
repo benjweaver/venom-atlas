@@ -61,6 +61,9 @@ size: Typically 1–1.5 m # optional
 wikipedia: Article title # optional; defaults to scientificName
 photo: Some file.jpg # optional: a specific Commons file, or "none"
 aquatic: marine # optional: marine | freshwater (see "Water species" below)
+taxonomy: # optional: a cited note on how the species is defined (a recent split)
+  note: '…'
+  source: 'https://doi.org/…'
 regions: # ISO 3166 codes, normally written by `npm run ranges`
   - US-AZ #   a state/province...
   - MX #   ...or a whole country

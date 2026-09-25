@@ -45,6 +45,12 @@ export const speciesSchema = z
     // or "none" when no freely licensed photo exists.
     photo: z.string().optional(),
     regions: z.array(regionCode).min(1),
+    // A cited note on how the species is defined, shown with the summary: a
+    // recent split, or an entry that covers several species.
+    taxonomy: z
+      .object({ note: z.string().min(1), source: z.string().min(1) })
+      .strict()
+      .optional(),
     // Lives in the water. Its places are then exactly the territories whose
     // waters it has been recorded in (see scripts/gbif-range.ts).
     aquatic: z.enum(['marine', 'freshwater']).optional(),

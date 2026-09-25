@@ -10,16 +10,12 @@ venom: >-
   sting when washed ashore.
 habitat: >-
   Warm ocean surface waters; frequently blown onto beaches.
+taxonomy:
+  note: "A 2024 genomic study found four Physalia species with overlapping ranges. P. physalis is the Atlantic species; in the Pacific and Indian Oceans the common one is the bluebottle, P. utriculus, listed separately (Church et al. 2024)."
+  source: "https://doi.org/10.1101/2024.07.10.602499"
 size: Float up to 30 cm; tentacles up to 10 m or more
 aquatic: marine
 regions:
-  - AU-NSW
-  - AU-NT
-  - AU-QLD
-  - AU-SA
-  - AU-TAS
-  - AU-VIC
-  - AU-WA
   - AW
   - BB
   - BE
@@ -45,10 +41,6 @@ regions:
   - CA-NL
   - CA-NS
   - CI
-  - CK
-  - CL
-  - CN-GD
-  - CN-HI
   - CO
   - CR
   - CU
@@ -57,104 +49,43 @@ regions:
   - DM
   - DO
   - DZ
-  - EC
   - EH
   - ES
-  - FJ
   - FR
   - GB
   - GD
   - GF
   - GP
   - GT
-  - GU
   - GY
   - HN
-  - ID
   - IE
   - IM
-  - IN-AP
-  - IN-GA
-  - IN-GJ
-  - IN-KA
-  - IN-KL
-  - IN-MH
-  - IN-OR
-  - IN-TN
   - IT
   - JM
-  - JP-02
-  - JP-04
-  - JP-08
-  - JP-12
-  - JP-14
-  - JP-22
-  - JP-24
-  - JP-46
-  - JP-47
-  - KE
-  - KM
-  - KR
   - KY
   - LC
-  - LK
   - LR
   - MA
   - MF
-  - MG
-  - MH
-  - MP
   - MQ
-  - MU
-  - MV
-  - MX-BCS
-  - MX-COL
-  - MX-GRO
-  - MX-JAL
-  - MX-MIC
-  - MX-NAY
-  - MX-OAX
   - MX-ROO
-  - MX-SIN
-  - MX-SON
   - MX-TAM
   - MX-VER
   - MX-YUC
-  - MY
-  - MZ
   - NA
-  - NC
-  - NF
-  - NU
-  - NZ
-  - OM
   - PA
-  - PE
-  - PF
-  - PG
-  - PH
   - PT
-  - PW
-  - RE
-  - SB
-  - SC
   - SH
   - SN
   - SR
-  - SV
   - TG
-  - TH
-  - TO
   - TT
-  - TW
-  - TZ
   - US-AL
-  - US-CA
   - US-CT
   - US-DE
   - US-FL
   - US-GA
-  - US-HI
   - US-LA
   - US-MA
   - US-MD
@@ -170,17 +101,247 @@ regions:
   - UY
   - VC
   - VE
-  - VN
-  - VU
-  - WF
-  - YE
-  - YT
-  - ZA-EC
   - ZA-NC
-  - ZA-NL
   - ZA-WC
 gbif:
   exclude:
+    - code: AU-NSW
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: AU-NT
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: AU-QLD
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: AU-SA
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: AU-TAS
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: AU-VIC
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: AU-WA
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CK
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CL
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CN-GD
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CN-HI
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: EC
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: FJ
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: GU
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: ID
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-AP
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-GA
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-GJ
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-KA
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-KL
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-MH
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-OR
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IN-TN
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-02
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-04
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-08
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-12
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-14
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-22
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-24
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-46
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JP-47
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: KE
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: KM
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: KR
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: LK
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MG
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MH
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MP
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MU
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MV
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-BCS
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-COL
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-GRO
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-JAL
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-MIC
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-NAY
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-OAX
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-SIN
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-SON
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MY
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MZ
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: NC
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: NF
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: NU
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: NZ
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: OM
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: PE
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: PF
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: PG
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: PH
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: PW
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: RE
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: SB
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: SC
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: SV
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: TH
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: TO
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: TW
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: TZ
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-CA
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-HI
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: VN
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: VU
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: WF
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: YE
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: YT
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: ZA-EC
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: ZA-NL
+      reason: "Pacific and Indian Ocean records are mostly the bluebottle: \"Physalia physalis from the Atlantic; P. utriculus, present throughout the Pacific, Indian, and into the SW Atlantic\""
+      source: "https://doi.org/10.1101/2024.07.10.602499"
     - code: AQ
       reason: "drifted specimens; not in this native range"
       source: "World Register of Marine Species"

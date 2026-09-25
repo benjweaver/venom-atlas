@@ -1,4 +1,4 @@
-name: Crown-of-thorns starfish
+name: "Crown-of-thorns starfish (species complex)"
 scientificName: Acanthaster planci
 group: other
 danger: 2
@@ -8,6 +8,9 @@ venom: >-
   Spine punctures cause severe pain, swelling and vomiting, and can break off in the wound.
 habitat: >-
   Coral reefs of the Indo-Pacific.
+taxonomy:
+  note: "Now known to be at least four species split by ocean: A. benziei in the Red Sea, A. mauritiensis and A. planci (in the strict sense) in the southern and northern Indian Ocean, and A. cf. solaris in the western Pacific, with A. cf. ellisii in the eastern Pacific. This entry covers them all: their spines and stings are alike, and GBIF still files Pacific records as A. planci (Uthicke et al. 2024)."
+  source: "https://doi.org/10.1007/s00227-023-04355-5"
 size: Up to 35 cm across
 aquatic: marine
 regions:

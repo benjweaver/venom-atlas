@@ -117,6 +117,20 @@ const wikipedia = computed(
     <DangerBadge :level="species.danger" class="mt-2" />
 
     <p class="mt-4">{{ species.summary }}</p>
+    <p
+      v-if="species.taxonomy"
+      class="mt-2 rounded-md bg-(--surface-2) px-3 py-2 text-xs text-(--muted)"
+    >
+      <span class="font-semibold text-(--ink)">Taxonomy:</span> {{ species.taxonomy.note }}
+      <a
+        v-if="/^https?:\/\//.test(species.taxonomy.source)"
+        :href="species.taxonomy.source"
+        target="_blank"
+        rel="noopener"
+        class="underline"
+        >Source</a
+      ><template v-else>({{ species.taxonomy.source }})</template>
+    </p>
 
     <dl class="mt-4 space-y-3 text-sm">
       <div>

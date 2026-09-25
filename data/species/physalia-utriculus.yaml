@@ -1,0 +1,302 @@
+name: Bluebottle
+scientificName: Physalia utriculus
+group: jellyfish
+danger: 2
+summary: >-
+  The Indo-Pacific relative of the Portuguese man o' war, stinging tens of thousands of swimmers
+  a year in Australia.
+venom: >-
+  Sharp pain and a red welt; hot water relieves it. Serious effects are very rare.
+habitat: >-
+  Warm ocean surface; blown onto beaches by onshore winds.
+taxonomy:
+  note: "Long treated as the same species as the Portuguese man o’ war, and GBIF still files its records under P. physalis. A 2024 genomic study separated them: the bluebottle is found \"throughout the Pacific, Indian, as well as the SW. Atlantic and Gulf of Mexico\" (Church et al. 2024)."
+  source: "https://doi.org/10.1101/2024.07.10.602499"
+size: Float up to 15 cm
+aquatic: marine
+regions:
+  - AU-NSW
+  - AU-NT
+  - AU-QLD
+  - AU-SA
+  - AU-TAS
+  - AU-VIC
+  - AU-WA
+  - BR-AL
+  - BR-BA
+  - BR-CE
+  - BR-ES
+  - BR-MA
+  - BR-PA
+  - BR-PB
+  - BR-PE
+  - BR-PI
+  - BR-PR
+  - BR-RJ
+  - BR-RN
+  - BR-RS
+  - BR-SC
+  - BR-SE
+  - BR-SP
+  - CK
+  - CL
+  - CN-GD
+  - CN-HI
+  - CO
+  - CR
+  - EC
+  - FJ
+  - GT
+  - GU
+  - HN
+  - ID
+  - IN-AP
+  - IN-GA
+  - IN-GJ
+  - IN-KA
+  - IN-KL
+  - IN-MH
+  - IN-OR
+  - IN-TN
+  - JP-02
+  - JP-04
+  - JP-08
+  - JP-12
+  - JP-14
+  - JP-22
+  - JP-24
+  - JP-46
+  - JP-47
+  - KE
+  - KM
+  - KR
+  - LK
+  - MG
+  - MH
+  - MP
+  - MU
+  - MV
+  - MX-BCS
+  - MX-COL
+  - MX-GRO
+  - MX-JAL
+  - MX-MIC
+  - MX-NAY
+  - MX-OAX
+  - MX-SIN
+  - MX-SON
+  - MX-TAM
+  - MX-VER
+  - MX-YUC
+  - MY
+  - MZ
+  - NC
+  - NF
+  - NU
+  - NZ
+  - OM
+  - PA
+  - PE
+  - PF
+  - PG
+  - PH
+  - PW
+  - RE
+  - SB
+  - SC
+  - SV
+  - TH
+  - TO
+  - TW
+  - TZ
+  - US-AL
+  - US-CA
+  - US-FL
+  - US-HI
+  - US-LA
+  - US-MS
+  - US-TX
+  - UY
+  - VN
+  - VU
+  - WF
+  - YE
+  - YT
+  - ZA-EC
+  - ZA-NL
+gbif:
+  exclude:
+    - code: AQ
+      reason: "outside the bluebottle range of \"the Pacific, Indian, as well as the SW. Atlantic and Gulf of Mexico\"; the southern edges are P. megalista (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: AW
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: BB
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: BE
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: BM
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: BS
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: BZ
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CA-NL
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CA-NS
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CI
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CU
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CV
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: CW
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: DM
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: DO
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: DZ
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: EH
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: ES
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: FR
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: GB
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: GD
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: GF
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: GP
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: GY
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IE
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IM
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: IT
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: JM
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: KY
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: LC
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: LR
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MA
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MF
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MQ
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: MX-ROO
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: NA
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: PT
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: SH
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: SN
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: SR
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: TG
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: TT
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-CT
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-DE
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-GA
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-MA
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-MD
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-ME
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-NC
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-NJ
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-NY
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-RI
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-SC
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: US-VA
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: VC
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: VE
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: ZA-NC
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
+    - code: ZA-WC
+      reason: "the North Atlantic, Caribbean and south-east Atlantic are the Portuguese man o’ war range; the bluebottle reaches only the south-west Atlantic and Gulf of Mexico (Church et al. 2024)"
+      source: "https://doi.org/10.1101/2024.07.10.602499"
