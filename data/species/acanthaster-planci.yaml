@@ -28,7 +28,6 @@ regions:
   - EG
   - FJ
   - FM
-  - GS
   - GU
   - ID
   - IN-AN
@@ -83,6 +82,9 @@ regions:
   - ZA-NL
 gbif:
   exclude:
+    - code: GS
+      reason: "sub-Antarctic island far outside its tropical Indo-Pacific coral-reef range"
+      source: "https://en.wikipedia.org/wiki/Crown-of-thorns_starfish"
     - code: DK
       reason: "museum or mislocated record; not in this native range"
       source: "World Register of Marine Species"

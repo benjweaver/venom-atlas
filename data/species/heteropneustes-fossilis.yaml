@@ -12,7 +12,6 @@ habitat: >-
 size: Up to 30 cm
 aquatic: freshwater
 regions:
-  - AU-WA
   - BD
   - IN-AP
   - IN-AS
@@ -38,4 +37,11 @@ regions:
   - PK
   - SY
   - TH
-  - ZA-NL
+gbif:
+  exclude:
+    - code: AU-WA
+      reason: "native to South Asia and introduced only to the Tigris basin; no population here"
+      source: "https://en.wikipedia.org/wiki/Heteropneustes_fossilis"
+    - code: ZA-NL
+      reason: "native to South Asia and introduced only to the Tigris basin; no population here"
+      source: "https://en.wikipedia.org/wiki/Heteropneustes_fossilis"

@@ -19,7 +19,6 @@ regions:
   - CN-GD
   - CN-HI
   - CY
-  - DE
   - DJ
   - EG
   - ER
@@ -87,6 +86,9 @@ regions:
   - ZA-NL
 gbif:
   exclude:
+    - code: DE
+      reason: "an Indo-Pacific urchin (invasive in the eastern Mediterranean), not a North Sea one"
+      source: "https://en.wikipedia.org/wiki/Diadema_setosum"
     - code: AQ
       reason: "mislocated record; not in this native range"
       source: "South African National Species Checklist / World Register of Marine Species"

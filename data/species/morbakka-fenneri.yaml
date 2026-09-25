@@ -13,4 +13,8 @@ aquatic: marine
 regions:
   - AU-NSW
   - AU-QLD
-  - IN-WB
+gbif:
+  exclude:
+    - code: IN-WB
+      reason: "found in the waters of Australia and Thailand"
+      source: "https://en.wikipedia.org/wiki/Morbakka_fenneri"

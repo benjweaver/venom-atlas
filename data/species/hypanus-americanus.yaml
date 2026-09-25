@@ -58,7 +58,6 @@ regions:
   - MX-YUC
   - NI
   - PA
-  - PE
   - PR
   - SR
   - TC
@@ -82,6 +81,9 @@ regions:
   - VI
 gbif:
   exclude:
+    - code: PE
+      reason: "a western Atlantic stingray (New Jersey to southern Brazil); Peru is on the Pacific"
+      source: "https://en.wikipedia.org/wiki/Southern_stingray"
     - code: CV
       reason: "range is \"Western Atlantic: New Jersey, USA and northern Gulf of Mexico to southern Brazil\""
       source: "https://www.fishbase.se/summary/Hypanus-americanus.html"

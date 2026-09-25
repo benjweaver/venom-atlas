@@ -14,9 +14,6 @@ aquatic: marine
 regions:
   - AE
   - AL
-  - AU-NT
-  - AU-QLD
-  - AU-WA
   - BH
   - CW
   - CY
@@ -72,3 +69,14 @@ regions:
   - ZA-EC
   - ZA-NL
   - ZA-WC
+gbif:
+  exclude:
+    - code: AU-QLD
+      reason: "native to the Indian Ocean from the Red Sea to South Africa and Indonesia; Australian lionfish are P. volitans"
+      source: "https://en.wikipedia.org/wiki/Pterois_miles"
+    - code: AU-NT
+      reason: "native to the Indian Ocean from the Red Sea to South Africa and Indonesia; Australian lionfish are P. volitans"
+      source: "https://en.wikipedia.org/wiki/Pterois_miles"
+    - code: AU-WA
+      reason: "native to the Indian Ocean from the Red Sea to South Africa and Indonesia; Australian lionfish are P. volitans"
+      source: "https://en.wikipedia.org/wiki/Pterois_miles"

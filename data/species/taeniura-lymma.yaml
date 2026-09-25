@@ -27,7 +27,6 @@ regions:
   - JO
   - KE
   - KH
-  - LB
   - LK
   - MG
   - MV
@@ -57,6 +56,9 @@ regions:
   - ZA-NL
 gbif:
   exclude:
+    - code: LB
+      reason: "an Indo-Pacific ray with no Mediterranean population"
+      source: "https://en.wikipedia.org/wiki/Bluespotted_ribbontail_ray"
     - code: US
       reason: "aquarium animals; not in this native range"
       source: "World Register of Marine Species"
