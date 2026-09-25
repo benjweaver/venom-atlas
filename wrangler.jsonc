@@ -7,4 +7,7 @@
   "assets": {
     "directory": "./dist",
   },
+  // Branches and pull requests are deployed as Previews (`npx wrangler
+  // preview`), each with its own URL. The block can stay empty.
+  "previews": {},
 }
