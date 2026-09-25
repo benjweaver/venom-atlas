@@ -7072,6 +7072,30 @@
       ]
     }
   },
+  "hydrophis-zweifeli": {
+    "key": 7398839,
+    "name": "Hydrophis zweifeli",
+    "fetched": "2026-09-25",
+    "total": 93,
+    "countries": {
+      "AU": 84,
+      "PG": 7,
+      "MY": 2
+    },
+    "subdivisions": {
+      "AU-QLD": 12,
+      "AU-NT": 1
+    },
+    "unmapped": {},
+    "checklist": {
+      "AU": [
+        "Catalogue of Life"
+      ],
+      "PG": [
+        "Catalogue of Life"
+      ]
+    }
+  },
   "hypanus-americanus": {
     "key": 9335213,
     "name": "Hypanus americanus",

@@ -11,7 +11,11 @@ habitat: >-
   Dry, rocky Mediterranean scrub and desert.
 size: 8–11 cm
 regions:
-  - EG
   - IL
   - JO
   - PS
+gbif:
+  exclude:
+    - code: EG
+      reason: "the 2014 Leiurus review gives its distribution as \"Israel, Jordan, Syria, Lebanon\"; Egyptian deathstalkers are L. quinquestriatus"
+      source: "https://treatment.plazi.org/id/038C87BF2018191FFCBC8822DCDCF930"

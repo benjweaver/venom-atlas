@@ -1,0 +1,30 @@
+name: Zweifel's beaked sea snake
+scientificName: Hydrophis zweifeli
+group: snake
+danger: 4
+summary: >-
+  The beaked sea snake of northern Australia and New Guinea, long mistaken for the Asian beaked sea
+  snake until DNA tests showed the two are not closely related.
+venom: >-
+  Described as highly venomous. Its Asian look-alike, the beaked sea snake, causes paralysis and
+  muscle breakdown.
+habitat: >-
+  Coastal waters and river mouths from New Guinea to northern Australia.
+taxonomy:
+  note: "Formerly treated as the beaked sea snake (Hydrophis schistosus); DNA tests showed Australian and New Guinean snakes are a separate species."
+  source: "https://en.wikipedia.org/wiki/Hydrophis_zweifeli"
+aquatic: marine
+regions:
+  - AU-NT
+  - AU-QLD
+  - AU-WA
+  - PG
+gbif:
+  exclude:
+    - code: MY
+      reason: "outside its range, which runs \"from New Guinea to Australia\"; likely misidentified beaked sea snakes"
+      source: "https://en.wikipedia.org/wiki/Hydrophis_zweifeli"
+    - code: IN
+      reason: "outside its range, which runs \"from New Guinea to Australia\"; likely misidentified beaked sea snakes"
+      source: "https://en.wikipedia.org/wiki/Hydrophis_zweifeli"
+photo: none

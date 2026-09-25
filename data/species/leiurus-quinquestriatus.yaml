@@ -13,9 +13,21 @@ habitat: >-
 size: 8–11 cm
 regions:
   - EG
-  - IL
-  - JO
-  - OM
-  - SA
   - SD
-  - TD
+gbif:
+  exclude:
+    - code: TD
+      reason: "the 2014 Leiurus review gives its distribution as \"Egypt, Sudan\" (Lowe, Yağmur & Kovařík 2014)"
+      source: "https://www.gbif.org/species/201133237"
+    - code: SA
+      reason: "the 2014 Leiurus review gives its distribution as \"Egypt, Sudan\"; Arabian deathstalkers are species described in that review (Lowe, Yağmur & Kovařík 2014)"
+      source: "https://www.gbif.org/species/201133237"
+    - code: OM
+      reason: "the 2014 Leiurus review gives its distribution as \"Egypt, Sudan\"; Arabian deathstalkers are species described in that review (Lowe, Yağmur & Kovařík 2014)"
+      source: "https://www.gbif.org/species/201133237"
+    - code: IL
+      reason: "the 2014 Leiurus review gives its distribution as \"Egypt, Sudan\"; the Levant is L. hebraeus (Lowe, Yağmur & Kovařík 2014)"
+      source: "https://www.gbif.org/species/201133237"
+    - code: JO
+      reason: "the 2014 Leiurus review gives its distribution as \"Egypt, Sudan\"; the Levant is L. hebraeus (Lowe, Yağmur & Kovařík 2014)"
+      source: "https://www.gbif.org/species/201133237"
