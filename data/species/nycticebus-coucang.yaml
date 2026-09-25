@@ -12,12 +12,14 @@ habitat: >-
 size: About 30 cm
 regions:
   - ID
-  - MM
   - MY
   - SG
   - TH
 gbif:
   exclude:
+    - code: MM
+      reason: "native to Indonesia, West Malaysia, southern Thailand and Singapore; Myanmar has the Bengal slow loris"
+      source: "https://en.wikipedia.org/wiki/Sunda_slow_loris"
     - code: US
       reason: "captive pets; native only to Indonesia, Malaysia, southern Thailand and Singapore"
       source: "https://en.wikipedia.org/wiki/Sunda_slow_loris"

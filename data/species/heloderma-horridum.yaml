@@ -11,25 +11,36 @@ venom: >-
 habitat: >-
   Tropical dry forest and thornscrub.
 taxonomy:
-  note: "Now split into four species: H. horridum (Sonora to Oaxaca), H. exasperatum (southern Sonora to northern Sinaloa), H. alvarezi (northern Chiapas to north-western Guatemala) and H. charlesbogerti (the Motagua valley of Guatemala). This entry is H. horridum; the others are alike in venom and habits."
+  note: "Now split into four species: H. horridum (western Mexico), H. exasperatum (southern Sonora to northern Sinaloa), H. alvarezi (northern Chiapas to north-western Guatemala) and H. charlesbogerti (the Motagua valley of Guatemala). This entry is H. horridum; the others are alike in venom and habits."
   source: "https://en.wikipedia.org/wiki/Mexican_beaded_lizard"
 size: Up to 90 cm
 regions:
   - MX-COL
+  - MX-DUR
   - MX-GRO
   - MX-JAL
   - MX-MIC
   - MX-MOR
   - MX-NAY
   - MX-OAX
+  - MX-PUE
   - MX-SIN
-  - MX-SON
   - MX-ZAC
 gbif:
+  include:
+    - code: MX-DUR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Heloderma/horridum"
+    - code: MX-PUE
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Heloderma/horridum"
   exclude:
+    - code: MX-SON
+      reason: "Sonoran beaded lizards are H. exasperatum; the Reptile Database gives H. horridum from Sinaloa south"
+      source: "https://reptile-database.reptarium.cz/Heloderma/horridum"
     - code: GT
-      reason: "outside H. horridum (Sonora to Oaxaca); beaded lizards here are H. alvarezi and H. charlesbogerti"
+      reason: "outside H. horridum (western Mexico); beaded lizards here are H. alvarezi and H. charlesbogerti"
       source: "https://en.wikipedia.org/wiki/Mexican_beaded_lizard"
     - code: MX-CHP
-      reason: "outside H. horridum (Sonora to Oaxaca); beaded lizards here are H. alvarezi and H. charlesbogerti"
+      reason: "outside H. horridum (western Mexico); beaded lizards here are H. alvarezi and H. charlesbogerti"
       source: "https://en.wikipedia.org/wiki/Mexican_beaded_lizard"

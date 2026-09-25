@@ -33,8 +33,6 @@ regions:
   - IN-TN
   - IN-UT
   - IN-WB
-  - JP-11
-  - JP-28
   - KH
   - LA
   - LK
@@ -48,3 +46,8 @@ regions:
   - TH
   - TL
   - VN
+gbif:
+  exclude:
+    - code: JP
+      reason: "not in its range (Afghanistan to the Philippines and New Guinea)"
+      source: "https://en.wikipedia.org/wiki/Vespa_tropica"

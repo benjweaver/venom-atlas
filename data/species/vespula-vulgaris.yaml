@@ -20,11 +20,6 @@ regions:
   - BE
   - BG
   - BY
-  - CA-AB
-  - CA-BC
-  - CA-MB
-  - CA-NS
-  - CA-QC
   - CH
   - CL
   - CZ
@@ -60,6 +55,12 @@ regions:
   - SK
   - TR
   - UA
-  - US-MN
-  - US-WV
   - UZ
+gbif:
+  exclude:
+    - code: CA
+      reason: "North American \"V. vulgaris\" was shown in 2010 to be V. alascensis, listed separately"
+      source: "https://en.wikipedia.org/wiki/Vespula_vulgaris"
+    - code: US
+      reason: "North American \"V. vulgaris\" was shown in 2010 to be V. alascensis, listed separately"
+      source: "https://en.wikipedia.org/wiki/Vespula_vulgaris"

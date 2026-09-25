@@ -22,14 +22,12 @@ regions:
   - US-CT
   - US-DC
   - US-DE
-  - US-FL
   - US-GA
   - US-IA
   - US-IL
   - US-IN
   - US-KS
   - US-KY
-  - US-LA
   - US-MA
   - US-MD
   - US-ME
@@ -43,7 +41,6 @@ regions:
   - US-NJ
   - US-NY
   - US-OH
-  - US-OK
   - US-PA
   - US-RI
   - US-SC
@@ -53,3 +50,14 @@ regions:
   - US-VT
   - US-WI
   - US-WV
+gbif:
+  exclude:
+    - code: US-FL
+      reason: "outside its range, which runs south only to northern Arkansas and Georgia; southern short-tailed shrews live there"
+      source: "https://en.wikipedia.org/wiki/Northern_short-tailed_shrew"
+    - code: US-LA
+      reason: "outside its range, which runs south only to northern Arkansas and Georgia; southern short-tailed shrews live there"
+      source: "https://en.wikipedia.org/wiki/Northern_short-tailed_shrew"
+    - code: US-OK
+      reason: "outside its range, which runs south only to northern Arkansas and Georgia; southern short-tailed shrews live there"
+      source: "https://en.wikipedia.org/wiki/Northern_short-tailed_shrew"

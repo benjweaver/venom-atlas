@@ -2197,6 +2197,12 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "vespula-alascensis": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Vespula_alascensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "page": "https://commons.wikimedia.org/wiki/File:Vespula_alascensis.jpg",
+    "artist": "Matt Bowser, U.S. Fish and Wildlife Service",
+    "license": "Public domain"
+  },
   "vespula-germanica": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/European_wasp_white_bg.jpg/960px-European_wasp_white_bg.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:European_wasp_white_bg.jpg",

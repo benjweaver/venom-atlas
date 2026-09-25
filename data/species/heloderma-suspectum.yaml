@@ -14,6 +14,12 @@ size: About 50 cm
 regions:
   - MX-SON
   - US-AZ
+  - US-CA
   - US-NM
   - US-NV
   - US-UT
+gbif:
+  include:
+    - code: US-CA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Heloderma/suspectum"

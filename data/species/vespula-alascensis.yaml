@@ -1,0 +1,49 @@
+name: Alaska yellowjacket
+scientificName: Vespula alascensis
+group: insect
+danger: 2
+summary: >-
+  North America's common ground-nesting yellowjacket, treated as the common wasp until it was
+  recognised as a species of its own in 2010.
+venom: >-
+  For most people the sting is painful but local. For the allergic, a single sting can cause
+  anaphylaxis, which needs adrenaline and emergency care; mass stings can be fatal to anyone.
+habitat: >-
+  Woodland, meadows, gardens and towns across North America; usually nests in the ground.
+wikipedia: Vespula alascensis
+regions:
+  - CA-AB
+  - CA-BC
+  - CA-MB
+  - CA-NB
+  - CA-NL
+  - CA-NS
+  - CA-NT
+  - CA-ON
+  - CA-PE
+  - CA-QC
+  - CA-SK
+  - CA-YT
+  - US-AK
+  - US-CA
+  - US-CO
+  - US-ID
+  - US-MA
+  - US-ME
+  - US-MI
+  - US-MN
+  - US-MT
+  - US-NC
+  - US-NH
+  - US-NM
+  - US-NV
+  - US-NY
+  - US-OR
+  - US-TN
+  - US-UT
+  - US-VA
+  - US-VT
+  - US-WA
+  - US-WI
+  - US-WV
+  - US-WY
