@@ -1,0 +1,15 @@
+name: Desert widow
+scientificName: Latrodectus revivensis
+group: spider
+danger: 3
+summary: >-
+  A widow spider of the Negev desert and the Arava valley, with venom about as potent as the
+  Mediterranean black widow's.
+venom: >-
+  Causes latrodectism; its venom is reported to be of about the same strength as the
+  Mediterranean black widow's.
+habitat: >-
+  The Negev desert and the Arava valley.
+regions:
+  - IL
+  - IR

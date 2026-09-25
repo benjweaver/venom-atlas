@@ -14,7 +14,6 @@ size: Body 6–20 mm
 regions:
   - US-AL
   - US-AR
-  - US-CO
   - US-GA
   - US-IA
   - US-IL
@@ -22,14 +21,36 @@ regions:
   - US-KS
   - US-KY
   - US-LA
-  - US-MD
   - US-MO
   - US-MS
-  - US-NC
   - US-NE
-  - US-NM
   - US-OH
   - US-OK
   - US-TN
   - US-TX
-  - US-VA
+gbif:
+  exclude:
+    - code: US-MN
+      reason: "University of Minnesota Extension: \"Neither black widow spiders or brown recluse are native to the upper Midwest and are rarely encountered.\""
+      source: "https://extension.umn.edu/insect-relatives/spiders"
+    - code: US-CO
+      reason: "outside its documented range (south of a line from south-eastern Nebraska through southern Iowa, Illinois and Indiana to south-western Ohio, and from central Texas to western Georgia and Kentucky); it \"has not established itself … anywhere outside its native range\""
+      source: "https://en.wikipedia.org/wiki/Brown_recluse_spider"
+    - code: US-MD
+      reason: "outside its documented range (south of a line from south-eastern Nebraska through southern Iowa, Illinois and Indiana to south-western Ohio, and from central Texas to western Georgia and Kentucky); it \"has not established itself … anywhere outside its native range\""
+      source: "https://en.wikipedia.org/wiki/Brown_recluse_spider"
+    - code: US-NC
+      reason: "outside its documented range (south of a line from south-eastern Nebraska through southern Iowa, Illinois and Indiana to south-western Ohio, and from central Texas to western Georgia and Kentucky); it \"has not established itself … anywhere outside its native range\""
+      source: "https://en.wikipedia.org/wiki/Brown_recluse_spider"
+    - code: US-NM
+      reason: "outside its documented range (south of a line from south-eastern Nebraska through southern Iowa, Illinois and Indiana to south-western Ohio, and from central Texas to western Georgia and Kentucky); it \"has not established itself … anywhere outside its native range\""
+      source: "https://en.wikipedia.org/wiki/Brown_recluse_spider"
+    - code: US-VA
+      reason: "outside its documented range (south of a line from south-eastern Nebraska through southern Iowa, Illinois and Indiana to south-western Ohio, and from central Texas to western Georgia and Kentucky); it \"has not established itself … anywhere outside its native range\""
+      source: "https://en.wikipedia.org/wiki/Brown_recluse_spider"
+    - code: US-SC
+      reason: "not established: only 44 brown recluses verified in South Carolina since 1953, from 6 locations, most brought in with furniture, while doctors diagnosed 478 to 738 \"brown recluse bites\" a year; most such wounds are something else"
+      source: "https://www.jabfm.org/content/20/5/483"
+    - code: US-FL
+      reason: "not established: single-building populations have turned up in Florida but \"do not spread, and can be easily eradicated\""
+      source: "https://en.wikipedia.org/wiki/Brown_recluse_spider"

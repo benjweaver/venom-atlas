@@ -1,0 +1,24 @@
+name: Black button spider
+scientificName: Latrodectus cinctus
+group: spider
+danger: 3
+summary: >-
+  A widow spider of Africa, the Cape Verde Islands, Kuwait and Iran, and one of four black
+  button spiders found in southern Africa.
+venom: >-
+  Neurotoxic, like all widow spiders: it acts on nerve endings, causing latrodectism (pain,
+  cramps, sweating).
+habitat: >-
+  Recorded from the Cape Verde Islands and across Africa to Kuwait and Iran.
+regions:
+  - AE
+  - CV
+  - GH
+  - IQ
+  - IR
+  - KE
+  - KW
+  - OM
+  - RW
+  - ZA-EC
+  - ZA-NL

@@ -1,0 +1,30 @@
+name: Black button spider
+scientificName: Latrodectus renivulvatus
+group: spider
+danger: 3
+summary: >-
+  A widow spider of Africa, Saudi Arabia and Yemen, and one of four black button spiders found
+  in southern Africa.
+venom: >-
+  Neurotoxic, like all widow spiders: it acts on nerve endings, causing latrodectism (pain,
+  cramps, sweating).
+habitat: >-
+  Recorded from Africa, Saudi Arabia and Yemen.
+regions:
+  - BW
+  - IQ
+  - KE
+  - NA
+  - SA
+  - SH
+  - YE
+  - ZA-EC
+  - ZA-FS
+  - ZA-GT
+  - ZA-LP
+  - ZA-MP
+  - ZA-NC
+  - ZA-NL
+  - ZA-NW
+  - ZA-WC
+  - ZW

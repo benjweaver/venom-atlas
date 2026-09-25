@@ -1,0 +1,26 @@
+name: Phoneutria reidyi
+scientificName: Phoneutria reidyi
+group: spider
+danger: 3
+summary: >-
+  A wandering spider of northern South America, venomous like the other Phoneutria.
+venom: >-
+  Venomous and should be treated with caution, like other Phoneutria.
+habitat: >-
+  Colombia, Venezuela, Peru, Brazil and Guyana.
+regions:
+  - BO
+  - BR-AM
+  - BR-AP
+  - BR-MA
+  - BR-MT
+  - BR-PA
+  - BR-RO
+  - BR-RR
+  - BR-TO
+  - CO
+  - GF
+  - GY
+  - PE
+  - SR
+  - VE

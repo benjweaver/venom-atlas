@@ -1,0 +1,56 @@
+name: American yellow sac spider
+scientificName: Cheiracanthium inclusum
+group: spider
+danger: 1
+summary: >-
+  A small, pale yellow spider native to the Americas, the American cousin of the European yellow
+  sac spider.
+venom: >-
+  Bites from sac spiders cause local redness; serious effects are not expected.
+habitat: >-
+  Native to the Americas.
+regions:
+  - AR-E
+  - AR-P
+  - BR-AM
+  - BR-BA
+  - BR-CE
+  - BR-DF
+  - BR-ES
+  - BR-MG
+  - BR-PA
+  - BR-PB
+  - BR-PR
+  - BR-RJ
+  - BR-RS
+  - BR-SC
+  - BR-SP
+  - CA-BC
+  - CO
+  - CR
+  - CU
+  - GY
+  - MX-MEX
+  - PA
+  - PE
+  - US-AZ
+  - US-CA
+  - US-CO
+  - US-FL
+  - US-IN
+  - US-MA
+  - US-ND
+  - US-NM
+  - US-OH
+  - US-TX
+  - US-UT
+  - UY
+  - VE
+gbif:
+  exclude:
+    - code: ZA
+      reason: "\"indigenous to the Americas\"; southern African sac spiders are other species"
+      source: "https://en.wikipedia.org/wiki/Cheiracanthium_inclusum"
+    - code: BW
+      reason: "\"indigenous to the Americas\"; southern African sac spiders are other species"
+      source: "https://en.wikipedia.org/wiki/Cheiracanthium_inclusum"

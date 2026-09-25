@@ -29,7 +29,6 @@ regions:
   - US-MA
   - US-MD
   - US-MI
-  - US-MN
   - US-MO
   - US-MS
   - US-NC
@@ -48,10 +47,11 @@ regions:
   - US-WI
   - US-WV
 gbif:
+  exclude:
+    - code: US-MN
+      reason: "University of Minnesota Extension: \"Neither black widow spiders or brown recluse are native to the upper Midwest and are rarely encountered.\" Only 2 GBIF records, from the Wisconsin border."
+      source: "https://extension.umn.edu/insect-relatives/spiders"
   include:
     - code: US-NH
       reason: "1 GBIF record, below the automatic threshold"
-      source: "https://www.gbif.org/species/2157950"
-    - code: US-MN
-      reason: "2 GBIF records, below the automatic threshold"
       source: "https://www.gbif.org/species/2157950"

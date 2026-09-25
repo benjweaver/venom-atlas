@@ -482,6 +482,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "cheiracanthium-inclusum": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Yellow-sac-spider.jpg/960px-Yellow-sac-spider.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Yellow-sac-spider.jpg",
+    "artist": "Austin Campbell",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
   "cheiracanthium-punctorium": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a3/Cheiracanthium_punctorium_-_Ludivine_Lamare_-_302947938.jpeg/960px-Cheiracanthium_punctorium_-_Ludivine_Lamare_-_302947938.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Cheiracanthium_punctorium_-_Ludivine_Lamare_-_302947938.jpeg",
@@ -928,6 +935,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "hexophthalma-hahni": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Hexophthalma_hahni_305451503_550744608.jpg/960px-Hexophthalma_hahni_305451503_550744608.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Hexophthalma_hahni_305451503_550744608.jpg",
+    "artist": "Peter Webb",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "hoplocephalus-bungaroides": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Hoplocephalus_bungaroides.jpg/960px-Hoplocephalus_bungaroides.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Hoplocephalus_bungaroides.jpg",
@@ -1047,6 +1061,13 @@
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },
+  "latrodectus-cinctus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Latrodectus_cinctus_312114475_563482469.jpg/960px-Latrodectus_cinctus_312114475_563482469.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_cinctus_312114475_563482469.jpg",
+    "artist": "Peter Webb",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "latrodectus-corallinus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Latrodectus_corallinus.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_corallinus.JPG",
@@ -1107,6 +1128,20 @@
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Latrodectus_pallidus_447900618.jpg/960px-Latrodectus_pallidus_447900618.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_pallidus_447900618.jpg",
     "artist": "Kian",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "latrodectus-renivulvatus": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Latrodectus_renivulvatus_306649228_553025890.jpg/960px-Latrodectus_renivulvatus_306649228_553025890.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_renivulvatus_306649228_553025890.jpg",
+    "artist": "Peter Webb",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
+  "latrodectus-revivensis": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Latrodectus_revivensis_female_in_Iran.jpg/960px-Latrodectus_revivensis_female_in_Iran.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Latrodectus_revivensis_female_in_Iran.jpg",
+    "artist": "Kian Kaftarbaz",
     "license": "CC BY 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
   },
@@ -1667,10 +1702,24 @@
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
   },
+  "phoneutria-keyserlingi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Phoneutria_keyserlingi_-_Alessandher_Piva_-_529705126.jpeg/960px-Phoneutria_keyserlingi_-_Alessandher_Piva_-_529705126.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Phoneutria_keyserlingi_-_Alessandher_Piva_-_529705126.jpeg",
+    "artist": "Alessandher Piva",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0"
+  },
   "phoneutria-nigriventer": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_de_Santa_B%C3%A1rbara_Giordano_Rossi_%2812%29.jpg/960px-Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_de_Santa_B%C3%A1rbara_Giordano_Rossi_%2812%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
     "page": "https://commons.wikimedia.org/wiki/File:Esta%C3%A7%C3%A3o_Ecol%C3%B3gica_de_Santa_B%C3%A1rbara_Giordano_Rossi_(12).jpg",
     "artist": "Gionorossi",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "phoneutria-reidyi": {
+    "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Phoneutria_reidyi_250738107.jpeg/960px-Phoneutria_reidyi_250738107.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "page": "https://commons.wikimedia.org/wiki/File:Phoneutria_reidyi_250738107.jpeg",
+    "artist": "....Christopher Borges....",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
   },

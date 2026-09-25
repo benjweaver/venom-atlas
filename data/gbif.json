@@ -3646,6 +3646,163 @@
       ]
     }
   },
+  "cheiracanthium-inclusum": {
+    "key": 2164133,
+    "name": "Cheiracanthium inclusum",
+    "fetched": "2026-09-25",
+    "total": 739,
+    "countries": {
+      "BR": 290,
+      "US": 262,
+      "ZA": 67,
+      "AR": 37,
+      "MX": 26,
+      "UY": 13,
+      "CA": 6,
+      "BW": 5,
+      "AU": 4,
+      "CU": 4,
+      "CN": 3,
+      "CR": 3,
+      "DO": 3,
+      "IN": 3,
+      "CO": 2,
+      "BB": 1,
+      "EC": 1,
+      "ES": 1,
+      "GF": 1,
+      "HN": 1,
+      "IR": 1,
+      "MO": 1,
+      "PE": 1,
+      "RU": 1,
+      "TT": 1,
+      "VI": 1
+    },
+    "subdivisions": {
+      "BR-CE": 70,
+      "US-CA": 58,
+      "US-TX": 55,
+      "BR-PB": 32,
+      "BR-DF": 32,
+      "BR-RS": 31,
+      "US-NM": 29,
+      "ZA-GT": 23,
+      "US-IN": 21,
+      "US-CO": 20,
+      "BR-SP": 18,
+      "BR-RJ": 15,
+      "AR-E": 14,
+      "ZA-MP": 12,
+      "AR-P": 11,
+      "BR-PR": 11,
+      "BR-BA": 11,
+      "BR-ES": 11,
+      "US-FL": 11,
+      "BR-PA": 10,
+      "US-ND": 10,
+      "ZA-NL": 10,
+      "BR-MG": 9,
+      "MX-MEX": 9,
+      "BR-AM": 8,
+      "ZA-LP": 8,
+      "BR-SC": 7,
+      "US-MA": 7,
+      "US-OH": 6,
+      "US-AZ": 6,
+      "ZA-NW": 6,
+      "CA-BC": 5,
+      "US-UT": 5,
+      "ZA-EC": 5,
+      "BR-MS": 4,
+      "BR-PE": 4,
+      "BR-SE": 4,
+      "MX-NLE": 4,
+      "MX-DIF": 4,
+      "US-OK": 4,
+      "US-PA": 4,
+      "AR-S": 3,
+      "BR-MT": 3,
+      "MX-BCS": 3,
+      "US-WI": 3,
+      "AR-N": 2,
+      "AR-B": 2,
+      "AR-X": 2,
+      "BR-RN": 2,
+      "BR-AL": 2,
+      "CN-JS": 2,
+      "MX-QUE": 2,
+      "US-GA": 2,
+      "US-IL": 2,
+      "US-LA": 2,
+      "US-MI": 2,
+      "US-NY": 2,
+      "US-OR": 2,
+      "ZA-NC": 2,
+      "AR-Y": 1,
+      "AR-L": 1,
+      "AR-R": 1,
+      "AU-QLD": 1,
+      "AU-SA": 1,
+      "BR-MA": 1,
+      "BR-RO": 1,
+      "BR-TO": 1,
+      "BR-GO": 1,
+      "CA-MB": 1,
+      "CN-ZJ": 1,
+      "CN-GD": 1,
+      "IN-MH": 1,
+      "IN-PB": 1,
+      "IN-AS": 1,
+      "MX-HID": 1,
+      "MX-AGU": 1,
+      "MX-ZAC": 1,
+      "MX-COA": 1,
+      "US-ID": 1,
+      "US-KS": 1,
+      "US-MT": 1,
+      "US-NV": 1,
+      "US-NJ": 1,
+      "US-SC": 1,
+      "US-WA": 1,
+      "US-WY": 1,
+      "US-CT": 1,
+      "ZA-WC": 1
+    },
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "CR": [
+        "Catalogue of Life"
+      ],
+      "CU": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "MX": [
+        "Catalogue of Life"
+      ],
+      "PA": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "VE": [
+        "Catalogue of Life"
+      ]
+    }
+  },
   "cheiracanthium-punctorium": {
     "key": 2164096,
     "name": "Cheiracanthium punctorium",
@@ -6789,6 +6946,36 @@
     "unmapped": {},
     "checklist": {}
   },
+  "hexophthalma-hahni": {
+    "key": 9538657,
+    "name": "Hexophthalma hahni",
+    "fetched": "2026-09-25",
+    "total": 85,
+    "countries": {
+      "ZA": 62,
+      "NA": 22,
+      "FI": 1
+    },
+    "subdivisions": {
+      "ZA-WC": 27,
+      "ZA-NC": 20,
+      "ZA-LP": 13,
+      "ZA-MP": 1,
+      "ZA-NW": 1
+    },
+    "unmapped": {},
+    "checklist": {
+      "NA": [
+        "Catalogue of Life"
+      ],
+      "ZA": [
+        "Catalogue of Life"
+      ],
+      "ZW": [
+        "Catalogue of Life"
+      ]
+    }
+  },
   "hoplocephalus-bungaroides": {
     "key": 9561258,
     "name": "Hoplocephalus bungaroides",
@@ -7535,6 +7722,52 @@
       ]
     }
   },
+  "latrodectus-cinctus": {
+    "key": 2157923,
+    "name": "Latrodectus cinctus",
+    "fetched": "2026-09-25",
+    "total": 74,
+    "countries": {
+      "ZA": 30,
+      "IR": 24,
+      "AE": 7,
+      "RW": 3,
+      "GH": 2,
+      "KE": 2,
+      "CD": 1,
+      "IQ": 1,
+      "LR": 1,
+      "MW": 1,
+      "OM": 1,
+      "ZW": 1
+    },
+    "subdivisions": {
+      "ZA-NL": 17,
+      "ZA-EC": 7,
+      "ZA-FS": 1,
+      "ZA-LP": 1,
+      "ZA-WC": 1
+    },
+    "unmapped": {},
+    "checklist": {
+      "CV": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ],
+      "IQ": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "KW": [
+        "Catalogue of Life"
+      ],
+      "OM": [
+        "Catalogue of Life"
+      ]
+    }
+  },
   "latrodectus-corallinus": {
     "key": 2157934,
     "name": "Latrodectus corallinus",
@@ -8248,6 +8481,78 @@
       "ZA": [
         "Catalogue of Life",
         "South African National Species Checklist"
+      ]
+    }
+  },
+  "latrodectus-renivulvatus": {
+    "key": 2157943,
+    "name": "Latrodectus renivulvatus",
+    "fetched": "2026-09-25",
+    "total": 211,
+    "countries": {
+      "ZA": 170,
+      "ZW": 17,
+      "NA": 6,
+      "BW": 3,
+      "KE": 3,
+      "ET": 2,
+      "YE": 2,
+      "ZM": 2,
+      "CD": 1,
+      "NG": 1,
+      "OM": 1,
+      "SA": 1,
+      "TD": 1,
+      "TZ": 1
+    },
+    "subdivisions": {
+      "ZA-LP": 50,
+      "ZA-GT": 40,
+      "ZA-NL": 27,
+      "ZA-WC": 14,
+      "ZA-EC": 11,
+      "ZA-FS": 9,
+      "ZA-MP": 9,
+      "ZA-NW": 6,
+      "ZA-NC": 4
+    },
+    "unmapped": {},
+    "checklist": {
+      "IQ": [
+        "Catalogue of Life"
+      ],
+      "NA": [
+        "Catalogue of Life"
+      ],
+      "SA": [
+        "Catalogue of Life"
+      ],
+      "SH": [
+        "Catalogue of Life"
+      ],
+      "YE": [
+        "Catalogue of Life",
+        "South African National Species Checklist"
+      ]
+    }
+  },
+  "latrodectus-revivensis": {
+    "key": 2157926,
+    "name": "Latrodectus revivensis",
+    "fetched": "2026-09-25",
+    "total": 10,
+    "countries": {
+      "IL": 6,
+      "IR": 4
+    },
+    "subdivisions": {},
+    "unmapped": {},
+    "checklist": {
+      "IL": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
       ]
     }
   },
@@ -11721,6 +12026,33 @@
       ]
     }
   },
+  "phoneutria-keyserlingi": {
+    "key": 5170398,
+    "name": "Phoneutria keyserlingi",
+    "fetched": "2026-09-25",
+    "total": 114,
+    "countries": {
+      "BR": 114
+    },
+    "subdivisions": {
+      "BR-SP": 53,
+      "BR-RJ": 25,
+      "BR-SC": 21,
+      "BR-PR": 5,
+      "BR-MG": 3,
+      "BR-ES": 2,
+      "BR-BA": 1
+    },
+    "unmapped": {},
+    "checklist": {
+      "AR": [
+        "Catalogue of Life"
+      ],
+      "BR": [
+        "Catalogue of Life"
+      ]
+    }
+  },
   "phoneutria-nigriventer": {
     "key": 2152822,
     "name": "Phoneutria nigriventer",
@@ -11769,6 +12101,48 @@
         "Catalogue of Life"
       ],
       "UY": [
+        "Catalogue of Life"
+      ]
+    }
+  },
+  "phoneutria-reidyi": {
+    "key": 5170396,
+    "name": "Phoneutria reidyi",
+    "fetched": "2026-09-25",
+    "total": 335,
+    "countries": {
+      "BR": 278,
+      "PE": 18,
+      "GF": 12,
+      "SR": 12,
+      "CO": 11,
+      "BO": 4
+    },
+    "subdivisions": {
+      "BR-PA": 103,
+      "BR-AM": 95,
+      "BR-MT": 42,
+      "BR-MA": 10,
+      "BR-RO": 9,
+      "BR-RR": 7,
+      "BR-AP": 7,
+      "BR-TO": 4
+    },
+    "unmapped": {},
+    "checklist": {
+      "BR": [
+        "Catalogue of Life"
+      ],
+      "CO": [
+        "Catalogue of Life"
+      ],
+      "GY": [
+        "Catalogue of Life"
+      ],
+      "PE": [
+        "Catalogue of Life"
+      ],
+      "VE": [
         "Catalogue of Life"
       ]
     }

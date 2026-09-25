@@ -1,0 +1,19 @@
+name: Phoneutria keyserlingi
+scientificName: Phoneutria keyserlingi
+group: spider
+danger: 3
+summary: >-
+  A wandering spider of Brazil. Little studied, but its venom contains neurotoxins like those of
+  the Brazilian wandering spider.
+venom: >-
+  Contains neurotoxins similar to the Brazilian wandering spider's, active on nerve ion
+  channels. Venomous and should be treated with caution.
+habitat: >-
+  Found in Brazil.
+regions:
+  - BR-ES
+  - BR-MG
+  - BR-PR
+  - BR-RJ
+  - BR-SC
+  - BR-SP

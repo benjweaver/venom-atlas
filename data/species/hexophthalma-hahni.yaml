@@ -1,0 +1,17 @@
+name: "Hahn's six-eyed sand spider"
+scientificName: Hexophthalma hahni
+group: spider
+danger: 2
+summary: >-
+  A flattened, crab-like spider of southern African deserts that buries itself in sand.
+venom: >-
+  Six-eyed sand spiders have the potential to cause skin necrosis; bites on people are rarely
+  documented.
+habitat: >-
+  Deserts and other sandy places in southern Africa.
+regions:
+  - NA
+  - ZA-LP
+  - ZA-NC
+  - ZA-WC
+  - ZW
