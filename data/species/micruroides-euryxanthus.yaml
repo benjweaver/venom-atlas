@@ -10,8 +10,18 @@ habitat: >-
   Rocky desert and thornscrub.
 size: 35–55 cm
 regions:
+  - MX-CHH
+  - MX-JAL
+  - MX-NAY
+  - MX-SIN
+  - MX-SON
   - US-AZ
   - US-NM
-  - MX-SON
-  - MX-SIN
-  - MX-CHH
+gbif:
+  include:
+    - code: MX-JAL
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micruroides/euryxanthus"
+    - code: MX-NAY
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micruroides/euryxanthus"

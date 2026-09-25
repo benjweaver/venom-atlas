@@ -23,18 +23,25 @@ regions:
   - IN-MH
   - IN-MP
   - IN-RJ
+  - IN-TG
   - IN-TN
   - IR
   - LK
   - OM
   - PK
   - QA
-  - SA
   - TJ
   - TM
   - UZ
 gbif:
+  include:
+    - code: IN-TG
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Echis/carinatus"
   exclude:
+    - code: SA
+      reason: "not in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Echis/carinatus"
     - code: GH
       reason: "misidentified African Echis; not in this native range"
       source: "Catalogue of Life"

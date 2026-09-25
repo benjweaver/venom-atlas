@@ -15,9 +15,14 @@ regions:
   - AR-C
   - AR-D
   - AR-E
+  - AR-G
+  - AR-H
+  - AR-K
+  - AR-L
   - AR-N
   - AR-P
   - AR-S
+  - AR-T
   - AR-W
   - AR-X
   - BR-GO
@@ -29,3 +34,20 @@ regions:
   - BR-SP
   - PY
   - UY
+gbif:
+  include:
+    - code: AR-G
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrops/alternatus"
+    - code: AR-H
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrops/alternatus"
+    - code: AR-K
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrops/alternatus"
+    - code: AR-L
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrops/alternatus"
+    - code: AR-T
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrops/alternatus"

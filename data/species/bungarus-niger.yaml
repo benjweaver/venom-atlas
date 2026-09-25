@@ -15,7 +15,20 @@ regions:
   - BT
   - IN-AR
   - IN-AS
+  - IN-ML
   - IN-MZ
   - IN-SK
-  - MM
+  - IN-UT
   - NP
+gbif:
+  include:
+    - code: IN-ML
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bungarus/niger"
+    - code: IN-UT
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/niger"
+  exclude:
+    - code: MM
+      reason: "not in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bungarus/niger"

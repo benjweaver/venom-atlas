@@ -14,15 +14,45 @@ regions:
   - BO
   - BR-AC
   - BR-AM
+  - BR-AP
+  - BR-GO
   - BR-MG
   - BR-PA
+  - BR-PI
+  - BR-RJ
   - BR-RO
   - BR-RR
+  - BR-RS
   - BR-SP
   - CO
   - EC
   - GF
   - GY
   - PE
+  - PY
   - SR
   - TT
+  - VE
+gbif:
+  include:
+    - code: PY
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Micrurus/lemniscatus"
+    - code: VE
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Micrurus/lemniscatus"
+    - code: BR-AP
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micrurus/lemniscatus"
+    - code: BR-GO
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micrurus/lemniscatus"
+    - code: BR-PI
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micrurus/lemniscatus"
+    - code: BR-RJ
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micrurus/lemniscatus"
+    - code: BR-RS
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micrurus/lemniscatus"

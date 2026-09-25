@@ -13320,6 +13320,41 @@
       ]
     }
   },
+  "pseudocerastes-fieldi": {
+    "key": 2443829,
+    "name": "Pseudocerastes fieldi",
+    "fetched": "2026-09-25",
+    "total": 35,
+    "countries": {
+      "IL": 30,
+      "SA": 5
+    },
+    "subdivisions": {},
+    "unmapped": {},
+    "checklist": {
+      "EG": [
+        "Catalogue of Life"
+      ],
+      "IL": [
+        "Catalogue of Life"
+      ],
+      "IQ": [
+        "Catalogue of Life"
+      ],
+      "IR": [
+        "Catalogue of Life"
+      ],
+      "JO": [
+        "Catalogue of Life"
+      ],
+      "SA": [
+        "Catalogue of Life"
+      ],
+      "SY": [
+        "Catalogue of Life"
+      ]
+    }
+  },
   "pseudocerastes-persicus": {
     "key": 2443833,
     "name": "Pseudocerastes persicus",

@@ -15,12 +15,34 @@ regions:
   - CN-CQ
   - CN-FJ
   - CN-GD
+  - CN-GS
   - CN-GX
   - CN-GZ
   - CN-HB
   - CN-HI
   - CN-HN
+  - CN-JS
   - CN-JX
+  - CN-YN
   - CN-ZJ
+  - LA
+  - MM
   - TW
   - VN
+gbif:
+  include:
+    - code: LA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Trimeresurus/stejnegeri"
+    - code: MM
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Trimeresurus/stejnegeri"
+    - code: CN-GS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Trimeresurus/stejnegeri"
+    - code: CN-JS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Trimeresurus/stejnegeri"
+    - code: CN-YN
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Trimeresurus/stejnegeri"

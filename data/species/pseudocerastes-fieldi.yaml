@@ -1,0 +1,22 @@
+name: "Field's horned viper"
+scientificName: Pseudocerastes fieldi
+group: snake
+danger: 3
+summary: >-
+  A horned desert viper of the Middle East, formerly treated as a form of the Persian horned
+  viper.
+venom: >-
+  Unusual for a viper: besides the usual haemorrhagic venom it has fractions with marked
+  neurotoxic activity. Polyvalent antivenom gives some protection against the haemotoxins but
+  none against the neurotoxic effects.
+habitat: >-
+  Desert and shrubland up to about 1,300 m in the Sinai, southern Israel, Jordan, northern Saudi
+  Arabia and south-western Iraq.
+regions:
+  - EG
+  - IL
+  - IQ
+  - IR
+  - JO
+  - SA
+  - SY

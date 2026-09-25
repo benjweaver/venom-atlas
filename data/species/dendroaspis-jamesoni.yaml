@@ -12,6 +12,7 @@ habitat: >-
 size: 1.5–2.2 m
 regions:
   - AO
+  - BI
   - BJ
   - CD
   - CF
@@ -23,10 +24,21 @@ regions:
   - GQ
   - KE
   - NG
+  - RW
+  - SS
   - TG
   - UG
 gbif:
   include:
+    - code: BI
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Dendroaspis/jamesoni"
+    - code: RW
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Dendroaspis/jamesoni"
+    - code: SS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Dendroaspis/jamesoni"
     - code: GQ
       reason: "3 GBIF records, below the automatic threshold"
       source: "https://www.gbif.org/species/2469880"

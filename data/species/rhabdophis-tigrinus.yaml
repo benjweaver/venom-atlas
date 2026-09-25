@@ -14,6 +14,8 @@ regions:
   - CN-AH
   - CN-BJ
   - CN-CQ
+  - CN-FJ
+  - CN-GS
   - CN-GZ
   - CN-HA
   - CN-HB
@@ -63,10 +65,50 @@ regions:
   - JP-33
   - JP-34
   - JP-36
+  - JP-37
   - JP-38
   - JP-39
   - JP-40
+  - JP-41
+  - JP-42
+  - JP-43
+  - JP-44
+  - JP-45
   - JP-46
+  - KP
   - KR
   - RU
   - TW
+  - VN
+gbif:
+  include:
+    - code: KP
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: VN
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: CN-FJ
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: CN-GS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: JP-37
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: JP-41
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: JP-42
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: JP-43
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: JP-44
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"
+    - code: JP-45
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Rhabdophis/tigrinus"

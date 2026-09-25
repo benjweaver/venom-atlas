@@ -18,5 +18,11 @@ regions:
   - MX-QUE
   - MX-SLP
   - MX-TAM
+  - US-AR
   - US-LA
   - US-TX
+gbif:
+  include:
+    - code: US-AR
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Micrurus/tener"

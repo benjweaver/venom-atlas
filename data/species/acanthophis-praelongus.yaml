@@ -12,6 +12,14 @@ habitat: >-
 size: 40–70 cm
 regions:
   - AU-QLD
-  - AU-NT
-  - AU-WA
-  - PG
+gbif:
+  exclude:
+    - code: AU-NT
+      reason: "the Reptile Database restricts it to Queensland; other death adders live in the Northern Territory, the Kimberley and New Guinea"
+      source: "https://reptile-database.reptarium.cz/Acanthophis/praelongus"
+    - code: AU-WA
+      reason: "the Reptile Database restricts it to Queensland; other death adders live in the Northern Territory, the Kimberley and New Guinea"
+      source: "https://reptile-database.reptarium.cz/Acanthophis/praelongus"
+    - code: PG
+      reason: "the Reptile Database restricts it to Queensland; other death adders live in the Northern Territory, the Kimberley and New Guinea"
+      source: "https://reptile-database.reptarium.cz/Acanthophis/praelongus"

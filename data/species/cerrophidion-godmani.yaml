@@ -11,6 +11,17 @@ habitat: >-
 size: 50–70 cm
 regions:
   - GT
-  - HN
   - MX-CHP
-  - SV
+  - MX-OAX
+gbif:
+  include:
+    - code: MX-OAX
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Cerrophidion/godmani"
+  exclude:
+    - code: HN
+      reason: "Honduran and Salvadoran populations are C. wilsoni"
+      source: "https://reptile-database.reptarium.cz/Cerrophidion/wilsoni"
+    - code: SV
+      reason: "Honduran and Salvadoran populations are C. wilsoni"
+      source: "https://reptile-database.reptarium.cz/Cerrophidion/wilsoni"

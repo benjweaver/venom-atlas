@@ -13,14 +13,22 @@ size: 1.5–2 m
 regions:
   - BD
   - BN
+  - BT
   - CN-GD
   - CN-GX
   - CN-HI
   - HK
   - ID
+  - IN-AP
   - IN-AS
+  - IN-BR
   - IN-CT
+  - IN-MH
+  - IN-MP
+  - IN-MZ
   - IN-OR
+  - IN-TR
+  - IN-UP
   - IN-WB
   - KH
   - LA
@@ -30,3 +38,29 @@ regions:
   - SG
   - TH
   - VN
+gbif:
+  include:
+    - code: BT
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"
+    - code: IN-AP
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"
+    - code: IN-BR
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"
+    - code: IN-MH
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"
+    - code: IN-MP
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"
+    - code: IN-MZ
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"
+    - code: IN-TR
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"
+    - code: IN-UP
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bungarus/fasciatus"

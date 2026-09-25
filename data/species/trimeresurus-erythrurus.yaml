@@ -13,11 +13,21 @@ regions:
   - BD
   - BT
   - IN-AS
+  - IN-ML
   - IN-MN
   - IN-MZ
   - IN-OR
+  - IN-SK
   - IN-TR
   - IN-WB
   - MM
   - NP
   - TH
+gbif:
+  include:
+    - code: IN-ML
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Trimeresurus/erythrurus"
+    - code: IN-SK
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Trimeresurus/erythrurus"

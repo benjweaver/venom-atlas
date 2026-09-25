@@ -14,10 +14,20 @@ regions:
   - CN-GD
   - CN-GX
   - CN-GZ
+  - CN-HB
   - CN-HI
+  - CN-HN
   - CN-JX
   - CN-ZJ
   - HK
   - MO
   - TW
   - VN
+gbif:
+  include:
+    - code: CN-HB
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Naja/atra"
+    - code: CN-HN
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Naja/atra"

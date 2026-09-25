@@ -13,15 +13,12 @@ habitat: >-
 size: 1.2–1.8 m
 regions:
   - AO
-  - BI
   - BJ
   - CD
   - CF
   - CG
-  - CI
   - CM
   - GA
-  - GH
   - GQ
   - KE
   - MW
@@ -36,3 +33,14 @@ regions:
   - ZA-NL
   - ZM
   - ZW
+gbif:
+  exclude:
+    - code: GH
+      reason: "West African gaboon vipers are B. rhinoceros"
+      source: "https://reptile-database.reptarium.cz/Bitis/gabonica"
+    - code: CI
+      reason: "West African gaboon vipers are B. rhinoceros"
+      source: "https://reptile-database.reptarium.cz/Bitis/gabonica"
+    - code: BI
+      reason: "not in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bitis/gabonica"

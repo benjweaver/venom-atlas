@@ -18,7 +18,13 @@ regions:
   - MX-CHP
   - MX-HID
   - MX-OAX
+  - MX-PUE
   - MX-ROO
   - MX-TAB
   - MX-VER
   - MX-YUC
+gbif:
+  include:
+    - code: MX-PUE
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Micrurus/diastema"

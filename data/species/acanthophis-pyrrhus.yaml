@@ -12,4 +12,10 @@ habitat: >-
 size: 40–70 cm
 regions:
   - AU-NT
+  - AU-QLD
   - AU-WA
+gbif:
+  include:
+    - code: AU-QLD
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Acanthophis/pyrrhus"

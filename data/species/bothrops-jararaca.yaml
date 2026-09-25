@@ -16,9 +16,15 @@ regions:
   - BR-BA
   - BR-ES
   - BR-MG
+  - BR-MT
   - BR-PR
   - BR-RJ
   - BR-RS
   - BR-SC
   - BR-SP
   - PY
+gbif:
+  include:
+    - code: BR-MT
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/jararaca"

@@ -4,6 +4,9 @@ group: snake
 danger: 3
 summary: >-
   A small, colourful arboreal pit viper with raised scales over its eyes, often golden yellow.
+taxonomy:
+  note: "Arteaga et al. (2024, Evolutionary Systematics 8: 15–64) split this viper into nine species, leaving B. schlegelii in the strict sense in Colombia, and the Reptile Database follows them. Reyes-Velasco (2024) found the differences clinal and keeps only B. schlegelii, B. nigroadspersus and B. supraciliaris. This entry covers the whole group, whose bites are alike."
+  source: "https://doi.org/10.3897/herpetozoa.37.e131965"
 venom: >-
   Haemotoxic: pain, swelling and bleeding; deaths are rare.
 habitat: >-

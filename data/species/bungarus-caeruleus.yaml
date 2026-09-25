@@ -25,6 +25,7 @@ regions:
   - IN-MH
   - IN-MP
   - IN-OR
+  - IN-PB
   - IN-RJ
   - IN-TG
   - IN-TN
@@ -34,3 +35,8 @@ regions:
   - LK
   - NP
   - PK
+gbif:
+  include:
+    - code: IN-PB
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bungarus/caeruleus"

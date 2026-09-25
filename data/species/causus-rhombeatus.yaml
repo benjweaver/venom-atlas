@@ -19,7 +19,6 @@ regions:
   - CG
   - CM
   - ET
-  - GH
   - KE
   - LS
   - MW
@@ -42,3 +41,8 @@ regions:
   - ZA-WC
   - ZM
   - ZW
+gbif:
+  exclude:
+    - code: GH
+      reason: "not in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Causus/rhombeatus"

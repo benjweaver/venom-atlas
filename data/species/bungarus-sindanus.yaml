@@ -13,6 +13,19 @@ habitat: >-
 size: 1–1.7 m
 regions:
   - IN-GJ
-  - IN-KA
   - IN-MH
+  - IN-PB
+  - IN-RJ
   - PK
+gbif:
+  include:
+    - code: IN-PB
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/sindanus"
+    - code: IN-RJ
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bungarus/sindanus"
+  exclude:
+    - code: IN-KA
+      reason: "not in the Reptile Database distribution (north-western India and Pakistan)"
+      source: "https://reptile-database.reptarium.cz/Bungarus/sindanus"

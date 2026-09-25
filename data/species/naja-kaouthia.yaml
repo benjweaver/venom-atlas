@@ -14,9 +14,13 @@ regions:
   - BD
   - BT
   - CN-YN
+  - IN-AR
   - IN-AS
+  - IN-ML
   - IN-MZ
   - IN-SK
+  - IN-TR
+  - IN-UP
   - IN-WB
   - KH
   - LA
@@ -27,6 +31,18 @@ regions:
   - VN
 gbif:
   include:
+    - code: IN-AR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Naja/kaouthia"
+    - code: IN-ML
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Naja/kaouthia"
+    - code: IN-TR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Naja/kaouthia"
+    - code: IN-UP
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Naja/kaouthia"
     - code: NP
       reason: "3 GBIF records, below the automatic threshold"
       source: "https://www.gbif.org/species/2470368"

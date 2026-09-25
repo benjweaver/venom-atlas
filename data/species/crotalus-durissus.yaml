@@ -12,13 +12,21 @@ size: 1–1.5 m
 regions:
   - AR-A
   - AR-D
+  - AR-E
+  - AR-F
   - AR-G
   - AR-H
+  - AR-J
   - AR-K
+  - AR-L
+  - AR-M
   - AR-N
   - AR-P
   - AR-S
+  - AR-T
+  - AR-W
   - AR-X
+  - AW
   - BO
   - BR-AL
   - BR-BA
@@ -45,6 +53,7 @@ regions:
   - CO
   - GF
   - GY
+  - PE
   - PY
   - SR
   - UY
@@ -61,6 +70,33 @@ gbif:
       reason: "now Crotalus simus; not in this native range"
       source: "Catalogue of Life"
   include:
+    - code: AW
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: PE
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: AR-E
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: AR-F
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: AR-J
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: AR-L
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: AR-M
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: AR-T
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
+    - code: AR-W
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/durissus"
     - code: UY
       reason: "1 GBIF record, below the automatic threshold"
       source: "https://www.gbif.org/species/2444433"

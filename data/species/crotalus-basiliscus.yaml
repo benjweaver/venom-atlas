@@ -17,3 +17,9 @@ regions:
   - MX-NAY
   - MX-SIN
   - MX-SON
+  - MX-ZAC
+gbif:
+  include:
+    - code: MX-ZAC
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Crotalus/basiliscus"

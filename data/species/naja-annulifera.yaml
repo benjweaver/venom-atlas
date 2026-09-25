@@ -14,7 +14,6 @@ regions:
   - BW
   - MW
   - MZ
-  - NA
   - SZ
   - ZA-GT
   - ZA-LP
@@ -24,3 +23,8 @@ regions:
   - ZA-NW
   - ZM
   - ZW
+gbif:
+  exclude:
+    - code: NA
+      reason: "Namibia's banded cobra is N. anchietae"
+      source: "https://reptile-database.reptarium.cz/Naja/anchietae"

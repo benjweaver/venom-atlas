@@ -12,5 +12,9 @@ habitat: >-
   Forest and rocky ground of a single island.
 size: 70–90 cm
 regions:
-  - BR-RJ
   - BR-SP
+gbif:
+  exclude:
+    - code: BR-RJ
+      reason: "endemic to Queimada Grande island, São Paulo"
+      source: "https://reptile-database.reptarium.cz/Bothrops/insularis"

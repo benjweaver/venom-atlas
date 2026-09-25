@@ -14,8 +14,14 @@ regions:
   - BR-AC
   - BR-AL
   - BR-AM
+  - BR-AP
   - BR-BA
+  - BR-ES
+  - BR-MG
+  - BR-MT
   - BR-PA
+  - BR-RO
+  - BR-RR
   - CO
   - EC
   - GF
@@ -23,3 +29,23 @@ regions:
   - PE
   - SR
   - VE
+gbif:
+  include:
+    - code: BR-AP
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/bilineatus"
+    - code: BR-ES
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/bilineatus"
+    - code: BR-MG
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/bilineatus"
+    - code: BR-MT
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/bilineatus"
+    - code: BR-RO
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/bilineatus"
+    - code: BR-RR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/bilineatus"

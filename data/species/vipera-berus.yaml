@@ -11,8 +11,10 @@ habitat: >-
   Heathland, moorland, woodland edges and rocky hillsides.
 size: 50–65 cm
 regions:
+  - AL
   - AT
   - AX
+  - BA
   - BE
   - BG
   - BY
@@ -27,22 +29,48 @@ regions:
   - HR
   - HU
   - IT
+  - KP
   - KZ
+  - LI
   - LT
   - LV
   - ME
+  - MK
   - MN
   - NL
   - NO
   - PL
   - RO
+  - RS
   - RU
   - SE
   - SI
   - SK
+  - TR
   - UA
 gbif:
   include:
+    - code: AL
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Vipera/berus"
+    - code: BA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Vipera/berus"
+    - code: KP
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Vipera/berus"
+    - code: LI
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Vipera/berus"
+    - code: MK
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Vipera/berus"
+    - code: RS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Vipera/berus"
+    - code: TR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Vipera/berus"
     - code: HU
       reason: "8 GBIF records, below the automatic threshold"
       source: "https://www.gbif.org/species/5960862"

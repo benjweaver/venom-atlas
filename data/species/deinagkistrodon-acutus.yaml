@@ -19,5 +19,11 @@ regions:
   - CN-HN
   - CN-JX
   - CN-ZJ
+  - LA
   - TW
   - VN
+gbif:
+  include:
+    - code: LA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Deinagkistrodon/acutus"

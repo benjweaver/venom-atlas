@@ -14,5 +14,15 @@ regions:
   - US-AL
   - US-FL
   - US-GA
+  - US-LA
   - US-MS
+  - US-NC
   - US-SC
+gbif:
+  include:
+    - code: US-LA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/adamanteus"
+    - code: US-NC
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/adamanteus"

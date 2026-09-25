@@ -20,11 +20,18 @@ regions:
   - CN-FJ
   - CN-GD
   - CN-GZ
+  - CN-HI
+  - CN-SC
   - CN-YN
   - HK
   - ID
+  - IN-AN
+  - IN-AP
+  - IN-AR
   - IN-AS
+  - IN-BR
   - IN-KA
+  - IN-ML
   - IN-MZ
   - IN-OR
   - IN-SK
@@ -37,3 +44,26 @@ regions:
   - PH
   - TH
   - VN
+gbif:
+  include:
+    - code: CN-HI
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Ophiophagus/hannah"
+    - code: CN-SC
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Ophiophagus/hannah"
+    - code: IN-AN
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Ophiophagus/hannah"
+    - code: IN-AP
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Ophiophagus/hannah"
+    - code: IN-AR
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Ophiophagus/hannah"
+    - code: IN-BR
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Ophiophagus/hannah"
+    - code: IN-ML
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Ophiophagus/hannah"

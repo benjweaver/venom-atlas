@@ -14,6 +14,8 @@ regions:
   - BD
   - BT
   - IN-AP
+  - IN-AS
+  - IN-BR
   - IN-CT
   - IN-GA
   - IN-GJ
@@ -21,6 +23,7 @@ regions:
   - IN-KA
   - IN-KL
   - IN-MH
+  - IN-MN
   - IN-MP
   - IN-OR
   - IN-PB
@@ -34,6 +37,16 @@ regions:
   - NP
   - PK
 gbif:
+  include:
+    - code: IN-AS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Daboia/russelii"
+    - code: IN-BR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Daboia/russelii"
+    - code: IN-MN
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Daboia/russelii"
   exclude:
     - code: MM
       reason: "Eastern Russell's viper, a separate species; not in this native range"

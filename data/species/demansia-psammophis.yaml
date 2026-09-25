@@ -17,4 +17,8 @@ regions:
   - AU-SA
   - AU-VIC
   - AU-WA
-  - PG
+gbif:
+  exclude:
+    - code: PG
+      reason: "not in the Reptile Database distribution; New Guinea whip snakes are other Demansia"
+      source: "https://reptile-database.reptarium.cz/Demansia/psammophis"

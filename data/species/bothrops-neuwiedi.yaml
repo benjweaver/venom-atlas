@@ -15,6 +15,7 @@ regions:
   - AR-K
   - AR-N
   - AR-W
+  - BR-BA
   - BR-GO
   - BR-MG
   - BR-MT
@@ -24,3 +25,8 @@ regions:
   - BR-SC
   - BR-SP
   - PY
+gbif:
+  include:
+    - code: BR-BA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrops/neuwiedi"

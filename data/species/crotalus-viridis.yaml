@@ -13,10 +13,10 @@ size: 0.9–1.1 m
 regions:
   - CA-AB
   - CA-SK
-  - MX-BCN
   - MX-CHH
+  - MX-COA
+  - MX-SON
   - US-AZ
-  - US-CA
   - US-CO
   - US-IA
   - US-ID
@@ -25,11 +25,30 @@ regions:
   - US-ND
   - US-NE
   - US-NM
-  - US-NV
   - US-OK
-  - US-OR
   - US-SD
   - US-TX
   - US-UT
   - US-WA
   - US-WY
+gbif:
+  include:
+    - code: MX-COA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/viridis"
+    - code: MX-SON
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/viridis"
+  exclude:
+    - code: US-CA
+      reason: "far-western records are western rattlesnakes (C. oreganus), split from C. viridis"
+      source: "https://reptile-database.reptarium.cz/Crotalus/viridis"
+    - code: US-OR
+      reason: "far-western records are western rattlesnakes (C. oreganus), split from C. viridis"
+      source: "https://reptile-database.reptarium.cz/Crotalus/viridis"
+    - code: US-NV
+      reason: "far-western records are western rattlesnakes (C. oreganus), split from C. viridis"
+      source: "https://reptile-database.reptarium.cz/Crotalus/viridis"
+    - code: MX-BCN
+      reason: "far-western records are western rattlesnakes (C. oreganus), split from C. viridis"
+      source: "https://reptile-database.reptarium.cz/Crotalus/viridis"

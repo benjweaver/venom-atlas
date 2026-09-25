@@ -19,7 +19,11 @@ regions:
   - GN
   - GW
   - ML
-  - MR
   - NE
   - NG
   - SN
+gbif:
+  exclude:
+    - code: MR
+      reason: "not in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Naja/senegalensis"

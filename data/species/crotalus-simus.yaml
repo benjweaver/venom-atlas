@@ -17,5 +17,11 @@ regions:
   - MX-CHP
   - MX-OAX
   - MX-ROO
+  - MX-VER
   - NI
   - SV
+gbif:
+  include:
+    - code: MX-VER
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/simus"

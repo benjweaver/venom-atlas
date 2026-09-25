@@ -12,9 +12,11 @@ size: 50–70 cm
 regions:
   - CN-AH
   - CN-BJ
+  - CN-GD
   - CN-HA
   - CN-HB
   - CN-HN
+  - CN-JL
   - CN-JS
   - CN-JX
   - CN-LN
@@ -23,3 +25,11 @@ regions:
   - KP
   - KR
   - RU
+gbif:
+  include:
+    - code: CN-GD
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Gloydius/brevicaudus"
+    - code: CN-JL
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Gloydius/brevicaudus"

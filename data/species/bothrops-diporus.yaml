@@ -14,6 +14,7 @@ regions:
   - AR-A
   - AR-D
   - AR-E
+  - AR-F
   - AR-G
   - AR-H
   - AR-K
@@ -21,12 +22,33 @@ regions:
   - AR-M
   - AR-N
   - AR-P
+  - AR-Q
+  - AR-R
   - AR-S
+  - AR-T
   - AR-W
   - AR-X
   - AR-Y
   - BO
+  - BR-MS
   - BR-PR
   - BR-RS
   - BR-SC
   - PY
+gbif:
+  include:
+    - code: AR-F
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/diporus"
+    - code: AR-Q
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/diporus"
+    - code: AR-R
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/diporus"
+    - code: AR-T
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/diporus"
+    - code: BR-MS
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/diporus"

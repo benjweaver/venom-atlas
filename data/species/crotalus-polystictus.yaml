@@ -11,10 +11,24 @@ habitat: >-
 size: 60–100 cm
 regions:
   - MX-AGU
+  - MX-COL
   - MX-DIF
   - MX-GUA
   - MX-JAL
   - MX-MEX
   - MX-MIC
+  - MX-MOR
   - MX-QUE
+  - MX-VER
   - MX-ZAC
+gbif:
+  include:
+    - code: MX-COL
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/polystictus"
+    - code: MX-MOR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Crotalus/polystictus"
+    - code: MX-VER
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/polystictus"

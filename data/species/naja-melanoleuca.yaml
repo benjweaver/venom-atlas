@@ -16,16 +16,32 @@ regions:
   - CD
   - CF
   - CG
-  - CI
   - CM
   - GA
-  - GH
   - GQ
-  - KE
   - NG
   - RW
   - SS
-  - TZ
-  - UG
-  - ZA-NC
-  - ZA-NL
+gbif:
+  exclude:
+    - code: CI
+      reason: "split by Wüster et al. 2018: Upper Guinea forest cobras are N. guineensis"
+      source: "https://reptile-database.reptarium.cz/Naja/melanoleuca"
+    - code: GH
+      reason: "split by Wüster et al. 2018: Upper Guinea forest cobras are N. guineensis"
+      source: "https://reptile-database.reptarium.cz/Naja/melanoleuca"
+    - code: KE
+      reason: "split by Wüster et al. 2018: East and southern African forest cobras are N. subfulva, listed separately"
+      source: "https://reptile-database.reptarium.cz/Naja/melanoleuca"
+    - code: TZ
+      reason: "split by Wüster et al. 2018: East and southern African forest cobras are N. subfulva, listed separately"
+      source: "https://reptile-database.reptarium.cz/Naja/melanoleuca"
+    - code: UG
+      reason: "split by Wüster et al. 2018: East and southern African forest cobras are N. subfulva, listed separately"
+      source: "https://reptile-database.reptarium.cz/Naja/melanoleuca"
+    - code: ZA-NC
+      reason: "split by Wüster et al. 2018: East and southern African forest cobras are N. subfulva, listed separately"
+      source: "https://reptile-database.reptarium.cz/Naja/melanoleuca"
+    - code: ZA-NL
+      reason: "split by Wüster et al. 2018: East and southern African forest cobras are N. subfulva, listed separately"
+      source: "https://reptile-database.reptarium.cz/Naja/melanoleuca"

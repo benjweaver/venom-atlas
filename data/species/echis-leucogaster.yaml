@@ -20,4 +20,8 @@ regions:
   - NG
   - SN
   - TD
-  - TN
+gbif:
+  exclude:
+    - code: TN
+      reason: "not in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Echis/leucogaster"

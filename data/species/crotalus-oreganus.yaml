@@ -4,6 +4,9 @@ group: snake
 danger: 3
 summary: >-
   The rattlesnake of the Pacific Northwest, the Great Basin and much of California.
+taxonomy:
+  note: "Covers the Great Basin rattlesnake (C. o. lutosus) and its relatives, which the Reptile Database treats as separate species. The southern Pacific rattlesnake is listed separately as C. helleri."
+  source: "https://reptile-database.reptarium.cz/Crotalus/lutosus"
 venom: >-
   Haemotoxic and cytotoxic, with neurotoxic effects in some populations.
 habitat: >-
@@ -11,8 +14,7 @@ habitat: >-
 size: 0.6–1.2 m
 regions:
   - CA-BC
-  - MX-BCN
-  - MX-BCS
+  - MX
   - US-AZ
   - US-CA
   - US-CO
@@ -22,3 +24,11 @@ regions:
   - US-UT
   - US-WA
   - US-WY
+gbif:
+  exclude:
+    - code: MX-BCN
+      reason: "Baja California rattlesnakes are C. helleri, listed separately"
+      source: "https://reptile-database.reptarium.cz/Crotalus/oreganus"
+    - code: MX-BCS
+      reason: "Baja California rattlesnakes are C. helleri, listed separately"
+      source: "https://reptile-database.reptarium.cz/Crotalus/oreganus"

@@ -11,8 +11,18 @@ habitat: >-
 size: 50–80 cm
 regions:
   - BO
+  - BR-AC
   - BR-AM
   - BR-PA
+  - BR-RO
   - CO
   - EC
   - PE
+gbif:
+  include:
+    - code: BR-AC
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrocophias/hyoprora"
+    - code: BR-RO
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrocophias/hyoprora"

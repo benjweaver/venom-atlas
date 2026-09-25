@@ -13,12 +13,14 @@ size: 2–3 m
 regions:
   - BO
   - BR-AC
+  - BR-AL
   - BR-AM
   - BR-BA
   - BR-CE
   - BR-ES
   - BR-MT
   - BR-PA
+  - BR-PB
   - BR-PE
   - BR-RO
   - BR-RR
@@ -31,6 +33,13 @@ regions:
   - TT
   - VE
 gbif:
+  include:
+    - code: BR-AL
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Lachesis/muta"
+    - code: BR-PB
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Lachesis/muta"
   exclude:
     - code: CR
       reason: "South American bushmaster ranges only in South America; Central American bushmasters (southern Nicaragua, Costa Rica, Panama) are Lachesis stenophrys"

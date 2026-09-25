@@ -34,9 +34,15 @@ regions:
   - SZ
   - TZ
   - UG
+  - ZA-EC
   - ZA-LP
   - ZA-MP
   - ZA-NL
   - ZA-NW
   - ZM
   - ZW
+gbif:
+  include:
+    - code: ZA-EC
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Dendroaspis/polylepis"

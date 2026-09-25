@@ -24,6 +24,7 @@ regions:
   - MX-QUE
   - MX-SLP
   - MX-SON
+  - MX-TAM
   - MX-TLA
   - MX-VER
   - MX-ZAC
@@ -33,3 +34,8 @@ regions:
   - US-NV
   - US-TX
   - US-UT
+gbif:
+  include:
+    - code: MX-TAM
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Crotalus/scutulatus"

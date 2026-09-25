@@ -4,6 +4,9 @@ group: snake
 danger: 3
 summary: >-
   A rear-fanged snake of South East Asia whose bites can cause serious bleeding.
+taxonomy:
+  note: "Now split: R. subminiatus in the strict sense lives on Sumatra, Java and in Peninsular Malaysia, and mainland populations from India to southern China and Vietnam are R. helleri. This entry covers both; their bites are alike."
+  source: "https://reptile-database.reptarium.cz/Rhabdophis/helleri"
 venom: >-
   Haemotoxic: clotting failure and bleeding after prolonged bites.
 habitat: >-

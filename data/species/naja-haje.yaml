@@ -12,7 +12,6 @@ habitat: >-
 size: 1.5–2 m
 regions:
   - BF
-  - BJ
   - CD
   - CF
   - CM
@@ -39,3 +38,8 @@ regions:
   - TZ
   - UG
   - ZW
+gbif:
+  exclude:
+    - code: BJ
+      reason: "not in the Reptile Database distribution; West African savanna cobras are N. senegalensis"
+      source: "https://reptile-database.reptarium.cz/Naja/haje"

@@ -13,7 +13,6 @@ size: 1.5–2.5 m
 regions:
   - AO
   - BI
-  - BW
   - CD
   - CF
   - CG
@@ -22,11 +21,9 @@ regions:
   - KE
   - MW
   - MZ
-  - NA
   - NG
   - RW
   - SD
-  - SZ
   - TD
   - TZ
   - UG
@@ -34,3 +31,14 @@ regions:
   - ZA-NL
   - ZM
   - ZW
+gbif:
+  exclude:
+    - code: BW
+      reason: "not in the Reptile Database distribution (from Wüster et al. 2018)"
+      source: "https://reptile-database.reptarium.cz/Naja/subfulva"
+    - code: NA
+      reason: "not in the Reptile Database distribution (from Wüster et al. 2018)"
+      source: "https://reptile-database.reptarium.cz/Naja/subfulva"
+    - code: SZ
+      reason: "not in the Reptile Database distribution (from Wüster et al. 2018)"
+      source: "https://reptile-database.reptarium.cz/Naja/subfulva"

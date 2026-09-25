@@ -32,5 +32,9 @@ regions:
   - NI
   - PA
   - PE
-  - TT
   - VE
+gbif:
+  exclude:
+    - code: TT
+      reason: "Trinidad's lancehead is B. atrox"
+      source: "https://reptile-database.reptarium.cz/Bothrops/atrox"

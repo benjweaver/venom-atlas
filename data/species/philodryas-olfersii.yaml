@@ -11,12 +11,14 @@ habitat: >-
 size: 80–120 cm
 regions:
   - AR-E
+  - AR-H
   - AR-N
   - AR-S
   - AR-W
   - BO
   - BR-AL
   - BR-AM
+  - BR-AP
   - BR-BA
   - BR-CE
   - BR-DF
@@ -34,6 +36,7 @@ regions:
   - BR-RJ
   - BR-RN
   - BR-RO
+  - BR-RR
   - BR-RS
   - BR-SC
   - BR-SE
@@ -45,3 +48,14 @@ regions:
   - PY
   - UY
   - VE
+gbif:
+  include:
+    - code: BR-AP
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Philodryas/olfersii"
+    - code: BR-RR
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Philodryas/olfersii"
+    - code: AR-H
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Philodryas/olfersii"

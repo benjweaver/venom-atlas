@@ -16,10 +16,10 @@ regions:
   - AZ
   - CY
   - GE
-  - GR
   - IQ
   - IR
   - JO
+  - KZ
   - LB
   - PK
   - RU
@@ -30,7 +30,14 @@ regions:
   - UZ
   - YE
 gbif:
+  exclude:
+    - code: GR
+      reason: "the Milos viper is listed separately as M. schweizeri"
+      source: "https://reptile-database.reptarium.cz/Macrovipera/lebetinus"
   include:
+    - code: KZ
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Macrovipera/lebetinus"
     - code: TM
       reason: "1 GBIF record, below the automatic threshold"
       source: "https://www.gbif.org/species/2444716"

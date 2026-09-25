@@ -13,6 +13,7 @@ habitat: >-
 size: 1.5–2.2 m
 regions:
   - AR-N
+  - BR-BA
   - BR-ES
   - BR-MG
   - BR-PR
@@ -21,3 +22,8 @@ regions:
   - BR-SC
   - BR-SP
   - PY
+gbif:
+  include:
+    - code: BR-BA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Bothrops/jararacussu"

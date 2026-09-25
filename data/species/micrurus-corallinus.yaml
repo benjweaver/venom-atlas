@@ -18,12 +18,19 @@ regions:
   - BR-PR
   - BR-RJ
   - BR-RN
+  - BR-RS
   - BR-SC
   - BR-SP
-  - PE
   - PY
 gbif:
+  include:
+    - code: BR-RS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Micrurus/corallinus"
   exclude:
+    - code: PE
+      reason: "not in the Reptile Database distribution (Atlantic forest of Brazil and neighbours)"
+      source: "https://reptile-database.reptarium.cz/Micrurus/corallinus"
     - code: CO
       reason: "misidentified coral snakes; not in this native range"
       source: "Catalogue of Life"

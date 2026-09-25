@@ -10,8 +10,12 @@ habitat: >-
   Open woodland, grassland and farmland.
 size: 1–1.5 m
 regions:
-  - AU-WA
   - AU-NT
   - AU-QLD
   - AU-SA
-  - AU-NSW
+  - AU-WA
+gbif:
+  exclude:
+    - code: AU-NSW
+      reason: "not in the Reptile Database distribution (northern Australia)"
+      source: "https://reptile-database.reptarium.cz/Pseudonaja/nuchalis"

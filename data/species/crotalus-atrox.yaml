@@ -12,13 +12,17 @@ habitat: >-
   Deserts, scrub, grassland and rocky hillsides, from sea level to about 2,000 m.
 size: Typically 1–1.5 m; exceptionally over 2 m
 regions:
+  - MX-AGU
   - MX-BCN
   - MX-CHH
   - MX-COA
   - MX-DUR
   - MX-GUA
   - MX-HID
+  - MX-JAL
+  - MX-MEX
   - MX-NLE
+  - MX-OAX
   - MX-QUE
   - MX-SIN
   - MX-SLP
@@ -29,8 +33,25 @@ regions:
   - US-AR
   - US-AZ
   - US-CA
-  - US-KS
   - US-NM
   - US-NV
   - US-OK
   - US-TX
+gbif:
+  include:
+    - code: MX-AGU
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Crotalus/atrox"
+    - code: MX-JAL
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Crotalus/atrox"
+    - code: MX-MEX
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Crotalus/atrox"
+    - code: MX-OAX
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Crotalus/atrox"
+  exclude:
+    - code: US-KS
+      reason: "not in its US range (Arkansas, Oklahoma, Texas, New Mexico, Arizona, California, Nevada)"
+      source: "https://en.wikipedia.org/wiki/Western_diamondback_rattlesnake"

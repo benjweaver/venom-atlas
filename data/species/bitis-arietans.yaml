@@ -28,7 +28,9 @@ regions:
   - GH
   - GM
   - GN
+  - GW
   - KE
+  - LS
   - MA
   - ML
   - MW
@@ -63,6 +65,12 @@ regions:
   - ZW
 gbif:
   include:
+    - code: GW
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bitis/arietans"
+    - code: LS
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bitis/arietans"
     - code: SD
       reason: "2 GBIF records, below the automatic threshold"
       source: "https://www.gbif.org/species/8901465"

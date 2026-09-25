@@ -29,8 +29,14 @@ regions:
   - MX-SLP
   - MX-SON
   - MX-TAM
+  - MX-TLA
   - MX-VER
   - MX-ZAC
   - US-AZ
   - US-NM
   - US-TX
+gbif:
+  include:
+    - code: MX-TLA
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Crotalus/molossus"

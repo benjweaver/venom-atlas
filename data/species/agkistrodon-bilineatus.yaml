@@ -23,8 +23,19 @@ regions:
   - MX-MOR
   - MX-NAY
   - MX-OAX
+  - MX-PUE
   - MX-SIN
   - MX-SON
-  - MX-TAM
-  - MX-YUC
   - SV
+gbif:
+  include:
+    - code: MX-PUE
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Agkistrodon/bilineatus"
+  exclude:
+    - code: MX-TAM
+      reason: "Tamaulipas cantils are A. taylori"
+      source: "https://reptile-database.reptarium.cz/Agkistrodon/taylori"
+    - code: MX-YUC
+      reason: "Yucatán cantils are A. russeolus, listed separately"
+      source: "https://reptile-database.reptarium.cz/Agkistrodon/bilineatus"

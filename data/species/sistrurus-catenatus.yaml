@@ -16,12 +16,18 @@ regions:
   - US-IA
   - US-IL
   - US-IN
-  - US-KS
   - US-MI
   - US-NM
   - US-NY
   - US-OH
-  - US-OK
   - US-PA
   - US-TX
   - US-WI
+gbif:
+  exclude:
+    - code: US-KS
+      reason: "western massasaugas (S. tergeminus), listed separately"
+      source: "https://en.wikipedia.org/wiki/Eastern_massasauga"
+    - code: US-OK
+      reason: "western massasaugas (S. tergeminus), listed separately"
+      source: "https://en.wikipedia.org/wiki/Eastern_massasauga"

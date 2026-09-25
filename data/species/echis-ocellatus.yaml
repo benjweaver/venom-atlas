@@ -23,10 +23,12 @@ regions:
   - NE
   - NG
   - SN
-  - TD
   - TG
 gbif:
   exclude:
+    - code: TD
+      reason: "Chad's carpet vipers are E. romani"
+      source: "https://reptile-database.reptarium.cz/Echis/romani"
     - code: KE
       reason: "misidentified Echis pyramidum; not in this native range"
       source: "Catalogue of Life"

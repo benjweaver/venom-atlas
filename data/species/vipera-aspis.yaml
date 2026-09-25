@@ -16,3 +16,9 @@ regions:
   - ES
   - FR
   - IT
+  - SI
+gbif:
+  include:
+    - code: SI
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Vipera/aspis"

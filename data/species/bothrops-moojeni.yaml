@@ -16,6 +16,7 @@ regions:
   - BR-BA
   - BR-DF
   - BR-GO
+  - BR-MA
   - BR-MG
   - BR-MS
   - BR-MT
@@ -23,3 +24,8 @@ regions:
   - BR-SP
   - BR-TO
   - PY
+gbif:
+  include:
+    - code: BR-MA
+      reason: "named in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Bothrops/moojeni"

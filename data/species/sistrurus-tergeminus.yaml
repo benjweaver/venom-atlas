@@ -10,7 +10,10 @@ habitat: >-
   Grassland and desert grassland.
 size: 50–75 cm
 regions:
+  - MX-CHH
   - MX-COA
+  - MX-NLE
+  - MX-TAM
   - US-AZ
   - US-CO
   - US-KS
@@ -19,3 +22,14 @@ regions:
   - US-NM
   - US-OK
   - US-TX
+gbif:
+  include:
+    - code: MX-CHH
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Sistrurus/tergeminus"
+    - code: MX-NLE
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Sistrurus/tergeminus"
+    - code: MX-TAM
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Sistrurus/tergeminus"

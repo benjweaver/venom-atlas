@@ -15,12 +15,14 @@ regions:
   - BD
   - BT
   - IN-AP
+  - IN-AS
   - IN-BR
   - IN-CT
   - IN-GA
   - IN-GJ
   - IN-HP
   - IN-HR
+  - IN-JK
   - IN-KA
   - IN-KL
   - IN-MH
@@ -38,6 +40,13 @@ regions:
   - NP
   - PK
 gbif:
+  include:
+    - code: IN-AS
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Naja/naja"
+    - code: IN-JK
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Naja/naja"
   exclude:
     - code: VN
       reason: "misidentified Indochinese cobras; not in this native range"

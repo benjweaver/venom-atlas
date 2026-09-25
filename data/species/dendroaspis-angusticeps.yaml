@@ -16,6 +16,10 @@ regions:
   - MZ
   - SZ
   - TZ
-  - ZA-NC
   - ZA-NL
   - ZW
+gbif:
+  exclude:
+    - code: ZA-NC
+      reason: "not in the Reptile Database distribution (the coastal east)"
+      source: "https://reptile-database.reptarium.cz/Dendroaspis/angusticeps"

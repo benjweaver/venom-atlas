@@ -19,9 +19,22 @@ regions:
   - ET
   - KE
   - LY
-  - MR
+  - SA
   - SD
   - SO
   - SS
   - TN
   - UG
+  - YE
+gbif:
+  include:
+    - code: SA
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Echis/pyramidum"
+    - code: YE
+      reason: "named in the Reptile Database distribution and on Wikipedia"
+      source: "https://reptile-database.reptarium.cz/Echis/pyramidum"
+  exclude:
+    - code: MR
+      reason: "not in the Reptile Database distribution"
+      source: "https://reptile-database.reptarium.cz/Echis/pyramidum"
