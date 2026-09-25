@@ -1,13 +1,19 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 import { HEAT_STEPS, heatLabel } from '@/lib/heat'
 
-defineProps<{
+const props = defineProps<{
   range: boolean
   records: boolean
   /** The species has places listed without any records. */
   unrecorded?: boolean
   aquatic?: 'marine' | 'freshwater'
 }>()
+
+// Blue for animals that live in the water, green for land animals (as on the map).
+const dot = computed(() => (props.aquatic ? 'var(--map-records)' : 'var(--map-records-land)'))
+const fill = computed(() => (props.aquatic ? 'var(--map-range)' : 'var(--map-range-land)'))
 </script>
 
 <template>
@@ -17,7 +23,7 @@ defineProps<{
     <template v-if="records">
       <div class="flex flex-col gap-1">
         <span class="inline-flex items-center gap-1.5">
-          <span class="h-2.5 w-2.5 rounded-full bg-(--map-records)" />
+          <span class="h-2.5 w-2.5 rounded-full" :style="{ background: dot }" />
           {{
             aquatic === 'marine'
               ? 'Recorded at sea or on the shore'
@@ -27,17 +33,19 @@ defineProps<{
           }}
         </span>
         <span class="inline-flex items-center gap-1.5">
-          <span class="h-3 w-3 rounded-sm bg-(--map-range) opacity-40" /> Places it's found in
+          <span class="h-3 w-3 rounded-sm opacity-40" :style="{ background: fill }" /> Places it's
+          found in
         </span>
         <span v-if="unrecorded" class="inline-flex items-center gap-1.5">
-          <span class="h-3 w-3 rounded-sm border border-dashed border-(--map-range)" />
+          <span class="h-3 w-3 rounded-sm border border-dashed" :style="{ borderColor: fill }" />
           Known range, no records
         </span>
       </div>
     </template>
     <template v-else-if="range">
       <span class="inline-flex items-center gap-1.5">
-        <span class="h-3 w-3 rounded-sm bg-(--map-range) opacity-70" /> Where this species lives
+        <span class="h-3 w-3 rounded-sm opacity-70" :style="{ background: fill }" /> Where this
+        species lives
       </span>
     </template>
     <template v-else>

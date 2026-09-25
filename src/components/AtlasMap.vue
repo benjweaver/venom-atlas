@@ -66,10 +66,11 @@ function palette() {
     land: v('--map-land'),
     border: v('--map-border'),
     heat: [1, 2, 3, 4, 5].map((i) => v(`--heat-${i}`)),
-    range: v('--map-range'),
+    // Water species keep the blues; land species get the greens.
+    range: v(props.aquatic ? '--map-range' : '--map-range-land'),
     selected: v('--map-selected'),
     water: v('--map-water'),
-    records: v('--map-records'),
+    records: v(props.aquatic ? '--map-records' : '--map-records-land'),
   }
 }
 
@@ -393,6 +394,8 @@ watch(
 )
 watch(() => [props.subdivisions, props.subdivisionCounts], syncSubdivisions)
 watch(() => props.records, syncRange)
+// Water and land species are coloured differently (blue and green).
+watch(() => props.aquatic, applyPalette)
 watch(
   () => props.range,
   () => {

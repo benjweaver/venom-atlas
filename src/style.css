@@ -15,7 +15,11 @@
   --map-ocean: #dfe7ea;
   --map-land: #e4e2de;
   --map-border: #b9ae9c;
+  /* A selected species' range and record dots: blue for animals that live in
+     the water, green for land animals, so the colour says which it is. */
   --map-range: #1f7a8c;
+  --map-range-land: #5b8c2a;
+  --map-records-land: #2e7d32;
   --map-water: #c9d8de;
   --map-records: #0b6fb8;
   --map-selected: #1f1a14;
@@ -48,6 +52,8 @@
     --map-land: #25272a;
     --map-border: #43454a;
     --map-range: #4fc1d6;
+    --map-range-land: #93c96a;
+    --map-records-land: #7ddc8a;
     --map-water: #1a2429;
     --map-records: #5cc8ff;
     --map-selected: #fff4e0;
