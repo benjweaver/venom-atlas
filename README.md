@@ -261,3 +261,16 @@ so that "FR" means metropolitan France.
 - Only venomous animals (ones that inject toxins) are included, not poisonous
   ones like poison dart frogs.
 - Not medical advice. The footer says so, and it should stay there.
+
+## Licence
+
+Copyright © 2026 Ben Weaver.
+
+The code is free software under the [GNU General Public License v3.0 or
+later](LICENSE): you can use, change and share it, but copies and modified
+versions must stay under the GPL, with their source available and this notice
+kept. The species data is under
+[CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/); photos, GBIF
+data and Natural Earth boundaries keep their own terms (see
+[data/LICENSE.md](data/LICENSE.md)). Contributions are welcome under the terms
+in [CONTRIBUTING.md](CONTRIBUTING.md).
