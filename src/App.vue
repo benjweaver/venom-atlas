@@ -310,6 +310,16 @@ addEventListener('keydown', (e) => {
       <footer class="border-t border-(--line) px-4 py-2 text-[11px] leading-snug text-(--muted)">
         For education only — not medical advice. If you're bitten or stung, call your local
         emergency number. Ranges are simplified and not exhaustive.
+        <span class="mt-1 block">
+          Made by
+          <a
+            href="https://github.com/benjweaver"
+            target="_blank"
+            rel="noopener"
+            class="text-(--ink) hover:underline"
+            >Ben Weaver</a
+          >
+        </span>
       </footer>
     </aside>
   </div>
