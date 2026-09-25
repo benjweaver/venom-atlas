@@ -31,7 +31,6 @@ regions:
   - ML
   - MR
   - MW
-  - NA
   - NE
   - NG
   - RW
@@ -47,6 +46,9 @@ regions:
   - ZM
 gbif:
   exclude:
+    - code: NA
+      reason: "\"Older records from South Africa, Botswana, Zimbabwe, Eswatini, Mozambique, or most of Namibia refer to Naja mossambica or Naja nigricincta\""
+      source: "https://en.wikipedia.org/wiki/Black-necked_spitting_cobra"
     - code: ZA
       reason: "misidentified Mozambique spitting cobras; not in this native range"
       source: "Catalogue of Life"

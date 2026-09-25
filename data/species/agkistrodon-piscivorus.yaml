@@ -10,6 +10,9 @@ venom: >-
   treatment.
 habitat: >-
   Swamps, marshes, slow rivers, lake edges and drainage ditches.
+taxonomy:
+  note: "The Florida cottonmouth (A. conanti), found throughout peninsular Florida and into southern Georgia, was raised to a full species in 2015. This entry is the northern cottonmouth, which also occurs in the Florida panhandle and the rest of Georgia."
+  source: "https://en.wikipedia.org/wiki/Agkistrodon_conanti"
 size: 0.8–1.2 m
 regions:
   - US-AL

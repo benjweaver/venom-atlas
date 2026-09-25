@@ -8,12 +8,12 @@ venom: >-
   Neurotoxic and myotoxic: paralysis and muscle breakdown; often fatal without treatment.
 habitat: >-
   Shallow coastal waters, estuaries and river mouths.
+taxonomy:
+  note: "Beaked sea snakes from Australia and New Guinea are now provisionally treated as a separate species, Enhydrina zweifeli, after DNA tests showed they are not closely related to this one."
+  source: "https://en.wikipedia.org/wiki/Beaked_sea_snake"
 size: 1–1.2 m
 aquatic: marine
 regions:
-  - AU-NT
-  - AU-QLD
-  - AU-WA
   - BD
   - ID
   - IN-AP
@@ -29,6 +29,19 @@ regions:
   - LK
   - MM
   - MY
-  - PG
   - PK
   - TH
+gbif:
+  exclude:
+    - code: AU-NT
+      reason: "\"Snakes from Australia (Northern Territory and Queensland) and New Guinea are now provisionally identified as Enhydrina zweifeli\""
+      source: "https://en.wikipedia.org/wiki/Beaked_sea_snake"
+    - code: AU-QLD
+      reason: "\"Snakes from Australia (Northern Territory and Queensland) and New Guinea are now provisionally identified as Enhydrina zweifeli\""
+      source: "https://en.wikipedia.org/wiki/Beaked_sea_snake"
+    - code: AU-WA
+      reason: "\"Snakes from Australia (Northern Territory and Queensland) and New Guinea are now provisionally identified as Enhydrina zweifeli\""
+      source: "https://en.wikipedia.org/wiki/Beaked_sea_snake"
+    - code: PG
+      reason: "\"Snakes from Australia (Northern Territory and Queensland) and New Guinea are now provisionally identified as Enhydrina zweifeli\""
+      source: "https://en.wikipedia.org/wiki/Beaked_sea_snake"

@@ -1,4 +1,4 @@
-name: King cobra
+name: "King cobra (species complex)"
 scientificName: Ophiophagus hannah
 group: snake
 danger: 5
@@ -10,6 +10,9 @@ venom: >-
   within hours.
 habitat: >-
   Rainforest, mangroves, bamboo thickets and plantations near streams.
+taxonomy:
+  note: "A 2024 revision split the king cobra into four species: O. hannah (eastern Pakistan, northern and eastern India, the Andamans, Indo-Burma and Indo-China south to central Thailand), O. bungarus (the Malay Peninsula, Greater Sunda Islands and southern Philippines), O. kaalinga (the Western Ghats) and O. salvatana (Luzon). This entry covers them all; GBIF does not yet recognise the new species (Das et al. 2024)."
+  source: "https://europeanjournaloftaxonomy.eu/index.php/ejt/article/view/2681"
 size: 3–4 m; up to 5.8 m
 regions:
   - BD

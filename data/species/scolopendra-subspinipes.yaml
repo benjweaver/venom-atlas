@@ -1,4 +1,4 @@
-name: Chinese red-headed centipede
+name: "Jungle centipede"
 scientificName: Scolopendra subspinipes
 group: centipede
 danger: 2
@@ -8,6 +8,9 @@ venom: >-
   Extremely painful bite with swelling; rare serious effects include heart and kidney problems.
 habitat: >-
   Leaf litter, under logs and inside houses in warm, humid places.
+taxonomy:
+  note: "A 2012 review found that several former subspecies are distinct species, including the Vietnamese giant centipede (S. dehaani, listed separately) and the Chinese red-headed centipede (S. mutilans)."
+  source: "https://en.wikipedia.org/wiki/Scolopendra_subspinipes"
 size: Up to 20 cm
 regions:
   - BB

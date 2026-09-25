@@ -10,10 +10,11 @@ venom: >-
   healthy adults.
 habitat: >-
   Tropical dry forest and thornscrub.
+taxonomy:
+  note: "Now split into four species: H. horridum (Sonora to Oaxaca), H. exasperatum (southern Sonora to northern Sinaloa), H. alvarezi (northern Chiapas to north-western Guatemala) and H. charlesbogerti (the Motagua valley of Guatemala). This entry is H. horridum; the others are alike in venom and habits."
+  source: "https://en.wikipedia.org/wiki/Mexican_beaded_lizard"
 size: Up to 90 cm
 regions:
-  - GT
-  - MX-CHP
   - MX-COL
   - MX-GRO
   - MX-JAL
@@ -24,3 +25,11 @@ regions:
   - MX-SIN
   - MX-SON
   - MX-ZAC
+gbif:
+  exclude:
+    - code: GT
+      reason: "outside H. horridum (Sonora to Oaxaca); beaded lizards here are H. alvarezi and H. charlesbogerti"
+      source: "https://en.wikipedia.org/wiki/Mexican_beaded_lizard"
+    - code: MX-CHP
+      reason: "outside H. horridum (Sonora to Oaxaca); beaded lizards here are H. alvarezi and H. charlesbogerti"
+      source: "https://en.wikipedia.org/wiki/Mexican_beaded_lizard"
