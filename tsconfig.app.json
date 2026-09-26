@@ -18,5 +18,8 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"]
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
+  /* Reads files from disk, so it's checked with Node's types, in
+     tsconfig.node.json. */
+  "exclude": ["src/style.test.ts"]
 }

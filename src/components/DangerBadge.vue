@@ -24,7 +24,7 @@ const help = computed(
   >
     <span
       class="inline-flex items-center gap-1.5 text-xs font-medium"
-      :style="{ color: `var(--danger-${level})` }"
+      :style="{ color: `var(--danger-${level}-text)` }"
       :title="explain ? undefined : `Danger ${level} of 5`"
     >
       <span class="flex gap-0.5" aria-hidden="true">

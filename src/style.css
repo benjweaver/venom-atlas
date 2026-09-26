@@ -4,7 +4,12 @@
    them at runtime (AtlasMap.vue), so changing a colour here changes it
    everywhere, in both themes. The dark set applies when <html data-theme> is
    "dark", which src/lib/theme.ts sets from the visitor's choice or the system
-   setting (and index.html sets before first paint). */
+   setting (and index.html sets before first paint).
+
+   Text is at least 4.5:1 (WCAG AA) against --bg, --surface, and --surface-2,
+   or the fill it sits on, in both themes. style.test.ts finds every token the
+   app uses for text and checks it, so `npm run check` fails if a change
+   breaks that. */
 :root {
   --bg: #f6f2ea;
   --surface: #fffdf8;
@@ -13,8 +18,8 @@
   --muted: #6b6255;
   --line: #ddd4c4;
   /* Burnt orange, matching the map's shading and the icon (#cc5a32), a shade
-     darker so text and links stay readable (at least 4.75:1). */
-  --accent: #b24c29;
+     darker so text and links stay readable. */
+  --accent: #ae4825;
   /* Text on an accent background, such as a selected filter. */
   --on-accent: #ffffff;
 
@@ -27,7 +32,7 @@
   --map-range-land: #5b8c2a;
   --map-records-land: #2e7d32;
   --map-water: #c9d8de;
-  --map-records: #0b6fb8;
+  --map-records: #026bb4;
   --map-selected: #1f1a14;
   --heat-1: #f5d08a;
   --heat-2: #f0b878;
@@ -38,8 +43,16 @@
   --danger-1: #6f8f3a;
   --danger-2: #b8901c;
   --danger-3: #d06a1f;
-  --danger-4: #c0392b;
+  --danger-4: #be372a;
   --danger-5: #7d1d3f;
+  /* The scale's labels (DangerBadge). The three lightest levels are too pale
+     to read as text, so their labels are darker shades of the same colours;
+     the pills keep the brighter ones. */
+  --danger-1-text: #537118;
+  --danger-2-text: #896101;
+  --danger-3-text: #a74f00;
+  --danger-4-text: var(--danger-4);
+  --danger-5-text: var(--danger-5);
 
   color-scheme: light;
 }
@@ -74,6 +87,12 @@
   --danger-3: #ec8c42;
   --danger-4: #ef5b4b;
   --danger-5: #e0608f;
+  /* The labels: all light enough to read as they are. */
+  --danger-1-text: var(--danger-1);
+  --danger-2-text: var(--danger-2);
+  --danger-3-text: var(--danger-3);
+  --danger-4-text: var(--danger-4);
+  --danger-5-text: var(--danger-5);
 
   color-scheme: dark;
 }
@@ -108,8 +127,9 @@ body {
 #app .maplibregl-ctrl-group button + button {
   border-top-color: var(--line);
 }
+/* Solid, so its text stays readable over any colour on the map. */
 #app .maplibregl-ctrl-attrib {
-  background: color-mix(in srgb, var(--surface) 80%, transparent);
+  background: var(--surface);
   color: var(--muted);
 }
 #app .maplibregl-ctrl-attrib a {
