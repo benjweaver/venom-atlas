@@ -40,7 +40,7 @@ defineProps<{ name: IconName; small?: boolean }>()
     </template>
     <path
       v-else-if="name === 'heart'"
-      d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"
+      d="M12 21C12 21 3 15.5 3 9a4.5 4.5 0 0 1 9 0 4.5 4.5 0 0 1 9 0c0 6.5-9 12-9 12z"
     />
     <template v-else-if="name === 'info'">
       <circle cx="12" cy="12" r="9" />

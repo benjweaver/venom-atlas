@@ -319,18 +319,13 @@ addEventListener('keydown', (e) => {
       </div>
 
       <!-- Phones: pinned to the bottom of the screen, so the safety note and the
-           credit stay in view down the long species list; its note is shortened
-           to the safety line to keep it small. Wider screens: the panel's last row. -->
+           credit stay in view down the long species list. Wider screens: the
+           panel's last row. -->
       <footer
         class="sticky bottom-0 z-20 border-t border-(--line) bg-(--surface) px-4 py-2 text-[11px] leading-snug text-(--muted) md:static"
       >
-        <span class="md:hidden"
-          >Not medical advice. If you're bitten or stung, call your local emergency number.</span
-        >
-        <span class="max-md:hidden"
-          >For education only — not medical advice. If you're bitten or stung, call your local
-          emergency number. Ranges are simplified and not exhaustive.</span
-        >
+        For education only — not medical advice. If you're bitten or stung, call your local
+        emergency number. Ranges are simplified and not exhaustive.
         <span class="mt-1 block">
           Made by
           <a
