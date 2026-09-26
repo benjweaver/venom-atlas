@@ -219,7 +219,8 @@ them into `public/` and change `src`.
   country's states, the record dots and the photos are cached as they're
   viewed, so anything you've looked at works offline. New deploys replace the
   cache automatically.
-- **Icons.** `public/favicon.svg` follows the browser's light/dark setting.
+- **Icons.** `public/favicon.svg` is the burnt-orange mark (`#cc5a32`), matching
+  the map's shading.
   The PNGs in `public/icons/` (app icons and the Apple touch icon) are
   rendered from `favicon.svg` and `public/icons/app.svg`. To regenerate them,
   use any SVG-to-PNG tool at 192, 512 (and 512 maskable, from `app.svg`) and

@@ -12,7 +12,11 @@
   --ink: #1f1a14;
   --muted: #6b6255;
   --line: #ddd4c4;
-  --accent: #b4361f;
+  /* Burnt orange, matching the map's shading and the icon (#cc5a32), a shade
+     darker so text and links stay readable (at least 4.75:1). */
+  --accent: #b24c29;
+  /* Text on an accent background, such as a selected filter. */
+  --on-accent: #ffffff;
 
   --map-ocean: #dfe7ea;
   --map-land: #e4e2de;
@@ -47,7 +51,8 @@
   --ink: #f1ebe0;
   --muted: #a39a8b;
   --line: #3a342b;
-  --accent: #ef7a5a;
+  --accent: #e8804f;
+  --on-accent: #14120f;
 
   --map-ocean: #0e1316;
   --map-land: #25272a;

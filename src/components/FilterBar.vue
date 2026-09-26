@@ -60,7 +60,7 @@ function toggle(group: Group) {
         class="shrink-0 rounded-full px-2.5 py-1 text-xs ring-1 transition-colors"
         :class="
           groups.includes(group)
-            ? 'bg-(--accent) text-white ring-(--accent)'
+            ? 'bg-(--accent) text-(--on-accent) ring-(--accent)'
             : 'text-(--muted) ring-(--line) hover:text-(--ink)'
         "
         @click="toggle(group)"
