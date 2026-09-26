@@ -335,8 +335,9 @@ addEventListener('keydown', (e) => {
             :href="SUPPORT_URL"
             target="_blank"
             rel="noopener"
-            class="inline-flex items-center gap-1 font-medium text-(--accent) hover:underline"
-            ><AppIcon name="heart" small />Support this project</a
+            class="text-(--accent) hover:underline"
+            ><AppIcon name="heart" small class="mr-1 inline fill-current align-[-1px]" />Support
+            this project</a
           >
         </span>
       </footer>
