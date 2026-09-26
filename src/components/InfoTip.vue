@@ -29,13 +29,36 @@ async function place() {
   pos.value = { left, top: below ? t.bottom + 6 : t.top - b.height - 6, below }
 }
 
+// Whether the last input was the keyboard: focus from Tab shows the bubble, but
+// focus from a tap doesn't (Safari focuses whatever you tap, and :focus-visible
+// can't be relied on to tell the two apart).
+let keyboard = false
+const fromKeyboard = () => (keyboard = true)
+const fromPointer = () => (keyboard = false)
+
+// Scrolling closes it, but not the tiny scrolls a tap itself can cause on iOS
+// (focus, the toolbar settling): only a real scroll away does.
+let scrolledFrom = 0
+function onScroll() {
+  if (Math.abs(scrollY - scrolledFrom) > 12) hide()
+}
+
 function show() {
   open.value = true
   place()
-  addEventListener('scroll', hide, { capture: true, passive: true, once: true })
+  scrolledFrom = scrollY
+  addEventListener('scroll', onScroll, { capture: true, passive: true })
 }
 function hide() {
   open.value = false
+  removeEventListener('scroll', onScroll, { capture: true })
+}
+
+// The pointer that started the current press. Safari reports a tap's click
+// event as a mouse click, so the click can't say whether it was a tap.
+let pressedWith = ''
+function onDown(e: PointerEvent) {
+  pressedWith = e.pointerType
 }
 
 // Mouse hovers; touch and pen taps (handled in onClick) so a tap doesn't both
@@ -46,10 +69,10 @@ function onEnter(e: PointerEvent) {
 function onLeave(e: PointerEvent) {
   if (e.pointerType === 'mouse') hide()
 }
-function onClick(e: MouseEvent) {
+function onClick() {
   if (!props.tap) return hide()
-  // A click from a mouse already opened it on hover; keep it open.
-  if ((e as PointerEvent).pointerType === 'mouse') return
+  // A mouse already opened it on hover; keep it open.
+  if (pressedWith === 'mouse') return
   if (open.value) hide()
   else show()
 }
@@ -57,20 +80,22 @@ function onClick(e: MouseEvent) {
 function onOutside(e: PointerEvent) {
   if (open.value && !trigger.value?.contains(e.target as Node)) hide()
 }
-// Keyboard focus shows it; a tap that happens to focus a button doesn't (the
-// tap has its own handling above).
-function onFocus(e: FocusEvent) {
-  if ((e.target as HTMLElement).matches(':focus-visible')) show()
+function onFocus() {
+  if (keyboard) show()
 }
 function onKey(e: KeyboardEvent) {
   if (e.key === 'Escape') hide()
 }
 addEventListener('pointerdown', onOutside)
 addEventListener('keydown', onKey)
+addEventListener('keydown', fromKeyboard, { capture: true })
+addEventListener('pointerdown', fromPointer, { capture: true })
 onBeforeUnmount(() => {
   removeEventListener('pointerdown', onOutside)
   removeEventListener('keydown', onKey)
-  removeEventListener('scroll', hide, { capture: true })
+  removeEventListener('keydown', fromKeyboard, { capture: true })
+  removeEventListener('pointerdown', fromPointer, { capture: true })
+  removeEventListener('scroll', onScroll, { capture: true })
 })
 </script>
 
@@ -81,6 +106,7 @@ onBeforeUnmount(() => {
     class="inline-flex rounded-sm focus-visible:outline-2 focus-visible:outline-(--accent)"
     :tabindex="tap ? 0 : undefined"
     :aria-describedby="open ? id : undefined"
+    @pointerdown="onDown"
     @pointerenter="onEnter"
     @pointerleave="onLeave"
     @focusin="onFocus"
