@@ -202,6 +202,7 @@ const countryTotal = countsByCountry(allSpecies).size
 
 // Optional support payments (a Stripe Payment Link, pay what you want).
 const SUPPORT_URL = 'https://buy.stripe.com/cNi5kEa900M104g6cP2ZO00'
+const SOURCE_URL = 'https://github.com/benjweaver/venom-atlas'
 const SAFETY_NOTE =
   "For education only — not medical advice. If you're bitten or stung, call your local " +
   'emergency number. Ranges are simplified and not exhaustive.'
@@ -366,6 +367,14 @@ addEventListener('keydown', (e) => {
               rel="noopener"
               class="text-(--ink) hover:underline"
               >Ben Weaver</a
+            >
+            ·
+            <a
+              :href="SOURCE_URL"
+              target="_blank"
+              rel="noopener"
+              class="text-(--ink) hover:underline"
+              >Source</a
             ><span class="md:hidden">
               ·
               <a
