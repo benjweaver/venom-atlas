@@ -51,9 +51,23 @@ const emit = defineEmits<{ select: [code: string | null] }>()
 
 const container = ref<HTMLDivElement>()
 const tooltip = ref<{ x: number; y: number; name: string; detail: string } | null>(null)
-// On a touch screen, a tap on open sea offers to step out rather than doing it
-// straight away: fingers miss, and a miss shouldn't close what you're looking at.
-const prompt = ref<{ x: number; y: number } | null>(null)
+// On touch screens there's no hover, so a tap shows a card instead: what's
+// there, and (where a tap would do something) a button that does it. Nothing
+// changes until the card is tapped, so a stray tap never loses what's open.
+type Card = { x: number; y: number } & (
+  | { kind: 'place'; code: string; name: string; detail: string; current: boolean }
+  | { kind: 'dot'; name: string; detail: string }
+  | { kind: 'out' }
+)
+const card = ref<Card | null>(null)
+const cardClass =
+  'absolute z-10 flex -translate-x-1/2 -translate-y-[calc(100%+10px)] items-center gap-1.5 rounded-full bg-(--surface) px-3 py-2 text-sm whitespace-nowrap text-(--ink) shadow-lg ring-1 ring-(--line)'
+
+function actOn(c: Card) {
+  card.value = null
+  if (c.kind === 'place') emit('select', c.code)
+  else if (c.kind === 'out') emit('select', null)
+}
 let map: MapLibre | undefined
 // Set once the style has loaded. Until then MapLibre rejects changes, and the
 // 'load' handler applies the current props anyway, so updates just wait.
@@ -328,7 +342,7 @@ onMounted(() => {
     if (hovered) map!.setFeatureState(hovered, { hover: true })
   }
 
-  // A record dot's count: on hover with a mouse, on tap on a touch screen.
+  // A record dot's count, on hover.
   const showDot = (n: number, point: { x: number; y: number }) => {
     tooltip.value = {
       x: point.x,
@@ -338,7 +352,15 @@ onMounted(() => {
     }
   }
 
+  // The kind of pointer in use. Tracked from pointer events, because Safari
+  // reports a finger tap's click (and the mouse events it fakes) as a mouse.
+  let pointer = 'mouse'
+  const track = (e: PointerEvent) => (pointer = e.pointerType)
+  map.getCanvas().addEventListener('pointerdown', track)
+  map.getCanvas().addEventListener('pointermove', track)
+
   map.on('mousemove', (e: MapMouseEvent) => {
+    if (pointer !== 'mouse') return
     const [dot] = map!.queryRenderedFeatures(e.point, { layers: ['records-circle'] })
     if (dot) {
       setHover(null)
@@ -370,25 +392,49 @@ onMounted(() => {
     tooltip.value = null
   })
 
-  // What kind of pointer started the current press. Taken from pointerdown,
-  // because Safari reports a finger tap's click event as a mouse click.
-  let pressedWith = 'mouse'
-  map.getCanvas().addEventListener('pointerdown', (e) => (pressedWith = e.pointerType))
+  const records = (n: number) => `${n} ${n === 1 ? 'record' : 'records'}`
+  // Cards sit centred above the tap, kept clear of the map's edges.
+  const at = (point: { x: number; y: number }) => {
+    const width = container.value!.clientWidth
+    const half = Math.min(150, width / 2)
+    return { x: Math.min(Math.max(point.x, half), width - half), y: Math.max(point.y, 56) }
+  }
 
-  // A click on a place opens it; on a record dot at sea, it shows the dot's
-  // count; on empty sea it means "step out", which App.vue handles. A fingertip
-  // covers far more than a pixel, so a touch tap that lands just off a coast or
-  // beside a dot counts as aiming for it rather than for the sea: near a dot it
-  // shows that dot, and near a coast it does nothing. Only a tap clearly out at
-  // sea steps out, so a slightly-off tap never loses what's open.
+  // A mouse click acts straight away: hovering has already shown what's there.
+  // A place opens, a record dot does nothing more, and empty sea steps out
+  // (App.vue decides what that means).
+  //
+  // A tap shows a card (see `card`). A fingertip covers far more than a pixel,
+  // so a tap just beside a record dot shows that dot, and one just off a coast
+  // shows nothing rather than counting as the open sea.
   map.on('click', (e: MapMouseEvent) => {
-    const offered = prompt.value
-    prompt.value = null
     const regions = ['subdivisions-fill', 'countries-fill']
     const [hit] = map!.queryRenderedFeatures(e.point, { layers: regions })
-    if (hit) return emit('select', hit.properties.code as string)
 
-    const r = pressedWith === 'mouse' ? 3 : 16
+    if (pointer === 'mouse') {
+      if (hit) return emit('select', hit.properties.code as string)
+      const [dot] = map!.queryRenderedFeatures(e.point, { layers: ['records-circle'] })
+      if (!dot) emit('select', null)
+      return
+    }
+
+    const had = card.value
+    card.value = null
+    tooltip.value = null
+    if (hit) {
+      const code = hit.properties.code as string
+      card.value = {
+        ...at(e.point),
+        kind: 'place',
+        code,
+        name: hit.properties.name as string,
+        detail: `${(hit.properties.count as number) ?? 0} species`,
+        current: code === props.selected,
+      }
+      return
+    }
+
+    const r = 16
     const box: [[number, number], [number, number]] = [
       [e.point.x - r, e.point.y - r],
       [e.point.x + r, e.point.y + r],
@@ -402,24 +448,23 @@ onMounted(() => {
         return Math.hypot(p.x - e.point.x, p.y - e.point.y)
       }
       const dot = dots.reduce((a, b) => (distance(b) < distance(a) ? b : a))
-      return showDot(dot.properties.n as number, e.point)
+      card.value = {
+        ...at(e.point),
+        kind: 'dot',
+        name: records(dot.properties.n as number),
+        detail: 'within about 20 km',
+      }
+      return
     }
     if (map!.queryRenderedFeatures(box, { layers: regions }).length) return
 
-    tooltip.value = null
-    if (pressedWith === 'mouse') return emit('select', null)
-    // Touch: a second tap on the sea just dismisses the offer.
-    if (!offered && props.stepOut) {
-      // Centred over the tap, but kept clear of the map's edges.
-      const half = Math.min(140, container.value!.clientWidth / 2)
-      const x = Math.min(Math.max(e.point.x, half), container.value!.clientWidth - half)
-      prompt.value = { x, y: Math.max(e.point.y, 56) }
-    }
+    // Open sea. With a card up, the tap just puts it away.
+    if (!had && props.stepOut) card.value = { ...at(e.point), kind: 'out' }
   })
-  // A tapped dot's count goes away once the map moves.
+  // A card is about the map as it was; once the map moves, it goes.
   map.on('movestart', () => {
     tooltip.value = null
-    prompt.value = null
+    card.value = null
   })
 })
 
@@ -447,10 +492,10 @@ watch(
 )
 watch(() => [props.subdivisions, props.subdivisionCounts], syncSubdivisions)
 watch(() => props.records, syncRange)
-// Whatever the offer was about has changed, so it no longer applies.
+// Once something opens or closes, a card about the old view no longer applies.
 watch(
-  () => props.stepOut,
-  () => (prompt.value = null),
+  () => [props.stepOut, props.selected],
+  () => (card.value = null),
 )
 // Water and land species are coloured differently (blue and green).
 watch(() => props.aquatic, applyPalette)
@@ -491,14 +536,26 @@ watch(
       <span class="font-semibold">{{ tooltip.name }}</span>
       <span class="text-(--muted)"> · {{ tooltip.detail }}</span>
     </div>
-    <button
-      v-if="prompt && stepOut"
-      type="button"
-      class="absolute z-10 flex -translate-x-1/2 -translate-y-[calc(100%+10px)] items-center gap-1.5 rounded-full bg-(--surface) px-3 py-2 text-sm font-medium whitespace-nowrap text-(--ink) shadow-lg ring-1 ring-(--line)"
-      :style="{ left: `${prompt.x}px`, top: `${prompt.y}px` }"
-      @click="((prompt = null), emit('select', null))"
-    >
-      <AppIcon name="close" />{{ stepOut }}
-    </button>
+    <template v-if="card">
+      <!-- Tap cards: a button where tapping it does something, else plain info. -->
+      <button
+        v-if="card.kind === 'out' || (card.kind === 'place' && !card.current)"
+        type="button"
+        :class="cardClass"
+        :style="{ left: `${card.x}px`, top: `${card.y}px` }"
+        @click="actOn(card)"
+      >
+        <template v-if="card.kind === 'out'"><AppIcon name="close" />{{ stepOut }}</template>
+        <template v-else>
+          <span class="font-semibold">{{ card.name }}</span>
+          <span class="text-(--muted)">· {{ card.detail }}</span>
+          <span class="ml-1 text-(--accent)">Open ›</span>
+        </template>
+      </button>
+      <div v-else :class="cardClass" :style="{ left: `${card.x}px`, top: `${card.y}px` }">
+        <span class="font-semibold">{{ card.name }}</span>
+        <span class="text-(--muted)">· {{ card.detail }}</span>
+      </div>
+    </template>
   </div>
 </template>

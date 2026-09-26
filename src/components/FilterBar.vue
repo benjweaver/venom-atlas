@@ -25,19 +25,21 @@ function toggle(group: Group) {
 
 <template>
   <div class="space-y-2">
-    <!-- 16px text on phones: iOS Safari zooms the page into any smaller field. -->
-    <div class="flex gap-2">
+    <!-- 16px text on phones: iOS Safari zooms the page into any smaller field.
+         On very narrow screens the menu drops below search rather than
+         squeezing it. -->
+    <div class="flex flex-wrap gap-2">
       <input
         v-model.trim="query"
         type="search"
         placeholder="Search species…"
         aria-label="Search species"
-        class="min-w-0 flex-1 rounded-lg bg-(--surface-2) px-3 py-2 text-base md:text-sm ring-1 ring-(--line) outline-none placeholder:text-(--muted) focus:ring-2 focus:ring-(--accent)"
+        class="min-w-32 flex-[3_1_8rem] rounded-lg bg-(--surface-2) px-3 py-2 text-base md:text-sm ring-1 ring-(--line) outline-none placeholder:text-(--muted) focus:ring-2 focus:ring-(--accent)"
       />
       <select
         v-model.number="minDanger"
         aria-label="Minimum danger"
-        class="shrink-0 rounded-lg bg-(--surface-2) px-2 py-2 text-base md:text-sm ring-1 ring-(--line) outline-none focus:ring-2 focus:ring-(--accent)"
+        class="max-w-full flex-[1_1_auto] rounded-lg bg-(--surface-2) px-2 py-2 text-base md:text-sm ring-1 ring-(--line) outline-none focus:ring-2 focus:ring-(--accent)"
         :class="minDanger > 1 ? 'text-(--accent)' : 'text-(--muted)'"
       >
         <option v-for="o in DANGER_OPTIONS" :key="o.value" :value="o.value">{{ o.label }}</option>

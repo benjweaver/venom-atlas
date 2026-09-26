@@ -24,8 +24,10 @@ defineEmits<{ open: [] }>()
     <div v-else class="h-20 w-20 shrink-0 rounded-md bg-(--surface-2)" />
     <div class="min-w-0 flex-1">
       <div class="flex items-baseline justify-between gap-2">
-        <h3 class="truncate font-semibold">{{ species.name }}</h3>
-        <span class="shrink-0 text-[11px] tracking-wide text-(--muted) uppercase">
+        <h3 class="line-clamp-2 font-semibold">{{ species.name }}</h3>
+        <span
+          class="shrink-0 text-[11px] tracking-wide text-(--muted) uppercase max-[340px]:hidden"
+        >
           {{ GROUP_LABELS[species.group] }}
         </span>
       </div>

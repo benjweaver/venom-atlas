@@ -233,7 +233,7 @@ addEventListener('keydown', (e) => {
   <!-- Phones: map on top, then the panel, and the whole page scrolls.
        Wider screens: map and panel side by side, the panel scrolling on its own. -->
   <div class="md:flex md:h-full">
-    <main class="relative h-[45svh] min-h-56 md:h-full md:min-h-0 md:flex-1">
+    <main class="relative h-[45svh] min-h-48 md:h-full md:min-h-0 md:flex-1">
       <AtlasMap
         v-if="countries"
         :countries="countries"
@@ -254,7 +254,7 @@ addEventListener('keydown', (e) => {
         :records="!!records"
         :unrecorded="!!selectedSpecies?.unrecorded?.length"
         :aquatic="selectedSpecies?.aquatic"
-        class="absolute top-3 left-3 md:top-auto md:bottom-8"
+        class="absolute top-3 left-3 max-w-[calc(100%-4.5rem)] md:top-auto md:bottom-8 md:max-w-none"
       />
     </main>
 
@@ -352,15 +352,15 @@ addEventListener('keydown', (e) => {
         class="sticky bottom-0 z-20 border-t border-(--line) bg-(--surface) px-4 py-1.5 text-[11px] leading-snug text-(--muted) md:static md:py-2"
       >
         <p class="max-md:hidden">{{ SAFETY_NOTE }}</p>
-        <div class="flex items-center justify-between gap-x-3 md:mt-1">
+        <div class="flex flex-wrap items-center justify-between gap-x-3 md:mt-1">
           <InfoTip :text="SAFETY_NOTE" class="md:hidden">
-            <span class="inline-flex items-center gap-1"
+            <span class="inline-flex items-center gap-1 whitespace-nowrap"
               ><AppIcon name="info" small />Not medical advice</span
             >
           </InfoTip>
-          <span
-            >Made by
-            <a
+          <span class="whitespace-nowrap"
+            ><span class="max-[360px]:hidden">Made by </span
+            ><a
               href="https://benjweaver.dev"
               target="_blank"
               rel="noopener"
