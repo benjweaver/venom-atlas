@@ -3,7 +3,7 @@
 // colour. Decorative: whatever uses one gives it an accessible label.
 export type IconName = 'sun' | 'moon' | 'system' | 'close' | 'map' | 'globe' | 'info' | 'heart'
 
-defineProps<{ name: IconName }>()
+defineProps<{ name: IconName; small?: boolean }>()
 </script>
 
 <template>
@@ -15,7 +15,8 @@ defineProps<{ name: IconName }>()
     stroke-linecap="round"
     stroke-linejoin="round"
     aria-hidden="true"
-    class="h-4 w-4 shrink-0"
+    class="shrink-0"
+    :class="small ? 'h-3 w-3' : 'h-4 w-4'"
   >
     <template v-if="name === 'sun'">
       <circle cx="12" cy="12" r="4" />
