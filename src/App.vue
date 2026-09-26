@@ -3,6 +3,7 @@ import allSpecies from 'virtual:species'
 import { computed, defineAsyncComponent, reactive, ref, shallowRef, watch } from 'vue'
 
 import FilterBar from '@/components/FilterBar.vue'
+import InfoTip from '@/components/InfoTip.vue'
 import MapLegend from '@/components/MapLegend.vue'
 import PlaceNav from '@/components/PlaceNav.vue'
 import SpeciesCard from '@/components/SpeciesCard.vue'
@@ -189,6 +190,9 @@ const countryTotal = countsByCountry(allSpecies).size
 
 // Optional support payments (a Stripe Payment Link, pay what you want).
 const SUPPORT_URL = 'https://buy.stripe.com/cNi5kEa900M104g6cP2ZO00'
+const SAFETY_NOTE =
+  "For education only — not medical advice. If you're bitten or stung, call your local " +
+  'emergency number. Ranges are simplified and not exhaustive.'
 
 // Opening or leaving a species starts the panel at the top. On a phone the
 // panel sits below the map, so scroll the page down to the navigation bar,
@@ -217,7 +221,7 @@ addEventListener('keydown', (e) => {
   <!-- Phones: map on top, then the panel, and the whole page scrolls.
        Wider screens: map and panel side by side, the panel scrolling on its own. -->
   <div class="md:flex md:h-full">
-    <main class="relative h-[50vh] md:h-full md:flex-1">
+    <main class="relative h-[45svh] min-h-56 md:h-full md:min-h-0 md:flex-1">
       <AtlasMap
         v-if="countries"
         :countries="countries"
@@ -242,7 +246,7 @@ addEventListener('keydown', (e) => {
     </main>
 
     <aside class="bg-(--surface) md:flex md:w-[420px] md:flex-col md:border-l md:border-(--line)">
-      <header class="space-y-3 border-b border-(--line) p-4">
+      <header class="space-y-2.5 border-b border-(--line) px-4 py-3 md:space-y-3 md:py-4">
         <div class="flex items-start justify-between gap-3">
           <div>
             <h1 class="text-xl font-bold tracking-tight">
@@ -316,17 +320,24 @@ addEventListener('keydown', (e) => {
             </li>
           </ul>
         </template>
+        <!-- Phones pin a one-line version of this; here's the whole note. -->
+        <p class="mt-6 text-[11px] leading-snug text-(--muted) md:hidden">{{ SAFETY_NOTE }}</p>
       </div>
 
-      <!-- Phones: pinned to the bottom of the screen, so the safety note and the
-           credit stay in view down the long species list. Wider screens: the
-           panel's last row. -->
+      <!-- Phones: one line pinned to the bottom of the screen, so the safety note
+           and the credit stay in view down the long list without eating it; the
+           full note is a tap away and at the end of the list. Wider screens: the
+           whole note, as the panel's last row. -->
       <footer
-        class="sticky bottom-0 z-20 border-t border-(--line) bg-(--surface) px-4 py-2 text-[11px] leading-snug text-(--muted) md:static"
+        class="sticky bottom-0 z-20 border-t border-(--line) bg-(--surface) px-4 py-1.5 text-[11px] leading-snug text-(--muted) md:static md:py-2"
       >
-        For education only — not medical advice. If you're bitten or stung, call your local
-        emergency number. Ranges are simplified and not exhaustive.
-        <span class="mt-1 flex flex-wrap justify-between gap-x-3">
+        <p class="max-md:hidden">{{ SAFETY_NOTE }}</p>
+        <div class="flex items-center justify-between gap-x-3 md:mt-1">
+          <InfoTip :text="SAFETY_NOTE" class="md:hidden">
+            <span class="inline-flex items-center gap-1"
+              ><AppIcon name="info" small />Not medical advice</span
+            >
+          </InfoTip>
           <span
             >Made by
             <a
@@ -335,17 +346,30 @@ addEventListener('keydown', (e) => {
               rel="noopener"
               class="text-(--ink) hover:underline"
               >Ben Weaver</a
+            ><span class="md:hidden">
+              ·
+              <a
+                :href="SUPPORT_URL"
+                target="_blank"
+                rel="noopener"
+                class="text-(--accent) hover:underline"
+                ><AppIcon
+                  name="heart"
+                  small
+                  class="mr-0.5 inline fill-current align-[-1px]"
+                />Support</a
+              ></span
             ></span
           >
           <a
             :href="SUPPORT_URL"
             target="_blank"
             rel="noopener"
-            class="text-(--accent) hover:underline"
+            class="text-(--accent) hover:underline max-md:hidden"
             ><AppIcon name="heart" small class="mr-1 inline fill-current align-[-1px]" />Support
             this project</a
           >
-        </span>
+        </div>
       </footer>
     </aside>
   </div>
