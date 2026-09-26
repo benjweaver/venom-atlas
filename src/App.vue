@@ -326,16 +326,17 @@ addEventListener('keydown', (e) => {
       >
         For education only — not medical advice. If you're bitten or stung, call your local
         emergency number. Ranges are simplified and not exhaustive.
-        <span class="mt-1 block">
-          Made by
-          <a
-            href="https://github.com/benjweaver"
-            target="_blank"
-            rel="noopener"
-            class="text-(--ink) hover:underline"
-            >Ben Weaver</a
+        <span class="mt-1 flex flex-wrap justify-between gap-x-3">
+          <span
+            >Made by
+            <a
+              href="https://benjweaver.dev"
+              target="_blank"
+              rel="noopener"
+              class="text-(--ink) hover:underline"
+              >Ben Weaver</a
+            ></span
           >
-          ·
           <a
             :href="SUPPORT_URL"
             target="_blank"
