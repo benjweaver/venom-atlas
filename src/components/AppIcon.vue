@@ -1,7 +1,7 @@
 <script setup lang="ts">
 // The few line icons the app uses, drawn on a 24px grid in the current text
 // colour. Decorative: whatever uses one gives it an accessible label.
-export type IconName = 'sun' | 'moon' | 'system' | 'close' | 'map' | 'globe' | 'info'
+export type IconName = 'sun' | 'moon' | 'system' | 'close' | 'map' | 'globe' | 'info' | 'heart'
 
 defineProps<{ name: IconName }>()
 </script>
@@ -37,6 +37,10 @@ defineProps<{ name: IconName }>()
       <circle cx="12" cy="12" r="9" />
       <path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18" />
     </template>
+    <path
+      v-else-if="name === 'heart'"
+      d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"
+    />
     <template v-else-if="name === 'info'">
       <circle cx="12" cy="12" r="9" />
       <path d="M12 11v5M12 8h.01" />

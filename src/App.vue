@@ -7,6 +7,8 @@ import MapLegend from '@/components/MapLegend.vue'
 import PlaceNav from '@/components/PlaceNav.vue'
 import SpeciesCard from '@/components/SpeciesCard.vue'
 import SpeciesDetail from '@/components/SpeciesDetail.vue'
+import AppIcon from '@/components/AppIcon.vue'
+import InfoTip from '@/components/InfoTip.vue'
 import ThemeToggle from '@/components/ThemeToggle.vue'
 import type { Species } from '@/data/schema'
 import { GROUPS } from '@/data/taxonomy'
@@ -186,6 +188,9 @@ const breadcrumb = computed(() => {
 
 const countryTotal = countsByCountry(allSpecies).size
 
+// Optional support payments (a Stripe Payment Link, pay what you want).
+const SUPPORT_URL = 'https://buy.stripe.com/cNi5kEa900M104g6cP2ZO00'
+
 // Opening or leaving a species starts the panel at the top. On a phone the
 // panel sits below the map, so scroll the page down to the navigation bar,
 // which then sticks to the top of the screen.
@@ -250,7 +255,22 @@ addEventListener('keydown', (e) => {
               {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
             </p>
           </div>
-          <ThemeToggle />
+          <div class="flex items-center gap-2">
+            <InfoTip
+              text="Venom Atlas is free and ad-free. Support helps keep it going."
+              :tap="false"
+            >
+              <a
+                :href="SUPPORT_URL"
+                target="_blank"
+                rel="noopener"
+                class="flex items-center gap-1 rounded-full px-2.5 py-1.5 text-xs font-medium text-(--accent) ring-1 ring-(--line) hover:bg-(--surface-2)"
+              >
+                <AppIcon name="heart" /> Support
+              </a>
+            </InfoTip>
+            <ThemeToggle />
+          </div>
         </div>
         <FilterBar v-model:groups="view.groups" v-model:query="view.query" :available="available" />
       </header>
@@ -325,6 +345,10 @@ addEventListener('keydown', (e) => {
             rel="noopener"
             class="text-(--ink) hover:underline"
             >Ben Weaver</a
+          >
+          ·
+          <a :href="SUPPORT_URL" target="_blank" rel="noopener" class="text-(--ink) hover:underline"
+            >Support this project</a
           >
         </span>
       </footer>
