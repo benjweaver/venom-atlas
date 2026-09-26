@@ -225,6 +225,19 @@ them into `public/` and change `src`.
   use any SVG-to-PNG tool at 192, 512 (and 512 maskable, from `app.svg`) and
   180 px, for example with [sharp](https://sharp.pixelplumbing.com/).
 
+## Search engines
+
+- `index.html` has the title, description, canonical address, link-preview
+  tags (image: `public/og.png`), and schema.org data for the site.
+- `src/lib/head.ts` sets the title, description and canonical address for
+  whatever is open, such as "Venomous animals in South Carolina", so search
+  engines (which run the app's JavaScript) can list each species and place.
+- The build writes `sitemap.xml` from the species data: every species and every
+  place with one (`scripts/vite-plugin-species.ts`). `public/robots.txt` points
+  to it.
+- Preview builds on `*.workers.dev` add `noindex`, so only the real address is
+  indexed.
+
 ## Deploying
 
 `npm run build` produces `dist/`, a folder of static files.

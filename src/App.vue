@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import allSpecies from 'virtual:species'
-import { computed, defineAsyncComponent, reactive, ref, shallowRef, watch } from 'vue'
+import { computed, defineAsyncComponent, reactive, ref, shallowRef, watch, watchEffect } from 'vue'
 
 import FilterBar from '@/components/FilterBar.vue'
 import InfoTip from '@/components/InfoTip.vue'
@@ -11,7 +11,7 @@ import SpeciesDetail from '@/components/SpeciesDetail.vue'
 import AppIcon from '@/components/AppIcon.vue'
 import ThemeToggle from '@/components/ThemeToggle.vue'
 import type { Species } from '@/data/schema'
-import { GROUPS } from '@/data/taxonomy'
+import { GROUPS, type Group } from '@/data/taxonomy'
 import {
   loadCountries,
   loadRecords,
@@ -28,6 +28,7 @@ import {
   speciesIn,
   type Match,
 } from '@/lib/regions'
+import { setHead } from '@/lib/head'
 import { useUrlState } from '@/lib/url-state'
 
 // MapLibre is most of the JavaScript. Loading it separately lets the species
@@ -189,6 +190,64 @@ const breadcrumb = computed(() => {
     crumbs.push({ code: view.region, label: regionName(view.region) })
   }
   return crumbs
+})
+
+// ── Page title and description ────────────────────────────────────────────
+// Each species and place gets its own, so search engines can list them.
+// Counts use every species, not the current filters.
+const TITLE = 'Venom Atlas · Venomous animals by country and state'
+const DESCRIPTION =
+  'An interactive world map of more than 300 medically significant venomous animals, from ' +
+  'snakes and spiders to scorpions and jellyfish, by country and state, with a source for ' +
+  'every range.'
+const NOUNS: Record<Group, [string, string] | null> = {
+  snake: ['snake', 'snakes'],
+  lizard: ['lizard', 'lizards'],
+  spider: ['spider', 'spiders'],
+  scorpion: ['scorpion', 'scorpions'],
+  centipede: ['centipede', 'centipedes'],
+  insect: ['insect', 'insects'],
+  jellyfish: ['jellyfish', 'jellyfish'],
+  mollusc: ['mollusc', 'molluscs'],
+  fish: ['fish', 'fish'],
+  mammal: ['mammal', 'mammals'],
+  other: null,
+}
+// "12 snakes, 5 spiders, and 3 scorpions": the three biggest groups.
+function breakdown(species: Species[]): string {
+  const counts = new Map<Group, number>()
+  for (const s of species) counts.set(s.group, (counts.get(s.group) ?? 0) + 1)
+  const parts = [...counts]
+    .filter(([group]) => NOUNS[group])
+    .sort((a, b) => b[1] - a[1])
+    .slice(0, 3)
+    .map(([group, n]) => `${n} ${NOUNS[group]![n === 1 ? 0 : 1]}`)
+  if (parts.length < 2) return parts.join('')
+  return `${parts.slice(0, -1).join(', ')}${parts.length > 2 ? ',' : ''} and ${parts.at(-1)}`
+}
+watchEffect(() => {
+  const species = selectedSpecies.value
+  if (species) {
+    return setHead({
+      title: `${species.name} (${species.scientificName}) · Venom Atlas`,
+      description: `${species.summary} See where it lives, by country and state, with sources.`,
+      path: `/?s=${species.slug}`,
+    })
+  }
+  if (view.region) {
+    const place = regionName(view.region)
+    const found = speciesIn(allSpecies, view.region).map((m) => m.species)
+    const n = found.length
+    return setHead({
+      title: `Venomous animals in ${place} · Venom Atlas`,
+      description:
+        `${n} venomous ${n === 1 ? 'animal' : 'animals'} recorded in ${place}` +
+        (n > 1 ? `, including ${breakdown(found)}` : '') +
+        '. See where each one lives, how dangerous it is, and the sources.',
+      path: `/?r=${view.region}`,
+    })
+  }
+  setHead({ title: TITLE, description: DESCRIPTION, path: '/' })
 })
 
 // What tapping open sea on the map does, as the map offers it on touch screens.

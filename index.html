@@ -17,12 +17,52 @@
       if (t !== 'light' && t !== 'dark')
         t = matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
       document.documentElement.dataset.theme = t
+      // Preview builds (*.workers.dev) stay out of search results; only the real
+      // address is indexed.
+      if (/\.workers\.dev$/.test(location.hostname)) {
+        var robots = document.createElement('meta')
+        robots.name = 'robots'
+        robots.content = 'noindex'
+        document.head.append(robots)
+      }
     </script>
+    <title>Venom Atlas · Venomous animals by country and state</title>
     <meta
       name="description"
-      content="An interactive world map of venomous animals — snakes, spiders, scorpions, jellyfish and more — by country and state."
+      content="An interactive world map of more than 300 medically significant venomous animals, from snakes and spiders to scorpions and jellyfish, by country and state, with a source for every range."
     />
-    <title>Venom Atlas</title>
+    <!-- The app updates the title, description and canonical address for each
+         species and place (src/lib/head.ts). -->
+    <link rel="canonical" href="https://venom-atlas.benjweaver.dev/" />
+    <meta name="author" content="Ben Weaver" />
+
+    <!-- Link previews in chats and social apps. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Venom Atlas" />
+    <meta property="og:title" content="Venom Atlas" />
+    <meta
+      property="og:description"
+      content="An interactive world map of venomous animals by country and state, with a source for every range."
+    />
+    <meta property="og:url" content="https://venom-atlas.benjweaver.dev/" />
+    <meta property="og:image" content="https://venom-atlas.benjweaver.dev/og.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Venom Atlas: venomous animals by country and state" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Venom Atlas",
+        "url": "https://venom-atlas.benjweaver.dev/",
+        "description": "An interactive world map of venomous animals by country and state, with a source for every range.",
+        "inLanguage": "en",
+        "author": { "@type": "Person", "name": "Ben Weaver", "url": "https://benjweaver.dev" },
+        "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+      }
+    </script>
   </head>
   <body>
     <div id="app"></div>

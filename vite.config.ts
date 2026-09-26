@@ -46,8 +46,11 @@ export default defineConfig({
           'geo/rivers.json',
           'geo/lakes.json',
         ],
-        // Direct visits to a data file get the file, not the app.
-        navigateFallbackDenylist: [/^\/(geo|occurrence|icons)\//],
+        // The social preview image isn't needed offline.
+        globIgnores: ['og.png'],
+        // Direct visits to a data file, the sitemap or robots.txt get the file,
+        // not the app.
+        navigateFallbackDenylist: [/^\/(geo|occurrence|icons)\//, /^\/(sitemap\.xml|robots\.txt)$/],
         runtimeCaching: [
           {
             urlPattern: ({ url }) => /^\/(geo|occurrence)\//.test(url.pathname),

@@ -1,4 +1,5 @@
-// Exposes the validated species list to the app as `virtual:species`.
+// Exposes the validated species list to the app as `virtual:species`, and
+// writes sitemap.xml for the build: every species and every place with one.
 //
 // Validation happens inside the build, so bad data fails `vite build` (and
 // shows Vite's error overlay in dev) instead of shipping. Editing a YAML file
@@ -17,6 +18,9 @@ import {
 // Everything the species module is built from. A change to any of them rebuilds it.
 const INPUTS = [SPECIES_DIR, IMAGES_FILE, GBIF_FILE, GRID_DIR]
 
+// Where the site is served; the sitemap needs absolute addresses.
+const SITE = 'https://venom-atlas.benjweaver.dev'
+
 const ID = 'virtual:species'
 const RESOLVED = '\0' + ID
 
@@ -34,6 +38,27 @@ export function speciesPlugin(): Plugin {
       this.addWatchFile(IMAGES_FILE)
       this.addWatchFile(GBIF_FILE)
       return `export default ${JSON.stringify(loadSpecies())}`
+    },
+    generateBundle() {
+      const species = loadSpecies()
+      const places = new Set<string>()
+      for (const s of species) {
+        for (const code of s.regions) {
+          places.add(code)
+          places.add(code.slice(0, 2)) // a state's country lists it too
+        }
+      }
+      const urls = [
+        `${SITE}/`,
+        ...species.map((s) => `${SITE}/?s=${s.slug}`).sort(),
+        ...[...places].sort().map((code) => `${SITE}/?r=${code}`),
+      ]
+      const body = urls.map((url) => `  <url><loc>${url}</loc></url>`).join('\n')
+      this.emitFile({
+        type: 'asset',
+        fileName: 'sitemap.xml',
+        source: `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${body}\n</urlset>\n`,
+      })
     },
     configureServer(server) {
       server.watcher.add(INPUTS)
