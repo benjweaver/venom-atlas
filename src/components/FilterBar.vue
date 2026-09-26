@@ -1,9 +1,20 @@
 <script setup lang="ts">
-import { GROUP_LABELS, type Group } from '@/data/taxonomy'
+import { GROUP_LABELS, type Danger, type Group } from '@/data/taxonomy'
 
 const props = defineProps<{ available: Group[] }>()
 const groups = defineModel<Group[]>('groups', { required: true })
 const query = defineModel<string>('query', { required: true })
+const minDanger = defineModel<Danger>('minDanger', { required: true })
+
+// A minimum rather than a pick-list: people want "the dangerous ones", not
+// "exactly level 3". Short labels, because the menu shares a row with search.
+const DANGER_OPTIONS: { value: Danger; label: string }[] = [
+  { value: 1, label: 'Any danger' },
+  { value: 2, label: 'Significant+' },
+  { value: 3, label: 'Serious+' },
+  { value: 4, label: 'Potentially fatal+' },
+  { value: 5, label: 'Extremely dangerous' },
+]
 
 function toggle(group: Group) {
   groups.value = groups.value.includes(group)
@@ -14,13 +25,24 @@ function toggle(group: Group) {
 
 <template>
   <div class="space-y-2">
-    <input
-      v-model.trim="query"
-      type="search"
-      placeholder="Search species…"
-      aria-label="Search species"
-      class="w-full rounded-lg bg-(--surface-2) px-3 py-2 text-sm ring-1 ring-(--line) outline-none placeholder:text-(--muted) focus:ring-2 focus:ring-(--accent)"
-    />
+    <!-- 16px text on phones: iOS Safari zooms the page into any smaller field. -->
+    <div class="flex gap-2">
+      <input
+        v-model.trim="query"
+        type="search"
+        placeholder="Search species…"
+        aria-label="Search species"
+        class="min-w-0 flex-1 rounded-lg bg-(--surface-2) px-3 py-2 text-base md:text-sm ring-1 ring-(--line) outline-none placeholder:text-(--muted) focus:ring-2 focus:ring-(--accent)"
+      />
+      <select
+        v-model.number="minDanger"
+        aria-label="Minimum danger"
+        class="shrink-0 rounded-lg bg-(--surface-2) px-2 py-2 text-base md:text-sm ring-1 ring-(--line) outline-none focus:ring-2 focus:ring-(--accent)"
+        :class="minDanger > 1 ? 'text-(--accent)' : 'text-(--muted)'"
+      >
+        <option v-for="o in DANGER_OPTIONS" :key="o.value" :value="o.value">{{ o.label }}</option>
+      </select>
+    </div>
     <!-- Phones: one row that scrolls sideways (fading at the edge to show there's
          more), instead of three rows of chips. -->
     <div

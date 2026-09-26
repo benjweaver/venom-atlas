@@ -31,6 +31,8 @@ import { HEAT_STEPS } from '@/lib/heat'
 import { isSubdivision } from '@/lib/regions'
 import { theme } from '@/lib/theme'
 
+import AppIcon from './AppIcon.vue'
+
 const props = defineProps<{
   countries: Regions
   countryCounts: Map<string, number>
@@ -41,12 +43,17 @@ const props = defineProps<{
   /** Record grid of the selected species. */
   records: RecordPoints | null
   aquatic: boolean
+  /** What a tap on open sea would do ("Close Terciopelo"), or null if nothing. */
+  stepOut: string | null
 }>()
 
 const emit = defineEmits<{ select: [code: string | null] }>()
 
 const container = ref<HTMLDivElement>()
 const tooltip = ref<{ x: number; y: number; name: string; detail: string } | null>(null)
+// On a touch screen, a tap on open sea offers to step out rather than doing it
+// straight away: fingers miss, and a miss shouldn't close what you're looking at.
+const prompt = ref<{ x: number; y: number } | null>(null)
 let map: MapLibre | undefined
 // Set once the style has loaded. Until then MapLibre rejects changes, and the
 // 'load' handler applies the current props anyway, so updates just wait.
@@ -363,21 +370,57 @@ onMounted(() => {
     tooltip.value = null
   })
 
-  // A tap on a place opens it. A tap on a record dot at sea shows its count
-  // (so tapping around a sea species' dots doesn't close it), and a tap on
-  // empty sea means "step out", which App.vue handles.
+  // What kind of pointer started the current press. Taken from pointerdown,
+  // because Safari reports a finger tap's click event as a mouse click.
+  let pressedWith = 'mouse'
+  map.getCanvas().addEventListener('pointerdown', (e) => (pressedWith = e.pointerType))
+
+  // A click on a place opens it; on a record dot at sea, it shows the dot's
+  // count; on empty sea it means "step out", which App.vue handles. A fingertip
+  // covers far more than a pixel, so a touch tap that lands just off a coast or
+  // beside a dot counts as aiming for it rather than for the sea: near a dot it
+  // shows that dot, and near a coast it does nothing. Only a tap clearly out at
+  // sea steps out, so a slightly-off tap never loses what's open.
   map.on('click', (e: MapMouseEvent) => {
-    const [hit] = map!.queryRenderedFeatures(e.point, {
-      layers: ['subdivisions-fill', 'countries-fill'],
-    })
+    const offered = prompt.value
+    prompt.value = null
+    const regions = ['subdivisions-fill', 'countries-fill']
+    const [hit] = map!.queryRenderedFeatures(e.point, { layers: regions })
     if (hit) return emit('select', hit.properties.code as string)
-    const [dot] = map!.queryRenderedFeatures(e.point, { layers: ['records-circle'] })
-    if (dot) return showDot(dot.properties.n as number, e.point)
+
+    const r = pressedWith === 'mouse' ? 3 : 16
+    const box: [[number, number], [number, number]] = [
+      [e.point.x - r, e.point.y - r],
+      [e.point.x + r, e.point.y + r],
+    ]
+    const dots = map!.queryRenderedFeatures(box, { layers: ['records-circle'] })
+    if (dots.length) {
+      // The dot nearest the tap.
+      const distance = (f: (typeof dots)[number]) => {
+        const [lng, lat] = (f.geometry as GeoJSON.Point).coordinates as [number, number]
+        const p = map!.project([lng, lat])
+        return Math.hypot(p.x - e.point.x, p.y - e.point.y)
+      }
+      const dot = dots.reduce((a, b) => (distance(b) < distance(a) ? b : a))
+      return showDot(dot.properties.n as number, e.point)
+    }
+    if (map!.queryRenderedFeatures(box, { layers: regions }).length) return
+
     tooltip.value = null
-    emit('select', null)
+    if (pressedWith === 'mouse') return emit('select', null)
+    // Touch: a second tap on the sea just dismisses the offer.
+    if (!offered && props.stepOut) {
+      // Centred over the tap, but kept clear of the map's edges.
+      const half = Math.min(140, container.value!.clientWidth / 2)
+      const x = Math.min(Math.max(e.point.x, half), container.value!.clientWidth - half)
+      prompt.value = { x, y: Math.max(e.point.y, 56) }
+    }
   })
   // A tapped dot's count goes away once the map moves.
-  map.on('movestart', () => (tooltip.value = null))
+  map.on('movestart', () => {
+    tooltip.value = null
+    prompt.value = null
+  })
 })
 
 onBeforeUnmount(() => {
@@ -404,6 +447,11 @@ watch(
 )
 watch(() => [props.subdivisions, props.subdivisionCounts], syncSubdivisions)
 watch(() => props.records, syncRange)
+// Whatever the offer was about has changed, so it no longer applies.
+watch(
+  () => props.stepOut,
+  () => (prompt.value = null),
+)
 // Water and land species are coloured differently (blue and green).
 watch(() => props.aquatic, applyPalette)
 // Light/dark: the tokens in style.css have already switched by the time this
@@ -413,8 +461,9 @@ watch(
   () => props.range,
   () => {
     syncRange()
-    // With no place selected, frame the species' range; otherwise stay put.
-    if (!props.selected) flyTo(bbox(props.range?.features ?? []))
+    // Opening a species with no place selected frames its range. Closing one
+    // leaves the map where it is, so stepping out doesn't lose your zoom.
+    if (!props.selected && props.range) flyTo(bbox(props.range.features))
   },
 )
 watch(
@@ -442,5 +491,14 @@ watch(
       <span class="font-semibold">{{ tooltip.name }}</span>
       <span class="text-(--muted)"> · {{ tooltip.detail }}</span>
     </div>
+    <button
+      v-if="prompt && stepOut"
+      type="button"
+      class="absolute z-10 flex -translate-x-1/2 -translate-y-[calc(100%+10px)] items-center gap-1.5 rounded-full bg-(--surface) px-3 py-2 text-sm font-medium whitespace-nowrap text-(--ink) shadow-lg ring-1 ring-(--line)"
+      :style="{ left: `${prompt.x}px`, top: `${prompt.y}px` }"
+      @click="((prompt = null), emit('select', null))"
+    >
+      <AppIcon name="close" />{{ stepOut }}
+    </button>
   </div>
 </template>

@@ -6,15 +6,18 @@
 //   ?s=crotalus-atrox     a species
 //   ?g=snake,spider       group filter
 //   ?q=widow              search text
+//   ?d=4                  only danger 4 and up
 import { reactive, watch } from 'vue'
 
-import { GROUPS, type Group } from '@/data/taxonomy'
+import { GROUPS, type Danger, type Group } from '@/data/taxonomy'
 
 export interface ViewState {
   region: string | null
   species: string | null
   groups: Group[]
   query: string
+  /** Only species at least this dangerous (1 shows everything). */
+  minDanger: Danger
 }
 
 function read(): ViewState {
@@ -22,7 +25,9 @@ function read(): ViewState {
   const groups = (p.get('g') ?? '')
     .split(',')
     .filter((g): g is Group => (GROUPS as readonly string[]).includes(g))
-  return { region: p.get('r'), species: p.get('s'), groups, query: p.get('q') ?? '' }
+  const d = Number(p.get('d'))
+  const minDanger = (d >= 1 && d <= 5 ? Math.floor(d) : 1) as Danger
+  return { region: p.get('r'), species: p.get('s'), groups, query: p.get('q') ?? '', minDanger }
 }
 
 function toSearch(state: ViewState): string {
@@ -31,6 +36,7 @@ function toSearch(state: ViewState): string {
   if (state.species) p.set('s', state.species)
   if (state.groups.length) p.set('g', state.groups.join(','))
   if (state.query) p.set('q', state.query)
+  if (state.minDanger > 1) p.set('d', String(state.minDanger))
   const s = p.toString()
   return s ? `?${s}` : location.pathname
 }
@@ -49,7 +55,7 @@ export function useUrlState(): ViewState {
     },
   )
   watch(
-    () => [state.groups.join(','), state.query] as const,
+    () => [state.groups.join(','), state.query, state.minDanger] as const,
     () => {
       if (!fromHistory) history.replaceState(null, '', toSearch(state))
     },

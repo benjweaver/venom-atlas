@@ -66,9 +66,14 @@ function matchesQuery(s: Species, q: string): boolean {
   return s.name.toLowerCase().includes(needle) || s.scientificName.toLowerCase().includes(needle)
 }
 
+const filtering = computed(() => !!(view.groups.length || view.query || view.minDanger > 1))
+
 const filtered = computed(() =>
   allSpecies.filter(
-    (s) => (!view.groups.length || view.groups.includes(s.group)) && matchesQuery(s, view.query),
+    (s) =>
+      (!view.groups.length || view.groups.includes(s.group)) &&
+      s.danger >= view.minDanger &&
+      matchesQuery(s, view.query),
   ),
 )
 
@@ -186,6 +191,13 @@ const breadcrumb = computed(() => {
   return crumbs
 })
 
+// What tapping open sea on the map does, as the map offers it on touch screens.
+const stepOutLabel = computed(() => {
+  if (selectedSpecies.value) return `Close ${selectedSpecies.value.name}`
+  if (view.region) return 'Back to World'
+  return null
+})
+
 const countryTotal = countsByCountry(allSpecies).size
 
 // Optional support payments (a Stripe Payment Link, pay what you want).
@@ -232,6 +244,7 @@ addEventListener('keydown', (e) => {
         :range="range"
         :records="records"
         :aquatic="!!selectedSpecies?.aquatic"
+        :step-out="stepOutLabel"
         @select="onMapSelect"
       />
       <p v-else-if="loadError" class="p-6 text-sm text-(--accent)">{{ loadError }}</p>
@@ -260,7 +273,12 @@ addEventListener('keydown', (e) => {
           </div>
           <ThemeToggle />
         </div>
-        <FilterBar v-model:groups="view.groups" v-model:query="view.query" :available="available" />
+        <FilterBar
+          v-model:groups="view.groups"
+          v-model:query="view.query"
+          v-model:min-danger="view.minDanger"
+          :available="available"
+        />
       </header>
 
       <!-- Sticks to the top of the screen on phones as the page scrolls. -->
@@ -300,6 +318,8 @@ addEventListener('keydown', (e) => {
           <p class="mb-3 text-sm text-(--muted)">
             <template v-if="!view.region && !listed.length">No species match.</template>
             <template v-else-if="!view.region"
+              ><template v-if="filtering"
+                >Showing {{ listed.length }} of {{ allSpecies.length }} species. </template
               >Select a country on the map to narrow it down.</template
             >
             <template v-else-if="listed.length">
