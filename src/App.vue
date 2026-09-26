@@ -234,8 +234,10 @@ watchEffect(() => {
       path: `/?s=${species.slug}`,
     })
   }
-  if (view.region) {
-    const place = regionName(view.region)
+  // A place's name arrives with its boundary file; until then, the general
+  // title, rather than a bare code like "US-SC".
+  const place = view.region ? names.get(view.region) : undefined
+  if (view.region && place) {
     const found = speciesIn(allSpecies, view.region).map((m) => m.species)
     const n = found.length
     return setHead({
