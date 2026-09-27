@@ -332,6 +332,12 @@ addEventListener('keydown', (e) => {
             <p class="text-xs text-(--muted)">
               {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
             </p>
+            <p class="mt-0.5 text-xs text-(--muted)">
+              Sister site:
+              <a href="https://poison-atlas.benjweaver.dev" class="text-(--ink) hover:underline"
+                >Poison Atlas</a
+              >
+            </p>
           </div>
           <ThemeToggle />
         </div>
