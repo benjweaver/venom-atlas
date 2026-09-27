@@ -1023,6 +1023,13 @@
     "artist": "Nelly de Rooij",
     "license": "Public domain"
   },
+  "hydrophis-semperi": {
+    "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/50408817/large.png",
+    "page": "https://www.inaturalist.org/observations/32156715",
+    "artist": "Musa ng Taal",
+    "license": "CC BY-NC 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/"
+  },
   "hydrophis-zweifeli": {
     "src": "/photos/hydrophis-zweifeli.jpg",
     "page": "https://doi.org/10.3389/fphar.2022.816795",

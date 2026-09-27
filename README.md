@@ -195,10 +195,11 @@ looks it up on Wikimedia Commons for the author and licence. Only freely
 licensed Commons files are accepted, and every photo is shown with its credit,
 as those licences require. Where Commons has no photo of a species,
 `photo: inaturalist:<observation id>` uses a research-grade iNaturalist
-observation's photo instead, if it's CC0, CC BY, or CC BY-SA.
+observation's photo instead, if it's CC0, CC BY, CC BY-SA, CC BY-NC, or
+CC BY-NC-SA (not ND, since photos are cropped).
 
 Where neither has one, a photo can come from a figure in an openly licensed
-paper (CC BY, never NC or ND). Crop the panel into `public/photos/<slug>.jpg`
+paper (any of those licences). Crop the panel into `public/photos/<slug>.jpg`
 and describe it in the species file:
 
 ```yaml
