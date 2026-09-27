@@ -259,7 +259,7 @@ const stepOutLabel = computed(() => {
   return null
 })
 
-const countryTotal = countsByCountry(allSpecies).size
+const MAP_COUNTRIES = __MAP_COUNTRIES__
 
 // Optional support payments (a Stripe Payment Link, pay what you want).
 const SUPPORT_URL = 'https://buy.stripe.com/cNi5kEa900M104g6cP2ZO00'
@@ -340,7 +340,7 @@ addEventListener('keydown', (e) => {
               </p>
             </div>
             <p class="text-xs text-(--muted)">
-              {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
+              {{ allSpecies.length }} venomous animals across {{ MAP_COUNTRIES }} countries
             </p>
           </div>
           <ThemeToggle />
