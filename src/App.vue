@@ -332,8 +332,10 @@ addEventListener('keydown', (e) => {
               </h1>
               <p class="text-xs text-(--muted)">
                 See also
-                <a href="https://poison-atlas.benjweaver.dev" class="text-(--ink) hover:underline"
-                  >Poison Atlas</a
+                <a
+                  href="https://poison-atlas.benjweaver.dev"
+                  class="font-bold tracking-tight text-(--ink) hover:underline"
+                  >Poison<span class="text-(--poison-accent)">Atlas</span></a
                 >
               </p>
             </div>
