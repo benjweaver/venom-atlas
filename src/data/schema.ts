@@ -42,7 +42,8 @@ export const speciesSchema = z
     // Wikipedia article title used to find a photo. Defaults to scientificName.
     wikipedia: z.string().optional(),
     // A specific Wikimedia Commons file to use instead ("Crotalus atrox 1.jpg"),
-    // or "none" when no freely licensed photo exists.
+    // an iNaturalist observation ("inaturalist:61089458") whose photo is CC0,
+    // CC BY or CC BY-SA, or "none" when no freely licensed photo exists.
     photo: z.string().optional(),
     regions: z.array(regionCode).min(1),
     // A cited note on how the species is defined, shown with the summary: a
@@ -77,7 +78,7 @@ export const speciesSchema = z
 export type SpeciesFile = z.infer<typeof speciesSchema>
 
 // Written by `npm run images` into data/images.json. Every photo must carry its
-// author and licence — Wikimedia's free licences require attribution.
+// author and licence — the free licences it's used under require attribution.
 export const imageSchema = z
   .object({
     src: z.url(),

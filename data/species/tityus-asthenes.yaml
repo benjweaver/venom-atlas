@@ -12,7 +12,7 @@ regions:
   - CO
   - EC
   - PE
-photo: none
+photo: inaturalist:61089458
 gbif:
   exclude:
     - code: CR

@@ -59,7 +59,7 @@ habitat: >-
   Where it lives.
 size: Typically 1–1.5 m # optional
 wikipedia: Article title # optional; defaults to scientificName
-photo: Some file.jpg # optional: a specific Commons file, or "none"
+photo: Some file.jpg # optional: a Commons file, inaturalist:<observation id>, or "none"
 aquatic: marine # optional: marine | freshwater (see "Water species" below)
 taxonomy: # optional: a cited note on how the species is defined (a recent split)
   note: '…'
@@ -193,7 +193,9 @@ its GBIF page.
 `npm run images` takes the lead image of each species' Wikipedia article and
 looks it up on Wikimedia Commons for the author and licence. Only freely
 licensed Commons files are accepted, and every photo is shown with its credit,
-as those licences require. Results go to `data/images.json` (committed), so
+as those licences require. Where Commons has no photo of a species,
+`photo: inaturalist:<observation id>` uses a research-grade iNaturalist
+observation's photo instead, if it's CC0, CC BY, or CC BY-SA. Results go to `data/images.json` (committed), so
 builds never touch the network.
 
 - `npm run images` fetches photos only for species that don't have one yet

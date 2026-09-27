@@ -419,6 +419,13 @@
     "license": "CC BY-SA 3.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0"
   },
+  "centruroides-elegans": {
+    "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/352676637/large.jpg",
+    "page": "https://www.inaturalist.org/observations/199946451",
+    "artist": "emma reader-lee",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "centruroides-exilicauda": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Centruroides_exilicauda_32446450_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Centruroides_exilicauda_32446450_(cropped).jpg",
@@ -453,6 +460,13 @@
     "artist": "Dkallen78",
     "license": "CC BY-SA 4.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0"
+  },
+  "centruroides-noxius": {
+    "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/252418692/large.jpeg",
+    "page": "https://www.inaturalist.org/observations/146773423",
+    "artist": "Oscar Gonzalez Diaz",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/"
   },
   "centruroides-sculpturatus": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Centruroides_sculpturatus_191624836.jpg/960px-Centruroides_sculpturatus_191624836.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
@@ -2045,6 +2059,13 @@
     "artist": "Bernard DUPONT from FRANCE",
     "license": "CC BY-SA 2.0",
     "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0"
+  },
+  "tityus-asthenes": {
+    "src": "https://inaturalist-open-data.s3.amazonaws.com/photos/97723381/large.jpg",
+    "page": "https://www.inaturalist.org/observations/61089458",
+    "artist": "dhfischer",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
   },
   "tityus-bahiensis": {
     "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Tityus_bahiensis.jpg/960px-Tityus_bahiensis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
