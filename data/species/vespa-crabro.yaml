@@ -42,6 +42,7 @@ regions:
   - KR
   - LT
   - LU
+  - MD
   - ME
   - NL
   - NO
@@ -76,3 +77,8 @@ regions:
   - US-VA
   - US-VT
   - US-WV
+gbif:
+  include:
+    - code: MD
+      reason: "17 GBIF records, below the automatic threshold; native across Europe"
+      source: "https://www.gbif.org/species/1311527"
