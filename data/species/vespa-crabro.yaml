@@ -77,8 +77,12 @@ regions:
   - US-VA
   - US-VT
   - US-WV
+  - VA
 gbif:
   include:
     - code: MD
       reason: "17 GBIF records, below the automatic threshold; native across Europe"
       source: "https://www.gbif.org/species/1311527"
+    - code: VA
+      reason: "research-grade iNaturalist record in the Vatican Gardens (Giardino Quadrato, 2025, located to 3 m)"
+      source: "https://www.inaturalist.org/observations/301440212"

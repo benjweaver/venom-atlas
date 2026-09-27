@@ -132,6 +132,7 @@ regions:
   - SE
   - SI
   - SK
+  - SM
   - TR
   - TT
   - TW
@@ -188,6 +189,7 @@ regions:
   - US-WI
   - US-WV
   - US-WY
+  - VA
   - VE
   - VI
   - ZA-EC
@@ -199,3 +201,11 @@ regions:
   - ZA-NL
   - ZA-NW
   - ZA-WC
+gbif:
+  include:
+    - code: SM
+      reason: "4 GBIF records, below the automatic threshold; native to Italy (the Italian honey bee)"
+      source: "https://www.gbif.org/occurrence/search?taxon_key=1341976&country=SM"
+    - code: VA
+      reason: "4 research-grade iNaturalist records inside Vatican City, 2019–2024"
+      source: "https://www.inaturalist.org/observations?place_id=9213&quality_grade=research&taxon_id=47219"
