@@ -324,19 +324,21 @@ addEventListener('keydown', (e) => {
       <header class="space-y-2.5 border-b border-(--line) px-4 py-3 md:space-y-3 md:py-4">
         <div class="flex items-start justify-between gap-3">
           <div>
-            <h1 class="text-xl font-bold tracking-tight">
-              <button type="button" @click="selectRegion(null)">
-                Venom<span class="text-(--accent)">Atlas</span>
-              </button>
-            </h1>
+            <div class="flex flex-wrap items-baseline gap-x-3">
+              <h1 class="text-xl font-bold tracking-tight">
+                <button type="button" @click="selectRegion(null)">
+                  Venom<span class="text-(--accent)">Atlas</span>
+                </button>
+              </h1>
+              <p class="text-xs text-(--muted)">
+                See also
+                <a href="https://poison-atlas.benjweaver.dev" class="text-(--ink) hover:underline"
+                  >Poison Atlas</a
+                >
+              </p>
+            </div>
             <p class="text-xs text-(--muted)">
               {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
-            </p>
-            <p class="mt-0.5 text-xs text-(--muted)">
-              See also
-              <a href="https://poison-atlas.benjweaver.dev" class="text-(--ink) hover:underline"
-                >Poison Atlas</a
-              >
             </p>
           </div>
           <ThemeToggle />
