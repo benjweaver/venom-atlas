@@ -333,7 +333,7 @@ addEventListener('keydown', (e) => {
               {{ allSpecies.length }} venomous animals across {{ countryTotal }} countries
             </p>
             <p class="mt-0.5 text-xs text-(--muted)">
-              Sister site:
+              See also
               <a href="https://poison-atlas.benjweaver.dev" class="text-(--ink) hover:underline"
                 >Poison Atlas</a
               >
