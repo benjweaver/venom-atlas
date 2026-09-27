@@ -1023,6 +1023,13 @@
     "artist": "Nelly de Rooij",
     "license": "Public domain"
   },
+  "hydrophis-zweifeli": {
+    "src": "/photos/hydrophis-zweifeli.jpg",
+    "page": "https://doi.org/10.3389/fphar.2022.816795",
+    "artist": "Jamie Seymour, in Johnston et al., Front. Pharmacol. 2022, fig. 2 (cropped)",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/"
+  },
   "hypanus-americanus": {
     "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/Dasyatis_americana_SI.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "page": "https://commons.wikimedia.org/wiki/File:Dasyatis_americana_SI.jpg",

@@ -27,4 +27,8 @@ gbif:
     - code: IN
       reason: "outside its range, which runs \"from New Guinea to Australia\"; likely misidentified beaked sea snakes"
       source: "https://en.wikipedia.org/wiki/Hydrophis_zweifeli"
-photo: none
+photo:
+  file: hydrophis-zweifeli.jpg
+  credit: "Jamie Seymour, in Johnston et al., Front. Pharmacol. 2022, fig. 2 (cropped)"
+  license: CC BY 4.0
+  source: https://doi.org/10.3389/fphar.2022.816795

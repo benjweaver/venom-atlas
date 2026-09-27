@@ -195,7 +195,19 @@ looks it up on Wikimedia Commons for the author and licence. Only freely
 licensed Commons files are accepted, and every photo is shown with its credit,
 as those licences require. Where Commons has no photo of a species,
 `photo: inaturalist:<observation id>` uses a research-grade iNaturalist
-observation's photo instead, if it's CC0, CC BY, or CC BY-SA. Results go to `data/images.json` (committed), so
+observation's photo instead, if it's CC0, CC BY, or CC BY-SA.
+
+Where neither has one, a photo can come from a figure in an openly licensed
+paper (CC BY, never NC or ND). Crop the panel into `public/photos/<slug>.jpg`
+and describe it in the species file:
+
+```yaml
+photo:
+  file: hydrophis-zweifeli.jpg
+  credit: 'Jamie Seymour, in Johnston et al., Front. Pharmacol. 2022, fig. 2 (cropped)'
+  license: CC BY 4.0
+  source: https://doi.org/10.3389/fphar.2022.816795
+``` Results go to `data/images.json` (committed), so
 builds never touch the network.
 
 - `npm run images` fetches photos only for species that don't have one yet
